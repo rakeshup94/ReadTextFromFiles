@@ -1,0 +1,2010 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="XSLTFile1.xslt"?>
+<!--<InvoiceList>
+  <InvoiceItem>
+
+    <INVOICEID>3</INVOICEID>
+
+    <TINVOICENO>PI-01</TINVOICENO>
+
+    <INVOICEDATE>2022-09-10T00:00:00</INVOICEDATE>
+
+    <TCONSIGNEE>
+      ASIATIC CARPETS LTD. 105 EADE
+
+      1 SURYA DRIVE,
+      WHITE, GA-30184, U.S.A
+      TEL: 877-275-7847
+      FAX: 877-786-7847
+      E-mail: satya.tiwari@surya.com
+
+    </TCONSIGNEE>
+
+    <TBUYEROCONSIGNEE>
+      SURYA CARPET INC.
+      1 SURYA DRIVE,
+      WHITE, GA-30184, U.S.A
+      TEL: 877-275-7847
+      FAX: 877-786-7847
+      E-mail: satya.tiwari@surya.com
+    </TBUYEROCONSIGNEE>
+
+    <FINALDESTINATION>U.K.</FINALDESTINATION>
+
+    <PORTOFDISCHARGE>FELIXSTOWE</PORTOFDISCHARGE>
+
+    <INSURANCE>0.000000000000000e+000</INSURANCE>
+
+    <FREIGHT>0.000000000000000e+000</FREIGHT>
+
+    <NETWT>0.00</NETWT>
+
+    <GROSSWT>0.00</GROSSWT>
+
+    <IGST>0.00</IGST>
+
+    <CGST>0.00</CGST>
+
+    <SGST>0.00</SGST>
+
+    <INRRate>0.00</INRRate>
+
+    <Ex1Rate>0.00</Ex1Rate>
+
+    <Ex2Rate>0.00</Ex2Rate>
+
+    <ExtraCharges>0.00</ExtraCharges>
+
+    <CBM>0.00</CBM>
+
+    <Composition>
+    100% Jute : Hand Woven Jute Rug
+    80% Wool, 20% Cotton 
+    (100% Wool Pile) : Hand Tufted Woolen Carpets
+    </Composition>
+
+    <DescriptionOfGoods>HAND TUFTED WOOLEN CARPETS </DescriptionOfGoods>
+
+    <LessAdvance>0.000000000000000e+000</LessAdvance>
+
+    <DiscountAmt>0.000000000000000e+000</DiscountAmt>
+
+    <SUQty/>
+
+    <PreferentialAgreement/>
+
+    <PackingCharges>0.000000000000000e+000</PackingCharges>
+
+    <GstinType/>
+
+    <SHIPINGID>2</SHIPINGID>
+
+    <RollMark>V.C.M. / U.K</RollMark>
+
+    <ShipToAddress/>
+
+    <CARRIAGENAME>BY TRUCK</CARRIAGENAME>
+
+    <VESSELFLIGHTNO>BY SEA</VESSELFLIGHTNO>
+
+    <PORTOFLOADING>MUMBAI</PORTOFLOADING>
+
+    <COMPANYNAME>VIKRAM CARPETS</COMPANYNAME>
+
+    <COMPADDR1>KATRA BAJI RAO, MIRZAPUR</COMPADDR1>
+
+    <COMPADDR2/>
+
+    <COMPADDR3/>
+
+    <COMPTEL>05442-356589</COMPTEL>
+
+    <COMPFAX/>
+
+    <EMAIL>vikramcarpetsmzp@gmail.com</EMAIL>
+
+    <GSTNO>09AANPJ4088L1Z0</GSTNO>
+
+    <RECEIPTAT>MIRZAPUR</RECEIPTAT>
+
+    <PAYMENTMODE>60 DAYS</PAYMENTMODE>
+
+    <PAYMENTTERMS>FOB</PAYMENTTERMS>
+
+    <CURRENCY>USD</CURRENCY>
+
+    <CURRENCYTYPERS>USD</CURRENCYTYPERS>
+
+    <CURRENCYTYPEPS>CENT</CURRENCYTYPEPS>
+
+    <BankName>CANARA BANK</BankName>
+
+    <Ifscode>CNRB0001457</Ifscode>
+
+    <BankAddress>BAJIRAO KATARA MIRZAPUR MIRZAPUR UP INDIA</BankAddress>
+
+    <ADCode>A00124</ADCode>
+
+    <BankAccountNo>24578</BankAccountNo>
+
+    <ContectPerson/>
+
+    <SwiftCode>-</SwiftCode>
+
+    <AccountType>1</AccountType>
+
+    <UNITID>1</UNITID>
+
+    <UNITNAME>Mtr</UNITNAME>
+
+    <Mark/>
+
+    <NotifyByAir/>
+
+    <IECode/>
+
+    <FactoryAddress/>
+
+    <RollMarkHead/>
+
+    <ExpRef/>
+
+    <TinNo/>
+
+    <EDPNo/>
+
+    <LUTArnNo/>
+
+    <PackingDATE>2022-09-10T00:00:00</PackingDATE>
+
+    <NotifyBySea/>
+
+    <CustomerCountryName/>
+
+    <totorder>025358, 025360, 025588, 025635</totorder>
+
+
+    -<Rolls>
+
+
+      -<RollItem>
+
+        <Id>6</Id>
+
+        <RollNo>1</RollNo>
+
+        <Rollfrom>1</Rollfrom>
+
+        <RollTo>150</RollTo>
+
+        <RPcs>1</RPcs>
+
+        <TotalPcs>150</TotalPcs>
+
+        <TotalRoll>150</TotalRoll>
+
+        <OrderId>435</OrderId>
+
+        <RugId/>
+
+        <DESIGN>VCS-533</DESIGN>
+
+        <COLOR>NATURAL</COLOR>
+
+        <WIDTH>120</WIDTH>
+
+        <LENGTH>170</LENGTH>
+
+        <PCS>150</PCS>
+
+        <PRICE>17.40</PRICE>
+
+        <AREA>306.00</AREA>
+
+        <CBM>7.44</CBM>
+
+        <CALTYPEAMT>0</CALTYPEAMT>
+
+        <PurchaseCode/>
+
+        <L>124</L>
+
+        <W>20</W>
+
+        <H>20</H>
+
+        <Quality>SOUMAK WEAVE</Quality>
+
+        <SinglePcsNetWt>10.20</SinglePcsNetWt>
+
+        <SinglePcsGrossWt>10.60</SinglePcsGrossWt>
+
+        <StyleNo/>
+
+        <OrderId>435</OrderId>
+
+        <CustomerOrderNo>025360</CustomerOrderNo>
+
+        <LocalOrder>L 433</LocalOrder>
+
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+
+        <DesignName>VCS-533</DesignName>
+
+        <designId>681</designId>
+
+        <SizeFT>3.11x5.07</SizeFT>
+
+        <SizeMtr>120x170</SizeMtr>
+
+        <ITEM_ID>2</ITEM_ID>
+
+        <HSNCode/>
+
+        <AreaFT>21.87</AreaFT>
+
+        <AreaMtr>2.04</AreaMtr>
+
+        <SKUNO/>
+
+        <TotalAmount>2610.00</TotalAmount>
+
+      </RollItem>
+
+
+      -<RollItem>
+
+        <Id>7</Id>
+
+        <RollNo>151</RollNo>
+
+        <Rollfrom>151</Rollfrom>
+
+        <RollTo>300</RollTo>
+
+        <RPcs>1</RPcs>
+
+        <TotalPcs>150</TotalPcs>
+
+        <TotalRoll>150</TotalRoll>
+
+        <OrderId>435</OrderId>
+
+        <RugId/>
+
+        <DESIGN>VCS-533</DESIGN>
+
+        <COLOR>NATURAL</COLOR>
+
+        <WIDTH>160</WIDTH>
+
+        <LENGTH>230</LENGTH>
+
+        <PCS>150</PCS>
+
+        <PRICE>0.00</PRICE>
+
+        <AREA>552.00</AREA>
+
+        <CBM>11.76</CBM>
+
+        <CALTYPEAMT>0</CALTYPEAMT>
+
+        <PurchaseCode/>
+
+        <L>162</L>
+
+        <W>22</W>
+
+        <H>22</H>
+
+        <Quality>SOUMAK WEAVE</Quality>
+
+        <SinglePcsNetWt>18.40</SinglePcsNetWt>
+
+        <SinglePcsGrossWt>19.00</SinglePcsGrossWt>
+
+        <StyleNo/>
+
+        <OrderId>435</OrderId>
+
+        <CustomerOrderNo>025360</CustomerOrderNo>
+
+        <LocalOrder>L 433</LocalOrder>
+
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+
+        <DesignName>VCS-533</DesignName>
+
+        <designId>681</designId>
+
+        <SizeFT>5.03x7.07</SizeFT>
+
+        <SizeMtr>160x230</SizeMtr>
+
+        <ITEM_ID>2</ITEM_ID>
+
+        <HSNCode/>
+
+        <AreaFT>39.81</AreaFT>
+
+        <AreaMtr>3.68</AreaMtr>
+
+        <SKUNO/>
+
+        <TotalAmount>0.00</TotalAmount>
+
+      </RollItem>
+
+
+      -<RollItem>
+
+        <Id>8</Id>
+
+        <RollNo>301</RollNo>
+
+        <Rollfrom>301</Rollfrom>
+
+        <RollTo>450</RollTo>
+
+        <RPcs>1</RPcs>
+
+        <TotalPcs>150</TotalPcs>
+
+        <TotalRoll>150</TotalRoll>
+
+        <OrderId>435</OrderId>
+
+        <RugId/>
+
+        <DESIGN>VCS-17817</DESIGN>
+
+        <COLOR>TEAL</COLOR>
+
+        <WIDTH>120</WIDTH>
+
+        <LENGTH>170</LENGTH>
+
+        <PCS>150</PCS>
+
+        <PRICE>0.00</PRICE>
+
+        <AREA>306.00</AREA>
+
+        <CBM>7.44</CBM>
+
+        <CALTYPEAMT>0</CALTYPEAMT>
+
+        <PurchaseCode/>
+
+        <L>124</L>
+
+        <W>20</W>
+
+        <H>20</H>
+
+        <Quality>SOUMAK WEAVE</Quality>
+
+        <SinglePcsNetWt>10.20</SinglePcsNetWt>
+
+        <SinglePcsGrossWt>10.60</SinglePcsGrossWt>
+
+        <StyleNo/>
+
+        <OrderId>435</OrderId>
+
+        <CustomerOrderNo>025360</CustomerOrderNo>
+
+        <LocalOrder>L 433</LocalOrder>
+
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+
+        <DesignName>VCS-17817</DesignName>
+
+        <designId>2451</designId>
+
+        <SizeFT>3.11x5.07</SizeFT>
+
+        <SizeMtr>120x170</SizeMtr>
+
+        <ITEM_ID>2</ITEM_ID>
+
+        <HSNCode/>
+
+        <AreaFT>21.87</AreaFT>
+
+        <AreaMtr>2.04</AreaMtr>
+
+        <SKUNO/>
+
+        <TotalAmount>0.00</TotalAmount>
+
+      </RollItem>
+
+
+      -<RollItem>
+
+        <Id>9</Id>
+
+        <RollNo>451</RollNo>
+
+        <Rollfrom>451</Rollfrom>
+
+        <RollTo>600</RollTo>
+
+        <RPcs>1</RPcs>
+
+        <TotalPcs>150</TotalPcs>
+
+        <TotalRoll>150</TotalRoll>
+
+        <OrderId>435</OrderId>
+
+        <RugId/>
+
+        <DESIGN>VCS-17817</DESIGN>
+
+        <COLOR>TEAL</COLOR>
+
+        <WIDTH>160</WIDTH>
+
+        <LENGTH>230</LENGTH>
+
+        <PCS>150</PCS>
+
+        <PRICE>0.00</PRICE>
+
+        <AREA>552.00</AREA>
+
+        <CBM>11.76</CBM>
+
+        <CALTYPEAMT>0</CALTYPEAMT>
+
+        <PurchaseCode/>
+
+        <L>162</L>
+
+        <W>22</W>
+
+        <H>22</H>
+
+        <Quality>SOUMAK WEAVE</Quality>
+
+        <SinglePcsNetWt>18.40</SinglePcsNetWt>
+
+        <SinglePcsGrossWt>19.00</SinglePcsGrossWt>
+
+        <StyleNo/>
+
+        <OrderId>435</OrderId>
+
+        <CustomerOrderNo>025360</CustomerOrderNo>
+
+        <LocalOrder>L 433</LocalOrder>
+
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+
+        <DesignName>VCS-17817</DesignName>
+
+        <designId>2451</designId>
+
+        <SizeFT>5.03x7.07</SizeFT>
+
+        <SizeMtr>160x230</SizeMtr>
+
+        <ITEM_ID>2</ITEM_ID>
+
+        <HSNCode/>
+
+        <AreaFT>39.81</AreaFT>
+
+        <AreaMtr>3.68</AreaMtr>
+
+        <SKUNO/>
+
+        <TotalAmount>0.00</TotalAmount>
+
+      </RollItem>
+
+
+      -<RollItem>
+
+        <Id>10</Id>
+
+        <RollNo>601</RollNo>
+
+        <Rollfrom>601</Rollfrom>
+
+        <RollTo>630</RollTo>
+
+        <RPcs>1</RPcs>
+
+        <TotalPcs>30</TotalPcs>
+
+        <TotalRoll>30</TotalRoll>
+
+        <OrderId>434</OrderId>
+
+        <RugId/>
+
+        <DESIGN>VCS-533</DESIGN>
+
+        <COLOR>NATURAL</COLOR>
+
+        <WIDTH>120</WIDTH>
+
+        <LENGTH>170</LENGTH>
+
+        <PCS>30</PCS>
+
+        <PRICE>0.00</PRICE>
+
+        <AREA>61.20</AREA>
+
+        <CBM>1.49</CBM>
+
+        <CALTYPEAMT>0</CALTYPEAMT>
+
+        <PurchaseCode/>
+
+        <L>124</L>
+
+        <W>20</W>
+
+        <H>20</H>
+
+        <Quality>SOUMAK WEAVE</Quality>
+
+        <SinglePcsNetWt>10.20</SinglePcsNetWt>
+
+        <SinglePcsGrossWt>10.60</SinglePcsGrossWt>
+
+        <StyleNo/>
+
+        <OrderId>434</OrderId>
+
+        <CustomerOrderNo>025358</CustomerOrderNo>
+
+        <LocalOrder>L 432</LocalOrder>
+
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+
+        <DesignName>VCS-533</DesignName>
+
+        <designId>681</designId>
+
+        <SizeFT>3.11x5.07</SizeFT>
+
+        <SizeMtr>120x170</SizeMtr>
+
+        <ITEM_ID>2</ITEM_ID>
+
+        <HSNCode/>
+
+        <AreaFT>21.87</AreaFT>
+
+        <AreaMtr>2.04</AreaMtr>
+
+        <SKUNO/>
+
+        <TotalAmount>0.00</TotalAmount>
+
+      </RollItem>
+
+
+      -<RollItem>
+
+        <Id>11</Id>
+
+        <RollNo>631</RollNo>
+
+        <Rollfrom>631</Rollfrom>
+
+        <RollTo>660</RollTo>
+
+        <RPcs>1</RPcs>
+
+        <TotalPcs>30</TotalPcs>
+
+        <TotalRoll>30</TotalRoll>
+
+        <OrderId>434</OrderId>
+
+        <RugId/>
+
+        <DESIGN>VCS-533</DESIGN>
+
+        <COLOR>NATURAL</COLOR>
+
+        <WIDTH>160</WIDTH>
+
+        <LENGTH>230</LENGTH>
+
+        <PCS>30</PCS>
+
+        <PRICE>0.00</PRICE>
+
+        <AREA>110.40</AREA>
+
+        <CBM>2.35</CBM>
+
+        <CALTYPEAMT>0</CALTYPEAMT>
+
+        <PurchaseCode/>
+
+        <L>162</L>
+
+        <W>22</W>
+
+        <H>22</H>
+
+        <Quality>SOUMAK WEAVE</Quality>
+
+        <SinglePcsNetWt>18.40</SinglePcsNetWt>
+
+        <SinglePcsGrossWt>19.00</SinglePcsGrossWt>
+
+        <StyleNo/>
+
+        <OrderId>434</OrderId>
+
+        <CustomerOrderNo>025358</CustomerOrderNo>
+
+        <LocalOrder>L 432</LocalOrder>
+
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+
+        <DesignName>VCS-533</DesignName>
+
+        <designId>681</designId>
+
+        <SizeFT>5.03x7.07</SizeFT>
+
+        <SizeMtr>160x230</SizeMtr>
+
+        <ITEM_ID>2</ITEM_ID>
+
+        <HSNCode/>
+
+        <AreaFT>39.81</AreaFT>
+
+        <AreaMtr>3.68</AreaMtr>
+
+        <SKUNO/>
+
+        <TotalAmount>0.00</TotalAmount>
+
+      </RollItem>
+
+
+      -<RollItem>
+
+        <Id>12</Id>
+
+        <RollNo>661</RollNo>
+
+        <Rollfrom>661</Rollfrom>
+
+        <RollTo>690</RollTo>
+
+        <RPcs>1</RPcs>
+
+        <TotalPcs>30</TotalPcs>
+
+        <TotalRoll>30</TotalRoll>
+
+        <OrderId>434</OrderId>
+
+        <RugId/>
+
+        <DESIGN>VCS-17817</DESIGN>
+
+        <COLOR>TEAL</COLOR>
+
+        <WIDTH>120</WIDTH>
+
+        <LENGTH>170</LENGTH>
+
+        <PCS>30</PCS>
+
+        <PRICE>0.00</PRICE>
+
+        <AREA>61.20</AREA>
+
+        <CBM>1.49</CBM>
+
+        <CALTYPEAMT>0</CALTYPEAMT>
+
+        <PurchaseCode/>
+
+        <L>124</L>
+
+        <W>20</W>
+
+        <H>20</H>
+
+        <Quality>SOUMAK WEAVE</Quality>
+
+        <SinglePcsNetWt>10.20</SinglePcsNetWt>
+
+        <SinglePcsGrossWt>10.60</SinglePcsGrossWt>
+
+        <StyleNo/>
+
+        <OrderId>434</OrderId>
+
+        <CustomerOrderNo>025358</CustomerOrderNo>
+
+        <LocalOrder>L 432</LocalOrder>
+
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+
+        <DesignName>VCS-17817</DesignName>
+
+        <designId>2451</designId>
+
+        <SizeFT>3.11x5.07</SizeFT>
+
+        <SizeMtr>120x170</SizeMtr>
+
+        <ITEM_ID>2</ITEM_ID>
+
+        <HSNCode/>
+
+        <AreaFT>21.87</AreaFT>
+
+        <AreaMtr>2.04</AreaMtr>
+
+        <SKUNO/>
+
+        <TotalAmount>0.00</TotalAmount>
+
+      </RollItem>
+
+
+      -<RollItem>
+
+        <Id>13</Id>
+
+        <RollNo>691</RollNo>
+
+        <Rollfrom>691</Rollfrom>
+
+        <RollTo>720</RollTo>
+
+        <RPcs>1</RPcs>
+
+        <TotalPcs>30</TotalPcs>
+
+        <TotalRoll>30</TotalRoll>
+
+        <OrderId>434</OrderId>
+
+        <RugId/>
+
+        <DESIGN>VCS-17817</DESIGN>
+
+        <COLOR>TEAL</COLOR>
+
+        <WIDTH>160</WIDTH>
+
+        <LENGTH>230</LENGTH>
+
+        <PCS>30</PCS>
+
+        <PRICE>0.00</PRICE>
+
+        <AREA>110.40</AREA>
+
+        <CBM>2.35</CBM>
+
+        <CALTYPEAMT>0</CALTYPEAMT>
+
+        <PurchaseCode/>
+
+        <L>162</L>
+
+        <W>22</W>
+
+        <H>22</H>
+
+        <Quality>SOUMAK WEAVE</Quality>
+
+        <SinglePcsNetWt>18.40</SinglePcsNetWt>
+
+        <SinglePcsGrossWt>19.00</SinglePcsGrossWt>
+
+        <StyleNo/>
+
+        <OrderId>434</OrderId>
+
+        <CustomerOrderNo>025358</CustomerOrderNo>
+
+        <LocalOrder>L 432</LocalOrder>
+
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+
+        <DesignName>VCS-17817</DesignName>
+
+        <designId>2451</designId>
+
+        <SizeFT>5.03x7.07</SizeFT>
+
+        <SizeMtr>160x230</SizeMtr>
+
+        <ITEM_ID>2</ITEM_ID>
+
+        <HSNCode/>
+
+        <AreaFT>39.81</AreaFT>
+
+        <AreaMtr>3.68</AreaMtr>
+
+        <SKUNO/>
+
+        <TotalAmount>0.00</TotalAmount>
+
+      </RollItem>
+
+
+      -<RollItem>
+
+        <Id>25</Id>
+
+        <RollNo>721</RollNo>
+
+        <Rollfrom>721</Rollfrom>
+
+        <RollTo>722</RollTo>
+
+        <RPcs>1</RPcs>
+
+        <TotalPcs>2</TotalPcs>
+
+        <TotalRoll>2</TotalRoll>
+
+        <OrderId>434</OrderId>
+
+        <RugId/>
+
+        <DESIGN>VCS-17817</DESIGN>
+
+        <COLOR>TEAL</COLOR>
+
+        <WIDTH>200</WIDTH>
+
+        <LENGTH>300</LENGTH>
+
+        <PCS>2</PCS>
+
+        <PRICE>0.00</PRICE>
+
+        <AREA>12.00</AREA>
+
+        <CBM>0.23</CBM>
+
+        <CALTYPEAMT>0</CALTYPEAMT>
+
+        <PurchaseCode/>
+
+        <L>202</L>
+
+        <W>24</W>
+
+        <H>24</H>
+
+        <Quality>SOUMAK WEAVE</Quality>
+
+        <SinglePcsNetWt>30.00</SinglePcsNetWt>
+
+        <SinglePcsGrossWt>30.60</SinglePcsGrossWt>
+
+        <StyleNo/>
+
+        <OrderId>434</OrderId>
+
+        <CustomerOrderNo>025358</CustomerOrderNo>
+
+        <LocalOrder>L 432</LocalOrder>
+
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+
+        <DesignName>VCS-17817</DesignName>
+
+        <designId>2451</designId>
+
+        <SizeFT>6.07x9.10</SizeFT>
+
+        <SizeMtr>200x300</SizeMtr>
+
+        <ITEM_ID>2</ITEM_ID>
+
+        <HSNCode/>
+
+        <AreaFT>64.74</AreaFT>
+
+        <AreaMtr>6.00</AreaMtr>
+
+        <SKUNO/>
+
+        <TotalAmount>0.00</TotalAmount>
+
+      </RollItem>
+
+
+      -<RollItem>
+
+        <Id>15</Id>
+
+        <RollNo>723</RollNo>
+
+        <Rollfrom>723</Rollfrom>
+
+        <RollTo>726</RollTo>
+
+        <RPcs>1</RPcs>
+
+        <TotalPcs>4</TotalPcs>
+
+        <TotalRoll>4</TotalRoll>
+
+        <OrderId>801</OrderId>
+
+        <RugId/>
+
+        <DESIGN>VCS-533</DESIGN>
+
+        <COLOR>NATURAL</COLOR>
+
+        <WIDTH>66</WIDTH>
+
+        <LENGTH>200</LENGTH>
+
+        <PCS>4</PCS>
+
+        <PRICE>0.00</PRICE>
+
+        <AREA>5.28</AREA>
+
+        <CBM>0.08</CBM>
+
+        <CALTYPEAMT>0</CALTYPEAMT>
+
+        <PurchaseCode/>
+
+        <L>67</L>
+
+        <W>17</W>
+
+        <H>17</H>
+
+        <Quality>SOUMAK WEAVE</Quality>
+
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+
+        <SinglePcsGrossWt>7.00</SinglePcsGrossWt>
+
+        <StyleNo/>
+
+        <OrderId>801</OrderId>
+
+        <CustomerOrderNo>025588</CustomerOrderNo>
+
+        <LocalOrder>L 794</LocalOrder>
+
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+
+        <DesignName>VCS-533</DesignName>
+
+        <designId>681</designId>
+
+        <SizeFT>2.02x6.07</SizeFT>
+
+        <SizeMtr>66x200</SizeMtr>
+
+        <ITEM_ID>2</ITEM_ID>
+
+        <HSNCode/>
+
+        <AreaFT>14.26</AreaFT>
+
+        <AreaMtr>1.32</AreaMtr>
+
+        <SKUNO/>
+
+        <TotalAmount>0.00</TotalAmount>
+
+      </RollItem>
+
+
+      -<RollItem>
+
+        <Id>16</Id>
+
+        <RollNo>727</RollNo>
+
+        <Rollfrom>727</Rollfrom>
+
+        <RollTo>730</RollTo>
+
+        <RPcs>1</RPcs>
+
+        <TotalPcs>4</TotalPcs>
+
+        <TotalRoll>4</TotalRoll>
+
+        <OrderId>801</OrderId>
+
+        <RugId/>
+
+        <DESIGN>VCS-533</DESIGN>
+
+        <COLOR>NATURAL</COLOR>
+
+        <WIDTH>120</WIDTH>
+
+        <LENGTH>170</LENGTH>
+
+        <PCS>4</PCS>
+
+        <PRICE>0.00</PRICE>
+
+        <AREA>8.16</AREA>
+
+        <CBM>0.20</CBM>
+
+        <CALTYPEAMT>0</CALTYPEAMT>
+
+        <PurchaseCode/>
+
+        <L>124</L>
+
+        <W>20</W>
+
+        <H>20</H>
+
+        <Quality>SOUMAK WEAVE</Quality>
+
+        <SinglePcsNetWt>10.20</SinglePcsNetWt>
+
+        <SinglePcsGrossWt>10.60</SinglePcsGrossWt>
+
+        <StyleNo/>
+
+        <OrderId>801</OrderId>
+
+        <CustomerOrderNo>025588</CustomerOrderNo>
+
+        <LocalOrder>L 794</LocalOrder>
+
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+
+        <DesignName>VCS-533</DesignName>
+
+        <designId>681</designId>
+
+        <SizeFT>3.11x5.07</SizeFT>
+
+        <SizeMtr>120x170</SizeMtr>
+
+        <ITEM_ID>2</ITEM_ID>
+
+        <HSNCode/>
+
+        <AreaFT>21.87</AreaFT>
+
+        <AreaMtr>2.04</AreaMtr>
+
+        <SKUNO/>
+
+        <TotalAmount>0.00</TotalAmount>
+
+      </RollItem>
+
+
+      -<RollItem>
+
+        <Id>17</Id>
+
+        <RollNo>731</RollNo>
+
+        <Rollfrom>731</Rollfrom>
+
+        <RollTo>734</RollTo>
+
+        <RPcs>1</RPcs>
+
+        <TotalPcs>4</TotalPcs>
+
+        <TotalRoll>4</TotalRoll>
+
+        <OrderId>801</OrderId>
+
+        <RugId/>
+
+        <DESIGN>VCS-533</DESIGN>
+
+        <COLOR>NATURAL</COLOR>
+
+        <WIDTH>200</WIDTH>
+
+        <LENGTH>300</LENGTH>
+
+        <PCS>4</PCS>
+
+        <PRICE>0.00</PRICE>
+
+        <AREA>24.00</AREA>
+
+        <CBM>0.47</CBM>
+
+        <CALTYPEAMT>0</CALTYPEAMT>
+
+        <PurchaseCode/>
+
+        <L>202</L>
+
+        <W>24</W>
+
+        <H>24</H>
+
+        <Quality>SOUMAK WEAVE</Quality>
+
+        <SinglePcsNetWt>30.00</SinglePcsNetWt>
+
+        <SinglePcsGrossWt>30.60</SinglePcsGrossWt>
+
+        <StyleNo/>
+
+        <OrderId>801</OrderId>
+
+        <CustomerOrderNo>025588</CustomerOrderNo>
+
+        <LocalOrder>L 794</LocalOrder>
+
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+
+        <DesignName>VCS-533</DesignName>
+
+        <designId>681</designId>
+
+        <SizeFT>6.07x9.10</SizeFT>
+
+        <SizeMtr>200x300</SizeMtr>
+
+        <ITEM_ID>2</ITEM_ID>
+
+        <HSNCode/>
+
+        <AreaFT>64.74</AreaFT>
+
+        <AreaMtr>6.00</AreaMtr>
+
+        <SKUNO/>
+
+        <TotalAmount>0.00</TotalAmount>
+
+      </RollItem>
+
+
+      -<RollItem>
+
+        <Id>18</Id>
+
+        <RollNo>735</RollNo>
+
+        <Rollfrom>735</Rollfrom>
+
+        <RollTo>740</RollTo>
+
+        <RPcs>1</RPcs>
+
+        <TotalPcs>6</TotalPcs>
+
+        <TotalRoll>6</TotalRoll>
+
+        <OrderId>801</OrderId>
+
+        <RugId/>
+
+        <DESIGN>VCS-17820</DESIGN>
+
+        <COLOR>SILVER</COLOR>
+
+        <WIDTH>200</WIDTH>
+
+        <LENGTH>300</LENGTH>
+
+        <PCS>6</PCS>
+
+        <PRICE>0.00</PRICE>
+
+        <AREA>36.00</AREA>
+
+        <CBM>0.70</CBM>
+
+        <CALTYPEAMT>0</CALTYPEAMT>
+
+        <PurchaseCode/>
+
+        <L>202</L>
+
+        <W>24</W>
+
+        <H>24</H>
+
+        <Quality>SOUMAK WEAVE</Quality>
+
+        <SinglePcsNetWt>30.00</SinglePcsNetWt>
+
+        <SinglePcsGrossWt>30.60</SinglePcsGrossWt>
+
+        <StyleNo/>
+
+        <OrderId>801</OrderId>
+
+        <CustomerOrderNo>025588</CustomerOrderNo>
+
+        <LocalOrder>L 794</LocalOrder>
+
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+
+        <DesignName>VCS-17820</DesignName>
+
+        <designId>5218</designId>
+
+        <SizeFT>6.07x9.10</SizeFT>
+
+        <SizeMtr>200x300</SizeMtr>
+
+        <ITEM_ID>2</ITEM_ID>
+
+        <HSNCode/>
+
+        <AreaFT>64.74</AreaFT>
+
+        <AreaMtr>6.00</AreaMtr>
+
+        <SKUNO/>
+
+        <TotalAmount>0.00</TotalAmount>
+
+      </RollItem>
+
+
+      -<RollItem>
+
+        <Id>19</Id>
+
+        <RollNo>741</RollNo>
+
+        <Rollfrom>741</Rollfrom>
+
+        <RollTo>746</RollTo>
+
+        <RPcs>1</RPcs>
+
+        <TotalPcs>6</TotalPcs>
+
+        <TotalRoll>6</TotalRoll>
+
+        <OrderId>801</OrderId>
+
+        <RugId/>
+
+        <DESIGN>VCS-17820</DESIGN>
+
+        <COLOR>SILVER</COLOR>
+
+        <WIDTH>160</WIDTH>
+
+        <LENGTH>230</LENGTH>
+
+        <PCS>6</PCS>
+
+        <PRICE>0.00</PRICE>
+
+        <AREA>22.08</AREA>
+
+        <CBM>0.47</CBM>
+
+        <CALTYPEAMT>0</CALTYPEAMT>
+
+        <PurchaseCode/>
+
+        <L>162</L>
+
+        <W>22</W>
+
+        <H>22</H>
+
+        <Quality>SOUMAK WEAVE</Quality>
+
+        <SinglePcsNetWt>18.40</SinglePcsNetWt>
+
+        <SinglePcsGrossWt>19.00</SinglePcsGrossWt>
+
+        <StyleNo/>
+
+        <OrderId>801</OrderId>
+
+        <CustomerOrderNo>025588</CustomerOrderNo>
+
+        <LocalOrder>L 794</LocalOrder>
+
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+
+        <DesignName>VCS-17820</DesignName>
+
+        <designId>5218</designId>
+
+        <SizeFT>5.03x7.07</SizeFT>
+
+        <SizeMtr>160x230</SizeMtr>
+
+        <ITEM_ID>2</ITEM_ID>
+
+        <HSNCode/>
+
+        <AreaFT>39.81</AreaFT>
+
+        <AreaMtr>3.68</AreaMtr>
+
+        <SKUNO/>
+
+        <TotalAmount>0.00</TotalAmount>
+
+      </RollItem>
+
+
+      -<RollItem>
+
+        <Id>20</Id>
+
+        <RollNo>747</RollNo>
+
+        <Rollfrom>747</Rollfrom>
+
+        <RollTo>752</RollTo>
+
+        <RPcs>1</RPcs>
+
+        <TotalPcs>6</TotalPcs>
+
+        <TotalRoll>6</TotalRoll>
+
+        <OrderId>801</OrderId>
+
+        <RugId/>
+
+        <DESIGN>VCS-11319</DESIGN>
+
+        <COLOR>STRAW</COLOR>
+
+        <WIDTH>160</WIDTH>
+
+        <LENGTH>230</LENGTH>
+
+        <PCS>6</PCS>
+
+        <PRICE>0.00</PRICE>
+
+        <AREA>22.08</AREA>
+
+        <CBM>0.47</CBM>
+
+        <CALTYPEAMT>0</CALTYPEAMT>
+
+        <PurchaseCode/>
+
+        <L>162</L>
+
+        <W>22</W>
+
+        <H>22</H>
+
+        <Quality>SOUMAK WEAVE</Quality>
+
+        <SinglePcsNetWt>18.40</SinglePcsNetWt>
+
+        <SinglePcsGrossWt>19.00</SinglePcsGrossWt>
+
+        <StyleNo/>
+
+        <OrderId>801</OrderId>
+
+        <CustomerOrderNo>025588</CustomerOrderNo>
+
+        <LocalOrder>L 794</LocalOrder>
+
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+
+        <DesignName>VCS-11319</DesignName>
+
+        <designId>393</designId>
+
+        <SizeFT>5.03x7.07</SizeFT>
+
+        <SizeMtr>160x230</SizeMtr>
+
+        <ITEM_ID>2</ITEM_ID>
+
+        <HSNCode/>
+
+        <AreaFT>39.81</AreaFT>
+
+        <AreaMtr>3.68</AreaMtr>
+
+        <SKUNO/>
+
+        <TotalAmount>0.00</TotalAmount>
+
+      </RollItem>
+
+
+      -<RollItem>
+
+        <Id>21</Id>
+
+        <RollNo>753</RollNo>
+
+        <Rollfrom>753</Rollfrom>
+
+        <RollTo>756</RollTo>
+
+        <RPcs>1</RPcs>
+
+        <TotalPcs>4</TotalPcs>
+
+        <TotalRoll>4</TotalRoll>
+
+        <OrderId>801</OrderId>
+
+        <RugId/>
+
+        <DESIGN>VCS-11319</DESIGN>
+
+        <COLOR>STRAW</COLOR>
+
+        <WIDTH>120</WIDTH>
+
+        <LENGTH>170</LENGTH>
+
+        <PCS>4</PCS>
+
+        <PRICE>0.00</PRICE>
+
+        <AREA>8.16</AREA>
+
+        <CBM>0.20</CBM>
+
+        <CALTYPEAMT>0</CALTYPEAMT>
+
+        <PurchaseCode/>
+
+        <L>124</L>
+
+        <W>20</W>
+
+        <H>20</H>
+
+        <Quality>SOUMAK WEAVE</Quality>
+
+        <SinglePcsNetWt>10.20</SinglePcsNetWt>
+
+        <SinglePcsGrossWt>10.60</SinglePcsGrossWt>
+
+        <StyleNo/>
+
+        <OrderId>801</OrderId>
+
+        <CustomerOrderNo>025588</CustomerOrderNo>
+
+        <LocalOrder>L 794</LocalOrder>
+
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+
+        <DesignName>VCS-11319</DesignName>
+
+        <designId>393</designId>
+
+        <SizeFT>3.11x5.07</SizeFT>
+
+        <SizeMtr>120x170</SizeMtr>
+
+        <ITEM_ID>2</ITEM_ID>
+
+        <HSNCode/>
+
+        <AreaFT>21.87</AreaFT>
+
+        <AreaMtr>2.04</AreaMtr>
+
+        <SKUNO/>
+
+        <TotalAmount>0.00</TotalAmount>
+
+      </RollItem>
+
+
+      -<RollItem>
+
+        <Id>22</Id>
+
+        <RollNo>757</RollNo>
+
+        <Rollfrom>757</Rollfrom>
+
+        <RollTo>764</RollTo>
+
+        <RPcs>1</RPcs>
+
+        <TotalPcs>8</TotalPcs>
+
+        <TotalRoll>8</TotalRoll>
+
+        <OrderId>954</OrderId>
+
+        <RugId/>
+
+        <DESIGN>VCS-17817</DESIGN>
+
+        <COLOR>TEAL</COLOR>
+
+        <WIDTH>120</WIDTH>
+
+        <LENGTH>170</LENGTH>
+
+        <PCS>8</PCS>
+
+        <PRICE>0.00</PRICE>
+
+        <AREA>16.32</AREA>
+
+        <CBM>0.40</CBM>
+
+        <CALTYPEAMT>0</CALTYPEAMT>
+
+        <PurchaseCode/>
+
+        <L>124</L>
+
+        <W>20</W>
+
+        <H>20</H>
+
+        <Quality>SOUMAK WEAVE</Quality>
+
+        <SinglePcsNetWt>10.20</SinglePcsNetWt>
+
+        <SinglePcsGrossWt>10.60</SinglePcsGrossWt>
+
+        <StyleNo/>
+
+        <OrderId>954</OrderId>
+
+        <CustomerOrderNo>025635</CustomerOrderNo>
+
+        <LocalOrder>L 947</LocalOrder>
+
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+
+        <DesignName>VCS-17817</DesignName>
+
+        <designId>2451</designId>
+
+        <SizeFT>3.11x5.07</SizeFT>
+
+        <SizeMtr>120x170</SizeMtr>
+
+        <ITEM_ID>2</ITEM_ID>
+
+        <HSNCode/>
+
+        <AreaFT>21.87</AreaFT>
+
+        <AreaMtr>2.04</AreaMtr>
+
+        <SKUNO/>
+
+        <TotalAmount>0.00</TotalAmount>
+
+      </RollItem>
+
+
+      -<RollItem>
+
+        <Id>23</Id>
+
+        <RollNo>765</RollNo>
+
+        <Rollfrom>765</Rollfrom>
+
+        <RollTo>772</RollTo>
+
+        <RPcs>1</RPcs>
+
+        <TotalPcs>8</TotalPcs>
+
+        <TotalRoll>8</TotalRoll>
+
+        <OrderId>954</OrderId>
+
+        <RugId/>
+
+        <DESIGN>VCS-17817</DESIGN>
+
+        <COLOR>TEAL</COLOR>
+
+        <WIDTH>160</WIDTH>
+
+        <LENGTH>230</LENGTH>
+
+        <PCS>8</PCS>
+
+        <PRICE>0.00</PRICE>
+
+        <AREA>29.44</AREA>
+
+        <CBM>0.63</CBM>
+
+        <CALTYPEAMT>0</CALTYPEAMT>
+
+        <PurchaseCode/>
+
+        <L>162</L>
+
+        <W>22</W>
+
+        <H>22</H>
+
+        <Quality>SOUMAK WEAVE</Quality>
+
+        <SinglePcsNetWt>18.40</SinglePcsNetWt>
+
+        <SinglePcsGrossWt>19.00</SinglePcsGrossWt>
+
+        <StyleNo/>
+
+        <OrderId>954</OrderId>
+
+        <CustomerOrderNo>025635</CustomerOrderNo>
+
+        <LocalOrder>L 947</LocalOrder>
+
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+
+        <DesignName>VCS-17817</DesignName>
+
+        <designId>2451</designId>
+
+        <SizeFT>5.03x7.07</SizeFT>
+
+        <SizeMtr>160x230</SizeMtr>
+
+        <ITEM_ID>2</ITEM_ID>
+
+        <HSNCode/>
+
+        <AreaFT>39.81</AreaFT>
+
+        <AreaMtr>3.68</AreaMtr>
+
+        <SKUNO/>
+
+        <TotalAmount>0.00</TotalAmount>
+
+      </RollItem>
+
+
+      -<RollItem>
+
+        <Id>24</Id>
+
+        <RollNo>773</RollNo>
+
+        <Rollfrom>773</Rollfrom>
+
+        <RollTo>780</RollTo>
+
+        <RPcs>1</RPcs>
+
+        <TotalPcs>8</TotalPcs>
+
+        <TotalRoll>8</TotalRoll>
+
+        <OrderId>954</OrderId>
+
+        <RugId/>
+
+        <DESIGN>VCS-17817</DESIGN>
+
+        <COLOR>TEAL</COLOR>
+
+        <WIDTH>200</WIDTH>
+
+        <LENGTH>300</LENGTH>
+
+        <PCS>8</PCS>
+
+        <PRICE>0.00</PRICE>
+
+        <AREA>48.00</AREA>
+
+        <CBM>0.93</CBM>
+
+        <CALTYPEAMT>0</CALTYPEAMT>
+
+        <PurchaseCode/>
+
+        <L>202</L>
+
+        <W>24</W>
+
+        <H>24</H>
+
+        <Quality>SOUMAK WEAVE</Quality>
+
+        <SinglePcsNetWt>30.00</SinglePcsNetWt>
+
+        <SinglePcsGrossWt>30.60</SinglePcsGrossWt>
+
+        <StyleNo/>
+
+        <OrderId>954</OrderId>
+
+        <CustomerOrderNo>025635</CustomerOrderNo>
+
+        <LocalOrder>L 947</LocalOrder>
+
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+
+        <DesignName>VCS-17817</DesignName>
+
+        <designId>2451</designId>
+
+        <SizeFT>6.07x9.10</SizeFT>
+
+        <SizeMtr>200x300</SizeMtr>
+
+        <ITEM_ID>2</ITEM_ID>
+
+        <HSNCode/>
+
+        <AreaFT>64.74</AreaFT>
+
+        <AreaMtr>6.00</AreaMtr>
+
+        <SKUNO/>
+
+        <TotalAmount>0.00</TotalAmount>
+
+      </RollItem>
+
+    </Rolls>
+
+    <signature>http://localhost:11783/Images/signature/client-42.png</signature>
+
+  </InvoiceItem>
+
+</InvoiceList>-->
+
+
+
+<InvoiceList>
+  <InvoiceItem>
+    <INVOICEID>1</INVOICEID>
+    <TINVOICENO>1/21-22</TINVOICENO>
+    <INVOICEDATE>05-03-2022</INVOICEDATE>
+    <TCONSIGNEE>YARAGHI LLC,ABCD</TCONSIGNEE>
+    <TBUYEROCONSIGNEE>YARAGHI LLC,ABCD,1,,,YARALLCSGN@GMAIL.COM</TBUYEROCONSIGNEE>
+    <FINALDESTINATION>USA</FINALDESTINATION>
+    <PORTOFDISCHARGE>USA</PORTOFDISCHARGE>
+    <INSURANCE>0.000000000000000e+000</INSURANCE>
+    <FREIGHT>0.000000000000000e+000</FREIGHT>
+    <NETWT>250.60</NETWT>
+    <GROSSWT>305.00</GROSSWT>
+    <IGST>0.00</IGST>
+    <CGST>0.00</CGST>
+    <SGST>0.00</SGST>
+    <INRRate>0.00</INRRate>
+    <Ex1Rate>0.00</Ex1Rate>
+    <Ex2Rate>0.00</Ex2Rate>
+    <ExtraCharges>0.00</ExtraCharges>
+    <CBM>0.00</CBM>
+    <Composition>80% WOOL 20% COTTON</Composition>
+    <DescriptionOfGoods>INDIAN HANDMADE WOOLEN CARPETS</DescriptionOfGoods>
+    <LessAdvance>0.000000000000000e+000</LessAdvance>
+    <DiscountAmt>0.000000000000000e+000</DiscountAmt>
+    <SUQty></SUQty>
+    <PreferentialAgreement></PreferentialAgreement>
+    <PackingCharges>0.000000000000000e+000</PackingCharges>
+    <GstinType></GstinType>
+    <SHIPINGID>1</SHIPINGID>
+    <RollMark>YL</RollMark>
+    <ShipToAddress></ShipToAddress>
+    <CARRIAGENAME>BY TRUCK</CARRIAGENAME>
+    <VESSELFLIGHTNO>BY AIR</VESSELFLIGHTNO>
+    <PORTOFLOADING>VARANASI</PORTOFLOADING>
+    <COMPANYNAME>ROYAL INTERNATIONAL</COMPANYNAME>
+    <COMPADDR1>BIHARA POWER HOUSE,THTARA, VARANASI-221307</COMPADDR1>
+    <COMPADDR2></COMPADDR2>
+    <COMPADDR3></COMPADDR3>
+    <COMPTEL>9935072247</COMPTEL>
+    <COMPFAX></COMPFAX>
+    <EMAIL>carpets@gmail.com</EMAIL>
+    <GSTNO>09AADCI0277P9Z9</GSTNO>
+    <RECEIPTAT>VARANASI</RECEIPTAT>
+    <PAYMENTMODE>30 DAYS</PAYMENTMODE>
+    <PAYMENTTERMS>FOB</PAYMENTTERMS>
+    <CURRENCY>USD</CURRENCY>
+    <CURRENCYTYPERS>US</CURRENCYTYPERS>
+    <CURRENCYTYPEPS>CENT</CURRENCYTYPEPS>
+    <BankName>INDIAN BANK</BankName>
+    <Ifscode>IDIB000C634</Ifscode>
+    <BankAddress>KACHHAWAN ROAD VARANASI VARANASI UP INDIA</BankAddress>
+    <ADCode></ADCode>
+    <BankAccountNo>44122706328</BankAccountNo>
+    <ContectPerson></ContectPerson>
+    <SwiftCode>IDIBINBBRPK</SwiftCode>
+    <AccountType>1</AccountType>
+    <UNITID>2</UNITID>
+    <UNITNAME>Ft</UNITNAME>
+    <Mark>YL</Mark>
+    <NotifyByAir>
+      KUEHNE + NAGEL INC.
+      10 EXCHANGE PL, 19TH FLOOR JERSEY CITY, NJ 07302
+      UNITED STATES
+    </NotifyByAir>
+    <IECode></IECode>
+    <FactoryAddress></FactoryAddress>
+    <RollMarkHead>R</RollMarkHead>
+    <ExpRef></ExpRef>
+    <TinNo></TinNo>
+    <EDPNo></EDPNo>
+    <LUTArnNo></LUTArnNo>
+    <PackingDATE>2022-03-05T00:00:00</PackingDATE>
+    <NotifyBySea>
+      KUEHNE + NAGEL INC.
+      10 EXCHANGE PL, 19TH FLOOR JERSEY CITY, NJ 07302
+      UNITED STATES
+    </NotifyBySea>
+    <CustomerCountryName>U.S.A.</CustomerCountryName>
+    <totorder>280222</totorder>
+    <Rolls>
+      <RollItem>
+        <Id>1</Id>
+        <RollNo>1</RollNo>
+        <Rollfrom>1</Rollfrom>
+        <RollTo>50</RollTo>
+        <RPcs>2</RPcs>
+        <TotalPcs>100</TotalPcs>
+        <TotalRoll>50</TotalRoll>
+        <OrderId>1</OrderId>
+        <RugId />
+        <DESIGN>SM006</DESIGN>
+        <COLOR>NAVY</COLOR>
+        <WIDTH>2.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PCS>100</PCS>
+        <PRICE>43.50</PRICE>
+        <AREA>600.00</AREA>
+        <CBM>0.45</CBM>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <PurchaseCode />
+        <L>90</L>
+        <W>10</W>
+        <H>10</H>
+        <Quality>WOOLEN DURRY</Quality>
+        <SinglePcsNetWt>0.90</SinglePcsNetWt>
+        <SinglePcsGrossWt>1.20</SinglePcsGrossWt>
+        <StyleNo />
+        <OrderId>1</OrderId>
+        <CustomerOrderNo>280222</CustomerOrderNo>
+        <LocalOrder>L 1</LocalOrder>
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+        <DesignName>SM006</DesignName>
+        <designId>1</designId>
+        <SizeFT>2.00x3.00</SizeFT>
+        <SizeMtr>60x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode>9044</HSNCode>
+        <AreaFT>6.00</AreaFT>
+        <AreaMtr>0.55</AreaMtr>
+        <SKUNO />
+        <Composition />
+        <Description />
+        <TotalAmount>4350.00</TotalAmount>
+      </RollItem>
+      <RollItem>
+        <Id>1</Id>
+        <RollNo>1</RollNo>
+        <Rollfrom>1</Rollfrom>
+        <RollTo>50</RollTo>
+        <RPcs>2</RPcs>
+        <TotalPcs>100</TotalPcs>
+        <TotalRoll>50</TotalRoll>
+        <OrderId>1</OrderId>
+        <RugId />
+        <DESIGN>SM006</DESIGN>
+        <COLOR>NAVY</COLOR>
+        <WIDTH>2.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PCS>100</PCS>
+        <PRICE>43.50</PRICE>
+        <AREA>600.00</AREA>
+        <CBM>0.45</CBM>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <PurchaseCode />
+        <L>90</L>
+        <W>10</W>
+        <H>10</H>
+        <Quality>WOOLEN DURRY</Quality>
+        <SinglePcsNetWt>0.90</SinglePcsNetWt>
+        <SinglePcsGrossWt>1.20</SinglePcsGrossWt>
+        <StyleNo />
+        <OrderId>1</OrderId>
+        <CustomerOrderNo>280222</CustomerOrderNo>
+        <LocalOrder>L 1</LocalOrder>
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+        <DesignName>SM006</DesignName>
+        <designId>1</designId>
+        <SizeFT>2.00x3.00</SizeFT>
+        <SizeMtr>60x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode>9044</HSNCode>
+        <AreaFT>6.00</AreaFT>
+        <AreaMtr>0.55</AreaMtr>
+        <SKUNO />
+        <Composition />
+        <Description />
+        <TotalAmount>4350.00</TotalAmount>
+      </RollItem>
+      <RollItem>
+        <Id>2</Id>
+        <RollNo>51</RollNo>
+        <Rollfrom>51</Rollfrom>
+        <RollTo>100</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>50</TotalPcs>
+        <TotalRoll>50</TotalRoll>
+        <OrderId>1</OrderId>
+        <RugId />
+        <DESIGN>SM006</DESIGN>
+        <COLOR>NAVY</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PCS>50</PCS>
+        <PRICE>43.50</PRICE>
+        <AREA>1200.00</AREA>
+        <CBM>3.60</CBM>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <PurchaseCode />
+        <L>180</L>
+        <W>20</W>
+        <H>20</H>
+        <Quality>WOOLEN DURRY</Quality>
+        <SinglePcsNetWt>3.80</SinglePcsNetWt>
+        <SinglePcsGrossWt>4.10</SinglePcsGrossWt>
+        <StyleNo />
+        <OrderId>1</OrderId>
+        <CustomerOrderNo>280222</CustomerOrderNo>
+        <LocalOrder>L 1</LocalOrder>
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+        <DesignName>SM006</DesignName>
+        <designId>1</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode>9044</HSNCode>
+        <AreaFT>24.00</AreaFT>
+        <AreaMtr>2.20</AreaMtr>
+        <SKUNO />
+        <Composition />
+        <Description />
+        <TotalAmount>2175.00</TotalAmount>
+      </RollItem>
+    </Rolls>
+    <signature>http://localhost:11783/Images/signature/client-42.png</signature>
+  </InvoiceItem>
+</InvoiceList>
