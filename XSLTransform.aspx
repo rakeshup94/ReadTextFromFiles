@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <center>
-        <div style="vertical-align: central;">
+        <div style="vertical-align: central;border-top:1px solid #ccc;">
             <h3>XML Transformation in ASP.NET</h3>
 
             <asp:Xml ID="Xml1" runat="server" Visible="false"></asp:Xml>
