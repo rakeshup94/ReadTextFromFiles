@@ -66,6 +66,12 @@
     <Content Include="Invoice\BenutaInvoice.xslt">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Invoice\DesignIdeas.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Invoice\COURISTAN.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Invoice\CADRYSPTY.xslt">
       <SubType>Designer</SubType>
     </Content>
