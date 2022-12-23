@@ -33,12 +33,12 @@
                     <invoiceitem>
                         <table width="700" border="1" align="center" cellpadding="0" cellspacing="0" style="border: solid 1px #333">
                             <tr>
-                                <td colspan="7" height="15px" style="padding-left: 5px; text-align: center; color: #000!important;">
+                                <td colspan="8" height="15px" style="padding-left: 5px; text-align: center; color: #000!important;">
                                     <h4 style="font-family: inherit; font-weight: 500; color: #000 !important; margin-top: 10px; margin-bottom: 10px; font-size: 18px; font-family: Gotham, Helvetica, Arial, sans-serif;">INVOICE                      </h4>
                                 </td>
                             </tr>
                             <tr>
-                                <td valign="top" colspan="2">
+                                <td valign="top" colspan="2" >
                                     <p>
                                         <strong>Exporter :</strong>
                                     </p>
@@ -66,7 +66,7 @@
                                         </email>
                                     </p>
                                 </td>
-                                <td valign="top" colspan="5">
+                                <td valign="top" colspan="3">
                                     <p>
                                         <strong>Invoice No . </strong>
                                         <tinvoiceno>
@@ -79,19 +79,13 @@
                           <xsl:value-of select="./INVOICEDATE" />
                       </invoicedate>
                                     </p>
-                                    <p>
-                                        <strong>Buyer's Order No </strong>:
-                      <totorder>
-                          <xsl:value-of select="./totorder" />
-                      </totorder>
-                                    </p>
-
-                                    <p>
-                                        <strong>Other Reference(s)	</strong>
-                                    </p>
 
                                 </td>
+                                <td valign="top" colspan="3">Exporter's Ref :
+                                </td>
                             </tr>
+
+                    
 
 
 
@@ -109,7 +103,7 @@
                                         </strong>
                                     </p>
                                 </td>
-                                <td valign="top" colspan="3">Notify
+                                <td valign="top" colspan="4">Notify
                                 </td>
                             </tr>
                             <tr>
@@ -127,10 +121,10 @@
                                         </tconsignee>
                                     </p>
                                 </td>
-                                <td valign="top" colspan="3"></td>
+                                <td valign="top" colspan="4"></td>
                             </tr>
                             <tr>
-                                <td valign="top" colspan="3">
+                                <td valign="top" colspan="4">
                                     <p>
                                         <strong>Country of Orgin of Goods</strong>
                                     </p>
@@ -166,7 +160,7 @@
 
 
 
-                                <td valign="top" colspan="5" rowspan="3">
+                                <td valign="top" colspan="6" rowspan="3">
                                     <p>
                                         <strong>Terms of Delivery and Payment
                                         </strong>
@@ -272,7 +266,7 @@
                                     </p>
 
                                 </td>
-                                <td colspan="5" valign="top">
+                                <td colspan="6" valign="top">
 
                                     <p>
                                         <strong>Description of goods</strong>
@@ -296,7 +290,7 @@
                                     <strong>Sr.#</strong>
                                 </td>
                                 <td align="center" valign="middle">
-                                    <strong>Item#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Description
+                                    <strong>Item#             Description
                                     </strong>
                                 </td>
 
@@ -312,7 +306,7 @@
                                         No. of Pieces
                                     </strong>
                                 </td>
-                                <td align="center" valign="middle">
+                                <td align="center" valign="middle" colspan="2">
                                     <strong>Area
                       <br />
                                         M2
@@ -344,7 +338,7 @@
                                         <xsl:variable name="vGroup" select="key('groupByContainer', concat(./Quality,./CustomerOrderNo))" />
 
                                         <tr>
-                                            <td valign="top" colspan="7">
+                                            <td valign="top" colspan="8">
 
 
                                                 <p>
@@ -355,12 +349,12 @@
                                                         <quality>
                                                             <xsl:value-of select="Quality" />
                                                         </quality>
-                                                        : 
-                                                    
-                                                    
-                                                          <composition>
-                                                              <xsl:value-of select="./Composition" />
-                                                          </composition>
+                                                        :
+
+
+                              <composition>
+                                  <xsl:value-of select="./Composition" />
+                              </composition>
 
 
                                                     </strong>
@@ -368,12 +362,12 @@
                                                 </p>
                                             </td>
                                         </tr>
-                                        <xsl:variable name="counter" select="0" saxon:assignable="yes" />
+
                                         <xsl:for-each select="$vGroup">
                                             <tr>
                                                 <td align="center" valign="middle">
-                                                    <xsl:variable name="counter" select="0" saxon:assignable="yes" />
-                                                    <xsl:value-of select="$counter"></xsl:value-of>
+                                                    <xsl:value-of select="position()" />
+
                                                 </td>
                                                 <td align="center" valign="middle">
 
@@ -384,11 +378,11 @@
                                                     <item_name>
                                                         <xsl:value-of select="ITEM_NAME" />
                                                     </item_name>
-                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                    
-                            <description>
-                                <xsl:value-of select="Description" />
-                            </description>
+
+
+                                                    <description>
+                                                        <xsl:value-of select="Description" />
+                                                    </description>
 
                                                 </td>
 
@@ -404,7 +398,7 @@
                                                 </td>
 
 
-                                                <td align="center" valign="middle">
+                                                <td align="center" valign="middle" colspan="2">
                                                     <areaft>
                                                         <xsl:value-of select="AreaFT" />
                                                     </areaft>
@@ -437,7 +431,7 @@
                                 </td>
 
 
-                                <td align="center" valign="middle">
+                                <td align="center" valign="middle" colspan="2">
                                     <strong>
                                         <xsl:value-of select="number(sum(././Rolls/RollItem/AreaFT))" />
                                     </strong>
@@ -454,7 +448,7 @@
 
 
                             <tr>
-                                <td align="left" colspan="7" valign="middle">
+                                <td align="left" colspan="8" valign="middle">
                                     <p>Amount Chargeable</p>
                                     <p>
                                         <strong>in word :
@@ -477,7 +471,7 @@
                             <xsl:variable name="SGSTAmount" select="number($totalPrice*$SGST div 100)" />
                             <xsl:variable name="GrossAmount" select="number($totalPrice+$IGSTAmount +$CGSTAmount+$SGSTAmount)" />
                             <tr>
-                                <td colspan="7" align="left" valign="top" class="noBorder">
+                                <td colspan="8" align="left" valign="top" class="noBorder">
 
                                     <p>
                                         <strong>Gross Wt. :
@@ -500,31 +494,31 @@
                             </tr>
 
                             <tr>
-                                <td colspan="7" class="noBorder"></td>
+                                <td colspan="8" class="noBorder"></td>
                             </tr>
                             <tr>
-                              
-                                <td colspan="5" align="right" valign="top" class="noBorder">
+
+                                <td colspan="6" align="right" valign="top" class="noBorder">
                                     <p>
-                                        <strong>CONVERSION RATE Rs.     
-                                            <xsl:value-of select="$exchangeRate" />
+                                        <strong>CONVERSION RATE Rs.
+                        <xsl:value-of select="$exchangeRate" />
                                         </strong>
                                     </p>
                                 </td>
-                                <td colspan="2"  valign="top" class="noBorder">
+                                <td colspan="2" valign="top" class="noBorder">
                                     <p>
                                         <xsl:value-of select="$totalPrice" />
                                     </p>
                                 </td>
                             </tr>
                             <tr>
-                             
-                                <td colspan="5" align="right" valign="top" class="noBorder">
+
+                                <td colspan="6" align="right" valign="top" class="noBorder">
                                     <p>
                                         <strong>I.G.S.T. @
-                                            <igst>
-                                                <xsl:value-of select="$IGST" />
-                                            </igst>
+                        <igst>
+                            <xsl:value-of select="$IGST" />
+                        </igst>
                                             %
                                         </strong>
                                     </p>
@@ -535,7 +529,7 @@
                                         <strong>ROUND OFF TAX INVOICE VALUE</strong>
                                     </p>
                                 </td>
-                                <td colspan="2"  valign="top" class="noBorder">
+                                <td colspan="2" valign="top" class="noBorder">
                                     <p>
                                         <xsl:value-of select="$IGSTAmount" />
                                     </p>
@@ -549,15 +543,15 @@
                                     </p>
                                 </td>
                             </tr>
-                          
-                               <tr>
-                                <td valign="top" colspan="7" class="noBorder"></td>
+
+                            <tr>
+                                <td valign="top" colspan="8" class="noBorder"></td>
                             </tr>
-                               <tr>
-                                <td valign="top" colspan="7" class="noBorder">
+                            <tr>
+                                <td valign="top" colspan="8" class="noBorder">
 
 
-                                     <p>
+                                    <p>
                                         <strong>We Declare that No child Labour used in the above products</strong>
                                     </p>
                                 </td>
@@ -565,20 +559,20 @@
                             <tr>
                                 <td valign="top" colspan="4" class="noBorder">
 
-                                   
 
 
 
-                            
 
 
-                               
+
+
+
                                     <p>Declaration : </p>
                                     <p>1. We intend to claim rewards under RODTEP Scheme	</p>
                                     <p>2. We abide by provisional of foreign exchange management Act regarding realization.	</p>
                                     <p>3. We declare that this invoice shows the actual price of the goods described and all particulars are true and correct.</p>
                                 </td>
-                                <td valign="top" colspan="3"></td>
+                                <td valign="top" colspan="4"></td>
                             </tr>
                         </table>
                     </invoiceitem>
