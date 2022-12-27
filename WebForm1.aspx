@@ -31,14 +31,14 @@
             <invoicelist>
                 <xsl:for-each select="/InvoiceList/InvoiceItem">
                     <invoiceitem>
-                        <table width="700" border="1" align="center" cellpadding="0" cellspacing="0" style="border: solid 1px #333">
+                        <table border="1" align="center" cellpadding="0" cellspacing="0" style="border: solid 1px #333">
                             <tr>
-                                <td colspan="8" height="15px" style="padding-left: 5px; text-align: center; color: #000!important;">
+                                <td colspan="9" height="15px" style="padding-left: 5px; text-align: center; color: #000!important;">
                                     <h4 style="font-family: inherit; font-weight: 500; color: #000 !important; margin-top: 10px; margin-bottom: 10px; font-size: 18px; font-family: Gotham, Helvetica, Arial, sans-serif;">INVOICE                      </h4>
                                 </td>
                             </tr>
                             <tr>
-                                <td valign="top" colspan="2" >
+                                <td valign="top" colspan="4" rowspan="2">
                                     <p>
                                         <strong>Exporter :</strong>
                                     </p>
@@ -60,75 +60,124 @@
                           <xsl:value-of select="./COMPADDR3" />
                       </compaddr3>
                                     </p>
+                                </td>
+                                <td valign="top" colspan="5">
+                                    <p>
+                                        <strong>Invoice No  &amp; Date</strong>
+                                    </p>
+                                    <p>
+                                        <tinvoiceno>
+                                            <xsl:value-of select="./TINVOICENO" />
+                                        </tinvoiceno>
+                                        DATED -
+                      <invoicedate>
+                          <xsl:value-of select="./INVOICEDATE" />
+                      </invoicedate>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top" colspan="5">
+                                    <p>
+                                        <strong>Buyer's Order No </strong>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top" colspan="2" rowspan="2">
                                     <p>
                                         <email>
                                             <xsl:value-of select="./EMAIL" />
                                         </email>
                                     </p>
-                                </td>
-                                <td valign="top" colspan="3">
                                     <p>
-                                        <strong>Invoice No . </strong>
-                                        <tinvoiceno>
-                                            <xsl:value-of select="./TINVOICENO" />
-                                        </tinvoiceno>
+                                        <comptel>
+                                            <xsl:value-of select="./COMPTEL" />
+                                        </comptel>
+                                        ,
+                      <compfax>
+                          <xsl:value-of select="./COMPFAX" />
+                      </compfax>
                                     </p>
+                                </td>
+                                <td valign="top">
                                     <p>
-                                        Date :
-                      <invoicedate>
-                          <xsl:value-of select="./INVOICEDATE" />
-                      </invoicedate>
+                                        <strong>IEC #: </strong>
                                     </p>
-
                                 </td>
-                                <td valign="top" colspan="3">Exporter's Ref :
-                                </td>
-                            </tr>
-
-                    
-
-
-
-                            <tr>
-
-                                <td valign="top" colspan="2">
+                                <td valign="top">
                                     <p>
-                                        <strong>Consignee/Ship to :
-                                        </strong>
+                                        <iecode>
+                                            <xsl:value-of select="./IECode" />
+                                        </iecode>
                                     </p>
                                 </td>
                                 <td valign="top" colspan="2">
+                                    <totorder>
+                                        <xsl:value-of select="./totorder" />
+                                    </totorder>
+                                </td>
+                                <td valign="top" colspan="3"></td>
+                            </tr>
+                            <tr>
+                                <td valign="top">
                                     <p>
-                                        <strong>Buyer (If Other than Consignee)
-                                        </strong>
+                                        <strong>GSTIN #:  </strong>
                                     </p>
                                 </td>
-                                <td valign="top" colspan="4">Notify
+                                <td valign="top">
+                                    <p>
+                                        <gstno>
+                                            <xsl:value-of select="./GSTNO" />
+                                        </gstno>
+                                    </p>
+                                </td>
+                                <td valign="top" colspan="5">Other Reference
                                 </td>
                             </tr>
                             <tr>
-                                <td valign="top" rowspan="2" colspan="2">
+                                <td valign="top" rowspan="3">
+                                    <p>
+                                        <strong>Buyer :
+                                        </strong>
+                                    </p>
                                     <p>
                                         <tbuyeroconsignee>
                                             <xsl:value-of select="./TBUYEROCONSIGNEE" />
                                         </tbuyeroconsignee>
                                     </p>
                                 </td>
-                                <td valign="top" colspan="2">
+                                <td valign="top" colspan="3" rowspan="3">
+                                    <p>
+                                        <strong>Consignee/Ship to :
+                                        </strong>
+                                    </p>
                                     <p>
                                         <tconsignee>
                                             <xsl:value-of select="./TCONSIGNEE" />
                                         </tconsignee>
                                     </p>
                                 </td>
-                                <td valign="top" colspan="4"></td>
+                                <td valign="top" colspan="5">
+                                    <p>
+                                        <strong>Buyer (If Other than Consignee)
+                                        </strong>
+                                    </p>
+                                    <p>
+                                    </p>
+                                    <p>
+                                    </p>
+                                    <p>
+                                    </p>
+
+                                </td>
                             </tr>
                             <tr>
-                                <td valign="top" colspan="4">
+                                <td valign="top" colspan="3">
                                     <p>
                                         <strong>Country of Orgin of Goods</strong>
                                     </p>
-                                    <p>INDIA  </p>
+                                    <p>INDIA </p>
                                 </td>
                                 <td valign="top" colspan="2">
                                     <p>
@@ -141,26 +190,8 @@
                                     </p>
                                 </td>
                             </tr>
-
                             <tr>
-                                <td valign="top">
-                                    <p>
-                                        <strong>Pre-carriage by</strong>
-                                    </p>
-                                </td>
-                                <td valign="top">
-                                    <p>
-                                        <strong>Place of Receipt by Pre-carrier</strong>
-                                    </p>
-                                    <receiptat>
-                                        <xsl:value-of select="./RECEIPTAT" />
-                                    </receiptat>
-                                </td>
-
-
-
-
-                                <td valign="top" colspan="6" rowspan="3">
+                                <td valign="top" colspan="5" rowspan="4">
                                     <p>
                                         <strong>Terms of Delivery and Payment
                                         </strong>
@@ -172,13 +203,21 @@
                                         </paymentterms>
                                     </p>
                                 </td>
-
-
-
-
-
-
-
+                            </tr>
+                            <tr>
+                                <td valign="top">
+                                    <p>
+                                        <strong>Pre-carriage by</strong>
+                                    </p>
+                                </td>
+                                <td colspan="3" valign="top">
+                                    <p>
+                                        <strong>Place of Receipt by Pre-carrier</strong>
+                                    </p>
+                                    <receiptat>
+                                        <xsl:value-of select="./RECEIPTAT" />
+                                    </receiptat>
+                                </td>
                             </tr>
                             <tr>
                                 <td valign="top">
@@ -189,7 +228,7 @@
                                         <xsl:value-of select="./VESSELFLIGHTNO" />
                                     </vesselflightno>
                                 </td>
-                                <td valign="top">
+                                <td colspan="3" valign="top">
                                     <p>
                                         <strong>Port of Loading</strong>
                                     </p>
@@ -207,7 +246,7 @@
                                         <xsl:value-of select="./PORTOFDISCHARGE" />
                                     </portofdischarge>
                                 </td>
-                                <td valign="top">
+                                <td colspan="3" valign="top">
                                     <p>
                                         <strong>Final Destination</strong>
                                     </p>
@@ -220,185 +259,177 @@
                                 <td valign="middle">
                                     <p>
                                         <strong>Marks  &amp; Nos./
-                        <br />
+                                            <br />
                                             Container No.
                                         </strong>
                                     </p>
+                                </td>
+                                <td colspan="2" valign="middle">
+                                    <strong>No.&amp;Kinds of Pkgs. </strong>
+                                </td>
+                                <td colspan="3" valign="top">
+                                    <strong>Description of goods</strong>
+                                </td>
+                                <td align="center" valign="middle">
+                                    <strong>Quantity
+                                        <br />
+                                        (Area)
+                                    </strong>
+                                </td>
+                                <td valign="middle" align="center">
+                                    <strong>Rate</strong>
+                                </td>
+                                <td align="center" valign="middle">
+                                    <strong>Amount</strong>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="middle">
                                     <p>
                                         <rollmark>
                                             <xsl:value-of select="./RollMark" />
                                         </rollmark>
                                     </p>
                                 </td>
-                                <td valign="middle">
-                                    <strong>No.&amp;Kinds of Pkgs. </strong>
-
-
-
-                                    <p>
-
-                                        <strong>
-                                            <xsl:for-each select="./Rolls/RollItem">
-                                                <xsl:if test="position() = 1">
-                                                    <xsl:value-of select="Rollfrom" />
-                                                    to
-                                                </xsl:if>
-                                                <xsl:if test="position() = last()">
-                                                    <xsl:value-of select="RollTo" />
-                                                </xsl:if>
-                                            </xsl:for-each>
-                                        </strong>
-
-
-                                    </p>
-
-
-
-
-                                    <p>
-
-
-                                        <xsl:value-of select="number(sum(././Rolls/RollItem/TotalRoll))" />
-
-                                        Rolls/Carton
-
-
-                                    </p>
-
+                                <td colspan="2" valign="top">
+                                    <xsl:value-of select="number(sum(././Rolls/RollItem/TotalRoll))" />
+                                    (
+                    <xsl:value-of select="myUtils:NumberToWords(sum(././Rolls/RollItem/TotalRoll))" />
+                                    Rolls Only.)
+                    <p>properly packed</p>
                                 </td>
-                                <td colspan="6" valign="top">
-
-                                    <p>
-                                        <strong>Description of goods</strong>
-
-                                    </p>
-                                    <p>
-                                        <descriptionofgoods>
-                                            <xsl:value-of select="./DescriptionOfGoods" />
-                                        </descriptionofgoods>
-
-                                    </p>
+                                <td colspan="3" valign="top">
+                                    <descriptionofgoods>
+                                        <xsl:value-of select="./DescriptionOfGoods" />
+                                    </descriptionofgoods>
                                 </td>
-
+                                <td valign="top"></td>
+                                <td valign="top"></td>
+                                <td align="center" valign="top"></td>
                             </tr>
-
-
-
-
+                            <tr>
+                                <td valign="top" colspan="9">
+                                    <strong>Roll Nos.                                   
+                                        <xsl:for-each select="./Rolls/RollItem">
+                                            <xsl:if test="position() = 1">
+                                                <xsl:value-of select="Rollfrom" />
+                                                to
+                                            </xsl:if>
+                                            <xsl:if test="position() = last()">
+                                                <xsl:value-of select="RollTo" />
+                                            </xsl:if>
+                                        </xsl:for-each>
+                                    </strong>
+                                </td>
+                            </tr>
                             <tr>
                                 <td align="center" valign="middle">
-                                    <strong>Sr.#</strong>
+                                    <strong>QUALITY</strong>
                                 </td>
                                 <td align="center" valign="middle">
-                                    <strong>Item#             Description
-                                    </strong>
-                                </td>
-
-                                <td align="center" valign="middle">
-                                    <strong>Size
-                      <br />
-                                        (In Ft.Inch)
+                                    <strong>HSN
+                                        <br />
+                                        CODE NO.
                                     </strong>
                                 </td>
                                 <td align="center" valign="middle">
-                                    <strong>Quantity
-                      <br />
-                                        No. of Pieces
-                                    </strong>
+                                    <strong>STYLE</strong>
                                 </td>
-                                <td align="center" valign="middle" colspan="2">
-                                    <strong>Area
-                      <br />
-                                        M2
+                                <td align="center" valign="middle">
+                                    <strong>SIZE</strong>
+                                </td>
+                                <td align="center" valign="middle">
+                                    <strong>AREA
+                                        <br />
+                                        SQ.MTR.
                                     </strong>
                                 </td>
                                 <td align="center" valign="middle">
-                                    <strong>Rate
-                      <br />
-                                        US$ /M2
+                                    <strong>PIECES
+                                    </strong>
+                                </td>
+                                <td align="center" valign="middle">
+                                    <strong>Sq.Feets
+                                    </strong>
+                                </td>
+                                <td align="center" valign="middle">
+                                    <strong>US$ Per
+                                        <br />
+                                        M2 FOB
                                     </strong>
                                 </td>
                                 <td align="center" valign="middle">
                                     <strong>AMOUNT
-                      <br />
-                                        US$(FOB)
+                                        <br />
+                                        US$ FOB
                                     </strong>
                                 </td>
-
                             </tr>
 
                             <rolls>
-
-
-
-
                                 <xsl:for-each select="./Rolls/RollItem[generate-id() = generate-id(key('groupByContainer', concat(./Quality,./CustomerOrderNo))[1])]">
                                     <rollitem>
 
                                         <xsl:variable name="vGroup" select="key('groupByContainer', concat(./Quality,./CustomerOrderNo))" />
 
                                         <tr>
-                                            <td valign="top" colspan="8">
-
+                                            <td align="center" valign="middle">
 
                                                 <p>
-
-
-
                                                     <strong>
                                                         <quality>
                                                             <xsl:value-of select="Quality" />
                                                         </quality>
-                                                        :
-
-
-                              <composition>
-                                  <xsl:value-of select="./Composition" />
-                              </composition>
-
-
                                                     </strong>
-
                                                 </p>
+
+                                                <p>
+                                                    <strong>PO#<customerorderno>
+                                                        <xsl:value-of select="CustomerOrderNo" />
+                                                    </customerorderno>
+                                                    </strong>
+                                                </p>
+
                                             </td>
+                                            <td align="center" valign="middle">&nbsp;</td>
+                                            <td align="center" valign="middle">&nbsp;</td>
+                                            <td align="center" valign="middle">&nbsp;</td>
+                                            <td align="center" valign="middle">&nbsp;</td>
+                                            <td align="center" valign="middle">&nbsp;</td>
+                                            <td align="center" valign="middle">&nbsp;</td>
+                                            <td align="center" valign="middle">&nbsp;</td>
+                                            <td align="center" valign="middle">&nbsp;</td>
                                         </tr>
 
                                         <xsl:for-each select="$vGroup">
                                             <tr>
+                                                <td align="center" valign="middle"></td>
                                                 <td align="center" valign="middle">
-                                                    <xsl:value-of select="position()" />
-
+                                                    <hsncode>
+                                                        <xsl:value-of select="HSNCode" />
+                                                    </hsncode>
                                                 </td>
                                                 <td align="center" valign="middle">
-
-
-
-
-
-                                                    <item_name>
-                                                        <xsl:value-of select="ITEM_NAME" />
-                                                    </item_name>
-
-
-                                                    <description>
-                                                        <xsl:value-of select="Description" />
-                                                    </description>
-
+                                                    <styleno>
+                                                        <xsl:value-of select="DESIGN" />
+                                                    </styleno>
                                                 </td>
-
                                                 <td align="center" valign="middle">
                                                     <sizeft>
                                                         <xsl:value-of select="SizeFT" />
                                                     </sizeft>
                                                 </td>
                                                 <td align="center" valign="middle">
+                                                    <areamtr>
+                                                        <xsl:value-of select="AreaMtr" />
+                                                    </areamtr>
+                                                </td>
+                                                <td align="center" valign="middle">
                                                     <pcs>
                                                         <xsl:value-of select="PCS" />
                                                     </pcs>
                                                 </td>
-
-
-                                                <td align="center" valign="middle" colspan="2">
+                                                <td align="center" valign="middle">
                                                     <areaft>
                                                         <xsl:value-of select="AreaFT" />
                                                     </areaft>
@@ -418,26 +449,26 @@
                                     </rollitem>
                                 </xsl:for-each>
                             </rolls>
-
-
                             <tr>
-                                <td colspan="3" align="center" valign="middle">
+                                <td colspan="4" align="center" valign="middle">
                                     <strong>TOTAL </strong>
+                                </td>
+                                <td align="center" valign="middle">
+                                    <strong>
+                                        <xsl:value-of select="number(sum(././Rolls/RollItem/AreaMtr))" />
+                                    </strong>
                                 </td>
                                 <td align="center" valign="middle">
                                     <strong>
                                         <xsl:value-of select="number(sum(././Rolls/RollItem/PCS))" />
                                     </strong>
                                 </td>
-
-
-                                <td align="center" valign="middle" colspan="2">
+                                <td align="center" valign="middle">
                                     <strong>
                                         <xsl:value-of select="number(sum(././Rolls/RollItem/AreaFT))" />
                                     </strong>
                                 </td>
-                                <td align="center" valign="middle">US$:
-                                </td>
+                                <td align="center" valign="middle"></td>
                                 <td align="center" valign="middle">
                                     <strong>
                                         <xsl:variable name="totalAmount" select="number(sum(././Rolls/RollItem/TotalAmount))" />
@@ -445,20 +476,23 @@
                                     </strong>
                                 </td>
                             </tr>
-
-
                             <tr>
-                                <td align="left" colspan="8" valign="middle">
-                                    <p>Amount Chargeable</p>
-                                    <p>
-                                        <strong>in word :
-                        <xsl:value-of select="myUtils:NumberToWords(sum(././Rolls/RollItem/TotalAmount))" />
-                                            Only.
-                                        </strong>
-                                    </p>
-
+                                <td align="left" colspan="7" valign="middle">
+                                    <strong>Amount Payable (in word)
+                      <xsl:value-of select="myUtils:NumberToWords(sum(././Rolls/RollItem/TotalAmount))" />
+                                        Only.
+                                    </strong>
                                 </td>
-
+                                <td align="center" valign="middle">
+                                    <strong>Total
+                                    </strong>
+                                </td>
+                                <td align="center" valign="middle">
+                                    <strong>
+                                        <xsl:variable name="totalAmount" select="number(sum(././Rolls/RollItem/TotalAmount))" />
+                                        <xsl:value-of select="$totalAmount" />
+                                    </strong>
+                                </td>
                             </tr>
                             <xsl:variable name="exchangeRate" select="77.25" />
                             <xsl:variable name="totalAmount" select="number(sum(././Rolls/RollItem/TotalAmount))" />
@@ -471,108 +505,70 @@
                             <xsl:variable name="SGSTAmount" select="number($totalPrice*$SGST div 100)" />
                             <xsl:variable name="GrossAmount" select="number($totalPrice+$IGSTAmount +$CGSTAmount+$SGSTAmount)" />
                             <tr>
-                                <td colspan="8" align="left" valign="top" class="noBorder">
-
+                                <td colspan="3" rowspan="3" valign="top">
                                     <p>
-                                        <strong>Gross Wt. :
-                        <grosswt>
-                            <xsl:value-of select="./GROSSWT" />
-                        </grosswt>
-                                            KGS
-                                        </strong>
-                                        <strong>Net. Wt.   :
-                        <netwt>
-                            <xsl:value-of select="./NETWT" />
-                        </netwt>
-                                            KGS
-                                        </strong>
+                                        <strong>WEIGHT DETAILS :</strong>
                                     </p>
-
-                                </td>
-
-
-                            </tr>
-
-                            <tr>
-                                <td colspan="8" class="noBorder"></td>
-                            </tr>
-                            <tr>
-
-                                <td colspan="6" align="right" valign="top" class="noBorder">
                                     <p>
-                                        <strong>CONVERSION RATE Rs.
-                        <xsl:value-of select="$exchangeRate" />
-                                        </strong>
+                                        Gross Weight :      
+                                        <grosswt>
+                                            <xsl:value-of select="./GROSSWT" />
+                                        </grosswt>
+                                        KGS
+                                    </p>
+                                    <p>
+                                        Nett    Weight  :     
+                                        <netwt>
+                                            <xsl:value-of select="./NETWT" />
+                                        </netwt>
+                                        KGS
+                                    </p>
+                                    <p>
+                                        TOTAL CBM:   
+                                        <cbm>
+                                            <xsl:value-of select="./CBM" />
+                                        </cbm>
+                                        CBM (Approx)
                                     </p>
                                 </td>
-                                <td colspan="2" valign="top" class="noBorder">
+                                <td valign="top" colspan="6" class="noBorder">
                                     <p>
-                                        <xsl:value-of select="$totalPrice" />
+                                        <strong>Composition:</strong>
                                     </p>
                                 </td>
                             </tr>
                             <tr>
-
-                                <td colspan="6" align="right" valign="top" class="noBorder">
+                                <td colspan="6" class="noBorder">
                                     <p>
-                                        <strong>I.G.S.T. @
-                        <igst>
-                            <xsl:value-of select="$IGST" />
-                        </igst>
-                                            %
-                                        </strong>
-                                    </p>
-                                    <p>
-                                        <strong>TOTAL TAX INVOICE VALLUE INR</strong>
-                                    </p>
-                                    <p>
-                                        <strong>ROUND OFF TAX INVOICE VALUE</strong>
-                                    </p>
-                                </td>
-                                <td colspan="2" valign="top" class="noBorder">
-                                    <p>
-                                        <xsl:value-of select="$IGSTAmount" />
-                                    </p>
-                                    <p>
-                                        <xsl:value-of select="format-number($GrossAmount,'#.##')" />
-                                    </p>
-                                    <p>
-                                        <strong>
-                                            <xsl:value-of select="format-number($GrossAmount,'#')" />
-                                        </strong>
-                                    </p>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td valign="top" colspan="8" class="noBorder"></td>
-                            </tr>
-                            <tr>
-                                <td valign="top" colspan="8" class="noBorder">
-
-
-                                    <p>
-                                        <strong>We Declare that No child Labour used in the above products</strong>
+                                        <composition>
+                                            <xsl:value-of select="./Composition" />
+                                        </composition>
                                     </p>
                                 </td>
                             </tr>
                             <tr>
-                                <td valign="top" colspan="4" class="noBorder">
-
-
-
-
-
-
-
-
-
-                                    <p>Declaration : </p>
-                                    <p>1. We intend to claim rewards under RODTEP Scheme	</p>
-                                    <p>2. We abide by provisional of foreign exchange management Act regarding realization.	</p>
-                                    <p>3. We declare that this invoice shows the actual price of the goods described and all particulars are true and correct.</p>
+                                <td colspan="6" class="noBorder"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="9" class="noBorder"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="9" class="noBorder"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="9" class="noBorder">
+                                    <p>
+                                        Declaration :
+                                    </p>
                                 </td>
-                                <td valign="top" colspan="4"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="9" valign="middle" class="noBorder">
+                                    <p>1. We intend to claim rewards under rodtep Scheme</p>
+                                    <p>2. We abide by provisional of foreign exchange management Act regarding realization.</p>
+                                    <p>3. We declare that this invoice shows the actual price of the goods described and all particulars are true and correct</p>
+                                </td>
+
                             </tr>
                         </table>
                     </invoiceitem>

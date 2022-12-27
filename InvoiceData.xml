@@ -2,17 +2,26 @@
 <?xml-stylesheet type="text/xsl" href="XSLTFile1.xslt"?>
 <InvoiceList>
   <InvoiceItem>
-    <INVOICEID>1</INVOICEID>
-    <TINVOICENO>1/21-22</TINVOICENO>
-    <INVOICEDATE>05-03-2022</INVOICEDATE>
-    <TCONSIGNEE>YARAGHI LLC,ABCD</TCONSIGNEE>
-    <TBUYEROCONSIGNEE>YARAGHI LLC,ABCD,1,,,YARALLCSGN@GMAIL.COM</TBUYEROCONSIGNEE>
+    <signature>http://localhost:11783/Images/signature/client-42.png</signature>
+    <INVOICEID>12</INVOICEID>
+    <TINVOICENO>VCM-21-2022</TINVOICENO>
+    <INVOICEDATE>2022-12-19T00:00:00</INVOICEDATE>
+    <TCONSIGNEE>
+      BEN SOLEIMANI,6901 S ALAMEDA ST HUNTINGTON PARK
+      LOS ANGELES,CA 90001 ATTN: BEN SOLEMANI
+      USA,+1 646 5238126
+    </TCONSIGNEE>
+    <TBUYEROCONSIGNEE>
+      BEN SOLEIMANI,6901 S ALAMEDA ST HUNTINGTON PARK
+      LOS ANGELES,CA 90001 ATTN: BEN SOLEMANI
+      USA,3,+1 646 5238126,,
+    </TBUYEROCONSIGNEE>
     <FINALDESTINATION>USA</FINALDESTINATION>
-    <PORTOFDISCHARGE>USA</PORTOFDISCHARGE>
+    <PORTOFDISCHARGE>LOS ANGELES</PORTOFDISCHARGE>
     <INSURANCE>0.000000000000000e+000</INSURANCE>
     <FREIGHT>0.000000000000000e+000</FREIGHT>
-    <NETWT>250.60</NETWT>
-    <GROSSWT>305.00</GROSSWT>
+    <NETWT>0.00</NETWT>
+    <GROSSWT>0.00</GROSSWT>
     <IGST>0.00</IGST>
     <CGST>0.00</CGST>
     <SGST>0.00</SGST>
@@ -21,199 +30,395 @@
     <Ex2Rate>0.00</Ex2Rate>
     <ExtraCharges>0.00</ExtraCharges>
     <CBM>0.00</CBM>
-    <Composition>80% WOOL 20% COTTON</Composition>
-    <DescriptionOfGoods>INDIAN HANDMADE WOOLEN CARPETS</DescriptionOfGoods>
+    <Composition></Composition>
+    <DescriptionOfGoods>INDIAN HANDLOOM WOOLEN CARPETS,HAND LOOM POLYSTER CARPETS &amp; HANDWOVEN POLYSTER RUG &amp; HAND KNOTTED</DescriptionOfGoods>
     <LessAdvance>0.000000000000000e+000</LessAdvance>
     <DiscountAmt>0.000000000000000e+000</DiscountAmt>
     <SUQty></SUQty>
     <PreferentialAgreement></PreferentialAgreement>
     <PackingCharges>0.000000000000000e+000</PackingCharges>
     <GstinType></GstinType>
-    <SHIPINGID>1</SHIPINGID>
-    <RollMark>YL</RollMark>
+    <SHIPINGID>2</SHIPINGID>
+    <RollMark>BYS</RollMark>
     <ShipToAddress></ShipToAddress>
     <CARRIAGENAME>BY TRUCK</CARRIAGENAME>
-    <VESSELFLIGHTNO>BY AIR</VESSELFLIGHTNO>
-    <PORTOFLOADING>VARANASI</PORTOFLOADING>
-    <COMPANYNAME>ROYAL INTERNATIONAL</COMPANYNAME>
-    <COMPADDR1>BIHARA POWER HOUSE,THTARA, VARANASI-221307</COMPADDR1>
+    <VESSELFLIGHTNO>BY SEA</VESSELFLIGHTNO>
+    <PORTOFLOADING>NHAWAN SHEVA,MUMBAI</PORTOFLOADING>
+    <COMPANYNAME>VIKRAM CARPETS</COMPANYNAME>
+    <COMPADDR1>KATRA BAJI RAO, MIRZAPUR</COMPADDR1>
     <COMPADDR2></COMPADDR2>
     <COMPADDR3></COMPADDR3>
-    <COMPTEL>9935072247</COMPTEL>
+    <COMPTEL>05442-356589</COMPTEL>
     <COMPFAX></COMPFAX>
-    <EMAIL>carpets@gmail.com</EMAIL>
-    <GSTNO>09AADCI0277P9Z9</GSTNO>
-    <RECEIPTAT>VARANASI</RECEIPTAT>
+    <EMAIL>vikramcarpetsmzp@gmail.com</EMAIL>
+    <GSTNO>09AANPJ4088L1Z0</GSTNO>
+    <RECEIPTAT>MIRZAPUR</RECEIPTAT>
     <PAYMENTMODE>30 DAYS</PAYMENTMODE>
     <PAYMENTTERMS>FOB</PAYMENTTERMS>
     <CURRENCY>USD</CURRENCY>
-    <CURRENCYTYPERS>US</CURRENCYTYPERS>
+    <CURRENCYTYPERS>USD</CURRENCYTYPERS>
     <CURRENCYTYPEPS>CENT</CURRENCYTYPEPS>
-    <BankName>INDIAN BANK</BankName>
-    <Ifscode>IDIB000C634</Ifscode>
-    <BankAddress>KACHHAWAN ROAD VARANASI VARANASI UP INDIA</BankAddress>
-    <ADCode></ADCode>
-    <BankAccountNo>44122706328</BankAccountNo>
+    <BankName>CANARA BANK</BankName>
+    <Ifscode>CNRB0001457</Ifscode>
+    <BankAddress>BAJIRAO KATARA MIRZAPUR MIRZAPUR UP INDIA</BankAddress>
+    <ADCode>A00124</ADCode>
+    <BankAccountNo>24578</BankAccountNo>
     <ContectPerson></ContectPerson>
-    <SwiftCode>IDIBINBBRPK</SwiftCode>
+    <SwiftCode>-</SwiftCode>
     <AccountType>1</AccountType>
     <UNITID>2</UNITID>
     <UNITNAME>Ft</UNITNAME>
-    <Mark>YL</Mark>
-    <NotifyByAir>
-      KUEHNE + NAGEL INC.
-      10 EXCHANGE PL, 19TH FLOOR JERSEY CITY, NJ 07302
-      UNITED STATES
-    </NotifyByAir>
+    <Mark>BEN</Mark>
+    <NotifyByAir></NotifyByAir>
     <IECode></IECode>
     <FactoryAddress></FactoryAddress>
-    <RollMarkHead>R</RollMarkHead>
+    <RollMarkHead></RollMarkHead>
     <ExpRef></ExpRef>
     <TinNo></TinNo>
     <EDPNo></EDPNo>
     <LUTArnNo></LUTArnNo>
-    <PackingDATE>2022-03-05T00:00:00</PackingDATE>
-    <NotifyBySea>
-      KUEHNE + NAGEL INC.
-      10 EXCHANGE PL, 19TH FLOOR JERSEY CITY, NJ 07302
-      UNITED STATES
-    </NotifyBySea>
-    <CustomerCountryName>U.S.A.</CustomerCountryName>
-    <totorder>280222</totorder>
+    <PackingDATE>2022-12-19T00:00:00</PackingDATE>
+    <NotifyBySea></NotifyBySea>
+    <CustomerCountryName>USA</CustomerCountryName>
+    <AgentName>AA</AgentName>
+    <totorder>PO001850, PO001894</totorder>
     <Rolls>
       <RollItem>
-        <Id>1</Id>
+        <Id>287</Id>
         <RollNo>1</RollNo>
         <Rollfrom>1</Rollfrom>
-        <RollTo>50</RollTo>
-        <RPcs>2</RPcs>
-        <TotalPcs>100</TotalPcs>
-        <TotalRoll>50</TotalRoll>
-        <OrderId>1</OrderId>
-        <RugId />
-        <DESIGN>SM006</DESIGN>
-        <COLOR>NAVY</COLOR>
-        <WIDTH>2.00</WIDTH>
-        <LENGTH>3.00</LENGTH>
-        <PCS>100</PCS>
-        <PRICE>43.50</PRICE>
-        <AREA>600.00</AREA>
-        <CBM>0.45</CBM>
-        <CALTYPEAMT>0</CALTYPEAMT>
-        <PurchaseCode />
-        <L>90</L>
-        <W>10</W>
-        <H>10</H>
-        <Quality>WOOLEN DURRY</Quality>
-        <SinglePcsNetWt>0.90</SinglePcsNetWt>
-        <SinglePcsGrossWt>1.20</SinglePcsGrossWt>
-        <StyleNo />
-        <OrderId>1</OrderId>
-        <CustomerOrderNo>280221</CustomerOrderNo>
-        <LocalOrder>L 1</LocalOrder>
-        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
-        <DesignName>SM006</DesignName>
-        <designId>1</designId>
-        <SizeFT>2.00x3.00</SizeFT>
-        <SizeMtr>60x91</SizeMtr>
-        <ITEM_ID>1</ITEM_ID>
-        <HSNCode>9044</HSNCode>
-        <AreaFT>6.00</AreaFT>
-        <AreaMtr>0.55</AreaMtr>
-        <SKUNO />
-        <Composition />
-        <Description />
-        <TotalAmount>4350.00</TotalAmount>
-      </RollItem>
-      <RollItem>
-        <Id>1</Id>
-        <RollNo>1</RollNo>
-        <Rollfrom>1</Rollfrom>
-        <RollTo>50</RollTo>
-        <RPcs>2</RPcs>
-        <TotalPcs>100</TotalPcs>
-        <TotalRoll>50</TotalRoll>
-        <OrderId>1</OrderId>
-        <RugId />
-        <DESIGN>SM006</DESIGN>
-        <COLOR>NAVY</COLOR>
-        <WIDTH>2.00</WIDTH>
-        <LENGTH>3.00</LENGTH>
-        <PCS>100</PCS>
-        <PRICE>43.50</PRICE>
-        <AREA>600.00</AREA>
-        <CBM>0.45</CBM>
-        <CALTYPEAMT>0</CALTYPEAMT>
-        <PurchaseCode />
-        <L>90</L>
-        <W>10</W>
-        <H>10</H>
-        <Quality>WOOLEN DURRY</Quality>
-        <SinglePcsNetWt>0.90</SinglePcsNetWt>
-        <SinglePcsGrossWt>1.20</SinglePcsGrossWt>
-        <StyleNo />
-        <OrderId>1</OrderId>
-        <CustomerOrderNo>280222</CustomerOrderNo>
-        <LocalOrder>L 1</LocalOrder>
-        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
-        <DesignName>SM006</DesignName>
-        <designId>1</designId>
-        <SizeFT>2.00x3.00</SizeFT>
-        <SizeMtr>60x91</SizeMtr>
-        <ITEM_ID>1</ITEM_ID>
-        <HSNCode>9044</HSNCode>
-        <AreaFT>6.00</AreaFT>
-        <AreaMtr>0.55</AreaMtr>
-        <SKUNO />
-        <Composition />
-        <Description />
-        <TotalAmount>4350.00</TotalAmount>
-      </RollItem>
-      <RollItem>
-        <Id>2</Id>
-        <RollNo>51</RollNo>
-        <Rollfrom>51</Rollfrom>
-        <RollTo>100</RollTo>
+        <RollTo>4</RollTo>
         <RPcs>1</RPcs>
-        <TotalPcs>50</TotalPcs>
-        <TotalRoll>50</TotalRoll>
-        <OrderId>1</OrderId>
+        <TotalPcs>4</TotalPcs>
+        <TotalRoll>4</TotalRoll>
+        <OrderId>41</OrderId>
         <RugId />
-        <DESIGN>SM006</DESIGN>
-        <COLOR>NAVY</COLOR>
-        <WIDTH>4.00</WIDTH>
+        <DESIGN>BC61235</DESIGN>
+        <COLOR>LINEN</COLOR>
+        <WIDTH>9.00</WIDTH>
+        <LENGTH>12.00</LENGTH>
+        <PCS>4</PCS>
+        <PRICE>1.26</PRICE>
+        <AREA>432.00</AREA>
+        <CBM>70.00</CBM>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <PurchaseCode />
+        <L>280</L>
+        <W>250</W>
+        <H>250</H>
+        <Quality>JUTE RUG</Quality>
+        <SinglePcsNetWt>25.00</SinglePcsNetWt>
+        <SinglePcsGrossWt>26.52</SinglePcsGrossWt>
+        <StyleNo />
+        <OrderId>41</OrderId>
+        <CustomerOrderNo>PO001894</CustomerOrderNo>
+        <LocalOrder>L 41</LocalOrder>
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+        <DesignName>VCDJ-19641</DesignName>
+        <designId>253</designId>
+        <SizeFT>9.00x12.00</SizeFT>
+        <SizeMtr>274x365</SizeMtr>
+        <ITEM_ID>2</ITEM_ID>
+        <HSNCode />
+        <AreaFT>108.00</AreaFT>
+        <AreaMtr>10.00</AreaMtr>
+        <SKUNO />
+        <TotalAmount>5.04</TotalAmount>
+      </RollItem>
+      <RollItem>
+        <Id>288</Id>
+        <RollNo>5</RollNo>
+        <Rollfrom>5</Rollfrom>
+        <RollTo>8</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>4</TotalPcs>
+        <TotalRoll>4</TotalRoll>
+        <OrderId>41</OrderId>
+        <RugId />
+        <DESIGN>BC86646</DESIGN>
+        <COLOR>SAND</COLOR>
+        <WIDTH>10.00</WIDTH>
+        <LENGTH>14.00</LENGTH>
+        <PCS>4</PCS>
+        <PRICE>1.26</PRICE>
+        <AREA>560.00</AREA>
+        <CBM>21.50</CBM>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <PurchaseCode />
+        <L>210</L>
+        <W>160</W>
+        <H>160</H>
+        <Quality>8/42 NEPALI</Quality>
+        <SinglePcsNetWt>28.00</SinglePcsNetWt>
+        <SinglePcsGrossWt>29.50</SinglePcsGrossWt>
+        <StyleNo />
+        <OrderId>41</OrderId>
+        <CustomerOrderNo>PO001894</CustomerOrderNo>
+        <LocalOrder>L 41</LocalOrder>
+        <ITEM_NAME>HAND KNOTTED</ITEM_NAME>
+        <DesignName>VCN-21466</DesignName>
+        <designId>204</designId>
+        <SizeFT>10.00x14.00</SizeFT>
+        <SizeMtr>304x426</SizeMtr>
+        <ITEM_ID>4</ITEM_ID>
+        <HSNCode />
+        <AreaFT>140.00</AreaFT>
+        <AreaMtr>12.95</AreaMtr>
+        <SKUNO />
+        <TotalAmount>5.04</TotalAmount>
+      </RollItem>
+      <RollItem>
+        <Id>289</Id>
+        <RollNo>9</RollNo>
+        <Rollfrom>9</Rollfrom>
+        <RollTo>14</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>6</TotalPcs>
+        <TotalRoll>6</TotalRoll>
+        <OrderId>41</OrderId>
+        <RugId />
+        <DESIGN>BC63938</DESIGN>
+        <COLOR>SILVER</COLOR>
+        <WIDTH>6.00</WIDTH>
         <LENGTH>6.00</LENGTH>
-        <PCS>50</PCS>
-        <PRICE>43.50</PRICE>
-        <AREA>1200.00</AREA>
-        <CBM>3.60</CBM>
+        <PCS>6</PCS>
+        <PRICE>1.26</PRICE>
+        <AREA>216.00</AREA>
+        <CBM>7.29</CBM>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <PurchaseCode />
+        <L>150</L>
+        <W>90</W>
+        <H>90</H>
+        <Quality>CUT PILE </Quality>
+        <SinglePcsNetWt>15.00</SinglePcsNetWt>
+        <SinglePcsGrossWt>16.30</SinglePcsGrossWt>
+        <StyleNo />
+        <OrderId>41</OrderId>
+        <CustomerOrderNo>PO001894</CustomerOrderNo>
+        <LocalOrder>L 41</LocalOrder>
+        <ITEM_NAME>HAND LOOM</ITEM_NAME>
+        <DesignName>VCH-34373</DesignName>
+        <designId>256</designId>
+        <SizeFT>6.00x6.00</SizeFT>
+        <SizeMtr>182x182</SizeMtr>
+        <ITEM_ID>11</ITEM_ID>
+        <HSNCode />
+        <AreaFT>36.00</AreaFT>
+        <AreaMtr>3.31</AreaMtr>
+        <SKUNO />
+        <TotalAmount>7.56</TotalAmount>
+      </RollItem>
+      <RollItem>
+        <Id>290</Id>
+        <RollNo>15</RollNo>
+        <Rollfrom>15</Rollfrom>
+        <RollTo>22</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>8</TotalPcs>
+        <TotalRoll>8</TotalRoll>
+        <OrderId>41</OrderId>
+        <RugId />
+        <DESIGN>BC87084</DESIGN>
+        <COLOR>GREY</COLOR>
+        <WIDTH>12.00</WIDTH>
+        <LENGTH>15.00</LENGTH>
+        <PCS>8</PCS>
+        <PRICE>1.26</PRICE>
+        <AREA>1440.00</AREA>
+        <CBM>66.42</CBM>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <PurchaseCode />
+        <L>230</L>
+        <W>190</W>
+        <H>190</H>
+        <Quality>CUT/LOOP PILE</Quality>
+        <SinglePcsNetWt>30.00</SinglePcsNetWt>
+        <SinglePcsGrossWt>31.25</SinglePcsGrossWt>
+        <StyleNo />
+        <OrderId>41</OrderId>
+        <CustomerOrderNo>PO001894</CustomerOrderNo>
+        <LocalOrder>L 41</LocalOrder>
+        <ITEM_NAME>HAND LOOM</ITEM_NAME>
+        <DesignName>VCH-33512</DesignName>
+        <designId>254</designId>
+        <SizeFT>12.00x15.00</SizeFT>
+        <SizeMtr>365x457</SizeMtr>
+        <ITEM_ID>11</ITEM_ID>
+        <HSNCode />
+        <AreaFT>180.00</AreaFT>
+        <AreaMtr>16.68</AreaMtr>
+        <SKUNO />
+        <TotalAmount>10.08</TotalAmount>
+      </RollItem>
+      <RollItem>
+        <Id>291</Id>
+        <RollNo>23</RollNo>
+        <Rollfrom>23</Rollfrom>
+        <RollTo>28</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>6</TotalPcs>
+        <TotalRoll>6</TotalRoll>
+        <OrderId>7</OrderId>
+        <RugId />
+        <DESIGN>BC90955</DESIGN>
+        <COLOR>HEATHER</COLOR>
+        <WIDTH>10.00</WIDTH>
+        <LENGTH>14.00</LENGTH>
+        <PCS>6</PCS>
+        <PRICE>1.26</PRICE>
+        <AREA>840.00</AREA>
+        <CBM>32.26</CBM>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <PurchaseCode />
+        <L>210</L>
+        <W>160</W>
+        <H>160</H>
+        <Quality>POLYESTER RUG</Quality>
+        <SinglePcsNetWt>16.00</SinglePcsNetWt>
+        <SinglePcsGrossWt>18.00</SinglePcsGrossWt>
+        <StyleNo />
+        <OrderId>7</OrderId>
+        <CustomerOrderNo>PO001850</CustomerOrderNo>
+        <LocalOrder>L 7</LocalOrder>
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+        <DesignName>VCD-33697</DesignName>
+        <designId>202</designId>
+        <SizeFT>10.00x14.00</SizeFT>
+        <SizeMtr>304x426</SizeMtr>
+        <ITEM_ID>2</ITEM_ID>
+        <HSNCode />
+        <AreaFT>140.00</AreaFT>
+        <AreaMtr>12.95</AreaMtr>
+        <SKUNO />
+        <TotalAmount>7.56</TotalAmount>
+      </RollItem>
+      <RollItem>
+        <Id>292</Id>
+        <RollNo>29</RollNo>
+        <Rollfrom>29</Rollfrom>
+        <RollTo>34</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>6</TotalPcs>
+        <TotalRoll>6</TotalRoll>
+        <OrderId>7</OrderId>
+        <RugId />
+        <DESIGN>BC90912</DESIGN>
+        <COLOR>WHITE/CHARCOAL</COLOR>
+        <WIDTH>9.00</WIDTH>
+        <LENGTH>12.00</LENGTH>
+        <PCS>6</PCS>
+        <PRICE>1.26</PRICE>
+        <AREA>648.00</AREA>
+        <CBM>24.30</CBM>
         <CALTYPEAMT>0</CALTYPEAMT>
         <PurchaseCode />
         <L>180</L>
-        <W>20</W>
-        <H>20</H>
-        <Quality>WOOLEN DURRY</Quality>
-        <SinglePcsNetWt>3.80</SinglePcsNetWt>
-        <SinglePcsGrossWt>4.10</SinglePcsGrossWt>
+        <W>150</W>
+        <H>150</H>
+        <Quality>3/9 PILE DURRY</Quality>
+        <SinglePcsNetWt>16.00</SinglePcsNetWt>
+        <SinglePcsGrossWt>17.00</SinglePcsGrossWt>
         <StyleNo />
-        <OrderId>1</OrderId>
-        <CustomerOrderNo>280222</CustomerOrderNo>
-        <LocalOrder>L 1</LocalOrder>
-        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
-        <DesignName>SM006</DesignName>
-        <designId>1</designId>
-        <SizeFT>4.00x6.00</SizeFT>
-        <SizeMtr>121x182</SizeMtr>
-        <ITEM_ID>1</ITEM_ID>
-        <HSNCode>9044</HSNCode>
-        <AreaFT>24.00</AreaFT>
-        <AreaMtr>2.20</AreaMtr>
+        <OrderId>7</OrderId>
+        <CustomerOrderNo>PO001850</CustomerOrderNo>
+        <LocalOrder>L 7</LocalOrder>
+        <ITEM_NAME>HAND KNOTTED</ITEM_NAME>
+        <DesignName>VCN-29880</DesignName>
+        <designId>203</designId>
+        <SizeFT>9.00x12.00</SizeFT>
+        <SizeMtr>274x365</SizeMtr>
+        <ITEM_ID>4</ITEM_ID>
+        <HSNCode />
+        <AreaFT>108.00</AreaFT>
+        <AreaMtr>10.00</AreaMtr>
         <SKUNO />
-        <Composition />
-        <Description />
-        <TotalAmount>2175.00</TotalAmount>
+        <TotalAmount>7.56</TotalAmount>
+      </RollItem>
+      <RollItem>
+        <Id>293</Id>
+        <RollNo>35</RollNo>
+        <Rollfrom>35</Rollfrom>
+        <RollTo>42</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>8</TotalPcs>
+        <TotalRoll>8</TotalRoll>
+        <OrderId>7</OrderId>
+        <RugId />
+        <DESIGN>BC90418</DESIGN>
+        <COLOR>IVORY/TRUFFLE</COLOR>
+        <WIDTH>9.00</WIDTH>
+        <LENGTH>12.00</LENGTH>
+        <PCS>8</PCS>
+        <PRICE>1.26</PRICE>
+        <AREA>864.00</AREA>
+        <CBM>32.40</CBM>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <PurchaseCode />
+        <L>180</L>
+        <W>150</W>
+        <H>150</H>
+        <Quality>CUT+LOOP PILE</Quality>
+        <SinglePcsNetWt>18.00</SinglePcsNetWt>
+        <SinglePcsGrossWt>19.00</SinglePcsGrossWt>
+        <StyleNo />
+        <OrderId>7</OrderId>
+        <CustomerOrderNo>PO001850</CustomerOrderNo>
+        <LocalOrder>L 7</LocalOrder>
+        <ITEM_NAME>HAND LOOM</ITEM_NAME>
+        <DesignName>VCH-33513</DesignName>
+        <designId>200</designId>
+        <SizeFT>9.00x12.00</SizeFT>
+        <SizeMtr>274x365</SizeMtr>
+        <ITEM_ID>11</ITEM_ID>
+        <HSNCode />
+        <AreaFT>108.00</AreaFT>
+        <AreaMtr>10.00</AreaMtr>
+        <SKUNO />
+        <TotalAmount>10.08</TotalAmount>
+      </RollItem>
+      <RollItem>
+        <Id>294</Id>
+        <RollNo>43</RollNo>
+        <Rollfrom>43</Rollfrom>
+        <RollTo>50</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>8</TotalPcs>
+        <TotalRoll>8</TotalRoll>
+        <OrderId>7</OrderId>
+        <RugId />
+        <DESIGN>BC88640</DESIGN>
+        <COLOR>SILVER</COLOR>
+        <WIDTH>8.00</WIDTH>
+        <LENGTH>10.00</LENGTH>
+        <PCS>8</PCS>
+        <PRICE>1.26</PRICE>
+        <AREA>640.00</AREA>
+        <CBM>32.40</CBM>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <PurchaseCode />
+        <L>180</L>
+        <W>150</W>
+        <H>150</H>
+        <Quality>CUT+LOOP PILE</Quality>
+        <SinglePcsNetWt>15.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>16.95</SinglePcsGrossWt>
+        <StyleNo />
+        <OrderId>7</OrderId>
+        <CustomerOrderNo>PO001850</CustomerOrderNo>
+        <LocalOrder>L 7</LocalOrder>
+        <ITEM_NAME>HAND LOOM</ITEM_NAME>
+        <DesignName>VCH-33840</DesignName>
+        <designId>201</designId>
+        <SizeFT>8.00x10.00</SizeFT>
+        <SizeMtr>243x304</SizeMtr>
+        <ITEM_ID>11</ITEM_ID>
+        <HSNCode />
+        <AreaFT>80.00</AreaFT>
+        <AreaMtr>7.39</AreaMtr>
+        <SKUNO />
+        <TotalAmount>10.08</TotalAmount>
       </RollItem>
     </Rolls>
-    <signature>http://localhost:11783/Images/signature/client-42.png</signature>
   </InvoiceItem>
 </InvoiceList>
