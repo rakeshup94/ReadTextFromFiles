@@ -1,5 +1,5 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0" xmlns:myUtils="pda:MyUtils">
-  <xsl:output method="xml" indent="yes" />
+  <xsl:output method="xml" indent="yes"/>
   <xsl:key name="groupByContainer" match="/InvoiceList/InvoiceItem/Rolls/RollItem" use="concat(./Quality,./CustomerOrderNo)" />
   <xsl:template name="dots" match="/">
     <html xmlns="http://www.w3.org/1999/xhtml">
@@ -352,9 +352,9 @@
 
                       <xsl:variable name="vGroup" select="key('groupByContainer', concat(./Quality,./CustomerOrderNo))" />
 
-                      <tr>
-                        <td valign="top" colspan="7">
 
+                      <tr>
+                        <td align="center" valign="middle" colspan="2">
 
                           <p>
 
@@ -376,15 +376,24 @@
 
                           </p>
                         </td>
+                      
+
+                        <td align="center" valign="middle"></td>
+                        <td align="center" valign="middle"></td>
+
+
+                        <td align="center" valign="middle"></td>
+                        <td align="center" valign="middle"></td>
+                        <td align="center" valign="middle"></td>
                       </tr>
-           
                       <xsl:for-each select="$vGroup">
+
                         <tr>
-                          <td align="center" valign="middle">
+                          <td align="center" valign="middle" width="60">
                             <xsl:value-of select="position()" />
-                          
+
                           </td>
-                          <td align="center" valign="middle">
+                          <td align="center" valign="middle" width="140">
 
 
 
@@ -393,7 +402,7 @@
                             <item_name>
                               <xsl:value-of select="ITEM_NAME" />
                             </item_name>
-                       
+
 
                             <description>
                               <xsl:value-of select="Description" />
@@ -401,29 +410,29 @@
 
                           </td>
 
-                          <td align="center" valign="middle">
+                          <td align="center" valign="middle" width="100">
                             <sizeft>
                               <xsl:value-of select="SizeFT" />
                             </sizeft>
                           </td>
-                          <td align="center" valign="middle">
+                          <td align="center" valign="middle" width="100">
                             <pcs>
                               <xsl:value-of select="PCS" />
                             </pcs>
                           </td>
 
 
-                          <td align="center" valign="middle">
+                          <td align="center" valign="middle" width="100">
                             <areaft>
                               <xsl:value-of select="AreaFT" />
                             </areaft>
                           </td>
-                          <td align="center" valign="middle">
+                          <td align="center" valign="middle" width="100">
                             <price>
                               <xsl:value-of select="PRICE" />
                             </price>
                           </td>
-                          <td align="center" valign="middle">
+                          <td align="center" valign="middle" width="100">
                             <itemprice>
                               <xsl:value-of select="TotalAmount" />
                             </itemprice>
@@ -465,17 +474,20 @@
 
                 <tr>
                   <td align="left" colspan="7" valign="middle">
-                    <p>Amount Chargeable</p>
                     <p>
-                      <strong>
-                        in word :
+                      Amount Chargeable     <strong>
+                   
                         <xsl:value-of select="myUtils:NumberToWords(sum(././Rolls/RollItem/TotalAmount))" />
                         Only.
                       </strong>
                     </p>
+                  
 
                   </td>
 
+                </tr>
+                <tr>
+                  <td colspan="7" class="noBorder"></td>
                 </tr>
                 <xsl:variable name="exchangeRate" select="77.25" />
                 <xsl:variable name="totalAmount" select="number(sum(././Rolls/RollItem/TotalAmount))" />
@@ -517,7 +529,7 @@
                 </tr>
                 <tr>
 
-                  <td colspan="5" align="right" valign="top" class="noBorder">
+                  <td colspan="6" align="right" valign="top" class="noBorder">
                     <p>
                       <strong>
                         CONVERSION RATE Rs.
@@ -525,7 +537,7 @@
                       </strong>
                     </p>
                   </td>
-                  <td colspan="2"  valign="top" class="noBorder">
+                  <td valign="top" class="noBorder">
                     <p>
                       <xsl:value-of select="$totalPrice" />
                     </p>
@@ -533,7 +545,7 @@
                 </tr>
                 <tr>
 
-                  <td colspan="5" align="right" valign="top" class="noBorder">
+                  <td colspan="6" align="right" valign="top" class="noBorder">
                     <p>
                       <strong>
                         I.G.S.T. @
@@ -550,7 +562,7 @@
                       <strong>ROUND OFF TAX INVOICE VALUE</strong>
                     </p>
                   </td>
-                  <td colspan="2"  valign="top" class="noBorder">
+                  <td valign="top" class="noBorder">
                     <p>
                       <xsl:value-of select="$IGSTAmount" />
                     </p>
@@ -579,15 +591,6 @@
                 </tr>
                 <tr>
                   <td valign="top" colspan="4" class="noBorder">
-
-
-
-
-
-
-
-
-
                     <p>Declaration : </p>
                     <p>1. We intend to claim rewards under RODTEP Scheme	</p>
                     <p>2. We abide by provisional of foreign exchange management Act regarding realization.	</p>

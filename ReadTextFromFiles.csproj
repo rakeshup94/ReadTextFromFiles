@@ -71,6 +71,9 @@
     <Content Include="Invoice\COURISTANPackingList.xslt">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Invoice\DesignIdeasPacking.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Invoice\Invoice.xslt" />
     <Content Include="Invoice\KalatyPackingList.xslt">
       <SubType>Designer</SubType>
@@ -78,7 +81,7 @@
     <Content Include="Invoice\MISAWA.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Invoice\DesignIdeas.xslt">
+    <Content Include="Invoice\DesignIdeasInvoice.xslt">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Invoice\COURISTANInvoice.xslt">
