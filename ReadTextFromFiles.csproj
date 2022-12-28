@@ -78,6 +78,9 @@
     <Content Include="Invoice\KalatyPackingList.xslt">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Invoice\MISAWAPackingList.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Invoice\MISAWA.xslt">
       <SubType>Designer</SubType>
     </Content>
@@ -111,9 +114,6 @@
     <Content Include="Images\SHYM 2.jpg" />
     <Content Include="Images\SHYM 3.jpg" />
     <Content Include="Images\signature\client-42.png" />
-    <Content Include="BenutaInvoice.xslt">
-      <SubType>Designer</SubType>
-    </Content>
     <Content Include="Invoice\PackingList.xslt" />
     <Content Include="Invoice\SuryaPackingList.xslt" />
     <Content Include="Invoice\SuryaInvoice.xslt">
