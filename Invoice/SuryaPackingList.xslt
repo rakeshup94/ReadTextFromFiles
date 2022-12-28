@@ -20,6 +20,23 @@
           margin-bottom: 5px;
           margin-top: 0px;
           }
+
+          .noBorder {
+          border: none !important;
+          }
+
+
+          .notopBorder {
+          border: none !important;
+          }
+
+
+          .notop {
+          border-top: none !important;
+          }
+          .nobottom {
+          border-bottom: none !important;
+          }
         </style>
       </head>
       <body>
@@ -35,38 +52,15 @@
                   </td>
                 </tr>
                 <tr>
-                  <td valign="top" colspan="4">
+                  <td valign="top" colspan="4" rowspan="3"  class="noBorder">
                     <p>
                       <strong>Exporter :</strong>
                     </p>
-                  </td>
-                  <td valign="top" colspan="5">
-                    <p>
-                      <strong>Invoice No  &amp; Date</strong>
-                    </p>
-                  </td>
-                </tr>
-                <tr>
-                  <td valign="top" colspan="4">
                     <p>
                       <COMPANYNAME>
                         <xsl:value-of select="./COMPANYNAME" />
                       </COMPANYNAME>
                     </p>
-                  </td>
-                  <td valign="top" colspan="5">
-                    <p>
-                      <TINVOICENO>
-                        <xsl:value-of select="./TINVOICENO" />
-                      </TINVOICENO>                                DATED -
-                      <INVOICEDATE>
-                        <xsl:value-of select="./INVOICEDATE" />
-                      </INVOICEDATE>
-                    </p>
-                  </td>
-                </tr>
-                <tr>
-                  <td valign="top" colspan="4">
                     <p>
                       <COMPADDR1>
                         <xsl:value-of select="./COMPADDR1" />
@@ -81,16 +75,43 @@
                   </td>
                   <td valign="top" colspan="5">
                     <p>
+                      <strong>Invoice No  &amp; Date</strong>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td valign="top" colspan="5">
+                    <p>
+                      <TINVOICENO>
+                        <xsl:value-of select="./TINVOICENO" />
+                      </TINVOICENO>                                DATED -
+                      <INVOICEDATE>
+                        <xsl:value-of select="./INVOICEDATE" />
+                      </INVOICEDATE>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td valign="top" colspan="5">
+                    <p>
                       <strong>Buyer's Order No </strong>
                     </p>
                   </td>
                 </tr>
                 <tr>
-                  <td valign="top" colspan="2">
+                  <td valign="top" colspan="2" rowspan="2"  class="noBorder">
                     <p>
                       <EMAIL>
                         <xsl:value-of select="./EMAIL" />
                       </EMAIL>
+                    </p>
+                    <p>
+                      <COMPTEL>
+                        <xsl:value-of select="./COMPTEL" />
+                      </COMPTEL>,
+                      <COMPFAX>
+                        <xsl:value-of select="./COMPFAX" />
+                      </COMPFAX>
                     </p>
                   </td>
                   <td valign="top">
@@ -114,16 +135,6 @@
                   </td>
                 </tr>
                 <tr>
-                  <td valign="top" colspan="2">
-                    <p>
-                      <COMPTEL>
-                        <xsl:value-of select="./COMPTEL" />
-                      </COMPTEL>,
-                      <COMPFAX>
-                        <xsl:value-of select="./COMPFAX" />
-                      </COMPFAX>
-                    </p>
-                  </td>
                   <td valign="top">
                     <p>
                       <strong>GSTIN #:  </strong>
@@ -375,7 +386,7 @@
                             </strong>
                           </p>
                         </td>
-                        <td valign="top">     </td>
+                        <td valign="top"></td>
                         <td valign="top" colspan="7">
                           <p>
                             <strong>
@@ -451,28 +462,16 @@
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="9" >
+                  <td colspan="9"  class="noBorder">
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="9" style="border:none;">
+                  <td colspan="9"  class="noBorder">
                   </td>
                 </tr>
-                <tr>
-                  <td colspan="9" style="border:none;">
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="4" style="border:none;">
-                  </td>
-                  <td colspan="5"  style="border:none;" >
-                  </td>
 
-
-
-                </tr>
                 <tr>
-                  <td colspan="4" align="left" valign="middle" style="border:none;">
+                  <td colspan="4" align="left" valign="middle" class="noBorder" >
                     <p>
                       <strong>
                         TOTAL ROLLS : <xsl:value-of select="number(sum(././Rolls/RollItem/TotalRoll))" />ROLLS
@@ -489,26 +488,9 @@
                       </strong>
                     </p>
                   </td>
-
-                  <td colspan="5"  align="center" valign="middle"  style="border:none;" >
-                    <p>
-                      <xsl:if test="./signature!= ''">
-                        <img width="182" height="73" alt="">
-                          <xsl:attribute name="src">
-                            <xsl:value-of select="./signature" />
-                          </xsl:attribute>
-                        </img>
-                      </xsl:if>
-                    </p>
+                  <td colspan="2" class="noBorder">
                   </td>
-
-                </tr>
-                <tr>
-                  <td colspan="9" style="border:none;">
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="9">
+                  <td colspan="3"  align="center" valign="middle">
                   </td>
                 </tr>
               </table>
