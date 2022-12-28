@@ -11,28 +11,22 @@
           table {
           border: 1px solid #ccc;
           }
-
           td {
           padding: 5px;
           }
-
           p {
           margin-bottom: 5px;
           margin-top: 0px;
           }
-
           .noBorder {
           border: none !important;
           }
-
           .topBorder {
           border-top: 2px solid #000 !important;
           }
-
           .nobottom {
           border-bottom: none !important;
           }
-
           .notop {
           border-top: none !important;
           }
@@ -46,7 +40,7 @@
                 <tr>
                   <td colspan="9" height="15px" style="padding-left: 5px; text-align: center; color: #000!important;">
                     <h4 style="font-family: inherit; font-weight: 500; color: #000 !important; margin-top: 10px; margin-bottom: 10px; font-size: 18px; font-family: Gotham, Helvetica, Arial, sans-serif;">
-                      PACKING LIST(Benuta)
+                      PACKING LIST
                     </h4>
                   </td>
                 </tr>
@@ -354,6 +348,7 @@
                     <rollitem>
                       <xsl:variable name="vGroup" select="key('groupByContainer', ./CustomerOrderNo)" />
                       <tr>
+                        <td></td>
                         <td align="center" valign="middle" colspan="4">
                           <strong>
                             <customerorderno>
@@ -379,7 +374,7 @@
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td></td>
+                      
                       </tr>
 
 
@@ -387,7 +382,7 @@
 
 
                         <tr>
-                          <td align="center" valign="middle">
+                          <td align="center" valign="middle" width="140">
 
                             <rollfrom>
                               <xsl:value-of select="Rollfrom" />
@@ -401,14 +396,14 @@
                             </totalpcs>
 
                           </td>
-                          <td align="center" valign="middle">
+                          <td align="center" valign="middle" width="70">
 
                             <description>
                               <xsl:value-of select="Description" />
                             </description>
 
                           </td>
-                          <td align="center" valign="middle">
+                          <td align="center" valign="middle" width="70">
 
                             <ean>
                               <xsl:value-of select="EAN" />
@@ -416,35 +411,35 @@
                           </td>
 
 
-                          <td align="center" valign="middle">
+                          <td align="center" valign="middle" width="70">
 
                             <benutaref>
                               <xsl:value-of select="benutaRef" />
                             </benutaref>
 
                           </td>
-                          <td align="center" valign="middle">
+                          <td align="center" valign="middle" width="70"> 
 
                             <color>
                               <xsl:value-of select="COLOR" />
                             </color>
 
                           </td>
-                          <td align="center" valign="middle">
+                          <td align="center" valign="middle" width="70">
 
                             <sizemtr>
                               <xsl:value-of select="SizeMtr" />
                             </sizemtr>
                           </td>
 
-                          <td align="center" valign="middle">
+                          <td align="center" valign="middle" width="70">
 
                             <pcs>
                               <xsl:value-of select="PCS" />
                             </pcs>
                           </td>
 
-                          <td align="center" valign="middle">
+                          <td align="center" valign="middle" width="70">
 
                             <areaft>
                               <xsl:value-of select="AreaMtr" />
@@ -452,7 +447,7 @@
                           </td>
 
 
-                          <td align="center" valign="middle">
+                          <td align="center" valign="middle" width="70">
 
                             <rpcs>
                               <xsl:value-of select="RPcs" />
