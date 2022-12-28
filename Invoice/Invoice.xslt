@@ -10,7 +10,6 @@
           table {
           border: 1px solid #ccc;
           }
-
           td {
           padding: 5px;
           }
