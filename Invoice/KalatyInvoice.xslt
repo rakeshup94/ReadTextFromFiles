@@ -33,8 +33,9 @@
               <table width="700" border="1" align="center" cellpadding="0" cellspacing="0" style="border: solid 1px #333">
                 <tr>
                   <td colspan="7" height="15px" style="padding-left: 5px;text-align: center;color: #000!important; ">
-                    <h4 style="font-family: inherit; font-weight: 500;color: #000 !important; margin-top: 10px; margin-bottom: 10px; font-size: 18px; font-family: Gotham, Helvetica, Arial, sans-serif;">        
-                      INVOICE  (Benuta)                    </h4>
+                    <h4 style="font-family: inherit; font-weight: 500;color: #000 !important; margin-top: 10px; margin-bottom: 10px; font-size: 18px; font-family: Gotham, Helvetica, Arial, sans-serif;">
+                      INVOICE
+                    </h4>
                   </td>
                 </tr>
                 <tr>
@@ -260,16 +261,39 @@
                       </RollMark>
                     </p>
                   </td>
-                  <td  valign="top">
+                  <td  valign="top" align="center">
                     <p>
                       <strong>No.&amp;Kinds of Pkgs. </strong>
                     </p>
-                    <p>
-                      <xsl:value-of select="number(sum(././Rolls/RollItem/TotalRoll))" />  (
-                      <xsl:value-of select="myUtils:NumberToWords(sum(././Rolls/RollItem/TotalRoll))" />
-                      Rolls Only.)
-                      <p>properly packed</p>
 
+                    <p>
+                      <strong>
+
+                        <xsl:for-each select="./Rolls/RollItem">
+                          <xsl:if test="position() = 1">
+                            <xsl:value-of select="Rollfrom" />
+                            -
+                          </xsl:if>
+                          <xsl:if test="position() = last()">
+                            <xsl:value-of select="RollTo" />
+                          </xsl:if>
+                        </xsl:for-each>
+                      </strong>
+
+
+
+
+
+
+
+                    </p>
+                    <p>
+                      <strong>
+                        <xsl:value-of select="number(sum(././Rolls/RollItem/TotalRoll))" />
+
+
+                        Rolls
+                      </strong>
                     </p>
                   </td>
                   <td colspan="5" valign="top" >
