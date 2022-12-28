@@ -106,6 +106,7 @@
     <Content Include="BenutaInvoice.xslt">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Invoice\PackingList.xslt" />
     <Content Include="Invoice\SuryaPackingList.xslt" />
     <Content Include="Invoice\SuryaInvoice.xslt">
       <SubType>Designer</SubType>
