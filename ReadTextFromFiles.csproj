@@ -107,7 +107,9 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="PackingList\KalatyPackingList.xslt" />
-    <Content Include="Invoice\SuryaInvoice.xslt" />
+    <Content Include="Invoice\SuryaInvoice.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="PackingList\SuryaPackingList.xslt" />
     <Content Include="Invoice.xslt" />
     <Content Include="tutorial.xml">
