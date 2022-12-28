@@ -44,7 +44,7 @@
         <invoicelist>
           <xsl:for-each select="/InvoiceList/InvoiceItem">
             <invoiceitem>
-              <table border="1" align="center" cellpadding="0" cellspacing="0" style="border: solid 1px #333">
+              <table width="500px" border="1" align="center" cellpadding="0" cellspacing="0" style="border: solid 1px #333">
                 <tr>
                   <td colspan="9" height="15px" style="padding-left: 5px; text-align: center; color: #000!important;">
                     <h4 style="font-family: inherit; font-weight: 500; color: #000 !important; margin-top: 10px; margin-bottom: 10px; font-size: 18px; font-family: Gotham, Helvetica, Arial, sans-serif;">INVOICE                      </h4>
@@ -399,8 +399,8 @@
 
                       <xsl:variable name="vGroup" select="key('groupByContainer', concat(./Quality,./CustomerOrderNo))" />
 
-                      <tr >
-                        <td align="center" valign="middle"  class="notop,nobottom">
+                      <tr>
+                        <td align="center" valign="middle"   class="notop,nobottom">
 
                           <p>
                             <strong>
@@ -425,7 +425,7 @@
 
                       <xsl:for-each select="$vGroup">
                         <tr >
-                          <td align="center" valign="middle"  class="notop,nobottom">
+                          <td align="center" width="100" valign="middle"  class="notop,nobottom">
                             <p>
 
                               PO#<customerorderno>
@@ -434,42 +434,42 @@
 
                             </p>
                           </td>
-                          <td align="center" valign="middle">
+                          <td align="center" width="80" valign="middle">
                             <hsncode>
                               <xsl:value-of select="HSNCode" />
                             </hsncode>
                           </td>
-                          <td align="center" valign="middle">
+                          <td align="center" width="70" valign="middle">
                             <styleno>
                               <xsl:value-of select="DESIGN" />
                             </styleno>
                           </td>
-                          <td align="center" valign="middle">
+                          <td align="center" width="90" valign="middle">
                             <sizeft>
                               <xsl:value-of select="SizeFT" />
                             </sizeft>
                           </td>
-                          <td align="center" valign="middle">
+                          <td align="center" width="70" valign="middle">
                             <areamtr>
                               <xsl:value-of select="AreaMtr" />
                             </areamtr>
                           </td>
-                          <td align="center" valign="middle">
+                          <td align="center" width="70" valign="middle">
                             <pcs>
                               <xsl:value-of select="PCS" />
                             </pcs>
                           </td>
-                          <td align="center" valign="middle">
+                          <td align="center" width="70" valign="middle">
                             <areaft>
                               <xsl:value-of select="AreaFT" />
                             </areaft>
                           </td>
-                          <td align="center" valign="middle">
+                          <td align="center" width="70" valign="middle">
                             <price>
                               <xsl:value-of select="PRICE" />
                             </price>
                           </td>
-                          <td align="center" valign="middle">
+                          <td align="center" width="80" valign="middle">
                             <itemprice>
                               <xsl:value-of select="TotalAmount" />
                             </itemprice>

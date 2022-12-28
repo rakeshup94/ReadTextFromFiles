@@ -317,38 +317,38 @@
                   </td>
                 </tr>
                 <tr>
-                  <td width="100" align="center" valign="middle">
+                  <td  align="center" valign="middle">
                     <strong>
                       Roll Nos.
 
                     </strong>
                   </td>
-                  <td width="100" align="center" valign="middle">
+                  <td  align="center" valign="middle">
                     <strong>
                       Pcs./Roll
 
                     </strong>
                   </td>
 
-                  <td width="120" align="center" valign="middle" colspan="2">
+                  <td  align="center" valign="middle" colspan="2">
                     <strong>QUALITY</strong>
                   </td>
-                  <td width="90" align="center" valign="middle">
+                  <td  align="center" valign="middle">
                     <strong>
                       DESIGN
                     </strong>
                   </td>
-                  <td width="70" align="center" valign="middle" colspan="2">
+                  <td align="center" valign="middle" colspan="2">
                     <strong>
                       Size ( Fts.)
                     </strong>
                   </td>
-                  <td width="60" align="center" valign="middle">
+                  <td align="center" valign="middle">
                     <strong>
                       PIECES
                     </strong>
                   </td>
-                  <td width="60" align="center" valign="middle">
+                  <td align="center" valign="middle">
                     <strong>
                       Area (Sq.Fts.)
                     </strong>
@@ -390,32 +390,32 @@
 
                       <xsl:for-each select="$vGroup">
                         <tr>
-                          <td align="center" valign="middle">
+                          <td align="center" valign="middle" width="150">
                             <xsl:value-of select="Rollfrom" /> to <xsl:value-of select="RollTo" />
                           </td>
-                          <td align="center" valign="middle">
+                          <td align="center" valign="middle" width="90">
 
                             <xsl:value-of select="RPcs" />
 
                           </td>
-                          <td align="center" valign="middle" colspan="2">
+                          <td align="center" valign="middle" colspan="2" width="90">
 
                           </td>
-                          <td align="center" valign="middle">
+                          <td align="center" valign="middle" width="90" >
 
                             <xsl:value-of select="DESIGN" />
 
                           </td>
-                          <td align="center" valign="middle" colspan="2">
+                          <td align="center" valign="middle" colspan="2" width="100">
 
                             <xsl:value-of select="SizeFT"  />
                           </td>
-                          <td align="center" valign="middle">
+                          <td align="center" valign="middle" width="90">
                             <PCS>
                               <xsl:value-of select="PCS" />
                             </PCS>
                           </td>
-                          <td align="center" valign="middle">
+                          <td align="center" valign="middle" width="90">
                             <AreaFT>
                               <xsl:value-of select="AreaFT" />
                             </AreaFT>
