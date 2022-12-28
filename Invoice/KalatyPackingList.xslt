@@ -393,7 +393,7 @@
                     <rollitem>
                       <xsl:variable name="vGroup" select="key('groupByContainer', ./CustomerOrderNo)" />
                       <tr>
-                        <td align="center" valign="middle" colspan="4">
+                        <td align="left" valign="middle" colspan="4">
                           <strong>
                             <customerorderno>
                               PO#<xsl:value-of select="CustomerOrderNo" />   :
