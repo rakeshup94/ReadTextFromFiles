@@ -595,12 +595,17 @@
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="9" valign="middle" class="noBorder">
+                  <td colspan="4" valign="middle" class="noBorder">
                     <p>1. We intend to claim rewards under rodtep Scheme</p>
                     <p>2. We abide by provisional of foreign exchange management Act regarding realization.</p>
                     <p>3. We declare that this invoice shows the actual price of the goods described and all particulars are true and correct</p>
                   </td>
+                  <td colspan="2" class="noBorder">
+                    
+                  </td>
+                  <td colspan="3" >
 
+                  </td>
                 </tr>
               </table>
             </invoiceitem>

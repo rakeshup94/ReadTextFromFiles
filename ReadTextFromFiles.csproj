@@ -67,7 +67,9 @@
     <Content Include="Invoice\BenutaInvoice.xslt">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Invoice\BenutapackingList.xslt" />
     <Content Include="Invoice\Invoice.xslt" />
+    <Content Include="Invoice\KalatyPackingList.xslt" />
     <Content Include="Invoice\MISAWA.xslt">
       <SubType>Designer</SubType>
     </Content>
@@ -104,14 +106,10 @@
     <Content Include="BenutaInvoice.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="PackingList\BenutapackingList.xslt">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="PackingList\KalatyPackingList.xslt" />
+    <Content Include="Invoice\SuryaPackingList.xslt" />
     <Content Include="Invoice\SuryaInvoice.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="PackingList\SuryaPackingList.xslt" />
     <Content Include="tutorial.xml">
       <SubType>Designer</SubType>
     </Content>
