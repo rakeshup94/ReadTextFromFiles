@@ -69,7 +69,9 @@
     </Content>
     <Content Include="Invoice\BenutapackingList.xslt" />
     <Content Include="Invoice\Invoice.xslt" />
-    <Content Include="Invoice\KalatyPackingList.xslt" />
+    <Content Include="Invoice\KalatyPackingList.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Invoice\MISAWA.xslt">
       <SubType>Designer</SubType>
     </Content>
