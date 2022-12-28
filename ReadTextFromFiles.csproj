@@ -78,7 +78,7 @@
     <Content Include="Invoice\DesignIdeas.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Invoice\COURISTAN.xslt">
+    <Content Include="Invoice\COURISTANInvoice.xslt">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Invoice\CADRYSPTY.xslt">
