@@ -36,7 +36,7 @@
               <table width="700" border="1" align="center" cellpadding="0" cellspacing="0" style="border: solid 1px #333">
                 <tr>
                   <td colspan="8" height="15px" style="padding-left: 5px; text-align: center; color: #000!important;">
-                    <h4 style="font-family: inherit; font-weight: 500; color: #000 !important; margin-top: 10px; margin-bottom: 10px; font-size: 18px; font-family: Gotham, Helvetica, Arial, sans-serif;">PACKING LIST  (Kalaty)                    </h4>
+                    <h4 style="font-family: inherit; font-weight: 500; color: #000 !important; margin-top: 10px; margin-bottom: 10px; font-size: 18px; font-family: Gotham, Helvetica, Arial, sans-serif;">PACKING LIST                     </h4>
                   </td>
                 </tr>
                 <tr>
@@ -424,7 +424,7 @@
 
 
                         <tr>
-                          <td align="center" valign="middle">
+                          <td align="center" valign="middle" width="100">
                             <strong>
                               <rollfrom>
                                 <xsl:value-of select="Rollfrom" />
@@ -435,7 +435,7 @@
                               </rollto>
                             </strong>
                           </td>
-                          <td align="center" valign="middle">
+                          <td align="center" valign="middle" width="80">
                             <strong>
                               <totalpcs>
                                 <xsl:value-of select="TotalPcs" />
@@ -443,7 +443,7 @@
                             </strong>
 
                           </td>
-                          <td align="center" valign="middle" >
+                          <td align="center" valign="middle" width="80">
 
                             <design>
                               <xsl:value-of select="DESIGN" />
@@ -451,7 +451,7 @@
                           </td>
 
 
-                          <td align="center" valign="middle">
+                          <td align="center" valign="middle" width="120">
 
                             <color>
                               <xsl:value-of select="COLOR" />
@@ -463,21 +463,21 @@
                           </td>
 
 
-                          <td align="center" valign="middle">
+                          <td align="center" valign="middle" width="80">
 
                             <sizeft>
                               <xsl:value-of select="SizeFT" />
                             </sizeft>
                           </td>
 
-                          <td align="center" valign="middle">
+                          <td align="center" valign="middle" width="80">
 
                             <pcs>
                               <xsl:value-of select="PCS" />
                             </pcs>
                           </td>
 
-                          <td align="center" valign="middle">
+                          <td align="center" valign="middle" width="80">
 
                             <areaft>
                               <xsl:value-of select="AreaFT" />
@@ -485,7 +485,7 @@
                           </td>
 
 
-                          <td align="center" valign="middle">
+                          <td align="center" valign="middle" width="80">
 
                             <rpcs>
                               <xsl:value-of select="RPcs" />
