@@ -68,6 +68,9 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Invoice\BenutapackingList.xslt" />
+    <Content Include="Invoice\CADRYSPTYPackingList.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Invoice\COURISTANPackingList.xslt">
       <SubType>Designer</SubType>
     </Content>
