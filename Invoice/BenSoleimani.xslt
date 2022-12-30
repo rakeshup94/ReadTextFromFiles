@@ -1,4 +1,3 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="WebApplication3.WebForm1" %>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0" xmlns:myUtils="pda:MyUtils">
   <xsl:output method="xml" indent="yes"/>
   <xsl:key name="groupByContainer" match="/InvoiceList/InvoiceItem/Rolls/RollItem" use="concat(./Quality,./CustomerOrderNo)" />
@@ -29,7 +28,7 @@
             <invoiceitem>
               <table width="700" border="1" align="center" cellpadding="0" cellspacing="0" style="border: solid 1px #333">
                 <tr>
-                  <td colspan="10" height="15px" style="padding-left: 5px; text-align: center; color: #000!important;">
+                  <td colspan="7" height="15px" style="padding-left: 5px; text-align: center; color: #000!important;">
                     <h4 style="font-family: inherit; font-weight: 500; color: #000 !important; margin-top: 10px; margin-bottom: 10px; font-size: 18px; font-family: Gotham, Helvetica, Arial, sans-serif;">INVOICE                      </h4>
                   </td>
                 </tr>
@@ -62,16 +61,15 @@
                       </email>
                     </p>
                   </td>
-                  <td valign="top" colspan="8">
+                  <td valign="top" colspan="5">
                     <p>
-                      <strong>Invoice No & Date: </strong>
-                   
-                    </p>
-                    <p>
-                           <tinvoiceno>
+                      <strong>Invoice No : </strong>
+                      <tinvoiceno>
                         <xsl:value-of select="./TINVOICENO" />
                       </tinvoiceno>
-                 &
+                    </p>
+                    <p>
+                      Date :
                       <invoicedate>
                         <xsl:value-of select="./INVOICEDATE" />
                       </invoicedate>
@@ -86,7 +84,7 @@
 
 
                 <tr>
-                  <td valign="top" colspan="8">
+                  <td valign="top" colspan="5">
                     <p>
                       <strong>Buyer's Order No </strong>:
                       <totorder>
@@ -102,7 +100,7 @@
 
 
                 <tr>
-                  <td valign="top" colspan="8">
+                  <td valign="top" colspan="5">
                     <p>
                       <strong>Other Reference(s)	</strong>
                     </p>
@@ -120,14 +118,60 @@
                       </strong>
                     </p>
                   </td>
-                  <td valign="top" colspan="8">
+                  <td valign="top" colspan="2">
                     <p>
                       <strong>
                         Buyer (If Other than Consignee)
                       </strong>
                     </p>
-                  <p><strong> Same AS CONSIGNEE	</strong>
-</p>
+                  </td>
+                  <td valign="top" colspan="3">
+                    Notify
+                  </td>
+                </tr>
+                <tr>
+                  <td valign="top" rowspan="2" colspan="2">
+                    <p>
+                      <tbuyeroconsignee>
+                        <xsl:value-of select="./TBUYEROCONSIGNEE" />
+                      </tbuyeroconsignee>
+                    </p>
+                  </td>
+                  <td valign="top" colspan="2">
+                    <p>
+                      <tconsignee>
+                        <xsl:value-of select="./TCONSIGNEE" />
+                      </tconsignee>
+                    </p>
+                  </td>
+                  <td valign="top" colspan="3">
+
+                    <p>
+                      <xsl:value-of select="./NOTIFYPARTY" />
+                    </p>
+                    <p>
+                      <xsl:value-of select="./NOTIFYPARTY_ADDRESS" />
+                    </p>
+
+
+                  </td>
+                </tr>
+                <tr>
+                  <td valign="top" colspan="3">
+                    <p>
+                      <strong>Country of Orgin of Goods</strong>
+                    </p>
+                    <p>INDIA  </p>
+                  </td>
+                  <td valign="top" colspan="2">
+                    <p>
+                      <strong>Country of final Destination</strong>
+                    </p>
+                    <p>
+                      <customercountryname>
+                        <xsl:value-of select="./FINALDESTINATION" />
+                      </customercountryname>
+                    </p>
                   </td>
                 </tr>
 
@@ -149,11 +193,18 @@
 
 
 
-                  <td valign="top" colspan="8">
-                        <p>
-                      <strong>Country of Orgin of Goods</strong>
+                  <td valign="top" colspan="5" rowspan="3">
+                    <p>
+                      <strong>
+                        Terms of Delivery and Payment
+                      </strong>
                     </p>
-                    <p>INDIA  </p>
+                    <p>F.O.B.</p>
+                    <p>
+                      <paymentterms>
+                        <xsl:value-of select="./PAYMENTTERMS" />
+                      </paymentterms>
+                    </p>
                   </td>
 
 
@@ -180,30 +231,6 @@
                       <xsl:value-of select="./PORTOFLOADING" />
                     </portofloading>
                   </td>
-
-
-
-
-                  <td valign="top" colspan="8">
-                 <p>
-                      <strong>Country of final Destination</strong>
-                    </p>
-                    <p>
-                      <customercountryname>
-                        <xsl:value-of select="./FINALDESTINATION" />
-                      </customercountryname>
-                    </p>
-
-
-
-                  </td>
-
-
-
-
-
-
-
                 </tr>
                 <tr>
                   <td valign="top">
@@ -222,35 +249,9 @@
                       <xsl:value-of select="./FINALDESTINATION" />
                     </finaldestination>
                   </td>
-
-
-
-
-                  <td valign="top" colspan="8">
-                     <p>
-                      <strong>
-                        Terms of Delivery and Payment
-                      </strong>
-                    </p>
-                    <p>F.O.B.</p>
-                    <p>
-                      <paymentterms>
-                        <xsl:value-of select="./PAYMENTTERMS" />
-                      </paymentterms>
-                    </p>
-
-
-                  </td>
-
-
-
-
-
-
-
                 </tr>
                 <tr>
-                  <td valign="middle" colspan="4">
+                  <td valign="middle">
                     <p>
                       <strong>
                         Marks  &amp; Nos./
@@ -263,6 +264,8 @@
                         <xsl:value-of select="./RollMark" />
                       </rollmark>
                     </p>
+                  </td>
+                  <td valign="middle">
                     <strong>No.&amp;Kinds of Pkgs. </strong>
 
 
@@ -297,6 +300,9 @@
 
                     </p>
 
+                  </td>
+                  <td colspan="5" valign="top">
+
                     <p>
                       <strong>Description of goods</strong>
 
@@ -308,17 +314,6 @@
 
                     </p>
                   </td>
-                  <td colspan="2" valign="top">
-
-                      &nbsp;</td>
-
-                  <td colspan="2" valign="top">
-
-                      &nbsp;</td>
-
-                  <td colspan="2" valign="top">
-
-                      &nbsp;</td>
 
                 </tr>
 
@@ -342,21 +337,21 @@
                       In Feets
                     </strong>
                   </td>
-                  <td align="center" valign="middle" colspan="2">
+                  <td align="center" valign="middle">
                     <strong>
                       Total
                       <br />
                       Pieces
                     </strong>
                   </td>
-                  <td align="center" valign="middle" colspan="2">
+                  <td align="center" valign="middle">
                     <strong>
                       Total
                       <br />
                       Sq.Feets
                     </strong>
                   </td>
-                  <td align="center" valign="middle" colspan="2">
+                  <td align="center" valign="middle">
                     <strong>
                       Price
                       <br />
@@ -392,7 +387,7 @@
                           </p>
                         </td>
 
-                        <td valign="top" colspan="9">
+                        <td valign="top" colspan="6">
                           <strong>
                             <quality>
                               <xsl:value-of select="Quality" />
@@ -432,19 +427,19 @@
                               <xsl:value-of select="SizeFT" />
                             </sizeft>
                           </td>
-                          <td align="center" valign="middle" colspan="2">
+                          <td align="center" valign="middle">
                             <pcs>
                               <xsl:value-of select="PCS" />
                             </pcs>
                           </td>
 
 
-                          <td align="center" valign="middle" colspan="2">
+                          <td align="center" valign="middle">
                             <areaft>
                               <xsl:value-of select="AreaFT" />
                             </areaft>
                           </td>
-                          <td align="center" valign="middle" colspan="2">
+                          <td align="center" valign="middle">
                             <price>
                               <xsl:value-of select="PRICE" />
                             </price>
@@ -465,19 +460,19 @@
                   <td colspan="3" align="center" valign="middle">
                     <strong>TOTAL </strong>
                   </td>
-                  <td align="center" valign="middle" colspan="2">
+                  <td align="center" valign="middle">
                     <strong>
                       <xsl:value-of select="number(sum(././Rolls/RollItem/PCS))" />
                     </strong>
                   </td>
 
 
-                  <td align="center" valign="middle" colspan="2">
+                  <td align="center" valign="middle">
                     <strong>
                       <xsl:value-of select="number(sum(././Rolls/RollItem/AreaFT))" />
                     </strong>
                   </td>
-                  <td align="center" valign="middle" colspan="2"></td>
+                  <td align="center" valign="middle"></td>
                   <td align="center" valign="middle">
                     <strong>
                       <xsl:variable name="totalAmount" select="number(sum(././Rolls/RollItem/TotalAmount))" />
@@ -488,7 +483,7 @@
 
 
                 <tr>
-                  <td align="left" colspan="10" valign="middle">
+                  <td align="left" colspan="7" valign="middle">
                     <p>Amount Chargeable</p>
                     <p>
                       <strong>
@@ -512,7 +507,7 @@
                 <xsl:variable name="SGSTAmount" select="number($totalPrice*$SGST div 100)" />
                 <xsl:variable name="GrossAmount" select="number($totalPrice+$IGSTAmount +$CGSTAmount+$SGSTAmount)" />
                 <tr>
-                  <td colspan="10" align="left" valign="top" class="noBorder">
+                  <td colspan="7" align="left" valign="top" class="noBorder">
 
                     <p>
                       <strong>
@@ -536,10 +531,10 @@
 
                 </tr>
                 <tr>
-                  <td valign="top" colspan="10" class="noBorder"></td>
+                  <td valign="top" colspan="7" class="noBorder"></td>
                 </tr>
                 <tr>
-                  <td valign="top" colspan="5" class="noBorder">
+                  <td valign="top" colspan="4" class="noBorder">
 
 
                     <p>Declaration : </p>
@@ -550,7 +545,7 @@
 
                     </p>
                   </td>
-                  <td valign="top" colspan="5"></td>
+                  <td valign="top" colspan="3"></td>
                 </tr>
               </table>
             </invoiceitem>
