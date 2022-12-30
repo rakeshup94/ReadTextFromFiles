@@ -620,15 +620,6 @@
                   </tr>
                   <tr>
                     <td valign="top" colspan="5" class="noBorder">
-
-
-
-
-
-
-
-
-
                       <p>Declaration : </p>
                       <p>1. We intend to claim rewards under RODTEP Scheme	</p>
                       <p>2. We abide by provisional of foreign exchange management Act regarding realization.	</p>
