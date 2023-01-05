@@ -80,6 +80,12 @@
     <Content Include="Invoice\COURISTANPackingList.xslt">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Invoice\DixieGroupPackingList.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Invoice\DixieGroup.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Invoice\DesignIdeasPacking.xslt">
       <SubType>Designer</SubType>
     </Content>
