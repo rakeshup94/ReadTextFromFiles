@@ -111,9 +111,14 @@ namespace WebApplication3
             HttpContext.Current.Response.Clear();
             HttpContext.Current.Response.Buffer = true;
             HttpContext.Current.Response.Charset = "UTF-8";
+            //HttpContext.Current.Response.AddHeader("content-disposition", string.Format("attachment; filename={0}.doc", HttpUtility.UrlEncode("Invoice-" + DateTime.Now.ToShortDateString(), System.Text.Encoding.UTF8)));
             HttpContext.Current.Response.AddHeader("content-disposition", string.Format("attachment; filename={0}.xls", HttpUtility.UrlEncode("Invoice-" + DateTime.Now.ToShortDateString(), System.Text.Encoding.UTF8)));
             HttpContext.Current.Response.ContentEncoding = System.Text.Encoding.UTF8;
             HttpContext.Current.Response.ContentType = "application/ms-excel";
+
+            //  HttpContext.Current.Response.ContentType = "application/vnd.ms-word";
+
+
             HttpContext.Current.Response.Write(htmlOutput.ToString());
             HttpContext.Current.Response.End();
             HttpContext.Current.Response.Close();
