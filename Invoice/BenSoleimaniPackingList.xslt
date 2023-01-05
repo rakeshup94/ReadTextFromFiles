@@ -141,52 +141,98 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
                 <tr>
                   <td valign="top" colspan="4">
                     <p>
                       <strong>Pre-carriage by</strong>
                     </p>
+          
                   </td>
+
                   <td valign="top" colspan="4">
                     <p>
                       <strong>Place of Receipt by Pre-carrier</strong>
                     </p>
-                    <receiptat>
-                      <xsl:value-of select="./RECEIPTAT" />
-                    </receiptat>
+             
                   </td>
 
+
+
+                  <td valign="top" colspan="10">                 
+                    <p>
+                      <strong class="left">Country of Orgin of Goods</strong>
+                  
+                    </p>
+               
+                  </td>
+
+
+
+
+
+
+
+                </tr>
+
+
+
+                <tr>
+                  <td valign="top" colspan="4">
+                  
+                    <p>Test</p>
+                  </td>
+
+                  <td valign="top" colspan="4">
+               
+                    <p>
+                      <receiptat>
+                        <xsl:value-of select="./RECEIPTAT" />
+                      </receiptat>
+                    </p>
+                  </td>
 
 
 
                   <td valign="top" colspan="10">
-
-
+                
                     <p>
-                      <strong class="left">Country of Orgin of Goods :</strong>
                       <span class="right">INDIA</span>
                     </p>
-
                   </td>
 
 
+
+
+
+
+
                 </tr>
+
+
                 <tr>
                   <td valign="top" colspan="4">
                     <p>
                       <strong>Vessel/Flight No.</strong>
                     </p>
-                    <vesselflightno>
-                      <xsl:value-of select="./VESSELFLIGHTNO" />
-                    </vesselflightno>
+                 
                   </td>
                   <td valign="top" colspan="4">
                     <p>
                       <strong>Port of Loading</strong>
                     </p>
-                    <portofloading>
-                      <xsl:value-of select="./PORTOFLOADING" />
-                    </portofloading>
+                 
                   </td>
 
 
@@ -194,8 +240,36 @@
 
                   <td valign="top" colspan="10">
                     <p>
-                      <strong class="left">Country of final Destination</strong> :
+                      <strong class="left">Country of final Destination</strong> 
+                    </p>
+                
+                  </td>
+                </tr>
 
+                <tr>
+                  <td valign="top" colspan="4">
+                   
+                    <p>
+                      <vesselflightno>
+                        <xsl:value-of select="./VESSELFLIGHTNO" />
+                      </vesselflightno>
+                    </p>
+                  </td>
+                  <td valign="top" colspan="4">
+                 
+                    <p>
+                      <portofloading>
+                        <xsl:value-of select="./PORTOFLOADING" />
+                      </portofloading>
+                    </p>
+                  </td>
+
+
+
+
+                  <td valign="top" colspan="10">
+                  
+                    <p>
                       <span class="right">
                         <customercountryname>
                           <xsl:value-of select="./FINALDESTINATION" />
@@ -205,22 +279,22 @@
                     </p>
                   </td>
                 </tr>
+
+
+
                 <tr>
                   <td valign="top" colspan="4">
                     <p>
                       <strong>Port of Discharge</strong>
                     </p>
-                    <portofdischarge>
-                      <xsl:value-of select="./PORTOFDISCHARGE" />
-                    </portofdischarge>
+                   
+                  
                   </td>
                   <td valign="top" colspan="4">
                     <p>
                       <strong>Final Destination</strong>
                     </p>
-                    <finaldestination>
-                      <xsl:value-of select="./FINALDESTINATION" />
-                    </finaldestination>
+                    
                   </td>
 
 
@@ -232,7 +306,45 @@
                         Terms of Delivery and Payment
                       </strong>
                     </p>
-                    <p>F.O.B.</p>
+               
+                  
+
+                  </td>
+
+
+
+
+
+
+
+                </tr>
+
+
+                <tr>
+                  <td valign="top" colspan="4">
+                 
+                    <p>
+                      <portofdischarge>
+                        <xsl:value-of select="./PORTOFDISCHARGE" />
+                      </portofdischarge>
+                    </p>
+
+                  </td>
+                  <td valign="top" colspan="4">
+                   
+                    <p>
+                      <finaldestination>
+                        <xsl:value-of select="./FINALDESTINATION" />
+                      </finaldestination>
+                    </p>
+                  </td>
+
+
+
+
+                  <td valign="top" colspan="10">
+               
+
                     <p>
                       <paymentterms>
                         <xsl:value-of select="./PAYMENTTERMS" />
@@ -249,27 +361,6 @@
 
 
                 </tr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                 <tr>
                   <td valign="top" colspan="18"></td>
