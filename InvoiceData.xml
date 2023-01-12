@@ -5,6 +5,7 @@
 
 <InvoiceList>
   <InvoiceItem>
+    <CreatedOn>2022-12-19</CreatedOn>
     <signature>http://localhost:11783/Images/signature/client-42.png</signature>
     <INVOICEID>12</INVOICEID>
     <TINVOICENO>VCM-21-2022</TINVOICENO>
