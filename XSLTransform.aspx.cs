@@ -72,8 +72,7 @@ namespace WebApplication3
             arguments.AddExtensionObject("pda:MyUtils", new MathHelper());
             Xml1.TransformArgumentList = arguments;
             // Specify the XSL file to be used for transformation.
-            Xml1.TransformSource = Server.MapPath("~/Invoice/EVD-33.xslt");
-
+            Xml1.TransformSource = Server.MapPath("~/Invoice/CentralExciseDeclaration.xslt");
             //Xml1.TransformSource = Server.MapPath("~/PackingList/BenutapackingList.xslt");
         }
 
@@ -83,7 +82,7 @@ namespace WebApplication3
             ltlTutorial.Visible = true;
 
             //Getting file path
-            string strXSLTFile = Server.MapPath("~/Invoice/EVD-33.xslt");
+            string strXSLTFile = Server.MapPath("~/Invoice/CentralExciseDeclaration.xslt");
             string strXMLFile = Server.MapPath("InvoiceData.xml");
 
             //Creating XSLCompiled object
@@ -101,7 +100,6 @@ namespace WebApplication3
 
             XsltArgumentList arguments = new XsltArgumentList();
             arguments.AddExtensionObject("pda:MyUtils", new MathHelper());
-
             objXSLTransform.Transform(reader, arguments, htmlWriter);
             ltlTutorial.Text = htmlOutput.ToString();
             // Closing xmlreader object
@@ -115,10 +113,7 @@ namespace WebApplication3
             HttpContext.Current.Response.AddHeader("content-disposition", string.Format("attachment; filename={0}.xls", HttpUtility.UrlEncode("Invoice-" + DateTime.Now.ToShortDateString(), System.Text.Encoding.UTF8)));
             HttpContext.Current.Response.ContentEncoding = System.Text.Encoding.UTF8;
             HttpContext.Current.Response.ContentType = "application/ms-excel";
-
-            //  HttpContext.Current.Response.ContentType = "application/vnd.ms-word";
-
-
+            //HttpContext.Current.Response.ContentType = "application/vnd.ms-word";
             HttpContext.Current.Response.Write(htmlOutput.ToString());
             HttpContext.Current.Response.End();
             HttpContext.Current.Response.Close();
