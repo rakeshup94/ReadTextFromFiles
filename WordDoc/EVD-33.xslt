@@ -298,7 +298,16 @@
                         </p>
                       </td>
                       <td colspan="3" align="center" valign="top" style="border:solid 1px #333">
-                        <img src="artline-creation.jpg" width="264" height="106" alt="" />
+                        
+
+
+                        <xsl:if test="./signature!= ''">
+                          <img width="264" height="106" alt="">
+                            <xsl:attribute name="src">
+                              <xsl:value-of select="./signature" />
+                            </xsl:attribute>
+                          </img>
+                        </xsl:if>
                       </td>
                     </tr>
                     <tr>

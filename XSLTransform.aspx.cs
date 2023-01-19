@@ -72,7 +72,7 @@ namespace WebApplication3
             arguments.AddExtensionObject("pda:MyUtils", new MathHelper());
             Xml1.TransformArgumentList = arguments;
             // Specify the XSL file to be used for transformation.
-            Xml1.TransformSource = Server.MapPath("~/Invoice/CentralExciseDeclaration.xslt");
+            Xml1.TransformSource = Server.MapPath("~/WordDoc/CanaraBankCollectionSchedule.xslt");
             //Xml1.TransformSource = Server.MapPath("~/PackingList/BenutapackingList.xslt");
         }
 
@@ -82,7 +82,7 @@ namespace WebApplication3
             ltlTutorial.Visible = true;
 
             //Getting file path
-            string strXSLTFile = Server.MapPath("~/Invoice/CentralExciseDeclaration.xslt");
+            string strXSLTFile = Server.MapPath("~/WordDoc/CanaraBankCollectionSchedule.xslt");
             string strXMLFile = Server.MapPath("InvoiceData.xml");
 
             //Creating XSLCompiled object

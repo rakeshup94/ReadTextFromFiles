@@ -64,14 +64,26 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="HtmlPage1.html" />
-    <Content Include="Invoice\BILLOFEXCHANGE.xslt" />
-    <Content Include="Invoice\CentralExciseDeclaration.xslt" />
-    <Content Include="Invoice\EVD-33.xslt">
+    <Content Include="WordDoc\BILLOFEXCHANGE.xslt" />
+    <Content Include="WordDoc\CentralExciseDeclaration.xslt" />
+    <Content Include="WordDoc\VGM-2.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Invoice\DeclforLeather.xslt" />
-    <Content Include="Invoice\Declaration.xslt" />
-    <Content Include="Invoice\ADVANCECARGODECLARATION.xslt" />
+    <Content Include="WordDoc\CanaraBankCollectionSchedule.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WordDoc\PackingDeclaration.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WordDoc\SingleCountryDeclaration.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WordDoc\EVD-33.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WordDoc\DeclforLeather.xslt" />
+    <Content Include="WordDoc\Declaration.xslt" />
+    <Content Include="WordDoc\ADVANCECARGODECLARATION.xslt" />
     <Content Include="Invoice\BenSoleimaniPackingList.xslt">
       <SubType>Designer</SubType>
     </Content>

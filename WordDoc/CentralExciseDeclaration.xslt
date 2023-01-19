@@ -49,7 +49,7 @@
                     </tr>
                     <tr>
                       <td colspan="2" valign="top" >
-                     
+
                       </td>
                     </tr>
                     <tr>
@@ -83,7 +83,12 @@
                     </tr>
                     <tr>
                       <td colspan="2" valign="top" style="">
-                        For Vikram Carpets
+                        <p>
+                          For   <companyname>
+                            <xsl:value-of select="./COMPANYNAME" />
+                          </companyname>
+                        </p>
+
                       </td>
                     </tr>
                     <tr>
