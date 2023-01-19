@@ -37,20 +37,16 @@
                                 <p style="margin-bottom: 5px">
                                   <span style="font-size: 22px; text-decoration:underline">
                                     <strong>
-
                                       <companyname>
                                         <xsl:value-of select="./COMPANYNAME" />
                                       </companyname>
-
                                     </strong>
                                   </span>
                                 </p>
                                 <br/>
-
                                 Manufacturer &amp; Exporter of<br/>
                                 Hand Knotted Woollen Carpets, Soumak, Tufted
                                 Carpets and Woollen Cotton, Jute Durries
-
                               </td>
                               <td width="14%" align="right" valign="top">
                                 <strong>OFFICE</strong> :

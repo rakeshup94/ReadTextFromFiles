@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="XSLTFile1.xslt"?>
-
-
-
-<InvoiceList>
+<InvoiceList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <InvoiceItem>
-    <CreatedOn>2022-12-19</CreatedOn>
     <signature>http://localhost:11783/Images/signature/client-42.png</signature>
+    <CreatedOn>17-01-2023</CreatedOn>
     <INVOICEID>12</INVOICEID>
     <TINVOICENO>VCM-21-2022</TINVOICENO>
-    <INVOICEDATE>2022-12-19T00:00:00</INVOICEDATE>
+    <INVOICEDATE>19-12-2022</INVOICEDATE>
     <TCONSIGNEE>
       BEN SOLEIMANI,6901 S ALAMEDA ST HUNTINGTON PARK
       LOS ANGELES,CA 90001 ATTN: BEN SOLEMANI
@@ -41,11 +38,31 @@
     <SUQty></SUQty>
     <PreferentialAgreement></PreferentialAgreement>
     <PackingCharges>0.000000000000000e+000</PackingCharges>
+    <FlightNo xsi:nil="true" />
+    <FlightDate xsi:nil="true" />
+    <LeoDate xsi:nil="true" />
     <GstinType></GstinType>
     <SHIPINGID>2</SHIPINGID>
     <RollMark>BYS</RollMark>
     <ShipToAddress></ShipToAddress>
+    <VesselName xsi:nil="true" />
+    <Blno xsi:nil="true" />
+    <SealNo xsi:nil="true" />
+    <sbillno xsi:nil="true" />
+    <Sbilldate xsi:nil="true" />
+    <Bldt xsi:nil="true" />
+    <ContainerNo xsi:nil="true" />
     <CARRIAGENAME>BY TRUCK</CARRIAGENAME>
+    <CONSIGNEE xsi:nil="true" />
+    <CONSIGNEE_ADDRESS xsi:nil="true" />
+    <NOTIFYPARTY xsi:nil="true" />
+    <NOTIFYPARTY_ADDRESS xsi:nil="true" />
+    <RECEIVER xsi:nil="true" />
+    <RECEIVER_ADDRESS xsi:nil="true" />
+    <PAYINGAGENT xsi:nil="true" />
+    <PAYINGAGENT_ADDRESS xsi:nil="true" />
+    <BUYER_OTHERTHANCONSIGNEE xsi:nil="true" />
+    <OTHERTHANCONSIGNEE_ADDRESS xsi:nil="true" />
     <VESSELFLIGHTNO>BY SEA</VESSELFLIGHTNO>
     <PORTOFLOADING>NHAWAN SHEVA,MUMBAI</PORTOFLOADING>
     <COMPANYNAME>VIKRAM CARPETS</COMPANYNAME>
@@ -81,6 +98,12 @@
     <TinNo></TinNo>
     <EDPNo></EDPNo>
     <LUTArnNo></LUTArnNo>
+    <RexNo xsi:nil="true" />
+    <Registrationno xsi:nil="true" />
+    <RexIssueDate xsi:nil="true" />
+    <WHConsignee xsi:nil="true" />
+    <WHShipTo xsi:nil="true" />
+    <Warehousename xsi:nil="true" />
     <PackingDATE>2022-12-19T00:00:00</PackingDATE>
     <NotifyBySea></NotifyBySea>
     <CustomerCountryName>USA</CustomerCountryName>
@@ -426,3 +449,6 @@
     </Rolls>
   </InvoiceItem>
 </InvoiceList>
+
+
+
