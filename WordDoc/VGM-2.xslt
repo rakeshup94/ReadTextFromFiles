@@ -18,12 +18,12 @@
       </head>
       <body>
         <xsl:for-each select="/InvoiceList/InvoiceItem">
-          <table width="900" border="0" align="center" cellpadding="0" cellspacing="0"
+          <table width="700" border="0" align="center" cellpadding="0" cellspacing="0"
               style="">
             <tr>
               <td valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px;
                             float: left; font-style: normal;">
-                <table width="900" border="0" cellspacing="0" cellpadding="0">
+                <table width="700" border="0" cellspacing="0" cellpadding="0">
                   <tbody>
                     <tr>
                       <td colspan="3" valign="top" style=""></td>

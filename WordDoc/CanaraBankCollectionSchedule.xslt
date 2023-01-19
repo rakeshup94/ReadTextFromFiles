@@ -18,15 +18,18 @@
       </head>
       <body>
         <xsl:for-each select="/InvoiceList/InvoiceItem">
-          <table width="900" border="0" align="center" cellpadding="0" cellspacing="0" style="border: solid 1px #333">
+          <table width="700" border="0" align="center" cellpadding="0" cellspacing="0" style="border: solid 1px #333">
             <tr>
               <td valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px;
                             float: left; font-style: normal;">
-                <table width="900" border="0" cellspacing="0" cellpadding="0">
+                <table width="700" border="0" cellspacing="0" cellpadding="0">
                   <tbody>
                     <tr>
                       <td colspan="5" align="center" valign="top" style="">
                         <img src="canara-bank.jpg" width="292" height="58" alt="" />
+                        
+                        
+                        
                       </td>
                     </tr>
                     <tr>
