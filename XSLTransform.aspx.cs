@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -72,7 +73,7 @@ namespace WebApplication3
             arguments.AddExtensionObject("pda:MyUtils", new MathHelper());
             Xml1.TransformArgumentList = arguments;
             // Specify the XSL file to be used for transformation.
-            Xml1.TransformSource = Server.MapPath("~/WordDoc/BillofExchange.xslt");
+            Xml1.TransformSource = Server.MapPath(ConfigurationManager.AppSettings["FilePath"]);
             //Xml1.TransformSource = Server.MapPath("~/PackingList/BenutapackingList.xslt");
         }
 
@@ -82,7 +83,7 @@ namespace WebApplication3
             ltlTutorial.Visible = true;
 
             //Getting file path
-            string strXSLTFile = Server.MapPath("~/WordDoc/BillofExchange.xslt");
+            string strXSLTFile = Server.MapPath(ConfigurationManager.AppSettings["FilePath"]);
             string strXMLFile = Server.MapPath("InvoiceData.xml");
 
             //Creating XSLCompiled object
@@ -109,11 +110,11 @@ namespace WebApplication3
             HttpContext.Current.Response.Clear();
             HttpContext.Current.Response.Buffer = true;
             HttpContext.Current.Response.Charset = "UTF-8";
-            HttpContext.Current.Response.AddHeader("content-disposition", string.Format("attachment; filename={0}.doc", HttpUtility.UrlEncode("Invoice-" + DateTime.Now.ToShortDateString(), System.Text.Encoding.UTF8)));
-            //HttpContext.Current.Response.AddHeader("content-disposition", string.Format("attachment; filename={0}.xls", HttpUtility.UrlEncode("Invoice-" + DateTime.Now.ToShortDateString(), System.Text.Encoding.UTF8)));
+            //HttpContext.Current.Response.AddHeader("content-disposition", string.Format("attachment; filename={0}.doc", HttpUtility.UrlEncode("Invoice-" + DateTime.Now.ToShortDateString(), System.Text.Encoding.UTF8)));
+            HttpContext.Current.Response.AddHeader("content-disposition", string.Format("attachment; filename={0}.xls", HttpUtility.UrlEncode("Invoice-" + DateTime.Now.ToShortDateString(), System.Text.Encoding.UTF8)));
             HttpContext.Current.Response.ContentEncoding = System.Text.Encoding.UTF8;
-            //HttpContext.Current.Response.ContentType = "application/ms-excel";
-            HttpContext.Current.Response.ContentType = "application/vnd.ms-word";
+            HttpContext.Current.Response.ContentType = "application/ms-excel";
+            ///HttpContext.Current.Response.ContentType = "application/vnd.ms-word";
             HttpContext.Current.Response.Write(htmlOutput.ToString());
             HttpContext.Current.Response.End();
             HttpContext.Current.Response.Close();

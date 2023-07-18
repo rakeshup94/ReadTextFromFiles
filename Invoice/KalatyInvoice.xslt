@@ -125,7 +125,7 @@
 
 
                 <tr>
-                  <td valign="top" colspan="2"  rowspan="3">
+                  <td valign="top" colspan="2"   rowspan="3" style="height:175px;">
                     <p>
                       <strong>
                         Consignee/Ship to :
@@ -137,7 +137,7 @@
                       </TCONSIGNEE>
                     </p>
                   </td>
-                  <td valign="top" colspan="5">
+                  <td valign="top" colspan="5" style="height:150px;">
                     <p>
                       <strong>
                         Buyer (If Other than Consignee) Notify
@@ -455,10 +455,95 @@
                 <xsl:variable name="SGST" select="number(./SGST)" />
                 <xsl:variable name="SGSTAmount" select="number($totalPrice*$SGST div 100)" />
                 <xsl:variable name="GrossAmount" select="number($totalPrice+$IGSTAmount +$CGSTAmount+$SGSTAmount)" />
+
+
                 <tr>
-                  <td colspan="7"  class="noBorder">
+                  <td colspan="2" align="center" valign="middle" rowspan="3">
+
+
+                  </td>
+                  <td colspan="3" align="center" valign="middle">
+                    <p>
+                      <strong>
+                        CONVERSION RATE Rs.
+
+                      </strong>
+                    </p>
+
+
+                  </td>
+                  <td align="center" valign="middle">
+                    <p>
+                      <xsl:value-of select="$exchangeRate" />
+                    </p>
+                  </td>
+                  <td align="center" valign="middle">
+                    <p>
+                      <xsl:value-of select="$totalPrice" />
+                    </p>
                   </td>
                 </tr>
+
+
+                <tr>
+                  <td colspan="4" align="center" valign="middle">
+
+                    <p>
+                      <strong>
+                        I.G.S.T. @
+
+                        %
+                      </strong>
+                    </p>
+                  </td>
+                  <td align="center" valign="middle">
+                    <igst>
+                      <xsl:value-of select="$IGST" />
+                    </igst>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td colspan="4" align="center" valign="middle">
+                    <p>
+                      <strong>TOTAL TAX INVOICE VALLUE INR</strong>
+                    </p>
+                  </td>
+                  <td align="center" valign="middle">
+                    <p>
+                      <xsl:value-of select="$IGSTAmount" />
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td colspan="2" align="center" valign="middle">
+
+                  </td>
+                  <td colspan="4" align="center" valign="middle">
+                    <p>
+                      <strong>ROUND OFF TAX INVOICE VALUE</strong>
+                    </p>
+                  </td>
+                  <td align="center" valign="middle">
+                    <p>
+                      <xsl:value-of select="format-number($GrossAmount,'#.##')" />
+                    </p>
+                  </td>
+                </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                 <tr>
 
@@ -476,6 +561,12 @@
                     </p>
                   </td>
                 </tr>
+
+
+
+
+
+
                 <tr>
                   <td colspan="7"  class="noBorder">
                     Contents:

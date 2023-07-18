@@ -5,7 +5,7 @@
     <html xmlns="http://www.w3.org/1999/xhtml">
       <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>Emailer</title>
+        <title>DixieGroup Invoice</title>
         <style>
           table {
           border: 1px solid #ccc;
@@ -29,7 +29,7 @@
         <invoicelist>
           <xsl:for-each select="/InvoiceList/InvoiceItem">
             <invoiceitem>
-              <table width="700" border="1" align="center" cellpadding="0" cellspacing="0" style="border: solid 1px #333">
+              <table width="800" border="1" align="center" cellpadding="0" cellspacing="0" style="border: solid 1px #333">
                 <tr>
                   <td colspan="8" height="15px" style="padding-left: 5px; text-align: center; color: #000!important;">
                     <h4 style="font-family: inherit; font-weight: 500; color: #000 !important; margin-top: 10px; margin-bottom: 10px; font-size: 18px; font-family: Gotham, Helvetica, Arial, sans-serif;">INVOICE                      </h4>
@@ -133,14 +133,14 @@
                   </td>
                 </tr>
                 <tr>
-                  <td valign="top" rowspan="2" colspan="2">
+                  <td valign="top" rowspan="2" style="height:150px;" colspan="2">
                     <p>
                       <tbuyeroconsignee>
                         <xsl:value-of select="./TBUYEROCONSIGNEE" />
                       </tbuyeroconsignee>
                     </p>
                   </td>
-                  <td valign="top" colspan="6">
+                  <td valign="top" style="height:150px;" colspan="6">
                     <p>
                       <tconsignee>
                         <xsl:value-of select="./TCONSIGNEE" />
@@ -168,12 +168,12 @@
                 </tr>
 
                 <tr>
-                  <td valign="top">
+                  <td valign="top" style="width:200px;">
                     <p>
                       <strong>Pre-carriage by</strong>
                     </p>
                   </td>
-                  <td valign="top">
+                  <td valign="top" style="width:200px;">
                     <p>
                       <strong>Place of Receipt by Pre-carrier</strong>
                     </p>
@@ -185,7 +185,7 @@
 
 
 
-                  <td valign="top" colspan="6" rowspan="3">
+                  <td valign="top" colspan="6" rowspan="3" style="width:400px;">
                     <p>
                       <strong>
                         Terms of Delivery and Payment
@@ -324,7 +324,7 @@
 
                   <td align="center" valign="middle">
                     <strong>
-                      Sq.Mtr.
+                      Item/Color
                     </strong>
                   </td>
                   <td align="center" valign="middle">
@@ -370,7 +370,7 @@
 
 
                       <tr>
-                        <td align="center" valign="middle" colspan="2">
+                        <td  valign="middle" colspan="2">
 
                           <p>
 
@@ -420,15 +420,8 @@
 
                         <tr>
                           <td align="center" valign="middle" width="60">
-
-                            <rollfrom>
-                              <xsl:value-of select="Rollfrom" />
-                            </rollfrom>
-                            -
-                            <rollto>
-                              <xsl:value-of select="RollTo" />
-                            </rollto>
-
+                            <!--<xsl:value-of select="concat(Rollfrom,' to ',RollTo)" />-->
+                     
                           </td>
                           <td align="center" valign="middle" width="140">
 
@@ -448,9 +441,9 @@
                           </td>
 
                           <td align="center" valign="middle" width="100">
-                            <areamtr>
-                              <xsl:value-of select="AreaMtr" />
-                            </areamtr>
+                            <COLOR>
+                              <xsl:value-of select="COLOR" />
+                            </COLOR>
                           </td>
                           <td align="center" valign="middle" width="100">
                             <pcs>

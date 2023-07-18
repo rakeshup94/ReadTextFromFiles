@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<?xml-stylesheet type="text/xsl" href="XSLTFile1.xslt"?>
 <InvoiceList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <InvoiceItem>
     <signature>http://localhost:11783/Images/signature/client-42.png</signature>

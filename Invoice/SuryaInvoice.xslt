@@ -1,4 +1,5 @@
-﻿<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0" xmlns:myUtils="pda:MyUtils">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0" xmlns:myUtils="pda:MyUtils">
   <xsl:output method="xml" indent="yes"/>
   <xsl:key name="groupByContainer" match="/InvoiceList/InvoiceItem/Rolls/RollItem" use="concat(./Quality,./CustomerOrderNo)" />
   <xsl:template name="dots" match="/">
@@ -601,7 +602,7 @@
                     <p>3. We declare that this invoice shows the actual price of the goods described and all particulars are true and correct</p>
                   </td>
                   <td colspan="2" class="noBorder">
-                    
+
                   </td>
                   <td colspan="3" >
 
