@@ -66,6 +66,9 @@
     <Content Include="HtmlPage1.html" />
     <Content Include="Invoice\Inspection\PAPERTUBE .xslt" />
     <Content Include="Invoice\Inspection\PolyBag.xslt" />
+    <Content Include="Invoice\CompanyC.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Test.aspx" />
     <Content Include="WordDoc\BillofExchange.xslt" />
     <Content Include="WordDoc\CentralExciseDeclaration.xslt" />
