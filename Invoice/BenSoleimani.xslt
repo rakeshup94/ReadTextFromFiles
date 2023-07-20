@@ -403,7 +403,7 @@
                         <td align="center" valign="middle">
 
                           <areaft>
-                            <xsl:value-of select="AreaFT" />
+                            <xsl:value-of select="AREA" />
                           </areaft>
                         </td>
 
@@ -535,6 +535,7 @@
                   <td align="center" valign="middle">
                     <strong>
                       <xsl:value-of select="number(sum(././Rolls/RollItem/TotalPcs))" />
+                      Pcs.
                     </strong>
 
                   </td>
