@@ -129,6 +129,10 @@
                         Consignee
                       </strong>
                     </p>
+                    <p>
+                      <xsl:value-of select="./TCONSIGNEE" />
+
+                    </p>
                   </td>
                   <td valign="top" colspan="8">
                     <p>
@@ -137,7 +141,9 @@
                       </strong>
                     </p>
                     <p>
-                      <strong>Same AS CONSIGNEE	</strong>
+                      <xsl:value-of select="./TBUYEROCONSIGNEE" />
+
+
                     </p>
                   </td>
                 </tr>
@@ -146,6 +152,10 @@
                   <td valign="top">
                     <p>
                       <strong>Pre-carriage by</strong>
+                    </p>
+                    <p>
+
+                      <xsl:value-of select="./CARRIAGENAME" />
                     </p>
                   </td>
                   <td valign="top">
@@ -256,7 +266,7 @@
 
                 </tr>
                 <tr>
-                  <td valign="middle" colspan="3" class="noBorder">
+                  <td valign="middle" colspan="3"  >
                     <p>
                       <strong>
                         Marks  &amp; Nos.
@@ -264,7 +274,7 @@
                       </strong>
                     </p>
                   </td>
-                  <td valign="middle" colspan="3" class="noBorder">
+                  <td valign="middle" colspan="3" >
                     <p>
                       <strong>Description of goods</strong>
 
@@ -307,7 +317,10 @@
 
 
                 <tr>
-                  <td valign="middle" colspan="6">
+                  <td valign="middle" colspan="6" class="noBorder">
+                    <p class="left">
+                      <xsl:value-of select="./Mark" />
+                    </p>
 
                     <p class="left">
                       <rollmark>
@@ -317,8 +330,8 @@
 
 
 
-                    <p>
-                      <strong class="right">
+                    <p class="center">
+                      <strong >
                         <descriptionofgoods>
                           <xsl:value-of select="./DescriptionOfGoods" />
                         </descriptionofgoods>
@@ -338,10 +351,10 @@
 
 
                 <tr>
-                  <td colspan="4" align="center" valign="middle">
+                  <td colspan="4" align="left" valign="middle">
                     <strong>CONSTRUCTION</strong>
                   </td>
-                  <td colspan="2" align="center" valign="middle">
+                  <td colspan="2" align="left" valign="middle">
                     <strong>
                       STYLE DESCRIPTION
                     </strong>
@@ -370,10 +383,11 @@
 
                           </p>
                           <p>
+                            (
                             <description>
                               <xsl:value-of select="Description" />
                             </description>
-
+                            )
                           </p>
                         </td>
 
