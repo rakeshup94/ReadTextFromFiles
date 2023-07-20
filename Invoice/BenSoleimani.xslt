@@ -383,11 +383,11 @@
 
                           </p>
                           <p>
-                            (
+
                             <description>
                               <xsl:value-of select="Description" />
                             </description>
-                            )
+
                           </p>
                         </td>
 
