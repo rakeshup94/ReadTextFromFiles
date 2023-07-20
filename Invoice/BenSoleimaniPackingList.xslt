@@ -130,13 +130,6 @@
                       </strong>
                     </p>
 
-                    <!--<xsl:value-of select="./TCONSIGNEE" />-->
-
-
-
-
-
-
                     <xsl:call-template name="splitStringToItems">
                       <xsl:with-param name="delimiter" select="','"  />
                       <xsl:with-param name="list" select="./TCONSIGNEE" />
