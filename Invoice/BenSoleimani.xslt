@@ -162,9 +162,11 @@
                     <p>
                       <strong>Place of Receipt by Pre-carrier</strong>
                     </p>
+                    <p>
                     <receiptat>
                       <xsl:value-of select="./RECEIPTAT" />
                     </receiptat>
+                    </p>
                   </td>
 
 
@@ -541,7 +543,7 @@
                   </td>
                   <td align="center" valign="middle">
                     <strong>
-                      <xsl:value-of select="number(sum(././Rolls/RollItem/AreaFT))" />
+                      <xsl:value-of select="number(sum(././Rolls/RollItem/AREA))" />
                     </strong>
 
                   </td>
