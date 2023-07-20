@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Xml.Linq;
 
 namespace WebApplication3
 {
     public class CommonHelper
     {
-        public string FormatName(string firstName,string name)
+        public string FormatName(string firstName, string name)
         {
             return name + ", " + firstName;
         }
@@ -26,7 +27,7 @@ namespace WebApplication3
 
 
 
-    public  class MathHelper
+    public class MathHelper
     {
 
 
@@ -36,7 +37,7 @@ namespace WebApplication3
             var beforeFloatingPointWord = $"{NumberToWords(beforeFloatingPoint)} ";
             var afterFloatingPointWord =
                 $"{SmallNumberToWord((int)((doubleNumber - beforeFloatingPoint) * 100), "")} cents";
-           // return $"{beforeFloatingPointWord} and {afterFloatingPointWord}";
+            // return $"{beforeFloatingPointWord} and {afterFloatingPointWord}";
 
             return $"{beforeFloatingPointWord} ";
         }
@@ -111,6 +112,58 @@ namespace WebApplication3
             }
             return words;
         }
+
+
+
+
+
+        public XElement SplitName(string title)
+        {
+
+
+
+
+
+
+            string[] nameList = title.Trim().Split(','); // Split data
+
+            XElement identity = new XElement("identity");
+
+            // Walk array of data
+            foreach (var name in nameList)
+            {
+                XElement elm = new XElement("Consignee", name);
+                identity.Add(elm);
+            }
+
+
+
+
+
+
+
+
+
+            //string htmlText = string.Empty;
+            //var nameList = title.Trim().Split(',');
+            //foreach (var name in nameList)
+            //{
+            //    htmlText += "<p>";
+            //    htmlText += name;
+            //    htmlText += "</p>";
+            //}
+            //HtmlString html = new HtmlString(htmlText);
+            return identity;
+        }
+
+
+
+
+
+
+
+
+
 
     }
 

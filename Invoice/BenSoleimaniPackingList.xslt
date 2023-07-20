@@ -129,9 +129,20 @@
                         Consignee
                       </strong>
                     </p>
-                    <p>
-                      <xsl:value-of select="./TCONSIGNEE" />
-                    </p>
+
+                    <!--<xsl:value-of select="./TCONSIGNEE" />-->
+
+
+
+
+
+
+                    <xsl:call-template name="splitStringToItems">
+                      <xsl:with-param name="delimiter" select="','"  />
+                      <xsl:with-param name="list" select="./TCONSIGNEE" />
+                    </xsl:call-template>
+
+
                   </td>
                   <td valign="top" colspan="10">
                     <p>
@@ -652,6 +663,59 @@
       </body>
     </html>
   </xsl:template>
+
+
+
+
+
+
+  <xsl:template name="splitStringToItems">
+    <xsl:param name="list" />
+    <xsl:param name="delimiter" select="','"  />
+    <xsl:variable name="_delimiter">
+      <xsl:choose>
+        <xsl:when test="string-length($delimiter)=0">,</xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="$delimiter"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:variable name="newlist">
+      <xsl:choose>
+        <xsl:when test="contains($list, $_delimiter)">
+
+          <xsl:value-of select="normalize-space($list)" />
+
+        </xsl:when>
+        <xsl:otherwise>
+
+          <xsl:value-of select="concat(normalize-space($list), $_delimiter)"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:variable name="first" select="substring-before($newlist, $_delimiter)" />
+    <xsl:variable name="remaining" select="substring-after($newlist, $_delimiter)" />
+    <p>
+      <xsl:value-of select="$first" />
+    </p>
+    <xsl:if test="$remaining">
+      <xsl:call-template name="splitStringToItems">
+        <xsl:with-param name="list" select="$remaining" />
+        <xsl:with-param name="delimiter" select="$_delimiter" />
+      </xsl:call-template>
+    </xsl:if>
+  </xsl:template>
+
+
+
+
+
+
+
+
+
+
+
 </xsl:stylesheet>
 
 
