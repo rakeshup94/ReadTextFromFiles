@@ -64,7 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Design.aspx" />
-    <Content Include="HtmlPage1.html" />
+    <Content Include="Invoice.html" />
     <Content Include="Invoice\CompanyCPackingList.xslt">
       <SubType>Designer</SubType>
     </Content>
@@ -162,9 +162,6 @@
     <Content Include="Invoice\PackingList.xslt" />
     <Content Include="Invoice\SuryaPackingList.xslt" />
     <Content Include="Invoice\SuryaInvoice.xslt">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="tutorial.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Web.config">
