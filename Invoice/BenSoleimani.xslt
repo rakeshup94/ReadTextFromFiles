@@ -260,7 +260,7 @@
                               Terms of Delivery and Payment
                             </strong>
                           </p>
-                          <p>F.O.B.</p>
+                         
                           <p>
                             <paymentterms>
                               <xsl:value-of select="./PAYMENTTERMS" />
