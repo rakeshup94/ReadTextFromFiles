@@ -81,7 +81,7 @@
           th
           {
           width:40px;
-     
+
           vertical-align: bottom;
           }
 
@@ -105,16 +105,7 @@
             <invoiceitem>
               <table class="main" border="1" align="center" cellpadding="0" cellspacing="0">
                 <tr>
-
-
-
-
-
                   <td align="center" >
-
-
-
-
 
                     <h4 style="font-family: inherit; font-weight: 500; color: #000 !important; margin-top: 10px;
                                         margin-bottom: 10px; font-size: 18px; font-family: Gotham, Helvetica, Arial, sans-serif;">
@@ -192,7 +183,9 @@
                           <th>Piece Per Roll</th>
                           <th>Order No.</th>
                           <th>Quality</th>
-                          <th>Article <br/>Name</th>
+                          <th>
+                            Article <br/>Name
+                          </th>
                           <th>Article No.</th>
                           <th>Colour</th>
                           <th>Total Piece</th>
