@@ -1,5 +1,5 @@
 ﻿<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0" xmlns:myutils="pda:MyUtils">
-  <xsl:output method="xml" indent="yes" />
+  <xsl:output method="html" indent="yes" />
   <xsl:key name="groupByContainer" match="/InvoiceList/InvoiceItem/Rolls/RollItem"
       use="concat(./Quality,./CustomerOrderNo)" />
 
@@ -53,7 +53,7 @@
 
           table.main { table-layout:fixed; }
           table.main td {
-          width:650px;
+          width:100%;
           }
 
 
@@ -61,14 +61,17 @@
           {
           table-layout:fixed;
 
+
           }
-          td,th
+
+          table.fixed td,th
           {
           width:30px;
           overflow: hidden;
           word-wrap:break-word;
           text-align:center;
-          font-size: 0.4em;
+          font-size: 0.9em;
+          vertical-align: middle;
 
 
           }
@@ -194,17 +197,19 @@
                             Size In <br/>(Ft.  inch)
                           </th>
                           <th>
-                            Area Per <br/>Piece In <br/>Sq. Ft.
+                            Area <br/>Per <br/>Piece <br/>In <br/>Sq.Ft.
                           </th>
                           <th>
-                            Total<br/> Area <br/>Sq. Ft.
-                          </th>
-                          <th>Size In CM</th>
-                          <th>
-                            Area Per<br/> Piece In<br/> Sq. Mtr.
+                            Total<br/> Area <br/>Sq.Ft.
                           </th>
                           <th>
-                            Total <br/>Area <br/>Sq. Mtr.
+                            Size<br/> In<br/> CM
+                          </th>
+                          <th>
+                            Area<br/> Per<br/> Piece<br/> In<br/> Sq.Mtr.
+                          </th>
+                          <th>
+                            Total <br/>Area <br/>Sq.Mtr.
                           </th>
                           <th>
                             Barcode<br/> Line
@@ -213,22 +218,22 @@
                             Discription <br/>Line
                           </th>
                           <th>
-                            Approx.<br/> Net Weight<br/> Per Piece
+                            Approx.<br/> Net<br/> Weight<br/> Per <br/>Piece
                           </th>
                           <th>
-                            Approx.<br/>Total Net <br/>Weight
+                            Approx.<br/>Total <br/>Net <br/>Weight
                           </th>
                           <th>
-                            Approx. <br/>Gross Weight <br/>Per Piece
+                            Approx. <br/>Gross<br/> Weight <br/>Per<br/> Piece
                           </th>
                           <th>
-                            Approx.<br/>Total Gross<br/> Weight
+                            Approx.<br/>Total<br/> Gross<br/> Weight
                           </th>
                           <th>
                             Approx.<br/>Dimension<br/> in CM
                           </th>
                           <th>
-                            Approx.<br/>CBM Per<br/> Roll
+                            Approx.<br/>CBM <br/>Per<br/> Roll
                           </th>
                           <th>
                             Approx.<br/> Total <br/>CBM
@@ -290,16 +295,16 @@
                               </td>
                               <td>
                                 Barcode Line
-                              
+
                               </td>
 
-                              
-                              
-                              
-                              
+
+
+
+
                               <td style='width:30px;word-wrap:break-word;text-align:center;'>
                                 Discription Line
-                      
+
                               </td>
                               <td>
                                 <xsl:value-of select="number(SinglePcsNetWt)" />

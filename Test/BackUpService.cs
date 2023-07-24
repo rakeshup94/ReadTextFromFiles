@@ -49,7 +49,7 @@ namespace WebApplication3.Test
         }
 
         public IEnumerable<string> GetAllUserDatabases()
-        {
+       {
             var databases = new List<string>();
 
             DataTable databasesTable;
