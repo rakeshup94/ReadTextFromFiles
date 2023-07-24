@@ -51,39 +51,35 @@
           border-bottom: none !important;
           }
 
-
-
-
           table.main { table-layout:fixed; }
           table.main td {
-          width:1200px;
+          width:650px;
           }
-
-
-
-
-
 
 
           table.fixed
           {
           table-layout:fixed;
-          width:1000px;
+
           }
           td,th
           {
-
+          width:30px;
           overflow: hidden;
           word-wrap:break-word;
-          text-align: left;
+          text-align:center;
+          font-size: 0.4em;
+
+
           }
 
-          th
+          <!--th
           {
-          width:40px;
-
+          width:25px;
+          text-align:center;
           vertical-align: bottom;
-          }
+
+          }-->
 
           <!--table.fixed th:nth-of-type(22)
           {
@@ -91,11 +87,11 @@
           font-size: xx-small;
           }-->
 
-          table.fixed td:nth-of-type(22)
+          <!--table.fixed td:nth-of-type(22)
           {
-          width:100px;
-          font-size: xx-small;
-          }
+          width:50px;
+      
+          }-->
 
         </style>
       </head>
@@ -107,8 +103,7 @@
                 <tr>
                   <td align="center" >
 
-                    <h4 style="font-family: inherit; font-weight: 500; color: #000 !important; margin-top: 10px;
-                                        margin-bottom: 10px; font-size: 18px; font-family: Gotham, Helvetica, Arial, sans-serif;">
+                    <h4>
                       <p>
                         <companyname>
                           <xsl:value-of select="./COMPANYNAME" />
@@ -134,7 +129,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td valign="top">
+                  <td valign="top" align="left">
                     <p>
                       Packing List -
                       <xsl:value-of select="number(sum(./Rolls/RollItem/TotalRoll))" />
@@ -154,7 +149,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td valign="top">
+                  <td valign="top" align="left">
                     <p>
                       Invoice No.
                       <tinvoiceno>
@@ -179,8 +174,12 @@
                       <thead>
                         <tr>
                           <th>Roll No.</th>
-                          <th>Total Rolls</th>
-                          <th>Piece Per Roll</th>
+                          <th>
+                            Total<br/> Rolls
+                          </th>
+                          <th>
+                            Piece<br/> Per<br/> Roll
+                          </th>
                           <th>Order No.</th>
                           <th>Quality</th>
                           <th>
@@ -188,22 +187,52 @@
                           </th>
                           <th>Article No.</th>
                           <th>Colour</th>
-                          <th>Total Piece</th>
-                          <th>Size In (Ft.  inch)</th>
-                          <th>Area Per Piece In Sq. Ft.</th>
-                          <th>Total Area Sq. Ft.</th>
+                          <th>
+                            Total<br/> Piece
+                          </th>
+                          <th>
+                            Size In <br/>(Ft.  inch)
+                          </th>
+                          <th>
+                            Area Per <br/>Piece In <br/>Sq. Ft.
+                          </th>
+                          <th>
+                            Total<br/> Area <br/>Sq. Ft.
+                          </th>
                           <th>Size In CM</th>
-                          <th>Area Per Piece In Sq. Mtr.</th>
-                          <th>Total Area Sq. Mtr.</th>
-                          <th>Barcode Line</th>
-                          <th>Discription Line</th>
-                          <th>Approx. Net Weight Per Piece</th>
-                          <th>Approx.Total Net Weight</th>
-                          <th>Approx. Gross Weight Per Piece</th>
-                          <th>Approx.Total Gross Weight</th>
-                          <th>Approx.Dimension in CM</th>
-                          <th>Approx.CBM Per Roll</th>
-                          <th>Approx. Total CBM </th>
+                          <th>
+                            Area Per<br/> Piece In<br/> Sq. Mtr.
+                          </th>
+                          <th>
+                            Total <br/>Area <br/>Sq. Mtr.
+                          </th>
+                          <th>
+                            Barcode<br/> Line
+                          </th>
+                          <th>
+                            Discription <br/>Line
+                          </th>
+                          <th>
+                            Approx.<br/> Net Weight<br/> Per Piece
+                          </th>
+                          <th>
+                            Approx.<br/>Total Net <br/>Weight
+                          </th>
+                          <th>
+                            Approx. <br/>Gross Weight <br/>Per Piece
+                          </th>
+                          <th>
+                            Approx.<br/>Total Gross<br/> Weight
+                          </th>
+                          <th>
+                            Approx.<br/>Dimension<br/> in CM
+                          </th>
+                          <th>
+                            Approx.<br/>CBM Per<br/> Roll
+                          </th>
+                          <th>
+                            Approx.<br/> Total <br/>CBM
+                          </th>
                         </tr>
                       </thead>
                       <tbody>
@@ -261,11 +290,16 @@
                               </td>
                               <td>
                                 Barcode Line
-                                <xsl:value-of select="RollTo" />
+                              
                               </td>
-                              <td>
+
+                              
+                              
+                              
+                              
+                              <td style='width:30px;word-wrap:break-word;text-align:center;'>
                                 Discription Line
-                                <xsl:value-of select="RollTo" />
+                      
                               </td>
                               <td>
                                 <xsl:value-of select="number(SinglePcsNetWt)" />
