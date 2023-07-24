@@ -51,30 +51,71 @@
           border-bottom: none !important;
           }
 
-          .auto-style3 {
-          width: 81px;
+
+
+
+          table.main { table-layout:fixed; }
+          table.main td {
+          width:1200px;
           }
 
-          .auto-style4 {
-          border-style: none;
-          border-color: inherit;
-          border-width: medium;
-          height: 246px;
+
+
+
+
+
+
+          table.fixed
+          {
+          table-layout:fixed;
+          width:1000px;
+          }
+          td,th
+          {
+
+          overflow: hidden;
+          word-wrap:break-word;
+          text-align: left;
           }
 
-          .auto-style5 {
-          height: 246px;
+          th
+          {
+          width:40px;
+     
+          vertical-align: bottom;
           }
+
+          <!--table.fixed th:nth-of-type(22)
+          {
+          width:100px;
+          font-size: xx-small;
+          }-->
+
+          table.fixed td:nth-of-type(22)
+          {
+          width:100px;
+          font-size: xx-small;
+          }
+
         </style>
       </head>
       <body>
         <invoicelist>
           <xsl:for-each select="/InvoiceList/InvoiceItem">
             <invoiceitem>
-              <table width="700" border="1" align="center" cellpadding="0" cellspacing="0" style="border: solid 1px #333">
+              <table class="main" border="1" align="center" cellpadding="0" cellspacing="0">
                 <tr>
-                  <td colspan="24" height="15px"
-                      style="padding-left: 5px; text-align: center; color: #000!important;">
+
+
+
+
+
+                  <td align="center" >
+
+
+
+
+
                     <h4 style="font-family: inherit; font-weight: 500; color: #000 !important; margin-top: 10px;
                                         margin-bottom: 10px; font-size: 18px; font-family: Gotham, Helvetica, Arial, sans-serif;">
                       <p>
@@ -102,7 +143,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td valign="top" colspan="24">
+                  <td valign="top">
                     <p>
                       Packing List -
                       <xsl:value-of select="number(sum(./Rolls/RollItem/TotalRoll))" />
@@ -122,7 +163,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td valign="top" colspan="24">
+                  <td valign="top">
                     <p>
                       Invoice No.
                       <tinvoiceno>
@@ -139,201 +180,234 @@
                     </p>
                   </td>
                 </tr>
-                <tr>
-                  <td>Roll No.</td>
-                  <td>Total Rolls</td>
-                  <td>Piece Per Roll</td>
-                  <td>Order No.</td>
-                  <td>Quality</td>
-                  <td>Article Name</td>
-                  <td>Article No.</td>
-                  <td>Colour</td>
-                  <td>Total Piece</td>
-                  <td>Size In (Ft.  inch)</td>
-                  <td>Area Per Piece In Sq. Ft.</td>
-                  <td>Total Area Sq. Ft.</td>
-                  <td>Size In CM</td>
-                  <td>Area Per Piece In Sq. Mtr.</td>
-                  <td>Total Area Sq. Mtr.</td>
-                  <td>Barcode Line</td>
-                  <td>Discription Line</td>
-                  <td>Approx. Net Weight Per Piece</td>
-                  <td>Approx.Total Net Weight </td>
-                  <td>Approx. Gross Weight Per Piece</td>
-                  <td>Approx.Total Gross Weight </td>
-                  <td>Approx.Dimension in CM </td>
-                  <td>Approx.CBM Per Roll </td>
-                  <td>Approx. Total CBM  </td>
-                </tr>
-                <rolls>
-                  <xsl:for-each select="./Rolls/RollItem">
-                    <rollitem>
-                      <tr>
-                        <td>
-                          <xsl:value-of select="Rollfrom" />
-                          --
-                          <xsl:value-of select="RollTo" />
-                        </td>
-                        <xsl:variable name="TotalRoll" select="number(TotalRoll)" />
-                        <td>
-                          <xsl:value-of select="$TotalRoll" />
-                        </td>
-                        <td>
-                          <xsl:value-of select="RPcs" />
-                        </td>
-                        <td>
-                          <xsl:value-of select="CustomerOrderNo" />
-                        </td>
-                        <td>
-                          <xsl:value-of select="Quality" />
-                        </td>
-                        <td>
-                          <xsl:value-of select="DesignName" />
-                        </td>
-                        <td>
-                          <xsl:value-of select="DESIGN" />
-                        </td>
-                        <td>
-                          <xsl:value-of select="COLOR" />
-                        </td>
-                        <td>
-                          <xsl:value-of select="number(TotalPcs)" />
-                        </td>
-                        <td>
-                          <xsl:value-of select="SizeFT" />
-                        </td>
-                        <td>
-                          <xsl:value-of select="AreaFT" />
-                        </td>
-                        <td>
-                          <xsl:value-of select="AreaFT*TotalPcs" />
-                        </td>
-                        <td>
-                          <xsl:value-of select="SizeMtr" />
-                        </td>
-                        <td>
-                          <xsl:value-of select="AreaMtr" />
-                        </td>
-                        <td>
-                          <xsl:value-of select="AreaMtr*TotalPcs" />
-                        </td>
-                        <td>
-                          Barcode Line
-                          <xsl:value-of select="RollTo" />
-                        </td>
-                        <td>
-                          Discription Line
-                          <xsl:value-of select="RollTo" />
-                        </td>
-                        <td>
-                          <xsl:value-of select="number(SinglePcsNetWt)"/>
-                        </td>
-                        <td>
-                          <xsl:value-of  select="SinglePcsNetWt*TotalPcs"  />
-                        </td>
-                        <td>
-                          <xsl:value-of select="SinglePcsGrossWt" />
-                        </td>
-                        <td>
-                          <xsl:value-of select="SinglePcsGrossWt*TotalPcs" />
-                        </td>
-                        <td>
-                          <xsl:value-of select="L" />
-                          X
 
-                          <xsl:value-of select="W" />
-                          X
-                          <xsl:value-of select="H" />
+                <tr>
+                  <td>
 
-                        </td>
-                        <td>
-                          <xsl:value-of select="CBM" />
-                        </td>
+                    <table class="fixed" border="1" align="center" cellpadding="0" cellspacing="0">
+                      <thead>
+                        <tr>
+                          <th>Roll No.</th>
+                          <th>Total Rolls</th>
+                          <th>Piece Per Roll</th>
+                          <th>Order No.</th>
+                          <th>Quality</th>
+                          <th>Article <br/>Name</th>
+                          <th>Article No.</th>
+                          <th>Colour</th>
+                          <th>Total Piece</th>
+                          <th>Size In (Ft.  inch)</th>
+                          <th>Area Per Piece In Sq. Ft.</th>
+                          <th>Total Area Sq. Ft.</th>
+                          <th>Size In CM</th>
+                          <th>Area Per Piece In Sq. Mtr.</th>
+                          <th>Total Area Sq. Mtr.</th>
+                          <th>Barcode Line</th>
+                          <th>Discription Line</th>
+                          <th>Approx. Net Weight Per Piece</th>
+                          <th>Approx.Total Net Weight</th>
+                          <th>Approx. Gross Weight Per Piece</th>
+                          <th>Approx.Total Gross Weight</th>
+                          <th>Approx.Dimension in CM</th>
+                          <th>Approx.CBM Per Roll</th>
+                          <th>Approx. Total CBM </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <xsl:for-each select="./Rolls/RollItem">
+                          <rollitem>
+                            <tr>
+                              <td>
+                                <xsl:value-of select="Rollfrom" />
+                                --
+                                <xsl:value-of select="RollTo" />
+                              </td>
+                              <xsl:variable name="TotalRoll" select="number(TotalRoll)" />
+                              <td>
+                                <xsl:value-of select="$TotalRoll" />
+                              </td>
+                              <td>
+                                <xsl:value-of select="RPcs" />
+                              </td>
+                              <td>
+                                <xsl:value-of select="CustomerOrderNo" />
+                              </td>
+                              <td>
+                                <xsl:value-of select="Quality" />
+                              </td>
+                              <td>
+                                <xsl:value-of select="DesignName" />
+                              </td>
+                              <td>
+                                <xsl:value-of select="DESIGN" />
+                              </td>
+                              <td>
+                                <xsl:value-of select="COLOR" />
+                              </td>
+                              <td>
+                                <xsl:value-of select="number(TotalPcs)" />
+                              </td>
+                              <td>
+                                <xsl:value-of select="SizeFT" />
+                              </td>
+                              <td>
+                                <xsl:value-of select="AreaFT" />
+                              </td>
+                              <td>
 
-                        <td>
-                          <xsl:value-of  select="CBM*TotalRoll" />
-                        </td>
-                      </tr>
-                    </rollitem>
-                  </xsl:for-each>
-                </rolls>
-                <tr>
-                  <td>
-                    Total
-                  </td>
-                  <td>
-                    <xsl:value-of select="number(sum(./Rolls/RollItem/TotalRoll))" />
-                  </td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <xsl:value-of select="number(sum(./Rolls/RollItem/TotalPcs))" />
-                  <td>
-                    <xsl:value-of select="number(sum(./Rolls/RollItem/TotalPcs))" />
-                  </td>
-                  <td>
-                  </td>
-                  <td>
-                  </td>
-                  <td>
-                    <xsl:call-template name="TotalAreaFT">
-                      <xsl:with-param name="nodeSet" select="./Rolls/RollItem" />
-                    </xsl:call-template>
-                  </td>
-                  <td>
-                  </td>
-                  <td>
-                  </td>
-                  <td>
-                    <xsl:call-template name="TotalAreaMtr">
-                      <xsl:with-param name="nodeSet" select="./Rolls/RollItem" />
-                    </xsl:call-template>
-                  </td>
-                  <td>
-                  </td>
-                  <td>
-                  </td>
-                  <td>
-                  </td>
-                  <td>
-                    <xsl:call-template name="TotalNetWt">
-                      <xsl:with-param name="nodeSet" select="./Rolls/RollItem" />
-                    </xsl:call-template>
-                  </td>
-                  <td>
-                  </td>
-                  <td>
-                    <xsl:call-template name="TotalGrossWt">
-                      <xsl:with-param name="nodeSet" select="./Rolls/RollItem" />
-                    </xsl:call-template>
-                  </td>
-                  <td>
-               
+                                <xsl:value-of select='format-number(AreaFT*TotalPcs, "#.00")' />
+                              </td>
+                              <td>
+                                <xsl:value-of select="SizeMtr" />
+                              </td>
+                              <td>
+                                <xsl:value-of select="AreaMtr" />
+                              </td>
+                              <td>
+                                <xsl:value-of  select='format-number(AreaMtr*TotalPcs, "#.00")' />
+                              </td>
+                              <td>
+                                Barcode Line
+                                <xsl:value-of select="RollTo" />
+                              </td>
+                              <td>
+                                Discription Line
+                                <xsl:value-of select="RollTo" />
+                              </td>
+                              <td>
+                                <xsl:value-of select="number(SinglePcsNetWt)" />
+                              </td>
+                              <td>
+                                <xsl:value-of select='format-number(SinglePcsNetWt*TotalPcs, "#.00")'  />
+                              </td>
+                              <td>
+                                <xsl:value-of select="SinglePcsGrossWt" />
+                              </td>
+                              <td>
+                                <xsl:value-of   select='format-number(SinglePcsGrossWt*TotalPcs, "#.00")'  />
+                              </td>
+                              <td>
+                                <xsl:value-of select="L" />
+                                X
+
+                                <xsl:value-of select="W" />
+                                X
+                                <xsl:value-of select="H" />
+
+                              </td>
+                              <td>
+                                <xsl:value-of select="CBM" />
+                              </td>
+
+                              <td>
+                                <xsl:value-of  select='format-number(CBM*TotalRoll, "#.00")'  />
+                              </td>
+                            </tr>
+                          </rollitem>
+                        </xsl:for-each>
+
+                        <tr>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                      </tbody>
+                      <tfoot>
+                        <tr>
+                          <td>
+                            Total
+                          </td>
+                          <td>
+                            <xsl:value-of select="number(sum(./Rolls/RollItem/TotalRoll))" />
+                          </td>
+                          <td colspan="6"></td>
+
+                          <td>
+                            <xsl:value-of select="number(sum(./Rolls/RollItem/TotalPcs))" />
+                          </td>
+                          <td colspan="2"></td>
+                          <td>
+                            <xsl:call-template name="TotalAreaFT">
+                              <xsl:with-param name="nodeSet" select="./Rolls/RollItem" />
+                            </xsl:call-template>
+                          </td>
+                          <td colspan="2"></td>
+                          <td>
+                            <xsl:call-template name="TotalAreaMtr">
+                              <xsl:with-param name="nodeSet" select="./Rolls/RollItem" />
+                            </xsl:call-template>
+                          </td>
+                          <td colspan="3"></td>
+                          <td>
+                            <xsl:call-template name="TotalNetWt">
+                              <xsl:with-param name="nodeSet" select="./Rolls/RollItem" />
+                            </xsl:call-template>
+                          </td>
+                          <td></td>
+                          <td>
+                            <xsl:call-template name="TotalGrossWt">
+                              <xsl:with-param name="nodeSet" select="./Rolls/RollItem" />
+                            </xsl:call-template>
+                          </td>
+                          <td colspan="2"></td>
+                          <td>
+                            <xsl:call-template name="TotalCBM">
+                              <xsl:with-param name="nodeSet" select="./Rolls/RollItem" />
+                            </xsl:call-template>
+                          </td>
+                        </tr>
+
+                      </tfoot>
+                    </table>
 
                   </td>
-                  <td>
-                  </td>
-                  <td>
-                    <xsl:call-template name="TotalCBM">
-                      <xsl:with-param name="nodeSet" select="./Rolls/RollItem" />
-                    </xsl:call-template>
-                  </td>
+                </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <tr>
+                  <td class="noBorder"></td>
                 </tr>
                 <tr>
-                  <td colspan="24" class="noBorder"></td>
+                  <td class="noBorder"></td>
                 </tr>
                 <tr>
-                  <td colspan="24" class="noBorder"></td>
+                  <td  class="noBorder"></td>
                 </tr>
                 <tr>
-                  <td colspan="24" class="noBorder"></td>
-                </tr>
-                <tr>
-                  <td colspan="16" valign="middle" class="auto-style4"></td>
-                  <td colspan="8" class="auto-style5"></td>
+                  <td valign="middle" ></td>
+
                 </tr>
               </table>
             </invoiceitem>
@@ -359,7 +433,7 @@
     <xsl:param name="tempSum" select="0" />
     <xsl:choose>
       <xsl:when test="not($nodeSet)">
-        <xsl:value-of select="$tempSum" />
+        <xsl:value-of select='format-number($tempSum, "#.00")' />
       </xsl:when>
       <xsl:otherwise>
         <xsl:variable name="product" select="$nodeSet[1]/AreaFT * $nodeSet[1]/TotalPcs" />
@@ -375,7 +449,7 @@
     <xsl:param name="tempSum" select="0" />
     <xsl:choose>
       <xsl:when test="not($nodeSet)">
-        <xsl:value-of select="$tempSum" />
+        <xsl:value-of  select='format-number($tempSum, "#.00")' />
       </xsl:when>
       <xsl:otherwise>
         <xsl:variable name="product" select="$nodeSet[1]/AreaMtr * $nodeSet[1]/TotalPcs" />
@@ -395,7 +469,7 @@
     <xsl:param name="tempSum" select="0" />
     <xsl:choose>
       <xsl:when test="not($nodeSet)">
-        <xsl:value-of select="$tempSum" />
+        <xsl:value-of  select='format-number($tempSum, "#.00")' />
       </xsl:when>
       <xsl:otherwise>
         <xsl:variable name="product" select="$nodeSet[1]/SinglePcsNetWt * $nodeSet[1]/TotalPcs" />
@@ -413,7 +487,7 @@
     <xsl:param name="tempSum" select="0" />
     <xsl:choose>
       <xsl:when test="not($nodeSet)">
-        <xsl:value-of select="$tempSum" />
+        <xsl:value-of  select='format-number($tempSum, "#.00")' />
       </xsl:when>
       <xsl:otherwise>
         <xsl:variable name="product" select="$nodeSet[1]/SinglePcsGrossWt * $nodeSet[1]/TotalPcs" />
@@ -434,7 +508,7 @@
     <xsl:param name="tempSum" select="0" />
     <xsl:choose>
       <xsl:when test="not($nodeSet)">
-        <xsl:value-of select="$tempSum" />
+        <xsl:value-of  select='format-number($tempSum, "#.00")' />
       </xsl:when>
       <xsl:otherwise>
         <xsl:variable name="product" select="$nodeSet[1]/CBM * $nodeSet[1]/TotalRoll" />
