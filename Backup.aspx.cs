@@ -25,15 +25,7 @@ namespace WebApplication3
             var connectionString = ConfigurationManager.ConnectionStrings["PMCSoftContext"].ConnectionString;
             var backupFolder = ConfigurationManager.AppSettings["BackupFolder"];
             this.bckpSrv = new WebApplication3.Test.BackupService(connectionString, backupFolder);
-
-
-
         }
-
-
-
-
-
 
 
         protected void Page_Load(object sender, EventArgs e)

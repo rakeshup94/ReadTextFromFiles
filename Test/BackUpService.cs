@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Web;
 using System.IO;
+using static iTextSharp.text.pdf.AcroFields;
 
 namespace WebApplication3.Test
 {
@@ -34,22 +35,45 @@ namespace WebApplication3.Test
 
             using (var connection = new SqlConnection(_connectionString))
             {
+                var query = @"BACKUP DATABASE @DatabaseName TO DISK=@BackupPath
+INSERT INTO [dbo].[tblDatabaseBackup]([DatabaseName],[BackupPath],[CreatedOn],[CreatedBy])
+VALUES(@DatabaseName,@BackupPath,@CreatedOn,@CreatedBy)";
 
-
-                var query = String.Format("BACKUP DATABASE [{0}] TO DISK='{1}'", databaseName, filePath);
-
-                using (var command = new SqlCommand(query, connection))
+                using (var command = new SqlCommand())
                 {
+                    SqlParameter[] param = new SqlParameter[4];
+                    param[0] = new SqlParameter("@DatabaseName", SqlDbType.NVarChar);
+                    param[0].Direction = ParameterDirection.Input;
+                    param[0].Value = databaseName;
+                    command.Parameters.Add(param[0]);
+                    param[1] = new SqlParameter("@BackupPath", SqlDbType.NVarChar);
+                    param[1].Direction = ParameterDirection.Input;
+                    param[1].Value = filePath;
+                    command.Parameters.Add(param[1]);
+                    param[2] = new SqlParameter("@CreatedOn", SqlDbType.DateTime);
+                    param[2].Direction = ParameterDirection.Input;
+                    param[2].Value = DateTime.Now;
+                    command.Parameters.Add(param[2]);
+                    param[3] = new SqlParameter("@CreatedBy", SqlDbType.Int);
+                    param[3].Direction = ParameterDirection.Input;
+                    param[3].Value = 1;
+                    command.Parameters.Add(param[3]);
+
+                    command.Connection = connection;
+                    command.CommandText = query;
+                    command.CommandType = CommandType.Text;
+
+                 
+
                     command.CommandTimeout = 2000;
                     connection.Open();
-                
                     command.ExecuteNonQuery();
                 }
             }
         }
 
         public IEnumerable<string> GetAllUserDatabases()
-       {
+        {
             var databases = new List<string>();
 
             DataTable databasesTable;
