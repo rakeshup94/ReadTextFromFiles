@@ -62,9 +62,6 @@ VALUES(@DatabaseName,@BackupPath,@CreatedOn,@CreatedBy)";
                     command.Connection = connection;
                     command.CommandText = query;
                     command.CommandType = CommandType.Text;
-
-                 
-
                     command.CommandTimeout = 2000;
                     connection.Open();
                     command.ExecuteNonQuery();
@@ -102,7 +99,7 @@ VALUES(@DatabaseName,@BackupPath,@CreatedOn,@CreatedBy)";
 
         private string BuildBackupPathWithFilename(string databaseName)
         {
-            string filename = string.Format("{0}-{1}.bak", databaseName, DateTime.Now.ToString("yyyy-MM-dd"));
+            string filename = string.Format("{0}-{1}.bak", databaseName, DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss"));
 
             return Path.Combine(_backupFolderFullPath, filename);
         }
