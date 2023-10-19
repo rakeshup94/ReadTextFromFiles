@@ -18,13 +18,9 @@
             <asp:Button ID="Button1" runat="server" Text="Transform with XML Control" OnClick="Button1_Click" />
             &nbsp; &nbsp; &nbsp; &nbsp;
             <asp:Button ID="Button2" runat="server" Text="Transform without XML control" OnClick="Button2_Click" />
-            <img src="Images/signature/client-42.png" />
-            <br />
-              <img src="D:\Rakesh\DharamJi\Testing\XSLTranformation\Images\signature\client-42.png" />
-            <br />
-              <img src="D:\Rakesh\DharamJi\Testing\XSLTranformation\Images\signature\client-42.png" />
-            <br />            
-        </div>k
+            
+  
+        </div>
             </center>
     </form>
 </body>
