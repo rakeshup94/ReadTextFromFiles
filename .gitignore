@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/bin/Testing.dll
+/bin/Testing.dll.config
+/bin/Testing.pdb
+/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs
+/obj/Debug/Testing.csproj.AssemblyReference.cache
+/obj/Debug/Testing.csproj.CoreCompileInputs.cache
+/obj/Debug/Testing.csproj.FileListAbsolute.txt
+/obj/Debug/Testing.dll
+/obj/Debug/Testing.pdb
+/.gitignore
