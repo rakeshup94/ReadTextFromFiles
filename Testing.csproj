@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WebApplication3</RootNamespace>
-    <AssemblyName>WebApplication3</AssemblyName>
+    <RootNamespace>Testing</RootNamespace>
+    <AssemblyName>Testing</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -63,90 +63,106 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="App_Data\Inspection\PAPERTUBE .xslt" />
+    <Content Include="App_Data\Inspection\PolyBag.xslt" />
+    <Content Include="App_Data\Invoice\AC-1011-MISAWA.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\Invoice\EXPORT_INVOICE.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\Invoice\VC-501-YARAGHI LLC.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\Invoice\AC-1011-MISAWA-Packing.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\Packing\EXPORT_Packing.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\Packing\VC-501-YARAGHI-LLC.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Design.aspx" />
     <Content Include="Invoice.html" />
-    <Content Include="Invoice\CompanyCPackingList.xslt">
+    <Content Include="App_Data\Packing\CompanyCPackingList.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Invoice\Inspection\PAPERTUBE .xslt" />
-    <Content Include="Invoice\Inspection\PolyBag.xslt" />
-    <Content Include="Invoice\CompanyC.xslt">
+    <Content Include="App_Data\Invoice\CompanyC.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="WordDoc\BillofExchange.xslt" />
-    <Content Include="WordDoc\CentralExciseDeclaration.xslt" />
-    <Content Include="WordDoc\VGM-2.xslt">
+    <Content Include="App_Data\WordDoc\BillofExchange.xslt" />
+    <Content Include="App_Data\WordDoc\CentralExciseDeclaration.xslt" />
+    <Content Include="App_Data\WordDoc\VGM-2.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="WordDoc\CanaraBankCollectionSchedule.xslt">
+    <Content Include="App_Data\WordDoc\CanaraBankCollectionSchedule.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="WordDoc\PackingDeclaration.xslt">
+    <Content Include="App_Data\WordDoc\PackingDeclaration.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="WordDoc\SingleCountryDeclaration.xslt">
+    <Content Include="App_Data\WordDoc\SingleCountryDeclaration.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="WordDoc\EVD-33.xslt">
+    <Content Include="App_Data\WordDoc\EVD-33.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="WordDoc\DeclforLeather.xslt" />
-    <Content Include="WordDoc\Declaration.xslt" />
-    <Content Include="WordDoc\AdvanceCargoDeclaration.xslt" />
-    <Content Include="Invoice\BenSoleimaniPackingList.xslt">
+    <Content Include="App_Data\WordDoc\DeclforLeather.xslt" />
+    <Content Include="App_Data\WordDoc\Declaration.xslt" />
+    <Content Include="App_Data\WordDoc\AdvanceCargoDeclaration.xslt" />
+    <Content Include="App_Data\Packing\BenSoleimaniPackingList.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Invoice\BenutaInvoice.xslt">
+    <Content Include="App_Data\Invoice\BenutaInvoice.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Invoice\BenutapackingList.xslt" />
-    <Content Include="Invoice\CADRYSPTYPackingList.xslt">
+    <Content Include="App_Data\Packing\BenutapackingList.xslt" />
+    <Content Include="App_Data\Packing\CADRYSPTYPackingList.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Invoice\BenSoleimani.xslt">
+    <Content Include="App_Data\Invoice\BenSoleimani.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Invoice\COURISTANPackingList.xslt">
+    <Content Include="App_Data\Packing\COURISTANPackingList.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Invoice\DixieGroupPackingList.xslt">
+    <Content Include="App_Data\Packing\DixieGroupPackingList.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Invoice\DixieGroup.xslt">
+    <Content Include="App_Data\Invoice\DixieGroup.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Invoice\DesignIdeasPacking.xslt">
+    <Content Include="App_Data\Packing\DesignIdeasPacking.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Invoice\Invoice.xslt" />
-    <Content Include="Invoice\KalatyPackingList.xslt">
+    <Content Include="App_Data\Invoice\Invoice.xslt" />
+    <Content Include="App_Data\Packing\KalatyPackingList.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Invoice\MISAWAPackingList.xslt">
+    <Content Include="App_Data\Packing\MISAWAPackingList.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Invoice\MISAWA.xslt">
+    <Content Include="App_Data\Invoice\DesignIdeasInvoice.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Invoice\DesignIdeasInvoice.xslt">
+    <Content Include="App_Data\Invoice\COURISTANInvoice.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Invoice\COURISTANInvoice.xslt">
+    <Content Include="App_Data\Invoice\CADRYSPTY.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Invoice\CADRYSPTY.xslt">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="Invoice\KalatyInvoice.xslt">
+    <Content Include="App_Data\Invoice\KalatyInvoice.xslt">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Images\Logo\1_company.gif" />
     <Content Include="Images\Logo\3_company.gif" />
     <Content Include="Images\Logo\6_company.gif" />
     <Content Include="Images\signature\client-42.png" />
-    <Content Include="Invoice\PackingList.xslt" />
-    <Content Include="Invoice\SuryaPackingList.xslt" />
-    <Content Include="Invoice\SuryaInvoice.xslt">
+    <Content Include="App_Data\Invoice\PackingList.xslt" />
+    <Content Include="App_Data\Packing\SuryaPackingList.xslt" />
+    <Content Include="App_Data\Invoice\SuryaInvoice.xslt">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Web.config">
@@ -158,7 +174,7 @@
     <Content Include="XSLTransform.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CommonHelper.cs" />
+    <Content Include="Helper\CommonHelper.cs" />
     <Compile Include="Design.aspx.cs">
       <DependentUpon>Design.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -166,6 +182,7 @@
     <Compile Include="Design.aspx.designer.cs">
       <DependentUpon>Design.aspx</DependentUpon>
     </Compile>
+    <Compile Include="MathHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="XSLTransform.aspx.cs">
       <DependentUpon>XSLTransform.aspx</DependentUpon>
@@ -183,9 +200,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

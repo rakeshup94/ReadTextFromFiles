@@ -12,7 +12,9 @@ using System.Web.UI.WebControls;
 using System.Xml;
 using System.Xml.Xsl;
 
-namespace WebApplication3
+
+
+namespace Testing
 {
     public partial class XSLTransform : System.Web.UI.Page
     {
@@ -66,14 +68,21 @@ namespace WebApplication3
             ltlTutorial.Visible = false;
             // this is being read from the same folder as this page is in.(only for demo purpose)
             // In real applications this xml might be coming from some external source or database.
-            string xmlString = File.ReadAllText(Server.MapPath("InvoiceData.xml"));
+
+            var xmlPath = Server.MapPath(ConfigurationManager.AppSettings["xmlPath"]);
+
+
+
+            string xmlString = File.ReadAllText(xmlPath);
             // Define the contents of the XML control
             Xml1.DocumentContent = xmlString;
             XsltArgumentList arguments = new XsltArgumentList();
             arguments.AddExtensionObject("pda:MyUtils", new MathHelper());
             Xml1.TransformArgumentList = arguments;
             // Specify the XSL file to be used for transformation.
-            Xml1.TransformSource = Server.MapPath(ConfigurationManager.AppSettings["FilePath"]);
+
+            string filePath = "~/App_Data/Invoice/" + ConfigurationManager.AppSettings["FileName"];
+            Xml1.TransformSource = Server.MapPath(filePath);
             //Xml1.TransformSource = Server.MapPath("~/PackingList/BenutapackingList.xslt");
         }
 
@@ -81,9 +90,9 @@ namespace WebApplication3
         {
             Xml1.Visible = false;
             ltlTutorial.Visible = true;
-
+            string filePath = "~/App_Data/Invoice/" + ConfigurationManager.AppSettings["FileName"];
             //Getting file path
-            string strXSLTFile = Server.MapPath(ConfigurationManager.AppSettings["FilePath"]);
+            string strXSLTFile = Server.MapPath(filePath);
             string strXMLFile = Server.MapPath("InvoiceData.xml");
 
             //Creating XSLCompiled object
@@ -91,6 +100,8 @@ namespace WebApplication3
 
 
             objXSLTransform.Load(strXSLTFile);
+
+            
 
             //Creating StringBuilder object to hold html data and creates TextWriter object to hold data from XslCompiled.Transform method
             StringBuilder htmlOutput = new StringBuilder();
@@ -113,7 +124,7 @@ namespace WebApplication3
             HttpContext.Current.Response.Buffer = true;
             HttpContext.Current.Response.Charset = "UTF-8";
             //HttpContext.Current.Response.AddHeader("content-disposition", string.Format("attachment; filename={0}.doc", HttpUtility.UrlEncode("Invoice-" + DateTime.Now.ToShortDateString(), System.Text.Encoding.UTF8)));
-            HttpContext.Current.Response.AddHeader("content-disposition", string.Format("attachment; filename={0}.xls", HttpUtility.UrlEncode("Invoice-" + DateTime.Now.ToShortDateString(), System.Text.Encoding.UTF8)));
+            HttpContext.Current.Response.AddHeader("content-disposition", string.Format("attachment; filename={0}.xls", HttpUtility.UrlEncode(ConfigurationManager.AppSettings["FileName"].Trim().Replace('.','_') + DateTime.Now.ToShortDateString(), System.Text.Encoding.UTF8)));
             HttpContext.Current.Response.ContentEncoding = System.Text.Encoding.UTF8;
             HttpContext.Current.Response.ContentType = "application/ms-excel";
             ///HttpContext.Current.Response.ContentType = "application/vnd.ms-word";

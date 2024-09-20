@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApplication3 {
+namespace Testing {
     
     
     public partial class XSLTransform {

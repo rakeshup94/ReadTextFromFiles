@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="XSLTransform.aspx.cs" Inherits="WebApplication3.XSLTransform" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="XSLTransform.aspx.cs" Inherits="Testing.XSLTransform" %>
 
 <!DOCTYPE html>
 
