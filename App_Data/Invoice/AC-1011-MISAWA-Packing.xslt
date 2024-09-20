@@ -62,7 +62,9 @@
                   <td valign="top" colspan="5">
                     <p>
                       Buyer's Order No. Date :                        <totorder>
-                        <xsl:value-of select="./totorder" />
+                        <xsl:for-each select="./BuyerOrderNo/Buyer">
+                          <xsl:value-of select="@OrderNo" />,
+                        </xsl:for-each>
                       </totorder>
                     </p>
                   </td>
@@ -79,21 +81,17 @@
                     </p>
                   </td>
                   <td valign="top" colspan="5" rowspan="2">
-                    <p>
-                      <strong>FOR INSPECTION </strong>
-                    </p>
-                    <p>
-                      <tconsignee>
-                        <xsl:value-of select="./TCONSIGNEE" />
-                      </tconsignee>
-                    </p>
+                
+                    <b>
+                    <xsl:value-of select="./TBUYEROCONSIGNEE" />
+                    </b>
                   </td>
                 </tr>
                 <tr>
                   <td valign="top" rowspan="2" colspan="3">
                     <p>
                       <tbuyeroconsignee>
-                        <xsl:value-of select="./TBUYEROCONSIGNEE" />
+                        <xsl:value-of select="./TCONSIGNEE" />
                       </tbuyeroconsignee>
                     </p>
                   </td>
@@ -121,6 +119,7 @@
                     <p>
                       <strong>Pre-carriage by</strong>
                     </p>
+                    <xsl:value-of select="./CARRIAGENAME" />
                   </td>
                   <td valign="top" colspan="2">
                     <p>
@@ -231,8 +230,8 @@
                   </td>
                   <td align="center" valign="middle">
                     <strong>
-                      Size                        <br />                        (in CM.)
-                    </strong>
+                      Size                        <br />                        (in <xsl:value-of select="./UNITNAME" />.)
+                  </strong>
                   </td>
                   <td align="center" valign="middle">
                     <strong>
@@ -246,8 +245,8 @@
                   </td>
                   <td align="center" valign="middle">
                     <strong>
-                      Area                        <br />                        Sqm.
-                    </strong>
+                      Area                        <br />                        Sq <xsl:value-of select="./UNITNAME" />.
+                  </strong>
                   </td>
                 </tr>
                 <rolls>
@@ -275,11 +274,10 @@
                       <xsl:for-each select="$vGroup">
                         <tr>
                           <td align="center" valign="middle" width="150" colspan="2">
-                            <rollfrom>
-                              <xsl:value-of select="Rollfrom" />
-                            </rollfrom>                              -                              <rollto>
-                              <xsl:value-of select="RollTo" />
-                            </rollto>
+                          
+
+
+                            <xsl:value-of select="concat(Rollfrom,'to',RollTo)" />
                           </td>
                           <td align="center" valign="middle" colspan="2" width="170">
                             <item_name>
@@ -291,12 +289,12 @@
                           </td>
                           <td align="center" valign="middle" width="90">
                             <sizemtr>
-                              <xsl:value-of select="SizeMtr" />
+                                    (     <xsl:value-of select="WIDTH" />X      <xsl:value-of select="LENGTH" />)
                             </sizemtr>
                           </td>
                           <td align="center" valign="middle" width="70">
                             <PCS>
-                              <xsl:value-of select="PCS" />
+                              <xsl:value-of select="TotalPcs" />
                             </PCS>
                           </td>
                           <td align="center" valign="middle" width="70">
@@ -306,7 +304,7 @@
                           </td>
                           <td align="center" valign="middle"  width="70">
                             <areamtr>
-                              <xsl:value-of select="AreaMtr" />
+                              <xsl:value-of select="AREA" />
                             </areamtr>
                           </td>
                         </tr>
@@ -320,12 +318,12 @@
                     <strong>                        TOTAL                        </strong>
                   </td>
                   <td valign="top">
-                    <xsl:value-of select="number(sum(././Rolls/RollItem/PCS))" />
+                    <xsl:value-of select="number(sum(././Rolls/RollItem/TotalPcs))" />
                   </td>
                   <td align="center" valign="middle"></td>
                   <td align="center" valign="middle">
                     <strong>
-                      <xsl:value-of select="number(sum(././Rolls/RollItem/AreaMtr))" />
+                       <xsl:value-of select="format-number(sum(././Rolls/RollItem/AREA),'#.##')" />
                     </strong>
                   </td>
                 </tr>
