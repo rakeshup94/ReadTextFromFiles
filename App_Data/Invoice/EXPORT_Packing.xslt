@@ -1,43 +1,13 @@
-﻿<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0" xmlns:myUtils="pda:MyUtils">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0" xmlns:myUtils="pda:MyUtils">
   <xsl:output method="xml" indent="yes"/>
   <xsl:key name="groupByContainer" match="/InvoiceList/InvoiceItem/Rolls/RollItem" use="concat(./Quality,./CustomerOrderNo)"/>
-
   <xsl:template name="dots" match="/">
     <html xmlns="http://www.w3.org/1999/xhtml">
       <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>Emailer</title>
-        <style>
-          table {
-          border: 1px solid #ccc;
-          }
-
-          td {
-          padding: 5px;
-          }
-
-          p {
-          margin-bottom: 5px;
-          margin-top: 0px;
-          }
-
-          .noBorder {
-          border: none !important;
-          }
-
-
-          .notopBorder {
-          border: none !important;
-          }
-
-
-          .notop {
-          border-top: none !important;
-          }
-          .nobottom {
-          border-bottom: none !important;
-          }
-        </style>
+        <style>            table {            border: 1px solid #ccc;            }              td {            padding: 5px;            }              p {            margin-bottom: 5px;            margin-top: 0px;            }          </style>
       </head>
       <body>
         <InvoiceList>
@@ -46,31 +16,13 @@
               <table width="700" border="1" align="center" cellpadding="0" cellspacing="0" style="border: solid 1px #333">
                 <tr>
                   <td colspan="9" height="15px" style="padding-left: 5px;text-align: center;color: #000!important; ">
-                    <h4 style="font-family: inherit; font-weight: 500;color: #000 !important; margin-top: 10px; margin-bottom: 10px; font-size: 18px; font-family: Gotham, Helvetica, Arial, sans-serif;">
-                      PACKING LIST
-                    </h4>
+                    <h4 style="font-family: inherit; font-weight: 500;color: #000 !important; margin-top: 10px; margin-bottom: 10px; font-size: 18px; font-family: Gotham, Helvetica, Arial, sans-serif;">                        PACKING LIST                      </h4>
                   </td>
                 </tr>
                 <tr>
-                  <td valign="top" colspan="4" rowspan="3"  class="noBorder">
+                  <td valign="top" colspan="4">
                     <p>
                       <strong>Exporter :</strong>
-                    </p>
-                    <p>
-                      <COMPANYNAME>
-                        <xsl:value-of select="./COMPANYNAME" />
-                      </COMPANYNAME>
-                    </p>
-                    <p>
-                      <COMPADDR1>
-                        <xsl:value-of select="./COMPADDR1" />
-                      </COMPADDR1>,
-                      <COMPADDR2>
-                        <xsl:value-of select="./COMPADDR2" />
-                      </COMPADDR2>,
-                      <COMPADDR3>
-                        <xsl:value-of select="./COMPADDR3" />
-                      </COMPADDR3>
                     </p>
                   </td>
                   <td valign="top" colspan="5">
@@ -80,18 +32,35 @@
                   </td>
                 </tr>
                 <tr>
+                  <td valign="top" colspan="4">
+                    <p>
+                      <COMPANYNAME>
+                        <xsl:value-of select="./COMPANYNAME" />
+                      </COMPANYNAME>
+                    </p>
+                  </td>
                   <td valign="top" colspan="5">
                     <p>
                       <TINVOICENO>
                         <xsl:value-of select="./TINVOICENO" />
-                      </TINVOICENO>                                DATED -
-                      <INVOICEDATE>
+                      </TINVOICENO>                                DATED -                        <INVOICEDATE>
                         <xsl:value-of select="./INVOICEDATE" />
                       </INVOICEDATE>
                     </p>
                   </td>
                 </tr>
                 <tr>
+                  <td valign="top" colspan="4">
+                    <p>
+                      <COMPADDR1>
+                        <xsl:value-of select="./COMPADDR1" />
+                      </COMPADDR1>,                        <COMPADDR2>
+                        <xsl:value-of select="./COMPADDR2" />
+                      </COMPADDR2>,                        <COMPADDR3>
+                        <xsl:value-of select="./COMPADDR3" />
+                      </COMPADDR3>
+                    </p>
+                  </td>
                   <td valign="top" colspan="5">
                     <p>
                       <strong>Buyer's Order No </strong>
@@ -99,19 +68,11 @@
                   </td>
                 </tr>
                 <tr>
-                  <td valign="top" colspan="2" rowspan="2"  class="noBorder">
+                  <td valign="top" colspan="2">
                     <p>
                       <EMAIL>
                         <xsl:value-of select="./EMAIL" />
                       </EMAIL>
-                    </p>
-                    <p>
-                      <COMPTEL>
-                        <xsl:value-of select="./COMPTEL" />
-                      </COMPTEL>,
-                      <COMPFAX>
-                        <xsl:value-of select="./COMPFAX" />
-                      </COMPFAX>
                     </p>
                   </td>
                   <td valign="top">
@@ -128,13 +89,23 @@
                   </td>
                   <td valign="top" colspan="2">
                     <totorder>
-                      <xsl:value-of select="./totorder" />
+                          <xsl:for-each select="./BuyerOrderNo/Buyer">
+                          <xsl:value-of select="@OrderNo" />,
+                        </xsl:for-each>
                     </totorder>
                   </td>
-                  <td valign="top" colspan="3">
-                  </td>
+                  <td valign="top" colspan="3">                    </td>
                 </tr>
                 <tr>
+                  <td valign="top" colspan="2">
+                    <p>
+                      <COMPTEL>
+                        <xsl:value-of select="./COMPTEL" />
+                      </COMPTEL>,                        <COMPFAX>
+                        <xsl:value-of select="./COMPFAX" />
+                      </COMPFAX>
+                    </p>
+                  </td>
                   <td valign="top">
                     <p>
                       <strong>GSTIN #:  </strong>
@@ -147,30 +118,22 @@
                       </GSTNO>
                     </p>
                   </td>
-                  <td valign="top" colspan="5">
-                    Other Reference
-                  </td>
+                  <td valign="top" colspan="5">                      Other Reference                    </td>
                 </tr>
                 <tr>
                   <td valign="top">
                     <p>
-                      <strong>
-                        Buyer :
-                      </strong>
+                      <strong>                          Buyer :                        </strong>
                     </p>
                   </td>
                   <td valign="top" colspan="3">
                     <p>
-                      <strong>
-                        Consignee/Ship to :
-                      </strong>
+                      <strong>                          Consignee/Ship to :                        </strong>
                     </p>
                   </td>
                   <td valign="top" colspan="5">
                     <p>
-                      <strong>
-                        Buyer (If Other than Consignee)
-                      </strong>
+                      <strong>                          Buyer (If Other than Consignee)                        </strong>
                     </p>
                   </td>
                 </tr>
@@ -190,7 +153,9 @@
                     </p>
                   </td>
                   <td valign="top" colspan="5">
-                  </td>
+                    <TBUYEROCONSIGNEE>
+                      <xsl:value-of select="./TBUYEROCONSIGNEE" />
+                    </TBUYEROCONSIGNEE>         </td>
                 </tr>
                 <tr>
                   <td valign="top" colspan="3">
@@ -213,9 +178,7 @@
                 <tr>
                   <td valign="top" colspan="5" rowspan="4">
                     <p>
-                      <strong>
-                        Terms of Delivery and Payment
-                      </strong>
+                      <strong>                          Terms of Delivery and Payment                        </strong>
                     </p>
                     <p>F.O.B.</p>
                     <p>
@@ -230,6 +193,7 @@
                     <p>
                       <strong>Pre-carriage by</strong>
                     </p>
+                    <xsl:value-of select="./CARRIAGENAME" />
                   </td>
                   <td colspan="3" valign="top">
                     <p>
@@ -290,7 +254,6 @@
                   <td colspan="4" valign="top">
                     <strong>Description of goods</strong>
                   </td>
-
                 </tr>
                 <tr>
                   <td valign="middle">
@@ -301,17 +264,13 @@
                     </p>
                   </td>
                   <td colspan="4" valign="top">
-                    <xsl:value-of select="number(sum(././Rolls/RollItem/TotalRoll))" />  (
-                    <xsl:value-of select="myUtils:NumberToWords(sum(././Rolls/RollItem/TotalRoll))" />
-                    Rolls Only.)
-                    <p>properly packed</p>
+                    <xsl:value-of select="number(sum(././Rolls/RollItem/TotalRoll))" />  (                      <xsl:value-of select="myUtils:NumberToWords(sum(././Rolls/RollItem/TotalRoll))" />                      Rolls Only.)                      <p>properly packed</p>
                   </td>
                   <td colspan="4" valign="top">
                     <DescriptionOfGoods>
                       <xsl:value-of select="./DescriptionOfGoods" />
                     </DescriptionOfGoods>
                   </td>
-
                 </tr>
                 <tr>
                   <td valign="top" colspan="9">
@@ -328,56 +287,34 @@
                   </td>
                 </tr>
                 <tr>
-                  <td  align="center" valign="middle">
-                    <strong>
-                      Roll Nos.
-
-                    </strong>
+                  <td width="100" align="center" valign="middle">
+                    <strong>                        Roll Nos.                        </strong>
                   </td>
-                  <td  align="center" valign="middle">
-                    <strong>
-                      Pcs./Roll
-
-                    </strong>
+                  <td width="100" align="center" valign="middle">
+                    <strong>                        Pcs./Roll                        </strong>
                   </td>
-
-                  <td  align="center" valign="middle" colspan="2">
+                  <td width="120" align="center" valign="middle" colspan="2">
                     <strong>QUALITY</strong>
                   </td>
-                  <td  align="center" valign="middle">
-                    <strong>
-                      DESIGN
-                    </strong>
+                  <td width="90" align="center" valign="middle">
+                    <strong>                        DESIGN                      </strong>
                   </td>
-                  <td align="center" valign="middle" colspan="2">
-                    <strong>
-                      Size ( Fts.)
-                    </strong>
+                  <td width="70" align="center" valign="middle" colspan="2">
+                    <strong>                        Size ( <xsl:value-of select="./UNITNAME" />)                      </strong>
                   </td>
-                  <td align="center" valign="middle">
-                    <strong>
-                      PIECES
-                    </strong>
+                  <td width="60" align="center" valign="middle">
+                    <strong>                        PIECES                      </strong>
                   </td>
-                  <td align="center" valign="middle">
-                    <strong>
-                      Area (Sq.Fts.)
-                    </strong>
+                  <td width="60" align="center" valign="middle">
+                    <strong>                        Area (Sq.<xsl:value-of select="./UNITNAME" />.)                      </strong>
                   </td>
-
-
                 </tr>
-
                 <Rolls>
                   <xsl:for-each select="./Rolls/RollItem[generate-id() = generate-id(key('groupByContainer', concat(./Quality,./CustomerOrderNo))[1])]">
                     <RollItem>
-
                       <xsl:variable name="vGroup" select="key('groupByContainer', concat(./Quality,./CustomerOrderNo))" />
-
                       <tr>
                         <td valign="top" colspan="1" >
-
-
                           <p>
                             <strong>
                               PO#<CustomerOrderNo>
@@ -386,7 +323,7 @@
                             </strong>
                           </p>
                         </td>
-                        <td valign="top"></td>
+                        <td valign="top">     </td>
                         <td valign="top" colspan="7">
                           <p>
                             <strong>
@@ -395,83 +332,69 @@
                               </Quality>
                             </strong>
                           </p>
-
                         </td>
                       </tr>
-
                       <xsl:for-each select="$vGroup">
                         <tr>
-                          <td align="center" valign="middle" width="150">
+                          <td align="center" valign="middle">
                             <xsl:value-of select="Rollfrom" /> to <xsl:value-of select="RollTo" />
                           </td>
-                          <td align="center" valign="middle" width="90">
-
+                          <td align="center" valign="middle">
                             <xsl:value-of select="RPcs" />
-
                           </td>
-                          <td align="center" valign="middle" colspan="2" width="90">
-
-                          </td>
-                          <td align="center" valign="middle" width="90" >
-
+                          <td align="center" valign="middle" colspan="2">                              </td>
+                          <td align="center" valign="middle">
                             <xsl:value-of select="DESIGN" />
-
                           </td>
-                          <td align="center" valign="middle" colspan="2" width="100">
-
-                            <xsl:value-of select="SizeFT"  />
+                          <td align="center" valign="middle" colspan="2">
+                            <xsl:value-of select="concat(WIDTH,' X ',LENGTH)" />
                           </td>
-                          <td align="center" valign="middle" width="90">
+                          <td align="center" valign="middle">
                             <PCS>
-                              <xsl:value-of select="PCS" />
+                              <xsl:value-of select="TotalPcs" />
                             </PCS>
                           </td>
-                          <td align="center" valign="middle" width="90">
+                          <td align="center" valign="middle">
                             <AreaFT>
-                              <xsl:value-of select="AreaFT" />
+                              <xsl:value-of select="AREA" />
                             </AreaFT>
                           </td>
-
                         </tr>
                       </xsl:for-each>
                     </RollItem>
                   </xsl:for-each>
                 </Rolls>
-
                 <tr>
                   <td colspan="7" align="right" valign="middle">
                     <strong>TOTAL </strong>
                   </td>
-
-
-
                   <td align="center" valign="middle">
-
                     <strong>
-                      <xsl:value-of select="number(sum(././Rolls/RollItem/PCS))" />
+                      <xsl:value-of select="number(sum(././Rolls/RollItem/TotalPcs))" />
                     </strong>
-
                   </td>
                   <td align="center" valign="middle">
                     <strong>
-                      <xsl:variable name="totalArea" select="number(sum(././Rolls/RollItem/AreaFT))" />
-
-                      <xsl:value-of select="number(sum(././Rolls/RollItem/AreaFT))" />
-
+                      <xsl:variable name="totalArea" select="number(sum(././Rolls/RollItem/AREA))" />
+                      <xsl:value-of select="number(sum(././Rolls/RollItem/AREA))" />
                     </strong>
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="9"  class="noBorder">
-                  </td>
+                  <td colspan="9" >                    </td>
                 </tr>
                 <tr>
-                  <td colspan="9"  class="noBorder">
-                  </td>
+                  <td colspan="9" style="border:none;">                    </td>
                 </tr>
-
                 <tr>
-                  <td colspan="4" align="left" valign="middle" class="noBorder" >
+                  <td colspan="9" style="border:none;">                    </td>
+                </tr>
+                <tr>
+                  <td colspan="4" style="border:none;">                    </td>
+                  <td colspan="5"  style="border:none;" >                    </td>
+                </tr>
+                <tr>
+                  <td colspan="4" align="left" valign="middle" style="border:none;">
                     <p>
                       <strong>
                         TOTAL ROLLS : <xsl:value-of select="number(sum(././Rolls/RollItem/TotalRoll))" />ROLLS
@@ -479,33 +402,38 @@
                     </p>
                     <p>
                       <strong>
-                        TOTAL PIECES:	<xsl:value-of select="number(sum(././Rolls/RollItem/PCS))" /> PIECES
+                        TOTAL PIECES: <xsl:value-of select="number(sum(././Rolls/RollItem/TotalPcs))" /> PIECES
                       </strong>
                     </p>
                     <p>
                       <strong>
-                        TOTAL AREA SQ.FTS: <xsl:value-of select="number(sum(././Rolls/RollItem/AreaFT))" />
+                        TOTAL AREA SQ.<xsl:value-of select="./UNITNAME" />: <xsl:value-of select="number(sum(././Rolls/RollItem/AREA))" />
                       </strong>
                     </p>
                   </td>
-                  <td colspan="2" class="noBorder">
+                  <td colspan="5"  align="center" valign="middle"  style="border:none;" >
+                    <p>
+                      <xsl:if test="./signature!= ''">
+                        <img width="182" height="73" alt="">
+                          <xsl:attribute name="src">
+                            <xsl:value-of select="./signature" />
+                          </xsl:attribute>
+                        </img>
+                      </xsl:if>
+                    </p>
                   </td>
-                  <td width="200" height="100" colspan="3"  align="center" valign="middle">
-                    <xsl:if test="./signature!= ''">
-                      <img width="182" height="73" alt="">
-                        <xsl:attribute name="src">
-                          <xsl:value-of select="./signature" />
-                        </xsl:attribute>
-                      </img>
-                    </xsl:if>
-                  </td>
+                </tr>
+                <tr>
+                  <td colspan="9" style="border:none;">                    </td>
+                </tr>
+                <tr>
+                  <td colspan="9">                    </td>
                 </tr>
               </table>
             </InvoiceItem>
           </xsl:for-each>
         </InvoiceList>
-        <InvoiceList>
-        </InvoiceList>
+        <InvoiceList>          </InvoiceList>
       </body>
     </html>
   </xsl:template>

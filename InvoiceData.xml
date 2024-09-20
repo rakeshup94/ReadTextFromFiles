@@ -1,21 +1,31 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
 <InvoiceList>
   <InvoiceItem>
-    <INVOICEID>94</INVOICEID>
-    <CustomerId>30</CustomerId>
-    <TINVOICENO>78/22-23</TINVOICENO>
-    <TPackingNo>78/22-23</TPackingNo>
-    <INVOICEDATE>19-07-2024</INVOICEDATE>
+    <INVOICEID>93</INVOICEID>
+    <CustomerId>5</CustomerId>
+    <TINVOICENO>47/24-25</TINVOICENO>
+    <TPackingNo>47/24-25</TPackingNo>
+    <INVOICEDATE>18-07-2024</INVOICEDATE>
     <InvoiceYear>2024</InvoiceYear>
-    <TCONSIGNEE>MISAWA,A</TCONSIGNEE>
+    <TConsignor>ARTLINE CREATION ,NATWA, JANGIROAD, MIRZAPUR</TConsignor>
+    <TCONSIGNEE>
+      EXQUISITE RUGS,
+      DISTRIBUTION CENTER
+      2240 GARFIELD AVE.
+      COMMERCE, CA90040
+      TELEPHONE : 310-208-8283
+      ATTEN : ALEX BROWN
+    </TCONSIGNEE>
     <TBUYEROCONSIGNEE>
-      FOR ISPECTION
-      M/S NEXIA IMPEX PVT. LTD
-      G-1/277, RIICO IND. AREA (EPIP), SITAPUR, JAIPUR-3020223
-      PH#++91 9001102299
+      EXQUISITE RUGS,
+      DISTRIBUTION CENTER
+      2240 GARFIELD AVE.
+      COMMERCE, CA90040
+      TELEPHONE : 310-208-8283
+      ATTEN : ALEX BROWN
+      ,0,,,
     </TBUYEROCONSIGNEE>
-    <FINALDESTINATION>JAPAN</FINALDESTINATION>
-    <PORTOFDISCHARGE>TOKYO</PORTOFDISCHARGE>
+    <FINALDESTINATION>USA</FINALDESTINATION>
+    <PORTOFDISCHARGE>LOS Angeles</PORTOFDISCHARGE>
     <PreferentialAgreement></PreferentialAgreement>
     <FREIGHT>0.00</FREIGHT>
     <INSURANCE>0.00</INSURANCE>
@@ -24,9 +34,9 @@
     <PackingCharges>0.00</PackingCharges>
     <SUQty></SUQty>
     <ExchangeRate>82.35</ExchangeRate>
-    <NETWT>0.00</NETWT>
-    <GROSSWT>0.00</GROSSWT>
-    <IGST>0.00</IGST>
+    <NETWT>525.70</NETWT>
+    <GROSSWT>556.00</GROSSWT>
+    <IGST>5.00</IGST>
     <CGST>0.00</CGST>
     <SGST>0.00</SGST>
     <INRRate>0.00</INRRate>
@@ -34,17 +44,24 @@
     <Ex2Rate>0.00</Ex2Rate>
     <ExtraCharges>0.00</ExtraCharges>
     <CBM>0.00</CBM>
-    <Composition></Composition>
-    <DescriptionOfGoods>0,INDIAN HAND TUFTED WOOLEN CARPETS</DescriptionOfGoods>
+    <Composition>
+      Hand Tufted Woolen Carpet : 80% Wool + 20% Cotton
+      Hand Woven Woolen Rug : 80% + 20% Cotton
+      Hand Woven Polyester Rug : 100% Polyester
+    </Composition>
+    <DescriptionOfGoods>
+      INDIAN HAND TUFTED WOOLEN CARPETS, Hand Woven Woolen Rug
+      &amp; hand Woven Polyester Rug
+    </DescriptionOfGoods>
     <LessAdvance>0.00</LessAdvance>
     <DiscountAmt>0.00</DiscountAmt>
     <GstinType></GstinType>
-    <SHIPINGID>1</SHIPINGID>
-    <RollMark>ALC/TOKYO</RollMark>
-    <RollMarkHead>ALC/TOKYO</RollMarkHead>
+    <SHIPINGID>2</SHIPINGID>
+    <RollMark>A L C / LOS ANGELES</RollMark>
+    <RollMarkHead>A L C / LOS ANGELES</RollMarkHead>
     <ShipToAddress></ShipToAddress>
-    <CARRIAGENAME>BY AIR</CARRIAGENAME>
-    <VESSELFLIGHTNO>BY AIR</VESSELFLIGHTNO>
+    <CARRIAGENAME>BY TRUCK</CARRIAGENAME>
+    <VESSELFLIGHTNO>BY SEA</VESSELFLIGHTNO>
     <PORTOFLOADING>NHAVA SHEVA</PORTOFLOADING>
     <COMPANYNAME>ARTLINE CREATION </COMPANYNAME>
     <COMPADDR1>
@@ -59,7 +76,7 @@
     <EMAIL></EMAIL>
     <GSTNO>09AAYFA7549J1ZJ</GSTNO>
     <RECEIPTAT>MIRZAPUR</RECEIPTAT>
-    <PAYMENTMODE>90 DAYS FROM B/L DATE</PAYMENTMODE>
+    <PAYMENTMODE>60 DAYS FROM B/L DATE</PAYMENTMODE>
     <PAYMENTTERMS>FOB</PAYMENTTERMS>
     <CURRENCY>USD</CURRENCY>
     <CURRENCYTYPERS>USD</CURRENCYTYPERS>
@@ -72,10 +89,10 @@
     <ContectPerson></ContectPerson>
     <SwiftCode>-</SwiftCode>
     <AccountType>1</AccountType>
-    <UNITID>1</UNITID>
-    <UNITNAME>CM</UNITNAME>
-    <Mark></Mark>
-    <NotifyByAir>M/S NEXIA IMPEX PVT. LTD. G-1/277, FIICO IND. AREA (EPIP), SITAPUR, JAIPUR-302022</NotifyByAir>
+    <UNITID>2</UNITID>
+    <UNITNAME>Ft</UNITNAME>
+    <Mark>A L C / LOS ANGELES</Mark>
+    <NotifyByAir></NotifyByAir>
     <IECode></IECode>
     <FactoryAddress></FactoryAddress>
     <RollMarkHead></RollMarkHead>
@@ -83,50 +100,584 @@
     <TinNo></TinNo>
     <EDPNo></EDPNo>
     <LUTArnNo></LUTArnNo>
-    <PackingDATE>2024-07-19T00:00:00</PackingDATE>
+    <PackingDATE>2024-07-18T00:00:00</PackingDATE>
     <NotifyBySea></NotifyBySea>
     <CustomerCountryName></CustomerCountryName>
     <Rolls>
       <RollItem>
-        <Id>1036</Id>
-        <FINISHEDID>5273</FINISHEDID>
+        <Id>957</Id>
+        <FINISHEDID>86972</FINISHEDID>
         <RollNo>1</RollNo>
         <Rollfrom>1</Rollfrom>
-        <RollTo>26</RollTo>
-        <RPcs>10</RPcs>
-        <TotalPcs>260</TotalPcs>
-        <TotalRoll>26</TotalRoll>
-        <OrderId>2678</OrderId>
-        <RugId />
-        <DESIGN>VCT-18327</DESIGN>
-        <COLOR>WHITE/TIGER</COLOR>
-        <WIDTH>60</WIDTH>
-        <LENGTH>91</LENGTH>
+        <RollTo>1</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508362</RugId>
+        <DESIGN>2704</DESIGN>
+        <COLOR>BEIGE/IVORY</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
         <PurchaseCode />
-        <BaleLength />
-        <BaleWidth />
-        <BaleHeight />
-        <Quality>ALL CUT</Quality>
-        <SinglePcsNetWt>0.00</SinglePcsNetWt>
-        <SinglePcsGrossWt>0.00</SinglePcsGrossWt>
-        <NetWeight>0.00</NetWeight>
-        <GrossWeight>0.00</GrossWeight>
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
         <CALTYPEAMT>0</CALTYPEAMT>
-        <TotalAmount>1773.25</TotalAmount>
-        <PRICE>12.63</PRICE>
+        <TotalAmount>13.50</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-25055</DesignName>
+        <designId>149</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>958</Id>
+        <FINISHEDID>86972</FINISHEDID>
+        <RollNo>2</RollNo>
+        <Rollfrom>2</Rollfrom>
+        <RollTo>2</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508363</RugId>
+        <DESIGN>2704</DESIGN>
+        <COLOR>BEIGE/IVORY</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>13.50</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-25055</DesignName>
+        <designId>149</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>959</Id>
+        <FINISHEDID>86974</FINISHEDID>
+        <RollNo>3</RollNo>
+        <Rollfrom>3</Rollfrom>
+        <RollTo>3</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508369</RugId>
+        <DESIGN>2706</DESIGN>
+        <COLOR>GREY/IVORY</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>13.50</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-25057</DesignName>
+        <designId>148</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>960</Id>
+        <FINISHEDID>86974</FINISHEDID>
+        <RollNo>4</RollNo>
+        <Rollfrom>4</Rollfrom>
+        <RollTo>4</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508370</RugId>
+        <DESIGN>2706</DESIGN>
+        <COLOR>GREY/IVORY</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>13.50</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-25057</DesignName>
+        <designId>148</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>961</Id>
+        <FINISHEDID>14874</FINISHEDID>
+        <RollNo>5</RollNo>
+        <Rollfrom>5</Rollfrom>
+        <RollTo>5</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508371</RugId>
+        <DESIGN>2707</DESIGN>
+        <COLOR>GREY/IVORY</COLOR>
+        <WIDTH>2.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>62</BaleLength>
+        <BaleWidth>12</BaleWidth>
+        <BaleHeight>12</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>1.75</SinglePcsNetWt>
+        <SinglePcsGrossWt>2.05</SinglePcsGrossWt>
+        <NetWeight>1.75</NetWeight>
+        <GrossWeight>2.05</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>9.00</TotalAmount>
+        <PRICE>1.50</PRICE>
         <SinglePcsAreaFT>6.00</SinglePcsAreaFT>
         <SinglePcsAreaMtr>0.54</SinglePcsAreaMtr>
-        <AREA>140.40</AREA>
-        <AREAMT>140.40</AREAMT>
-        <AREAFT>1560.00</AREAFT>
-        <CBM>0.00</CBM>
+        <AREA>6.00</AREA>
+        <AREAMT>0.54</AREAMT>
+        <AREAFT>6.00</AREAFT>
+        <CBM>0.01</CBM>
         <StyleNo />
-        <OrderId>2678</OrderId>
-        <CustomerOrderNo>Sep 1st</CustomerOrderNo>
-        <LocalOrder>L 26632</LocalOrder>
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
         <ITEM_NAME>HAND TUFTED</ITEM_NAME>
-        <DesignName>VCT-18327</DesignName>
-        <designId>1</designId>
+        <DesignName>VCT-25064</DesignName>
+        <designId>150</designId>
+        <SizeFT>2.00x3.00</SizeFT>
+        <SizeMtr>60x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>962</Id>
+        <FINISHEDID>14874</FINISHEDID>
+        <RollNo>6</RollNo>
+        <Rollfrom>6</Rollfrom>
+        <RollTo>6</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508372</RugId>
+        <DESIGN>2707</DESIGN>
+        <COLOR>GREY/IVORY</COLOR>
+        <WIDTH>2.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>62</BaleLength>
+        <BaleWidth>12</BaleWidth>
+        <BaleHeight>12</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>1.75</SinglePcsNetWt>
+        <SinglePcsGrossWt>2.05</SinglePcsGrossWt>
+        <NetWeight>1.75</NetWeight>
+        <GrossWeight>2.05</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>9.00</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>6.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.54</SinglePcsAreaMtr>
+        <AREA>6.00</AREA>
+        <AREAMT>0.54</AREAMT>
+        <AREAFT>6.00</AREAFT>
+        <CBM>0.01</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-25064</DesignName>
+        <designId>150</designId>
+        <SizeFT>2.00x3.00</SizeFT>
+        <SizeMtr>60x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>963</Id>
+        <FINISHEDID>14874</FINISHEDID>
+        <RollNo>7</RollNo>
+        <Rollfrom>7</Rollfrom>
+        <RollTo>7</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508373</RugId>
+        <DESIGN>2707</DESIGN>
+        <COLOR>GREY/IVORY</COLOR>
+        <WIDTH>2.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>62</BaleLength>
+        <BaleWidth>12</BaleWidth>
+        <BaleHeight>12</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>1.75</SinglePcsNetWt>
+        <SinglePcsGrossWt>2.05</SinglePcsGrossWt>
+        <NetWeight>1.75</NetWeight>
+        <GrossWeight>2.05</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>9.00</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>6.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.54</SinglePcsAreaMtr>
+        <AREA>6.00</AREA>
+        <AREAMT>0.54</AREAMT>
+        <AREAFT>6.00</AREAFT>
+        <CBM>0.01</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-25064</DesignName>
+        <designId>150</designId>
+        <SizeFT>2.00x3.00</SizeFT>
+        <SizeMtr>60x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>964</Id>
+        <FINISHEDID>14874</FINISHEDID>
+        <RollNo>8</RollNo>
+        <Rollfrom>8</Rollfrom>
+        <RollTo>8</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508374</RugId>
+        <DESIGN>2707</DESIGN>
+        <COLOR>GREY/IVORY</COLOR>
+        <WIDTH>2.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>62</BaleLength>
+        <BaleWidth>12</BaleWidth>
+        <BaleHeight>12</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>1.75</SinglePcsNetWt>
+        <SinglePcsGrossWt>2.05</SinglePcsGrossWt>
+        <NetWeight>1.75</NetWeight>
+        <GrossWeight>2.05</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>9.00</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>6.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.54</SinglePcsAreaMtr>
+        <AREA>6.00</AREA>
+        <AREAMT>0.54</AREAMT>
+        <AREAFT>6.00</AREAFT>
+        <CBM>0.01</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-25064</DesignName>
+        <designId>150</designId>
+        <SizeFT>2.00x3.00</SizeFT>
+        <SizeMtr>60x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>965</Id>
+        <FINISHEDID>14874</FINISHEDID>
+        <RollNo>9</RollNo>
+        <Rollfrom>9</Rollfrom>
+        <RollTo>9</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508375</RugId>
+        <DESIGN>2707</DESIGN>
+        <COLOR>GREY/IVORY</COLOR>
+        <WIDTH>2.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>62</BaleLength>
+        <BaleWidth>12</BaleWidth>
+        <BaleHeight>12</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>1.75</SinglePcsNetWt>
+        <SinglePcsGrossWt>2.05</SinglePcsGrossWt>
+        <NetWeight>1.75</NetWeight>
+        <GrossWeight>2.05</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>9.00</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>6.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.54</SinglePcsAreaMtr>
+        <AREA>6.00</AREA>
+        <AREAMT>0.54</AREAMT>
+        <AREAFT>6.00</AREAFT>
+        <CBM>0.01</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-25064</DesignName>
+        <designId>150</designId>
+        <SizeFT>2.00x3.00</SizeFT>
+        <SizeMtr>60x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>966</Id>
+        <FINISHEDID>86975</FINISHEDID>
+        <RollNo>10</RollNo>
+        <Rollfrom>10</Rollfrom>
+        <RollTo>10</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508376</RugId>
+        <DESIGN>2707</DESIGN>
+        <COLOR>GREY/IVORY</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>13.50</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-25064</DesignName>
+        <designId>150</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>967</Id>
+        <FINISHEDID>86975</FINISHEDID>
+        <RollNo>11</RollNo>
+        <Rollfrom>11</Rollfrom>
+        <RollTo>11</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508377</RugId>
+        <DESIGN>2707</DESIGN>
+        <COLOR>GREY/IVORY</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>13.50</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-25064</DesignName>
+        <designId>150</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>968</Id>
+        <FINISHEDID>14499</FINISHEDID>
+        <RollNo>12</RollNo>
+        <Rollfrom>12</Rollfrom>
+        <RollTo>12</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508378</RugId>
+        <DESIGN>2708</DESIGN>
+        <COLOR>BLUE/IVORY</COLOR>
+        <WIDTH>2.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>62</BaleLength>
+        <BaleWidth>12</BaleWidth>
+        <BaleHeight>12</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>1.75</SinglePcsNetWt>
+        <SinglePcsGrossWt>2.05</SinglePcsGrossWt>
+        <NetWeight>1.75</NetWeight>
+        <GrossWeight>2.05</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>9.00</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>6.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.54</SinglePcsAreaMtr>
+        <AREA>6.00</AREA>
+        <AREAMT>0.54</AREAMT>
+        <AREAFT>6.00</AREAFT>
+        <CBM>0.01</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-25065</DesignName>
+        <designId>151</designId>
         <SizeFT>2.00x3.00</SizeFT>
         <SizeMtr>60x91</SizeMtr>
         <ITEM_ID>1</ITEM_ID>
@@ -137,45 +688,731 @@
         <Description />
       </RollItem>
       <RollItem>
-        <Id>1037</Id>
-        <FINISHEDID>5274</FINISHEDID>
+        <Id>969</Id>
+        <FINISHEDID>14499</FINISHEDID>
+        <RollNo>13</RollNo>
+        <Rollfrom>13</Rollfrom>
+        <RollTo>13</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508379</RugId>
+        <DESIGN>2708</DESIGN>
+        <COLOR>BLUE/IVORY</COLOR>
+        <WIDTH>2.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>62</BaleLength>
+        <BaleWidth>12</BaleWidth>
+        <BaleHeight>12</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>1.75</SinglePcsNetWt>
+        <SinglePcsGrossWt>2.05</SinglePcsGrossWt>
+        <NetWeight>1.75</NetWeight>
+        <GrossWeight>2.05</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>9.00</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>6.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.54</SinglePcsAreaMtr>
+        <AREA>6.00</AREA>
+        <AREAMT>0.54</AREAMT>
+        <AREAFT>6.00</AREAFT>
+        <CBM>0.01</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-25065</DesignName>
+        <designId>151</designId>
+        <SizeFT>2.00x3.00</SizeFT>
+        <SizeMtr>60x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>970</Id>
+        <FINISHEDID>14499</FINISHEDID>
+        <RollNo>14</RollNo>
+        <Rollfrom>14</Rollfrom>
+        <RollTo>14</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508380</RugId>
+        <DESIGN>2708</DESIGN>
+        <COLOR>BLUE/IVORY</COLOR>
+        <WIDTH>2.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>62</BaleLength>
+        <BaleWidth>12</BaleWidth>
+        <BaleHeight>12</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>1.75</SinglePcsNetWt>
+        <SinglePcsGrossWt>2.05</SinglePcsGrossWt>
+        <NetWeight>1.75</NetWeight>
+        <GrossWeight>2.05</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>9.00</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>6.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.54</SinglePcsAreaMtr>
+        <AREA>6.00</AREA>
+        <AREAMT>0.54</AREAMT>
+        <AREAFT>6.00</AREAFT>
+        <CBM>0.01</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-25065</DesignName>
+        <designId>151</designId>
+        <SizeFT>2.00x3.00</SizeFT>
+        <SizeMtr>60x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>971</Id>
+        <FINISHEDID>14499</FINISHEDID>
+        <RollNo>15</RollNo>
+        <Rollfrom>15</Rollfrom>
+        <RollTo>15</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508381</RugId>
+        <DESIGN>2708</DESIGN>
+        <COLOR>BLUE/IVORY</COLOR>
+        <WIDTH>2.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength />
+        <BaleWidth />
+        <BaleHeight />
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>0.00</SinglePcsNetWt>
+        <SinglePcsGrossWt>0.00</SinglePcsGrossWt>
+        <NetWeight>0.00</NetWeight>
+        <GrossWeight>0.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>9.00</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>6.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.54</SinglePcsAreaMtr>
+        <AREA>6.00</AREA>
+        <AREAMT>0.54</AREAMT>
+        <AREAFT>6.00</AREAFT>
+        <CBM>0.00</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-25065</DesignName>
+        <designId>151</designId>
+        <SizeFT>2.00x3.00</SizeFT>
+        <SizeMtr>60x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>972</Id>
+        <FINISHEDID>14499</FINISHEDID>
+        <RollNo>16</RollNo>
+        <Rollfrom>16</Rollfrom>
+        <RollTo>16</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508382</RugId>
+        <DESIGN>2708</DESIGN>
+        <COLOR>BLUE/IVORY</COLOR>
+        <WIDTH>2.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>62</BaleLength>
+        <BaleWidth />
+        <BaleHeight>12</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>1.75</SinglePcsNetWt>
+        <SinglePcsGrossWt>2.05</SinglePcsGrossWt>
+        <NetWeight>1.75</NetWeight>
+        <GrossWeight>2.05</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>9.00</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>6.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.54</SinglePcsAreaMtr>
+        <AREA>6.00</AREA>
+        <AREAMT>0.54</AREAMT>
+        <AREAFT>6.00</AREAFT>
+        <CBM>0.00</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-25065</DesignName>
+        <designId>151</designId>
+        <SizeFT>2.00x3.00</SizeFT>
+        <SizeMtr>60x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>973</Id>
+        <FINISHEDID>86977</FINISHEDID>
+        <RollNo>17</RollNo>
+        <Rollfrom>17</Rollfrom>
+        <RollTo>17</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508386</RugId>
+        <DESIGN>2708</DESIGN>
+        <COLOR>BLUE/IVORY</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.70</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>36.00</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-25065</DesignName>
+        <designId>151</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>974</Id>
+        <FINISHEDID>14540</FINISHEDID>
+        <RollNo>18</RollNo>
+        <Rollfrom>18</Rollfrom>
+        <RollTo>18</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508387</RugId>
+        <DESIGN>2710</DESIGN>
+        <COLOR>BEIGE/IVORY</COLOR>
+        <WIDTH>2.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>62</BaleLength>
+        <BaleWidth>12</BaleWidth>
+        <BaleHeight>12</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>1.75</SinglePcsNetWt>
+        <SinglePcsGrossWt>2.05</SinglePcsGrossWt>
+        <NetWeight>1.75</NetWeight>
+        <GrossWeight>2.05</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>9.00</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>6.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.54</SinglePcsAreaMtr>
+        <AREA>6.00</AREA>
+        <AREAMT>0.54</AREAMT>
+        <AREAFT>6.00</AREAFT>
+        <CBM>0.01</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-25067</DesignName>
+        <designId>152</designId>
+        <SizeFT>2.00x3.00</SizeFT>
+        <SizeMtr>60x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>975</Id>
+        <FINISHEDID>14540</FINISHEDID>
+        <RollNo>19</RollNo>
+        <Rollfrom>19</Rollfrom>
+        <RollTo>19</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508388</RugId>
+        <DESIGN>2710</DESIGN>
+        <COLOR>BEIGE/IVORY</COLOR>
+        <WIDTH>2.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>62</BaleLength>
+        <BaleWidth>12</BaleWidth>
+        <BaleHeight>12</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>1.75</SinglePcsNetWt>
+        <SinglePcsGrossWt>2.05</SinglePcsGrossWt>
+        <NetWeight>1.75</NetWeight>
+        <GrossWeight>2.05</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>9.00</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>6.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.54</SinglePcsAreaMtr>
+        <AREA>6.00</AREA>
+        <AREAMT>0.54</AREAMT>
+        <AREAFT>6.00</AREAFT>
+        <CBM>0.01</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-25067</DesignName>
+        <designId>152</designId>
+        <SizeFT>2.00x3.00</SizeFT>
+        <SizeMtr>60x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>976</Id>
+        <FINISHEDID>14540</FINISHEDID>
+        <RollNo>20</RollNo>
+        <Rollfrom>20</Rollfrom>
+        <RollTo>20</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508389</RugId>
+        <DESIGN>2710</DESIGN>
+        <COLOR>BEIGE/IVORY</COLOR>
+        <WIDTH>2.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>62</BaleLength>
+        <BaleWidth>12</BaleWidth>
+        <BaleHeight>12</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>1.75</SinglePcsNetWt>
+        <SinglePcsGrossWt>2.05</SinglePcsGrossWt>
+        <NetWeight>1.75</NetWeight>
+        <GrossWeight>2.05</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>9.00</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>6.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.54</SinglePcsAreaMtr>
+        <AREA>6.00</AREA>
+        <AREAMT>0.54</AREAMT>
+        <AREAFT>6.00</AREAFT>
+        <CBM>0.01</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-25067</DesignName>
+        <designId>152</designId>
+        <SizeFT>2.00x3.00</SizeFT>
+        <SizeMtr>60x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>977</Id>
+        <FINISHEDID>14540</FINISHEDID>
+        <RollNo>21</RollNo>
+        <Rollfrom>21</Rollfrom>
+        <RollTo>21</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508390</RugId>
+        <DESIGN>2710</DESIGN>
+        <COLOR>BEIGE/IVORY</COLOR>
+        <WIDTH>2.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>62</BaleLength>
+        <BaleWidth>12</BaleWidth>
+        <BaleHeight>12</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>1.75</SinglePcsNetWt>
+        <SinglePcsGrossWt>2.05</SinglePcsGrossWt>
+        <NetWeight>1.75</NetWeight>
+        <GrossWeight>2.05</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>9.00</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>6.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.54</SinglePcsAreaMtr>
+        <AREA>6.00</AREA>
+        <AREAMT>0.54</AREAMT>
+        <AREAFT>6.00</AREAFT>
+        <CBM>0.01</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-25067</DesignName>
+        <designId>152</designId>
+        <SizeFT>2.00x3.00</SizeFT>
+        <SizeMtr>60x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>978</Id>
+        <FINISHEDID>14540</FINISHEDID>
+        <RollNo>22</RollNo>
+        <Rollfrom>22</Rollfrom>
+        <RollTo>22</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508391</RugId>
+        <DESIGN>2710</DESIGN>
+        <COLOR>BEIGE/IVORY</COLOR>
+        <WIDTH>2.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>62</BaleLength>
+        <BaleWidth>12</BaleWidth>
+        <BaleHeight>12</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>1.75</SinglePcsNetWt>
+        <SinglePcsGrossWt>2.05</SinglePcsGrossWt>
+        <NetWeight>1.75</NetWeight>
+        <GrossWeight>2.05</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>9.00</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>6.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.54</SinglePcsAreaMtr>
+        <AREA>6.00</AREA>
+        <AREAMT>0.54</AREAMT>
+        <AREAFT>6.00</AREAFT>
+        <CBM>0.01</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-25067</DesignName>
+        <designId>152</designId>
+        <SizeFT>2.00x3.00</SizeFT>
+        <SizeMtr>60x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>979</Id>
+        <FINISHEDID>86979</FINISHEDID>
+        <RollNo>23</RollNo>
+        <Rollfrom>23</Rollfrom>
+        <RollTo>23</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508392</RugId>
+        <DESIGN>2710</DESIGN>
+        <COLOR>BEIGE/IVORY</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>13.50</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-25067</DesignName>
+        <designId>152</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>980</Id>
+        <FINISHEDID>86979</FINISHEDID>
+        <RollNo>24</RollNo>
+        <Rollfrom>24</Rollfrom>
+        <RollTo>24</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508393</RugId>
+        <DESIGN>2710</DESIGN>
+        <COLOR>BEIGE/IVORY</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>13.50</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-25067</DesignName>
+        <designId>152</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>981</Id>
+        <FINISHEDID>86978</FINISHEDID>
+        <RollNo>25</RollNo>
+        <Rollfrom>25</Rollfrom>
+        <RollTo>25</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508394</RugId>
+        <DESIGN>2710</DESIGN>
+        <COLOR>BEIGE/IVORY</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>36.00</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-25067</DesignName>
+        <designId>152</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>982</Id>
+        <FINISHEDID>86978</FINISHEDID>
+        <RollNo>26</RollNo>
+        <Rollfrom>26</Rollfrom>
+        <RollTo>26</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508395</RugId>
+        <DESIGN>2710</DESIGN>
+        <COLOR>BEIGE/IVORY</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>36.00</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-25067</DesignName>
+        <designId>152</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>983</Id>
+        <FINISHEDID>14549</FINISHEDID>
         <RollNo>27</RollNo>
         <Rollfrom>27</Rollfrom>
-        <RollTo>51</RollTo>
-        <RPcs>10</RPcs>
-        <TotalPcs>250</TotalPcs>
-        <TotalRoll>25</TotalRoll>
-        <OrderId>2678</OrderId>
-        <RugId />
-        <DESIGN>VCT-18322</DESIGN>
-        <COLOR>PANTHER</COLOR>
-        <WIDTH>60</WIDTH>
-        <LENGTH>91</LENGTH>
+        <RollTo>27</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508396</RugId>
+        <DESIGN>2718</DESIGN>
+        <COLOR>LT.GREY/IVORY</COLOR>
+        <WIDTH>2.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
         <PurchaseCode />
-        <BaleLength />
-        <BaleWidth />
-        <BaleHeight />
-        <Quality>ALL CUT</Quality>
-        <SinglePcsNetWt>0.00</SinglePcsNetWt>
-        <SinglePcsGrossWt>0.00</SinglePcsGrossWt>
-        <NetWeight>0.00</NetWeight>
-        <GrossWeight>0.00</GrossWeight>
+        <BaleLength>62</BaleLength>
+        <BaleWidth>12</BaleWidth>
+        <BaleHeight>12</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>1.75</SinglePcsNetWt>
+        <SinglePcsGrossWt>2.05</SinglePcsGrossWt>
+        <NetWeight>1.75</NetWeight>
+        <GrossWeight>2.05</GrossWeight>
         <CALTYPEAMT>0</CALTYPEAMT>
-        <TotalAmount>1705.05</TotalAmount>
-        <PRICE>12.63</PRICE>
+        <TotalAmount>9.00</TotalAmount>
+        <PRICE>1.50</PRICE>
         <SinglePcsAreaFT>6.00</SinglePcsAreaFT>
         <SinglePcsAreaMtr>0.54</SinglePcsAreaMtr>
-        <AREA>135.00</AREA>
-        <AREAMT>135.00</AREAMT>
-        <AREAFT>1500.00</AREAFT>
-        <CBM>0.00</CBM>
+        <AREA>6.00</AREA>
+        <AREAMT>0.54</AREAMT>
+        <AREAFT>6.00</AREAFT>
+        <CBM>0.01</CBM>
         <StyleNo />
-        <OrderId>2678</OrderId>
-        <CustomerOrderNo>Sep 1st</CustomerOrderNo>
-        <LocalOrder>L 26632</LocalOrder>
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
         <ITEM_NAME>HAND TUFTED</ITEM_NAME>
-        <DesignName>VCT-18322</DesignName>
-        <designId>2</designId>
+        <DesignName>VCT-24179</DesignName>
+        <designId>155</designId>
         <SizeFT>2.00x3.00</SizeFT>
         <SizeMtr>60x91</SizeMtr>
         <ITEM_ID>1</ITEM_ID>
@@ -186,48 +1423,3723 @@
         <Description />
       </RollItem>
       <RollItem>
-        <Id>1038</Id>
-        <FINISHEDID>5274</FINISHEDID>
+        <Id>984</Id>
+        <FINISHEDID>14549</FINISHEDID>
+        <RollNo>28</RollNo>
+        <Rollfrom>28</Rollfrom>
+        <RollTo>28</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508397</RugId>
+        <DESIGN>2718</DESIGN>
+        <COLOR>LT.GREY/IVORY</COLOR>
+        <WIDTH>2.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>62</BaleLength>
+        <BaleWidth>12</BaleWidth>
+        <BaleHeight>12</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>1.75</SinglePcsNetWt>
+        <SinglePcsGrossWt>2.05</SinglePcsGrossWt>
+        <NetWeight>1.75</NetWeight>
+        <GrossWeight>2.05</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>9.00</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>6.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.54</SinglePcsAreaMtr>
+        <AREA>6.00</AREA>
+        <AREAMT>0.54</AREAMT>
+        <AREAFT>6.00</AREAFT>
+        <CBM>0.01</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-24179</DesignName>
+        <designId>155</designId>
+        <SizeFT>2.00x3.00</SizeFT>
+        <SizeMtr>60x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>985</Id>
+        <FINISHEDID>14549</FINISHEDID>
+        <RollNo>29</RollNo>
+        <Rollfrom>29</Rollfrom>
+        <RollTo>29</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508398</RugId>
+        <DESIGN>2718</DESIGN>
+        <COLOR>LT.GREY/IVORY</COLOR>
+        <WIDTH>2.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>62</BaleLength>
+        <BaleWidth>12</BaleWidth>
+        <BaleHeight>12</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>1.75</SinglePcsNetWt>
+        <SinglePcsGrossWt>2.05</SinglePcsGrossWt>
+        <NetWeight>1.75</NetWeight>
+        <GrossWeight>2.05</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>9.00</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>6.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.54</SinglePcsAreaMtr>
+        <AREA>6.00</AREA>
+        <AREAMT>0.54</AREAMT>
+        <AREAFT>6.00</AREAFT>
+        <CBM>0.01</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-24179</DesignName>
+        <designId>155</designId>
+        <SizeFT>2.00x3.00</SizeFT>
+        <SizeMtr>60x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>986</Id>
+        <FINISHEDID>14549</FINISHEDID>
+        <RollNo>30</RollNo>
+        <Rollfrom>30</Rollfrom>
+        <RollTo>30</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508399</RugId>
+        <DESIGN>2718</DESIGN>
+        <COLOR>LT.GREY/IVORY</COLOR>
+        <WIDTH>2.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>62</BaleLength>
+        <BaleWidth>12</BaleWidth>
+        <BaleHeight>12</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>1.75</SinglePcsNetWt>
+        <SinglePcsGrossWt>2.05</SinglePcsGrossWt>
+        <NetWeight>1.75</NetWeight>
+        <GrossWeight>2.05</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>9.00</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>6.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.54</SinglePcsAreaMtr>
+        <AREA>6.00</AREA>
+        <AREAMT>0.54</AREAMT>
+        <AREAFT>6.00</AREAFT>
+        <CBM>0.01</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-24179</DesignName>
+        <designId>155</designId>
+        <SizeFT>2.00x3.00</SizeFT>
+        <SizeMtr>60x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>987</Id>
+        <FINISHEDID>14549</FINISHEDID>
+        <RollNo>31</RollNo>
+        <Rollfrom>31</Rollfrom>
+        <RollTo>31</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508400</RugId>
+        <DESIGN>2718</DESIGN>
+        <COLOR>LT.GREY/IVORY</COLOR>
+        <WIDTH>2.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>62</BaleLength>
+        <BaleWidth>12</BaleWidth>
+        <BaleHeight>12</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>1.75</SinglePcsNetWt>
+        <SinglePcsGrossWt>2.05</SinglePcsGrossWt>
+        <NetWeight>1.75</NetWeight>
+        <GrossWeight>2.05</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>9.00</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>6.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.54</SinglePcsAreaMtr>
+        <AREA>6.00</AREA>
+        <AREAMT>0.54</AREAMT>
+        <AREAFT>6.00</AREAFT>
+        <CBM>0.01</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-24179</DesignName>
+        <designId>155</designId>
+        <SizeFT>2.00x3.00</SizeFT>
+        <SizeMtr>60x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>988</Id>
+        <FINISHEDID>14565</FINISHEDID>
+        <RollNo>32</RollNo>
+        <Rollfrom>32</Rollfrom>
+        <RollTo>32</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508403</RugId>
+        <DESIGN>4760</DESIGN>
+        <COLOR>BLACK/SILVER</COLOR>
+        <WIDTH>2.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>62</BaleLength>
+        <BaleWidth>12</BaleWidth>
+        <BaleHeight>12</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>1.75</SinglePcsNetWt>
+        <SinglePcsGrossWt>2.05</SinglePcsGrossWt>
+        <NetWeight>1.75</NetWeight>
+        <GrossWeight>2.05</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>9.00</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>6.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.54</SinglePcsAreaMtr>
+        <AREA>6.00</AREA>
+        <AREAMT>0.54</AREAMT>
+        <AREAFT>6.00</AREAFT>
+        <CBM>0.01</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-30340</DesignName>
+        <designId>171</designId>
+        <SizeFT>2.00x3.00</SizeFT>
+        <SizeMtr>60x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>989</Id>
+        <FINISHEDID>14565</FINISHEDID>
+        <RollNo>33</RollNo>
+        <Rollfrom>33</Rollfrom>
+        <RollTo>33</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508404</RugId>
+        <DESIGN>4760</DESIGN>
+        <COLOR>BLACK/SILVER</COLOR>
+        <WIDTH>2.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>62</BaleLength>
+        <BaleWidth>12</BaleWidth>
+        <BaleHeight>12</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>1.75</SinglePcsNetWt>
+        <SinglePcsGrossWt>2.05</SinglePcsGrossWt>
+        <NetWeight>1.75</NetWeight>
+        <GrossWeight>2.05</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>9.00</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>6.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.54</SinglePcsAreaMtr>
+        <AREA>6.00</AREA>
+        <AREAMT>0.54</AREAMT>
+        <AREAFT>6.00</AREAFT>
+        <CBM>0.01</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-30340</DesignName>
+        <designId>171</designId>
+        <SizeFT>2.00x3.00</SizeFT>
+        <SizeMtr>60x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>990</Id>
+        <FINISHEDID>14565</FINISHEDID>
+        <RollNo>34</RollNo>
+        <Rollfrom>34</Rollfrom>
+        <RollTo>34</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508405</RugId>
+        <DESIGN>4760</DESIGN>
+        <COLOR>BLACK/SILVER</COLOR>
+        <WIDTH>2.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>62</BaleLength>
+        <BaleWidth>12</BaleWidth>
+        <BaleHeight>12</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>1.75</SinglePcsNetWt>
+        <SinglePcsGrossWt>2.05</SinglePcsGrossWt>
+        <NetWeight>1.75</NetWeight>
+        <GrossWeight>2.05</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>9.00</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>6.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.54</SinglePcsAreaMtr>
+        <AREA>6.00</AREA>
+        <AREAMT>0.54</AREAMT>
+        <AREAFT>6.00</AREAFT>
+        <CBM>0.01</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-30340</DesignName>
+        <designId>171</designId>
+        <SizeFT>2.00x3.00</SizeFT>
+        <SizeMtr>60x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>991</Id>
+        <FINISHEDID>14565</FINISHEDID>
+        <RollNo>35</RollNo>
+        <Rollfrom>35</Rollfrom>
+        <RollTo>35</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508406</RugId>
+        <DESIGN>4760</DESIGN>
+        <COLOR>BLACK/SILVER</COLOR>
+        <WIDTH>2.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>62</BaleLength>
+        <BaleWidth>12</BaleWidth>
+        <BaleHeight>12</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>1.75</SinglePcsNetWt>
+        <SinglePcsGrossWt>2.05</SinglePcsGrossWt>
+        <NetWeight>1.75</NetWeight>
+        <GrossWeight>2.05</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>9.00</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>6.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.54</SinglePcsAreaMtr>
+        <AREA>6.00</AREA>
+        <AREAMT>0.54</AREAMT>
+        <AREAFT>6.00</AREAFT>
+        <CBM>0.01</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-30340</DesignName>
+        <designId>171</designId>
+        <SizeFT>2.00x3.00</SizeFT>
+        <SizeMtr>60x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>992</Id>
+        <FINISHEDID>14565</FINISHEDID>
+        <RollNo>36</RollNo>
+        <Rollfrom>36</Rollfrom>
+        <RollTo>36</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508407</RugId>
+        <DESIGN>4760</DESIGN>
+        <COLOR>BLACK/SILVER</COLOR>
+        <WIDTH>2.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>62</BaleLength>
+        <BaleWidth>12</BaleWidth>
+        <BaleHeight>12</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>1.75</SinglePcsNetWt>
+        <SinglePcsGrossWt>2.05</SinglePcsGrossWt>
+        <NetWeight>1.75</NetWeight>
+        <GrossWeight>2.05</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>9.00</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>6.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.54</SinglePcsAreaMtr>
+        <AREA>6.00</AREA>
+        <AREAMT>0.54</AREAMT>
+        <AREAFT>6.00</AREAFT>
+        <CBM>0.01</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-30340</DesignName>
+        <designId>171</designId>
+        <SizeFT>2.00x3.00</SizeFT>
+        <SizeMtr>60x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>993</Id>
+        <FINISHEDID>86981</FINISHEDID>
+        <RollNo>37</RollNo>
+        <Rollfrom>37</Rollfrom>
+        <RollTo>37</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508408</RugId>
+        <DESIGN>4760</DESIGN>
+        <COLOR>BLACK/SILVER</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>13.50</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-30340</DesignName>
+        <designId>171</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>994</Id>
+        <FINISHEDID>86981</FINISHEDID>
+        <RollNo>38</RollNo>
+        <Rollfrom>38</Rollfrom>
+        <RollTo>38</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508409</RugId>
+        <DESIGN>4760</DESIGN>
+        <COLOR>BLACK/SILVER</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>13.50</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-30340</DesignName>
+        <designId>171</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>995</Id>
+        <FINISHEDID>86986</FINISHEDID>
+        <RollNo>39</RollNo>
+        <Rollfrom>39</Rollfrom>
+        <RollTo>39</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508418</RugId>
+        <DESIGN>4772</DESIGN>
+        <COLOR>PINK/IVORY</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>13.50</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-30323</DesignName>
+        <designId>161</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>996</Id>
+        <FINISHEDID>86986</FINISHEDID>
+        <RollNo>40</RollNo>
+        <Rollfrom>40</Rollfrom>
+        <RollTo>40</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508419</RugId>
+        <DESIGN>4772</DESIGN>
+        <COLOR>PINK/IVORY</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>13.50</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-30323</DesignName>
+        <designId>161</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>997</Id>
+        <FINISHEDID>86987</FINISHEDID>
+        <RollNo>41</RollNo>
+        <Rollfrom>41</Rollfrom>
+        <RollTo>41</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508420</RugId>
+        <DESIGN>4772</DESIGN>
+        <COLOR>PINK/IVORY</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>36.00</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-30323</DesignName>
+        <designId>161</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>998</Id>
+        <FINISHEDID>86987</FINISHEDID>
+        <RollNo>42</RollNo>
+        <Rollfrom>42</Rollfrom>
+        <RollTo>42</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508421</RugId>
+        <DESIGN>4772</DESIGN>
+        <COLOR>PINK/IVORY</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>36.00</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-30323</DesignName>
+        <designId>161</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>999</Id>
+        <FINISHEDID>86989</FINISHEDID>
+        <RollNo>43</RollNo>
+        <Rollfrom>43</Rollfrom>
+        <RollTo>43</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508422</RugId>
+        <DESIGN>6304</DESIGN>
+        <COLOR>NAVY</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>14.85</TotalAmount>
+        <PRICE>1.65</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-38260</DesignName>
+        <designId>10063</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1000</Id>
+        <FINISHEDID>86989</FINISHEDID>
+        <RollNo>44</RollNo>
+        <Rollfrom>44</Rollfrom>
+        <RollTo>44</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508423</RugId>
+        <DESIGN>6304</DESIGN>
+        <COLOR>NAVY</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>14.85</TotalAmount>
+        <PRICE>1.65</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-38260</DesignName>
+        <designId>10063</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1001</Id>
+        <FINISHEDID>86988</FINISHEDID>
+        <RollNo>45</RollNo>
+        <Rollfrom>45</Rollfrom>
+        <RollTo>45</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508424</RugId>
+        <DESIGN>6304</DESIGN>
+        <COLOR>NAVY</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>39.60</TotalAmount>
+        <PRICE>1.65</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-38260</DesignName>
+        <designId>10063</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1002</Id>
+        <FINISHEDID>86988</FINISHEDID>
+        <RollNo>46</RollNo>
+        <Rollfrom>46</Rollfrom>
+        <RollTo>46</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508425</RugId>
+        <DESIGN>6304</DESIGN>
+        <COLOR>NAVY</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>39.60</TotalAmount>
+        <PRICE>1.65</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-38260</DesignName>
+        <designId>10063</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1003</Id>
+        <FINISHEDID>86992</FINISHEDID>
+        <RollNo>47</RollNo>
+        <Rollfrom>47</Rollfrom>
+        <RollTo>47</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508430</RugId>
+        <DESIGN>6310</DESIGN>
+        <COLOR>IVORY/GREY</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>14.85</TotalAmount>
+        <PRICE>1.65</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-38384</DesignName>
+        <designId>13800</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1004</Id>
+        <FINISHEDID>86992</FINISHEDID>
+        <RollNo>48</RollNo>
+        <Rollfrom>48</Rollfrom>
+        <RollTo>48</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508431</RugId>
+        <DESIGN>6310</DESIGN>
+        <COLOR>IVORY/GREY</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>14.85</TotalAmount>
+        <PRICE>1.65</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-38384</DesignName>
+        <designId>13800</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1005</Id>
+        <FINISHEDID>86993</FINISHEDID>
+        <RollNo>49</RollNo>
+        <Rollfrom>49</Rollfrom>
+        <RollTo>49</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508432</RugId>
+        <DESIGN>6310</DESIGN>
+        <COLOR>IVORY/GREY</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>39.60</TotalAmount>
+        <PRICE>1.65</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-38384</DesignName>
+        <designId>13800</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1006</Id>
+        <FINISHEDID>86993</FINISHEDID>
+        <RollNo>50</RollNo>
+        <Rollfrom>50</Rollfrom>
+        <RollTo>50</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508433</RugId>
+        <DESIGN>6310</DESIGN>
+        <COLOR>IVORY/GREY</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>39.60</TotalAmount>
+        <PRICE>1.65</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-38384</DesignName>
+        <designId>13800</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1007</Id>
+        <FINISHEDID>86995</FINISHEDID>
+        <RollNo>51</RollNo>
+        <Rollfrom>51</Rollfrom>
+        <RollTo>51</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508434</RugId>
+        <DESIGN>6311</DESIGN>
+        <COLOR>NAVY</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>14.85</TotalAmount>
+        <PRICE>1.65</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-38093</DesignName>
+        <designId>9835</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1008</Id>
+        <FINISHEDID>86995</FINISHEDID>
         <RollNo>52</RollNo>
         <Rollfrom>52</Rollfrom>
         <RollTo>52</RollTo>
-        <RPcs>10</RPcs>
-        <TotalPcs>10</TotalPcs>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
         <TotalRoll>1</TotalRoll>
-        <OrderId>3172</OrderId>
-        <RugId />
-        <DESIGN>VCT-18322</DESIGN>
-        <COLOR>PANTHER</COLOR>
-        <WIDTH>60</WIDTH>
-        <LENGTH>91</LENGTH>
+        <OrderId>3920</OrderId>
+        <RugId>508435</RugId>
+        <DESIGN>6311</DESIGN>
+        <COLOR>NAVY</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
         <PurchaseCode />
-        <BaleLength />
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>14.85</TotalAmount>
+        <PRICE>1.65</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-38093</DesignName>
+        <designId>9835</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1009</Id>
+        <FINISHEDID>86994</FINISHEDID>
+        <RollNo>53</RollNo>
+        <Rollfrom>53</Rollfrom>
+        <RollTo>53</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508436</RugId>
+        <DESIGN>6311</DESIGN>
+        <COLOR>NAVY</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
         <BaleWidth />
         <BaleHeight />
-        <Quality>ALL CUT</Quality>
-        <SinglePcsNetWt>0.00</SinglePcsNetWt>
-        <SinglePcsGrossWt>0.00</SinglePcsGrossWt>
-        <NetWeight>0.00</NetWeight>
-        <GrossWeight>0.00</GrossWeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
         <CALTYPEAMT>0</CALTYPEAMT>
-        <TotalAmount>68.20</TotalAmount>
-        <PRICE>12.63</PRICE>
-        <SinglePcsAreaFT>6.00</SinglePcsAreaFT>
-        <SinglePcsAreaMtr>0.54</SinglePcsAreaMtr>
-        <AREA>5.40</AREA>
-        <AREAMT>5.40</AREAMT>
-        <AREAFT>60.00</AREAFT>
+        <TotalAmount>39.60</TotalAmount>
+        <PRICE>1.65</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
         <CBM>0.00</CBM>
         <StyleNo />
-        <OrderId>3172</OrderId>
-        <CustomerOrderNo>147837</CustomerOrderNo>
-        <LocalOrder>L 27126</LocalOrder>
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
         <ITEM_NAME>HAND TUFTED</ITEM_NAME>
-        <DesignName>VCT-18322</DesignName>
-        <designId>2</designId>
-        <SizeFT>2.00x3.00</SizeFT>
-        <SizeMtr>60x91</SizeMtr>
+        <DesignName>VCT-38093</DesignName>
+        <designId>9835</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
         <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1010</Id>
+        <FINISHEDID>86994</FINISHEDID>
+        <RollNo>54</RollNo>
+        <Rollfrom>54</Rollfrom>
+        <RollTo>54</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508437</RugId>
+        <DESIGN>6311</DESIGN>
+        <COLOR>NAVY</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>39.60</TotalAmount>
+        <PRICE>1.65</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-38093</DesignName>
+        <designId>9835</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1011</Id>
+        <FINISHEDID>86997</FINISHEDID>
+        <RollNo>55</RollNo>
+        <Rollfrom>55</Rollfrom>
+        <RollTo>55</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508438</RugId>
+        <DESIGN>6494</DESIGN>
+        <COLOR>TURQUISE</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>14.85</TotalAmount>
+        <PRICE>1.65</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-38227</DesignName>
+        <designId>9994</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1012</Id>
+        <FINISHEDID>86997</FINISHEDID>
+        <RollNo>56</RollNo>
+        <Rollfrom>56</Rollfrom>
+        <RollTo>56</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508439</RugId>
+        <DESIGN>6494</DESIGN>
+        <COLOR>TURQUISE</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>14.85</TotalAmount>
+        <PRICE>1.65</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-38227</DesignName>
+        <designId>9994</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1013</Id>
+        <FINISHEDID>87001</FINISHEDID>
+        <RollNo>57</RollNo>
+        <Rollfrom>57</Rollfrom>
+        <RollTo>57</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508446</RugId>
+        <DESIGN>6506</DESIGN>
+        <COLOR>INDIGO</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>14.85</TotalAmount>
+        <PRICE>1.65</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-38915</DesignName>
+        <designId>20282</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1014</Id>
+        <FINISHEDID>87001</FINISHEDID>
+        <RollNo>58</RollNo>
+        <Rollfrom>58</Rollfrom>
+        <RollTo>58</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508447</RugId>
+        <DESIGN>6506</DESIGN>
+        <COLOR>INDIGO</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>14.85</TotalAmount>
+        <PRICE>1.65</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-38915</DesignName>
+        <designId>20282</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1019</Id>
+        <FINISHEDID>67725</FINISHEDID>
+        <RollNo>59</RollNo>
+        <Rollfrom>59</Rollfrom>
+        <RollTo>59</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508450</RugId>
+        <DESIGN>6772</DESIGN>
+        <COLOR>BLUE</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>13.05</TotalAmount>
+        <PRICE>1.45</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-38098</DesignName>
+        <designId>9838</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1020</Id>
+        <FINISHEDID>67725</FINISHEDID>
+        <RollNo>60</RollNo>
+        <Rollfrom>60</Rollfrom>
+        <RollTo>60</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508451</RugId>
+        <DESIGN>6772</DESIGN>
+        <COLOR>BLUE</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>13.05</TotalAmount>
+        <PRICE>1.45</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-38098</DesignName>
+        <designId>9838</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1021</Id>
+        <FINISHEDID>87002</FINISHEDID>
+        <RollNo>61</RollNo>
+        <Rollfrom>61</Rollfrom>
+        <RollTo>61</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508452</RugId>
+        <DESIGN>6772</DESIGN>
+        <COLOR>BLUE</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>34.80</TotalAmount>
+        <PRICE>1.45</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-38098</DesignName>
+        <designId>9838</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1022</Id>
+        <FINISHEDID>87002</FINISHEDID>
+        <RollNo>62</RollNo>
+        <Rollfrom>62</Rollfrom>
+        <RollTo>62</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508453</RugId>
+        <DESIGN>6772</DESIGN>
+        <COLOR>BLUE</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>34.80</TotalAmount>
+        <PRICE>1.45</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-38098</DesignName>
+        <designId>9838</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1023</Id>
+        <FINISHEDID>67752</FINISHEDID>
+        <RollNo>63</RollNo>
+        <Rollfrom>63</Rollfrom>
+        <RollTo>63</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508454</RugId>
+        <DESIGN>6774</DESIGN>
+        <COLOR>BEIGE</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>13.05</TotalAmount>
+        <PRICE>1.45</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-40481</DesignName>
+        <designId>22001</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1024</Id>
+        <FINISHEDID>67752</FINISHEDID>
+        <RollNo>64</RollNo>
+        <Rollfrom>64</Rollfrom>
+        <RollTo>64</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508455</RugId>
+        <DESIGN>6774</DESIGN>
+        <COLOR>BEIGE</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>13.05</TotalAmount>
+        <PRICE>1.45</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-40481</DesignName>
+        <designId>22001</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1025</Id>
+        <FINISHEDID>87003</FINISHEDID>
+        <RollNo>65</RollNo>
+        <Rollfrom>65</Rollfrom>
+        <RollTo>65</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508456</RugId>
+        <DESIGN>6774</DESIGN>
+        <COLOR>BEIGE</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>34.80</TotalAmount>
+        <PRICE>1.45</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-40481</DesignName>
+        <designId>22001</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1039</Id>
+        <FINISHEDID>87003</FINISHEDID>
+        <RollNo>66</RollNo>
+        <Rollfrom>66</Rollfrom>
+        <RollTo>66</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508457</RugId>
+        <DESIGN>6774</DESIGN>
+        <COLOR>BEIGE</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>34.80</TotalAmount>
+        <PRICE>1.45</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-40481</DesignName>
+        <designId>22001</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1040</Id>
+        <FINISHEDID>87011</FINISHEDID>
+        <RollNo>67</RollNo>
+        <Rollfrom>67</Rollfrom>
+        <RollTo>67</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508462</RugId>
+        <DESIGN>6778</DESIGN>
+        <COLOR>BLUE/IVORY</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>14.40</TotalAmount>
+        <PRICE>1.60</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-40328</DesignName>
+        <designId>21920</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1041</Id>
+        <FINISHEDID>87011</FINISHEDID>
+        <RollNo>68</RollNo>
+        <Rollfrom>68</Rollfrom>
+        <RollTo>68</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508463</RugId>
+        <DESIGN>6778</DESIGN>
+        <COLOR>BLUE/IVORY</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>14.40</TotalAmount>
+        <PRICE>1.60</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-40328</DesignName>
+        <designId>21920</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1042</Id>
+        <FINISHEDID>87021</FINISHEDID>
+        <RollNo>69</RollNo>
+        <Rollfrom>69</Rollfrom>
+        <RollTo>69</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508470</RugId>
+        <DESIGN>6782</DESIGN>
+        <COLOR>GRAY/IVORY</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>14.40</TotalAmount>
+        <PRICE>1.60</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-40216</DesignName>
+        <designId>21826</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1043</Id>
+        <FINISHEDID>87021</FINISHEDID>
+        <RollNo>70</RollNo>
+        <Rollfrom>70</Rollfrom>
+        <RollTo>70</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508471</RugId>
+        <DESIGN>6782</DESIGN>
+        <COLOR>GRAY/IVORY</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>14.40</TotalAmount>
+        <PRICE>1.60</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-40216</DesignName>
+        <designId>21826</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1044</Id>
+        <FINISHEDID>87022</FINISHEDID>
+        <RollNo>71</RollNo>
+        <Rollfrom>71</Rollfrom>
+        <RollTo>71</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508473</RugId>
+        <DESIGN>6782</DESIGN>
+        <COLOR>GRAY/IVORY</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>38.40</TotalAmount>
+        <PRICE>1.60</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-40216</DesignName>
+        <designId>21826</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1045</Id>
+        <FINISHEDID>87010</FINISHEDID>
+        <RollNo>72</RollNo>
+        <Rollfrom>72</Rollfrom>
+        <RollTo>72</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508474</RugId>
+        <DESIGN>6778</DESIGN>
+        <COLOR>BLUE/IVORY</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>38.40</TotalAmount>
+        <PRICE>1.60</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-40328</DesignName>
+        <designId>21920</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1047</Id>
+        <FINISHEDID>87010</FINISHEDID>
+        <RollNo>73</RollNo>
+        <Rollfrom>73</Rollfrom>
+        <RollTo>73</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508475</RugId>
+        <DESIGN>6778</DESIGN>
+        <COLOR>BLUE/IVORY</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>38.40</TotalAmount>
+        <PRICE>1.60</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-40328</DesignName>
+        <designId>21920</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1048</Id>
+        <FINISHEDID>87026</FINISHEDID>
+        <RollNo>74</RollNo>
+        <Rollfrom>74</Rollfrom>
+        <RollTo>74</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508513</RugId>
+        <DESIGN>6785</DESIGN>
+        <COLOR>BLUE/IVORY</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>34.08</TotalAmount>
+        <PRICE>1.42</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-39628</DesignName>
+        <designId>21183</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1049</Id>
+        <FINISHEDID>87026</FINISHEDID>
+        <RollNo>75</RollNo>
+        <Rollfrom>75</Rollfrom>
+        <RollTo>75</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508514</RugId>
+        <DESIGN>6785</DESIGN>
+        <COLOR>BLUE/IVORY</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>34.08</TotalAmount>
+        <PRICE>1.42</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-39628</DesignName>
+        <designId>21183</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1050</Id>
+        <FINISHEDID>87025</FINISHEDID>
+        <RollNo>76</RollNo>
+        <Rollfrom>76</Rollfrom>
+        <RollTo>76</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508516</RugId>
+        <DESIGN>6785</DESIGN>
+        <COLOR>BLUE/IVORY</COLOR>
+        <WIDTH>3.00</WIDTH>
+        <LENGTH>3.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>95</BaleLength>
+        <BaleWidth>13</BaleWidth>
+        <BaleHeight>13</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>2.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>3.00</SinglePcsGrossWt>
+        <NetWeight>2.70</NetWeight>
+        <GrossWeight>3.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>12.78</TotalAmount>
+        <PRICE>1.42</PRICE>
+        <SinglePcsAreaFT>9.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>0.83</SinglePcsAreaMtr>
+        <AREA>9.00</AREA>
+        <AREAMT>0.83</AREAMT>
+        <AREAFT>9.00</AREAFT>
+        <CBM>0.02</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-39628</DesignName>
+        <designId>21183</designId>
+        <SizeFT>3.00x3.00</SizeFT>
+        <SizeMtr>91x91</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1051</Id>
+        <FINISHEDID>87027</FINISHEDID>
+        <RollNo>77</RollNo>
+        <Rollfrom>77</Rollfrom>
+        <RollTo>77</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508517</RugId>
+        <DESIGN>6786</DESIGN>
+        <COLOR>SILVER/IVORY</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>34.08</TotalAmount>
+        <PRICE>1.42</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-39632</DesignName>
+        <designId>21188</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1053</Id>
+        <FINISHEDID>87027</FINISHEDID>
+        <RollNo>78</RollNo>
+        <Rollfrom>78</Rollfrom>
+        <RollTo>78</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508518</RugId>
+        <DESIGN>6786</DESIGN>
+        <COLOR>SILVER/IVORY</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight />
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>34.08</TotalAmount>
+        <PRICE>1.42</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.00</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-39632</DesignName>
+        <designId>21188</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1056</Id>
+        <FINISHEDID>87044</FINISHEDID>
+        <RollNo>79</RollNo>
+        <Rollfrom>79</Rollfrom>
+        <RollTo>79</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508522</RugId>
+        <DESIGN>6787</DESIGN>
+        <COLOR>GRAY/IVORY</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth />
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>38.40</TotalAmount>
+        <PRICE>1.60</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.00</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-40332</DesignName>
+        <designId>21924</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1058</Id>
+        <FINISHEDID>87045</FINISHEDID>
+        <RollNo>80</RollNo>
+        <Rollfrom>80</Rollfrom>
+        <RollTo>80</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508525</RugId>
+        <DESIGN>6808</DESIGN>
+        <COLOR>BLUE/IVORY</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>37.20</TotalAmount>
+        <PRICE>1.55</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-39564</DesignName>
+        <designId>21129</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1059</Id>
+        <FINISHEDID>87045</FINISHEDID>
+        <RollNo>81</RollNo>
+        <Rollfrom>81</Rollfrom>
+        <RollTo>81</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508526</RugId>
+        <DESIGN>6808</DESIGN>
+        <COLOR>BLUE/IVORY</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>37.20</TotalAmount>
+        <PRICE>1.55</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-39564</DesignName>
+        <designId>21129</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1060</Id>
+        <FINISHEDID>87046</FINISHEDID>
+        <RollNo>82</RollNo>
+        <Rollfrom>82</Rollfrom>
+        <RollTo>82</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508527</RugId>
+        <DESIGN>6809</DESIGN>
+        <COLOR>TURQUISE</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>37.20</TotalAmount>
+        <PRICE>1.55</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-39566</DesignName>
+        <designId>21131</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1062</Id>
+        <FINISHEDID>87046</FINISHEDID>
+        <RollNo>83</RollNo>
+        <Rollfrom>83</Rollfrom>
+        <RollTo>83</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508528</RugId>
+        <DESIGN>6809</DESIGN>
+        <COLOR>TURQUISE</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>37.20</TotalAmount>
+        <PRICE>1.55</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-39566</DesignName>
+        <designId>21131</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1063</Id>
+        <FINISHEDID>87047</FINISHEDID>
+        <RollNo>84</RollNo>
+        <Rollfrom>84</Rollfrom>
+        <RollTo>84</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508529</RugId>
+        <DESIGN>6810</DESIGN>
+        <COLOR>NAVY/IVORY</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>37.20</TotalAmount>
+        <PRICE>1.55</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-40331</DesignName>
+        <designId>21923</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1064</Id>
+        <FINISHEDID>87047</FINISHEDID>
+        <RollNo>85</RollNo>
+        <Rollfrom>85</Rollfrom>
+        <RollTo>85</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508530</RugId>
+        <DESIGN>6810</DESIGN>
+        <COLOR>NAVY/IVORY</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>37.20</TotalAmount>
+        <PRICE>1.55</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-40331</DesignName>
+        <designId>21923</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1065</Id>
+        <FINISHEDID>87048</FINISHEDID>
+        <RollNo>86</RollNo>
+        <Rollfrom>86</Rollfrom>
+        <RollTo>86</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508531</RugId>
+        <DESIGN>6814</DESIGN>
+        <COLOR>LIGHT BLUE MULTI</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>38.40</TotalAmount>
+        <PRICE>1.60</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-39558</DesignName>
+        <designId>21123</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1066</Id>
+        <FINISHEDID>87048</FINISHEDID>
+        <RollNo>87</RollNo>
+        <Rollfrom>87</Rollfrom>
+        <RollTo>87</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508532</RugId>
+        <DESIGN>6814</DESIGN>
+        <COLOR>LIGHT BLUE MULTI</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>38.40</TotalAmount>
+        <PRICE>1.60</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-39558</DesignName>
+        <designId>21123</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1067</Id>
+        <FINISHEDID>87049</FINISHEDID>
+        <RollNo>88</RollNo>
+        <Rollfrom>88</Rollfrom>
+        <RollTo>88</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508533</RugId>
+        <DESIGN>6815</DESIGN>
+        <COLOR>BLUE</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>38.40</TotalAmount>
+        <PRICE>1.60</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-40276</DesignName>
+        <designId>21908</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1068</Id>
+        <FINISHEDID>87049</FINISHEDID>
+        <RollNo>89</RollNo>
+        <Rollfrom>89</Rollfrom>
+        <RollTo>89</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508534</RugId>
+        <DESIGN>6815</DESIGN>
+        <COLOR>BLUE</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>38.40</TotalAmount>
+        <PRICE>1.60</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-40276</DesignName>
+        <designId>21908</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1069</Id>
+        <FINISHEDID>87050</FINISHEDID>
+        <RollNo>90</RollNo>
+        <Rollfrom>90</Rollfrom>
+        <RollTo>90</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508235</RugId>
+        <DESIGN>6816</DESIGN>
+        <COLOR>TURQUISE</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>38.40</TotalAmount>
+        <PRICE>1.60</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-40323</DesignName>
+        <designId>21915</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1070</Id>
+        <FINISHEDID>87050</FINISHEDID>
+        <RollNo>91</RollNo>
+        <Rollfrom>91</Rollfrom>
+        <RollTo>91</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508536</RugId>
+        <DESIGN>6816</DESIGN>
+        <COLOR>TURQUISE</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>38.40</TotalAmount>
+        <PRICE>1.60</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-40323</DesignName>
+        <designId>21915</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1071</Id>
+        <FINISHEDID>87051</FINISHEDID>
+        <RollNo>92</RollNo>
+        <Rollfrom>92</Rollfrom>
+        <RollTo>92</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508537</RugId>
+        <DESIGN>6817</DESIGN>
+        <COLOR>GREEN</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>38.40</TotalAmount>
+        <PRICE>1.60</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-40280</DesignName>
+        <designId>21912</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1072</Id>
+        <FINISHEDID>87051</FINISHEDID>
+        <RollNo>93</RollNo>
+        <Rollfrom>93</Rollfrom>
+        <RollTo>93</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508538</RugId>
+        <DESIGN>6817</DESIGN>
+        <COLOR>GREEN</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>38.40</TotalAmount>
+        <PRICE>1.60</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-40280</DesignName>
+        <designId>21912</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1073</Id>
+        <FINISHEDID>87052</FINISHEDID>
+        <RollNo>94</RollNo>
+        <Rollfrom>94</Rollfrom>
+        <RollTo>94</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508539</RugId>
+        <DESIGN>6818</DESIGN>
+        <COLOR>GREY</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>38.40</TotalAmount>
+        <PRICE>1.60</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-40279</DesignName>
+        <designId>21911</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1074</Id>
+        <FINISHEDID>87052</FINISHEDID>
+        <RollNo>95</RollNo>
+        <Rollfrom>95</Rollfrom>
+        <RollTo>95</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508540</RugId>
+        <DESIGN>6818</DESIGN>
+        <COLOR>GREY</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>38.40</TotalAmount>
+        <PRICE>1.60</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-40279</DesignName>
+        <designId>21911</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1075</Id>
+        <FINISHEDID>87053</FINISHEDID>
+        <RollNo>96</RollNo>
+        <Rollfrom>96</Rollfrom>
+        <RollTo>96</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508541</RugId>
+        <DESIGN>6819</DESIGN>
+        <COLOR>BEIGE</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>38.40</TotalAmount>
+        <PRICE>1.60</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-40322</DesignName>
+        <designId>21914</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1076</Id>
+        <FINISHEDID>87053</FINISHEDID>
+        <RollNo>97</RollNo>
+        <Rollfrom>97</Rollfrom>
+        <RollTo>97</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3920</OrderId>
+        <RugId>508542</RugId>
+        <DESIGN>6819</DESIGN>
+        <COLOR>BEIGE</COLOR>
+        <WIDTH>4.00</WIDTH>
+        <LENGTH>6.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>125</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>6.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>6.90</SinglePcsGrossWt>
+        <NetWeight>6.60</NetWeight>
+        <GrossWeight>6.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>38.40</TotalAmount>
+        <PRICE>1.60</PRICE>
+        <SinglePcsAreaFT>24.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>2.20</SinglePcsAreaMtr>
+        <AREA>24.00</AREA>
+        <AREAMT>2.20</AREAMT>
+        <AREAFT>24.00</AREAFT>
+        <CBM>0.04</CBM>
+        <StyleNo />
+        <OrderId>3920</OrderId>
+        <CustomerOrderNo>60266</CustomerOrderNo>
+        <LocalOrder>L 27871</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-40322</DesignName>
+        <designId>21914</designId>
+        <SizeFT>4.00x6.00</SizeFT>
+        <SizeMtr>121x182</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1077</Id>
+        <FINISHEDID>75310</FINISHEDID>
+        <RollNo>98</RollNo>
+        <Rollfrom>98</Rollfrom>
+        <RollTo>98</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3922</OrderId>
+        <RugId>506785</RugId>
+        <DESIGN>6815</DESIGN>
+        <COLOR>BLUE</COLOR>
+        <WIDTH>8.09</WIDTH>
+        <LENGTH>11.09</LENGTH>
+        <PurchaseCode />
+        <BaleLength>274</BaleLength>
+        <BaleWidth>23</BaleWidth>
+        <BaleHeight>23</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>35.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>35.90</SinglePcsGrossWt>
+        <NetWeight>35.60</NetWeight>
+        <GrossWeight>35.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>164.50</TotalAmount>
+        <PRICE>1.60</PRICE>
+        <SinglePcsAreaFT>102.81</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>9.52</SinglePcsAreaMtr>
+        <AREA>102.81</AREA>
+        <AREAMT>9.52</AREAMT>
+        <AREAFT>102.81</AREAFT>
+        <CBM>0.14</CBM>
+        <StyleNo />
+        <OrderId>3922</OrderId>
+        <CustomerOrderNo>60196</CustomerOrderNo>
+        <LocalOrder>L 27873</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-40276</DesignName>
+        <designId>21908</designId>
+        <SizeFT>8.09x11.09</SizeFT>
+        <SizeMtr>266x358</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1078</Id>
+        <FINISHEDID>87870</FINISHEDID>
+        <RollNo>99</RollNo>
+        <Rollfrom>99</Rollfrom>
+        <RollTo>99</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3997</OrderId>
+        <RugId>507162</RugId>
+        <DESIGN>4770</DESIGN>
+        <COLOR>BEIGE/IVORY</COLOR>
+        <WIDTH>5.00</WIDTH>
+        <LENGTH>6.06</LENGTH>
+        <PurchaseCode />
+        <BaleLength>158</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>ALL LOOP</Quality>
+        <SinglePcsNetWt>9.90</SinglePcsNetWt>
+        <SinglePcsGrossWt>10.20</SinglePcsGrossWt>
+        <NetWeight>9.90</NetWeight>
+        <GrossWeight>10.20</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>48.75</TotalAmount>
+        <PRICE>1.50</PRICE>
+        <SinglePcsAreaFT>32.50</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>3.01</SinglePcsAreaMtr>
+        <AREA>32.50</AREA>
+        <AREAMT>3.01</AREAMT>
+        <AREAFT>32.50</AREAFT>
+        <CBM>0.05</CBM>
+        <StyleNo />
+        <OrderId>3997</OrderId>
+        <CustomerOrderNo>60208</CustomerOrderNo>
+        <LocalOrder>L 27946</LocalOrder>
+        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
+        <DesignName>VCT-30327</DesignName>
+        <designId>162</designId>
+        <SizeFT>5.00x6.06</SizeFT>
+        <SizeMtr>152x198</SizeMtr>
+        <ITEM_ID>1</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1079</Id>
+        <FINISHEDID>129</FINISHEDID>
+        <RollNo>100</RollNo>
+        <Rollfrom>100</Rollfrom>
+        <RollTo>100</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>4075</OrderId>
+        <RugId>508682</RugId>
+        <DESIGN>4873</DESIGN>
+        <COLOR>IVORY</COLOR>
+        <WIDTH>8.09</WIDTH>
+        <LENGTH>11.09</LENGTH>
+        <PurchaseCode />
+        <BaleLength>268</BaleLength>
+        <BaleWidth>24</BaleWidth>
+        <BaleHeight>24</BaleHeight>
+        <Quality>WOOLEN RUG</Quality>
+        <SinglePcsNetWt>19.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>20.00</SinglePcsGrossWt>
+        <NetWeight>19.70</NetWeight>
+        <GrossWeight>20.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>174.78</TotalAmount>
+        <PRICE>1.70</PRICE>
+        <SinglePcsAreaFT>102.81</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>9.52</SinglePcsAreaMtr>
+        <AREA>102.81</AREA>
+        <AREAMT>9.52</AREAMT>
+        <AREAFT>102.81</AREAFT>
+        <CBM>0.15</CBM>
+        <StyleNo />
+        <OrderId>4075</OrderId>
+        <CustomerOrderNo>60273</CustomerOrderNo>
+        <LocalOrder>L 28024</LocalOrder>
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+        <DesignName>VCD-30664</DesignName>
+        <designId>188</designId>
+        <SizeFT>8.09x11.09</SizeFT>
+        <SizeMtr>266x358</SizeMtr>
+        <ITEM_ID>2</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1083</Id>
+        <FINISHEDID>86164</FINISHEDID>
+        <RollNo>101</RollNo>
+        <Rollfrom>101</Rollfrom>
+        <RollTo>101</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3876</OrderId>
+        <RugId>501929</RugId>
+        <DESIGN>4874</DESIGN>
+        <COLOR>LIGHT SILVER</COLOR>
+        <WIDTH>8.09</WIDTH>
+        <LENGTH>11.09</LENGTH>
+        <PurchaseCode />
+        <BaleLength>268</BaleLength>
+        <BaleWidth>24</BaleWidth>
+        <BaleHeight>24</BaleHeight>
+        <Quality>WOOLEN RUG</Quality>
+        <SinglePcsNetWt>19.70</SinglePcsNetWt>
+        <SinglePcsGrossWt>20.00</SinglePcsGrossWt>
+        <NetWeight>19.70</NetWeight>
+        <GrossWeight>20.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>164.50</TotalAmount>
+        <PRICE>1.60</PRICE>
+        <SinglePcsAreaFT>102.81</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>9.52</SinglePcsAreaMtr>
+        <AREA>102.81</AREA>
+        <AREAMT>9.52</AREAMT>
+        <AREAFT>102.81</AREAFT>
+        <CBM>0.15</CBM>
+        <StyleNo />
+        <OrderId>3876</OrderId>
+        <CustomerOrderNo>60181</CustomerOrderNo>
+        <LocalOrder>L 27827</LocalOrder>
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+        <DesignName>VCD-32589</DesignName>
+        <designId>189</designId>
+        <SizeFT>8.09x11.09</SizeFT>
+        <SizeMtr>266x358</SizeMtr>
+        <ITEM_ID>2</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1085</Id>
+        <FINISHEDID>88918</FINISHEDID>
+        <RollNo>102</RollNo>
+        <Rollfrom>102</Rollfrom>
+        <RollTo>102</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>4056</OrderId>
+        <RugId>508344</RugId>
+        <DESIGN>4779</DESIGN>
+        <COLOR>LIGHT GREY</COLOR>
+        <WIDTH>9.04</WIDTH>
+        <LENGTH>7.06</LENGTH>
+        <PurchaseCode />
+        <BaleLength>292</BaleLength>
+        <BaleWidth>22</BaleWidth>
+        <BaleHeight>22</BaleHeight>
+        <Quality>POLYESTER RUG</Quality>
+        <SinglePcsNetWt>20.20</SinglePcsNetWt>
+        <SinglePcsGrossWt>20.50</SinglePcsGrossWt>
+        <NetWeight>20.20</NetWeight>
+        <GrossWeight>20.50</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>131.60</TotalAmount>
+        <PRICE>1.88</PRICE>
+        <SinglePcsAreaFT>70.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>6.47</SinglePcsAreaMtr>
+        <AREA>70.00</AREA>
+        <AREAMT>6.47</AREAMT>
+        <AREAFT>70.00</AREAFT>
+        <CBM>0.14</CBM>
+        <StyleNo />
+        <OrderId>4056</OrderId>
+        <CustomerOrderNo>60255</CustomerOrderNo>
+        <LocalOrder>L 28005</LocalOrder>
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+        <DesignName>VCD-31367</DesignName>
+        <designId>177</designId>
+        <SizeFT>9.04x7.06</SizeFT>
+        <SizeMtr>284x228</SizeMtr>
+        <ITEM_ID>2</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1086</Id>
+        <FINISHEDID>87869</FINISHEDID>
+        <RollNo>103</RollNo>
+        <Rollfrom>103</Rollfrom>
+        <RollTo>103</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>3995</OrderId>
+        <RugId>507161</RugId>
+        <DESIGN>4778</DESIGN>
+        <COLOR>IVORY</COLOR>
+        <WIDTH>6.04</WIDTH>
+        <LENGTH>12.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>206</BaleLength>
+        <BaleWidth>28</BaleWidth>
+        <BaleHeight>28</BaleHeight>
+        <Quality>POLYESTER RUG</Quality>
+        <SinglePcsNetWt>21.80</SinglePcsNetWt>
+        <SinglePcsGrossWt>22.10</SinglePcsGrossWt>
+        <NetWeight>21.80</NetWeight>
+        <GrossWeight>22.10</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>142.88</TotalAmount>
+        <PRICE>1.88</PRICE>
+        <SinglePcsAreaFT>76.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>7.04</SinglePcsAreaMtr>
+        <AREA>76.00</AREA>
+        <AREAMT>7.04</AREAMT>
+        <AREAFT>76.00</AREAFT>
+        <CBM>0.16</CBM>
+        <StyleNo />
+        <OrderId>3995</OrderId>
+        <CustomerOrderNo>60212</CustomerOrderNo>
+        <LocalOrder>L 27944</LocalOrder>
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+        <DesignName>VCD-31366</DesignName>
+        <designId>176</designId>
+        <SizeFT>6.04x12.00</SizeFT>
+        <SizeMtr>193x365</SizeMtr>
+        <ITEM_ID>2</ITEM_ID>
         <HSNCode />
         <DesignNameAToC> </DesignNameAToC>
         <SKUNO />
@@ -236,8 +5148,13 @@
       </RollItem>
     </Rolls>
     <BuyerOrderNo>
-      <Buyer OrderNo="147837" PackingId="94" />
-      <Buyer OrderNo="Sep 1st" PackingId="94" />
+      <Buyer OrderNo="60181" PackingId="93" />
+      <Buyer OrderNo="60196" PackingId="93" />
+      <Buyer OrderNo="60208" PackingId="93" />
+      <Buyer OrderNo="60212" PackingId="93" />
+      <Buyer OrderNo="60255" PackingId="93" />
+      <Buyer OrderNo="60266" PackingId="93" />
+      <Buyer OrderNo="60273" PackingId="93" />
     </BuyerOrderNo>
   </InvoiceItem>
 </InvoiceList>

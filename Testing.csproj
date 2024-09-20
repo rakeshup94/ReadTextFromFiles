@@ -69,6 +69,12 @@
     <Content Include="App_Data\Invoice\AC-1011-MISAWA.xslt">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="App_Data\Invoice\AC-1031-GDCHOME.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\Invoice\AC-1031-GDCHOME-Packing.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="App_Data\Invoice\EXPORT_INVOICE.xslt">
       <SubType>Designer</SubType>
     </Content>
@@ -78,10 +84,10 @@
     <Content Include="App_Data\Invoice\AC-1011-MISAWA-Packing.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="App_Data\Packing\EXPORT_Packing.xslt">
+    <Content Include="App_Data\Invoice\EXPORT_Packing.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="App_Data\Packing\VC-501-YARAGHI-LLC.xslt">
+    <Content Include="App_Data\Invoice\VC-501-YARAGHI-LLC.xslt">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Design.aspx" />
@@ -115,14 +121,14 @@
     <Content Include="App_Data\Packing\BenSoleimaniPackingList.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="App_Data\Invoice\BenutaInvoice.xslt">
+    <Content Include="App_Data\Invoice\AC-1007-EXQUISITERUGS-Packing.xslt">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="App_Data\Packing\BenutapackingList.xslt" />
     <Content Include="App_Data\Packing\CADRYSPTYPackingList.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="App_Data\Invoice\BenSoleimani.xslt">
+    <Content Include="App_Data\Invoice\AC-1007-EXQUISITERUGS.xslt">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="App_Data\Packing\COURISTANPackingList.xslt">
@@ -137,11 +143,7 @@
     <Content Include="App_Data\Packing\DesignIdeasPacking.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="App_Data\Invoice\Invoice.xslt" />
     <Content Include="App_Data\Packing\KalatyPackingList.xslt">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="App_Data\Packing\MISAWAPackingList.xslt">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="App_Data\Invoice\DesignIdeasInvoice.xslt">
@@ -160,7 +162,6 @@
     <Content Include="Images\Logo\3_company.gif" />
     <Content Include="Images\Logo\6_company.gif" />
     <Content Include="Images\signature\client-42.png" />
-    <Content Include="App_Data\Invoice\PackingList.xslt" />
     <Content Include="App_Data\Packing\SuryaPackingList.xslt" />
     <Content Include="App_Data\Invoice\SuryaInvoice.xslt">
       <SubType>Designer</SubType>

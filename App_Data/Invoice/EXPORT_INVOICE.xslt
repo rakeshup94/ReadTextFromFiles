@@ -384,9 +384,7 @@
                             </StyleNo>
                           </td>
                           <td align="center" valign="middle">
-                            <SizeFT>
-                              <xsl:value-of select="SizeFT" />
-                            </SizeFT>
+                            <xsl:value-of select="concat(WIDTH,' X ',LENGTH)" />
                           </td>
                           <td align="center" valign="middle">
                             <AREAMT>
@@ -395,7 +393,7 @@
                           </td>
                           <td align="center" valign="middle">
                             <PCS>
-                              <xsl:value-of select="PCS" />
+                                      <xsl:value-of select="TotalPcs" />
                             </PCS>
                           </td>
                           <td align="center" valign="middle">
@@ -429,7 +427,7 @@
                   </td>
                   <td align="center" valign="middle">
                     <strong>
-                      <xsl:value-of select="number(sum(././Rolls/RollItem/PCS))" />
+                      <xsl:value-of select="number(sum(././Rolls/RollItem/TotalPcs))" />
                     </strong>
                   </td>
                   <td align="center" valign="middle">
