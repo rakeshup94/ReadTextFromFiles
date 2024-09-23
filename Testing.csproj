@@ -75,6 +75,9 @@
     <Content Include="App_Data\Invoice\AC-1031-GDCHOME-Packing.xslt">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="App_Data\Invoice\AC-1041-LR-RESOURCES-Packing.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="App_Data\Invoice\EXPORT_INVOICE.xslt">
       <SubType>Designer</SubType>
     </Content>
@@ -131,7 +134,7 @@
     <Content Include="App_Data\Invoice\AC-1007-EXQUISITERUGS.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="App_Data\Packing\COURISTANPackingList.xslt">
+    <Content Include="App_Data\Invoice\AC-1012-COURISTANINC-PackingList.xslt">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="App_Data\Packing\DixieGroupPackingList.xslt">
@@ -149,10 +152,10 @@
     <Content Include="App_Data\Invoice\DesignIdeasInvoice.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="App_Data\Invoice\COURISTANInvoice.xslt">
+    <Content Include="App_Data\Invoice\AC-1012-COURISTANINC.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="App_Data\Invoice\CADRYSPTY.xslt">
+    <Content Include="App_Data\Invoice\AC-1041-LR-RESOURCES.xslt">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="App_Data\Invoice\KalatyInvoice.xslt">
