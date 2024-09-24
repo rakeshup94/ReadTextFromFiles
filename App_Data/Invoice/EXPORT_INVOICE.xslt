@@ -323,7 +323,7 @@
                   </td>
                   <td width="60" align="center" valign="middle">
                     <strong>
-                      Total Area <br /> SQ.MTR.
+                      Total Area <br /> SQ. <xsl:value-of select="./UNITNAME" />
                     </strong>
                   </td>
                   <td width="60" align="center" valign="middle">
@@ -333,12 +333,12 @@
                   </td>
                   <td width="60" align="center" valign="middle">
                     <strong>
-                      Total<br />                        Sq.<xsl:value-of select="./UNITNAME" />
+                      Total<br />                        Sq. MTR
                     </strong>
                   </td>
                   <td width="60" align="center" valign="middle">
                     <strong>
-                      US$ <br /> Per M2<br /> FOB
+                      US$ <br /> Per<xsl:value-of select="./UNITNAME" /> 2<br /> FOB
                     </strong>
                   </td>
                   <td width="80" align="center" valign="middle">
@@ -372,7 +372,12 @@
                       </tr>
                       <xsl:for-each select="$vGroup">
                         <tr >
-                          <td align="center" valign="middle" >                              </td>
+                          <td align="center" valign="middle" >
+                            <xsl:value-of select="RollNo"/>
+
+                          
+                          
+                          </td>
                           <td align="center" valign="middle">
                             <HSNCode>
                               <xsl:value-of select="HSNCode" />
@@ -387,9 +392,8 @@
                             <xsl:value-of select="concat(WIDTH,' X ',LENGTH)" />
                           </td>
                           <td align="center" valign="middle">
-                            <AREAMT>
-                              <xsl:value-of select="AREAMT" />
-                            </AREAMT>
+                            <xsl:value-of select="AREA" />
+                        
                           </td>
                           <td align="center" valign="middle">
                             <PCS>
@@ -397,9 +401,7 @@
                             </PCS>
                           </td>
                           <td align="center" valign="middle">
-                            <AREA>
-                              <xsl:value-of select="AREA" />
-                            </AREA>
+                            <xsl:value-of select="AREAMT" />
                           </td>
                           <td align="center" valign="middle">
                             <PRICE>

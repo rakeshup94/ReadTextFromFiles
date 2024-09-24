@@ -180,7 +180,7 @@
                     <p>
                       <strong>                          Terms of Delivery and Payment                        </strong>
                     </p>
-                    <p>F.O.B.</p>
+                  
                     <p>
                       <PAYMENTTERMS>
                         <xsl:value-of select="./PAYMENTTERMS" />
@@ -415,9 +415,7 @@
                     <p>
                       <xsl:if test="./signature!= ''">
                         <img width="182" height="73" alt="">
-                          <xsl:attribute name="src">
-                            <xsl:value-of select="./signature" />
-                          </xsl:attribute>
+                         
                         </img>
                       </xsl:if>
                     </p>
