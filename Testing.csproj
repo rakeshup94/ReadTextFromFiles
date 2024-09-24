@@ -78,6 +78,18 @@
     <Content Include="App_Data\Invoice\AC-1041-LR-RESOURCES-Packing.xslt">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="App_Data\Invoice\AC-1004-BEN-SOLEIMANI.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\Invoice\AC-1004-BEN-SOLEIMANI-Packing.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\Invoice\AC-1039-AYFA-VAN-KLEVERING.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\Invoice\AC-1039-AYFA-VAN-KLEVERING-Packing.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="App_Data\Invoice\EXPORT_INVOICE.xslt">
       <SubType>Designer</SubType>
     </Content>
@@ -121,9 +133,6 @@
     <Content Include="App_Data\WordDoc\DeclforLeather.xslt" />
     <Content Include="App_Data\WordDoc\Declaration.xslt" />
     <Content Include="App_Data\WordDoc\AdvanceCargoDeclaration.xslt" />
-    <Content Include="App_Data\Packing\BenSoleimaniPackingList.xslt">
-      <SubType>Designer</SubType>
-    </Content>
     <Content Include="App_Data\Invoice\AC-1007-EXQUISITERUGS-Packing.xslt">
       <SubType>Designer</SubType>
     </Content>

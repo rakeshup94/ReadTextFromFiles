@@ -140,7 +140,7 @@
                     <p>
                       <strong>                            Terms of Delivery and Payment                          </strong>
                     </p>
-                    <p>F.O.B.</p>
+            
                     <p>
                       <paymentterms>
                         <xsl:value-of select="./PAYMENTTERMS" />
@@ -270,7 +270,7 @@
                               <quality>
                                 <xsl:value-of select="Quality" />
                               </quality>                                  :                                      <composition>
-                                <xsl:value-of select="./Composition" />
+                                <xsl:value-of select="./CustomerOrderNo" />
                               </composition>
                             </strong>
                           </p>
@@ -365,7 +365,7 @@
                   </td>
                   <td valign="top" >
                     <p>
-                      <xsl:value-of select="$totalPrice" />
+                      <xsl:value-of select="format-number($totalPrice,'#.##')" />
                     </p>
                   </td>
                 </tr>

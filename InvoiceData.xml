@@ -1,20 +1,32 @@
 <InvoiceList>
   <InvoiceItem>
-    <INVOICEID>105</INVOICEID>
-    <CustomerId>53</CustomerId>
-    <TINVOICENO>41/23-24</TINVOICENO>
-    <TPackingNo>41/23-24</TPackingNo>
-    <INVOICEDATE>08-08-2024</INVOICEDATE>
-    <InvoiceYear>2024</InvoiceYear>
+    <INVOICEID>81</INVOICEID>
+    <CustomerId>6</CustomerId>
+    <TINVOICENO>38/23-24</TINVOICENO>
+    <TPackingNo>38/23-24</TPackingNo>
+    <INVOICEDATE>12-08-2024</INVOICEDATE>
+    <InvoiceYear>2023</InvoiceYear>
     <TConsignor>
       ARTLINE CREATION ,NATWA, JANGIROAD, MIRZAPUR-231001
       UP INDIA
       TEL:+91-5442-356589
     </TConsignor>
-    <TCONSIGNEE>LR RESOURCES,3432 SOUTH DUG GAP ROAD DALTON, GA 30720  U S A</TCONSIGNEE>
-    <TBUYEROCONSIGNEE></TBUYEROCONSIGNEE>
-    <FINALDESTINATION>DALTON</FINALDESTINATION>
-    <PORTOFDISCHARGE>SAVANNAH</PORTOFDISCHARGE>
+    <TCONSIGNEE>
+      BEN SOLEIMANI,
+      6901 S ALAMEDA ST HUNTINGTON PARK,
+      LOS ANGELES, CA 90001 USA
+      TEL: +1 646 5238126
+      ATTN: BEN SOLEMANI
+    </TCONSIGNEE>
+    <TBUYEROCONSIGNEE>
+      BEN SOLEMANI.COM
+      6901 S ALAMEDA ST HUNTINGTON PARK,
+      LOS ANGELES, CA 90001 USA
+      TEL: +1 646 5238126
+      ATTN: BEN SOLEMANI
+    </TBUYEROCONSIGNEE>
+    <FINALDESTINATION>USA</FINALDESTINATION>
+    <PORTOFDISCHARGE>LOS ANGELES</PORTOFDISCHARGE>
     <PreferentialAgreement></PreferentialAgreement>
     <FREIGHT>0.00</FREIGHT>
     <INSURANCE>0.00</INSURANCE>
@@ -23,9 +35,9 @@
     <PackingCharges>0.00</PackingCharges>
     <SUQty></SUQty>
     <ExchangeRate>82.35</ExchangeRate>
-    <GROSSWT>0.00</GROSSWT>
-    <NETWT>0.00</NETWT>
-    <CBM>0.00</CBM>
+    <GROSSWT>1121.30</GROSSWT>
+    <NETWT>1103.50</NETWT>
+    <CBM>4.72</CBM>
     <IGST>0.00</IGST>
     <CGST>0.00</CGST>
     <SGST>0.00</SGST>
@@ -34,16 +46,16 @@
     <Ex2Rate>0.00</Ex2Rate>
     <ExtraCharges>0.00</ExtraCharges>
     <Composition></Composition>
-    <DescriptionOfGoods>0,INDIAN HAND TUFTED WOOLEN CARPETS</DescriptionOfGoods>
+    <DescriptionOfGoods>INDIAN HAND LOOM WOOLEN CARPETS, HAND WOVEN POLYPROPYLENE RUG &amp; HAND WOVEN JUTE RUG, HANDKOTTED POLYPROPYLENE CARPETS</DescriptionOfGoods>
     <LessAdvance>0.00</LessAdvance>
     <DiscountAmt>0.00</DiscountAmt>
     <GstinType></GstinType>
-    <SHIPINGID>1</SHIPINGID>
-    <RollMark>ALC/SAVANNAH</RollMark>
-    <RollMarkHead>ALC/SAVANNAH</RollMarkHead>
+    <SHIPINGID>2</SHIPINGID>
+    <RollMark>BYS/41</RollMark>
+    <RollMarkHead>BYS/41</RollMarkHead>
     <ShipToAddress></ShipToAddress>
     <CARRIAGENAME>BY TRUCK</CARRIAGENAME>
-    <VESSELFLIGHTNO>BY AIR</VESSELFLIGHTNO>
+    <VESSELFLIGHTNO>BY SEA</VESSELFLIGHTNO>
     <PORTOFLOADING>NHAVA SHEVA</PORTOFLOADING>
     <COMPANYNAME>ARTLINE CREATION </COMPANYNAME>
     <COMPADDR1>
@@ -58,7 +70,7 @@
     <EMAIL></EMAIL>
     <GSTNO>09AAYFA7549J1ZJ</GSTNO>
     <RECEIPTAT>MIRZAPUR</RECEIPTAT>
-    <PAYMENTMODE>90 DAYS FROM B/L DATE</PAYMENTMODE>
+    <PAYMENTMODE>60 DAYS FROM B/L DATE</PAYMENTMODE>
     <PAYMENTTERMS>FOB</PAYMENTTERMS>
     <CURRENCY>USD</CURRENCY>
     <CURRENCYTYPERS>USD</CURRENCYTYPERS>
@@ -82,53 +94,1064 @@
     <TinNo></TinNo>
     <EDPNo></EDPNo>
     <LUTArnNo></LUTArnNo>
-    <PackingDATE>2024-08-08T00:00:00</PackingDATE>
+    <PackingDATE>2023-06-27T00:00:00</PackingDATE>
     <NotifyBySea></NotifyBySea>
     <CustomerCountryName></CustomerCountryName>
     <Rolls>
       <RollItem>
-        <Id>1306</Id>
-        <FINISHEDID>7150</FINISHEDID>
+        <Id>789</Id>
+        <FINISHEDID>47634</FINISHEDID>
         <RollNo>1</RollNo>
         <Rollfrom>1</Rollfrom>
+        <RollTo>1</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1773</OrderId>
+        <RugId>BC91997-8</RugId>
+        <DESIGN>BC91997</DESIGN>
+        <COLOR>CAMEL</COLOR>
+        <WIDTH>8.00</WIDTH>
+        <LENGTH>10.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>245</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>4/25</Quality>
+        <SinglePcsNetWt>18.00</SinglePcsNetWt>
+        <SinglePcsGrossWt>18.50</SinglePcsGrossWt>
+        <NetWeight>18.00</NetWeight>
+        <GrossWeight>18.50</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>216.00</TotalAmount>
+        <UCCNumber>BC91997-8</UCCNumber>
+        <CQSRNO>279</CQSRNO>
+        <CDSRNO>5402</CDSRNO>
+        <CCSRNO>268</CCSRNO>
+        <PRICE>2.70</PRICE>
+        <SinglePcsAreaFT>80.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>7.39</SinglePcsAreaMtr>
+        <AREA>80.00</AREA>
+        <AREAMT>7.39</AREAMT>
+        <AREAFT>80.00</AREAFT>
+        <CBM>0.07</CBM>
+        <StyleNo>Indoor/Outdoor Sora</StyleNo>
+        <OrderId>1773</OrderId>
+        <CustomerOrderNo>P480</CustomerOrderNo>
+        <LocalOrder>L 1763</LocalOrder>
+        <ITEM_NAME>SUMAK</ITEM_NAME>
+        <DesignName>VCS-36282</DesignName>
+        <designId>3947</designId>
+        <SizeFT>8.00x10.00</SizeFT>
+        <SizeMtr>243x304</SizeMtr>
+        <ITEM_ID>14</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>790</Id>
+        <FINISHEDID>47618</FINISHEDID>
+        <RollNo>2</RollNo>
+        <Rollfrom>2</Rollfrom>
+        <RollTo>2</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1773</OrderId>
+        <RugId />
+        <DESIGN>BC91997</DESIGN>
+        <COLOR>CAMEL</COLOR>
+        <WIDTH>9.00</WIDTH>
+        <LENGTH>12.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>277</BaleLength>
+        <BaleWidth>19</BaleWidth>
+        <BaleHeight>19</BaleHeight>
+        <Quality>4/25</Quality>
+        <SinglePcsNetWt>22.50</SinglePcsNetWt>
+        <SinglePcsGrossWt>23.00</SinglePcsGrossWt>
+        <NetWeight>22.50</NetWeight>
+        <GrossWeight>23.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>291.60</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>279</CQSRNO>
+        <CDSRNO>5402</CDSRNO>
+        <CCSRNO>268</CCSRNO>
+        <PRICE>2.70</PRICE>
+        <SinglePcsAreaFT>108.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>10.00</SinglePcsAreaMtr>
+        <AREA>108.00</AREA>
+        <AREAMT>10.00</AREAMT>
+        <AREAFT>108.00</AREAFT>
+        <CBM>0.10</CBM>
+        <StyleNo>Indoor/Outdoor Sora</StyleNo>
+        <OrderId>1773</OrderId>
+        <CustomerOrderNo>P480</CustomerOrderNo>
+        <LocalOrder>L 1763</LocalOrder>
+        <ITEM_NAME>SUMAK</ITEM_NAME>
+        <DesignName>VCS-36282</DesignName>
+        <designId>3947</designId>
+        <SizeFT>9.00x12.00</SizeFT>
+        <SizeMtr>274x365</SizeMtr>
+        <ITEM_ID>14</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>791</Id>
+        <FINISHEDID>47619</FINISHEDID>
+        <RollNo>3</RollNo>
+        <Rollfrom>3</Rollfrom>
+        <RollTo>3</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1773</OrderId>
+        <RugId />
+        <DESIGN>BC91997</DESIGN>
+        <COLOR>CAMEL</COLOR>
+        <WIDTH>10.00</WIDTH>
+        <LENGTH>14.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>308</BaleLength>
+        <BaleWidth>21</BaleWidth>
+        <BaleHeight>21</BaleHeight>
+        <Quality>4/25</Quality>
+        <SinglePcsNetWt>27.50</SinglePcsNetWt>
+        <SinglePcsGrossWt>28.00</SinglePcsGrossWt>
+        <NetWeight>27.50</NetWeight>
+        <GrossWeight>28.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>378.00</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>279</CQSRNO>
+        <CDSRNO>5402</CDSRNO>
+        <CCSRNO>268</CCSRNO>
+        <PRICE>2.70</PRICE>
+        <SinglePcsAreaFT>140.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>12.95</SinglePcsAreaMtr>
+        <AREA>140.00</AREA>
+        <AREAMT>12.95</AREAMT>
+        <AREAFT>140.00</AREAFT>
+        <CBM>0.14</CBM>
+        <StyleNo>Indoor/Outdoor Sora</StyleNo>
+        <OrderId>1773</OrderId>
+        <CustomerOrderNo>P480</CustomerOrderNo>
+        <LocalOrder>L 1763</LocalOrder>
+        <ITEM_NAME>SUMAK</ITEM_NAME>
+        <DesignName>VCS-36282</DesignName>
+        <designId>3947</designId>
+        <SizeFT>10.00x14.00</SizeFT>
+        <SizeMtr>304x426</SizeMtr>
+        <ITEM_ID>14</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>792</Id>
+        <FINISHEDID>47620</FINISHEDID>
+        <RollNo>4</RollNo>
+        <Rollfrom>4</Rollfrom>
+        <RollTo>4</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1773</OrderId>
+        <RugId />
+        <DESIGN>BC91997</DESIGN>
+        <COLOR>CAMEL</COLOR>
+        <WIDTH>12.00</WIDTH>
+        <LENGTH>15.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>188</BaleLength>
+        <BaleWidth>16</BaleWidth>
+        <BaleHeight>16</BaleHeight>
+        <Quality>4/25</Quality>
+        <SinglePcsNetWt>12.00</SinglePcsNetWt>
+        <SinglePcsGrossWt>12.50</SinglePcsGrossWt>
+        <NetWeight>12.00</NetWeight>
+        <GrossWeight>12.50</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>486.00</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>279</CQSRNO>
+        <CDSRNO>5402</CDSRNO>
+        <CCSRNO>268</CCSRNO>
+        <PRICE>2.70</PRICE>
+        <SinglePcsAreaFT>180.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>16.68</SinglePcsAreaMtr>
+        <AREA>180.00</AREA>
+        <AREAMT>16.68</AREAMT>
+        <AREAFT>180.00</AREAFT>
+        <CBM>0.05</CBM>
+        <StyleNo>Indoor/Outdoor Sora</StyleNo>
+        <OrderId>1773</OrderId>
+        <CustomerOrderNo>P480</CustomerOrderNo>
+        <LocalOrder>L 1763</LocalOrder>
+        <ITEM_NAME>SUMAK</ITEM_NAME>
+        <DesignName>VCS-36282</DesignName>
+        <designId>3947</designId>
+        <SizeFT>12.00x15.00</SizeFT>
+        <SizeMtr>365x457</SizeMtr>
+        <ITEM_ID>14</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>793</Id>
+        <FINISHEDID>47638</FINISHEDID>
+        <RollNo>5</RollNo>
+        <Rollfrom>5</Rollfrom>
+        <RollTo>5</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1773</OrderId>
+        <RugId />
+        <DESIGN>BC92000</DESIGN>
+        <COLOR>CHARCOAL</COLOR>
+        <WIDTH>12.00</WIDTH>
+        <LENGTH>15.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>371</BaleLength>
+        <BaleWidth>23</BaleWidth>
+        <BaleHeight>23</BaleHeight>
+        <Quality>4/25</Quality>
+        <SinglePcsNetWt>36.10</SinglePcsNetWt>
+        <SinglePcsGrossWt>36.60</SinglePcsGrossWt>
+        <NetWeight>36.10</NetWeight>
+        <GrossWeight>36.60</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>486.00</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>279</CQSRNO>
+        <CDSRNO>3196</CDSRNO>
+        <CCSRNO>157</CCSRNO>
+        <PRICE>2.70</PRICE>
+        <SinglePcsAreaFT>180.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>16.68</SinglePcsAreaMtr>
+        <AREA>180.00</AREA>
+        <AREAMT>16.68</AREAMT>
+        <AREAFT>180.00</AREAFT>
+        <CBM>0.20</CBM>
+        <StyleNo>Indoor/Outdoor Sora</StyleNo>
+        <OrderId>1773</OrderId>
+        <CustomerOrderNo>P480</CustomerOrderNo>
+        <LocalOrder>L 1763</LocalOrder>
+        <ITEM_NAME>SUMAK</ITEM_NAME>
+        <DesignName>VCS-36280</DesignName>
+        <designId>3945</designId>
+        <SizeFT>12.00x15.00</SizeFT>
+        <SizeMtr>365x457</SizeMtr>
+        <ITEM_ID>14</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>794</Id>
+        <FINISHEDID>47638</FINISHEDID>
+        <RollNo>6</RollNo>
+        <Rollfrom>6</Rollfrom>
+        <RollTo>6</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1773</OrderId>
+        <RugId />
+        <DESIGN>BC92000</DESIGN>
+        <COLOR>CHARCOAL</COLOR>
+        <WIDTH>12.00</WIDTH>
+        <LENGTH>15.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>371</BaleLength>
+        <BaleWidth>23</BaleWidth>
+        <BaleHeight>23</BaleHeight>
+        <Quality>4/25</Quality>
+        <SinglePcsNetWt>36.10</SinglePcsNetWt>
+        <SinglePcsGrossWt>36.60</SinglePcsGrossWt>
+        <NetWeight>36.10</NetWeight>
+        <GrossWeight>36.60</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>486.00</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>279</CQSRNO>
+        <CDSRNO>3196</CDSRNO>
+        <CCSRNO>157</CCSRNO>
+        <PRICE>2.70</PRICE>
+        <SinglePcsAreaFT>180.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>16.68</SinglePcsAreaMtr>
+        <AREA>180.00</AREA>
+        <AREAMT>16.68</AREAMT>
+        <AREAFT>180.00</AREAFT>
+        <CBM>0.20</CBM>
+        <StyleNo>Indoor/Outdoor Sora</StyleNo>
+        <OrderId>1773</OrderId>
+        <CustomerOrderNo>P480</CustomerOrderNo>
+        <LocalOrder>L 1763</LocalOrder>
+        <ITEM_NAME>SUMAK</ITEM_NAME>
+        <DesignName>VCS-36280</DesignName>
+        <designId>3945</designId>
+        <SizeFT>12.00x15.00</SizeFT>
+        <SizeMtr>365x457</SizeMtr>
+        <ITEM_ID>14</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>795</Id>
+        <FINISHEDID>47637</FINISHEDID>
+        <RollNo>7</RollNo>
+        <Rollfrom>7</Rollfrom>
+        <RollTo>7</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1773</OrderId>
+        <RugId />
+        <DESIGN>BC92000</DESIGN>
+        <COLOR>CHARCOAL</COLOR>
+        <WIDTH>10.00</WIDTH>
+        <LENGTH>14.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>308</BaleLength>
+        <BaleWidth>21</BaleWidth>
+        <BaleHeight>21</BaleHeight>
+        <Quality>4/25</Quality>
+        <SinglePcsNetWt>27.50</SinglePcsNetWt>
+        <SinglePcsGrossWt>28.00</SinglePcsGrossWt>
+        <NetWeight>27.50</NetWeight>
+        <GrossWeight>28.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>378.00</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>279</CQSRNO>
+        <CDSRNO>3196</CDSRNO>
+        <CCSRNO>157</CCSRNO>
+        <PRICE>2.70</PRICE>
+        <SinglePcsAreaFT>140.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>12.95</SinglePcsAreaMtr>
+        <AREA>140.00</AREA>
+        <AREAMT>12.95</AREAMT>
+        <AREAFT>140.00</AREAFT>
+        <CBM>0.14</CBM>
+        <StyleNo>Indoor/Outdoor Sora</StyleNo>
+        <OrderId>1773</OrderId>
+        <CustomerOrderNo>P480</CustomerOrderNo>
+        <LocalOrder>L 1763</LocalOrder>
+        <ITEM_NAME>SUMAK</ITEM_NAME>
+        <DesignName>VCS-36280</DesignName>
+        <designId>3945</designId>
+        <SizeFT>10.00x14.00</SizeFT>
+        <SizeMtr>304x426</SizeMtr>
+        <ITEM_ID>14</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>796</Id>
+        <FINISHEDID>47637</FINISHEDID>
+        <RollNo>8</RollNo>
+        <Rollfrom>8</Rollfrom>
+        <RollTo>8</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1773</OrderId>
+        <RugId />
+        <DESIGN>BC92000</DESIGN>
+        <COLOR>CHARCOAL</COLOR>
+        <WIDTH>10.00</WIDTH>
+        <LENGTH>14.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>308</BaleLength>
+        <BaleWidth>21</BaleWidth>
+        <BaleHeight>21</BaleHeight>
+        <Quality>4/25</Quality>
+        <SinglePcsNetWt>27.50</SinglePcsNetWt>
+        <SinglePcsGrossWt>28.00</SinglePcsGrossWt>
+        <NetWeight>27.50</NetWeight>
+        <GrossWeight>28.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>378.00</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>279</CQSRNO>
+        <CDSRNO>3196</CDSRNO>
+        <CCSRNO>157</CCSRNO>
+        <PRICE>2.70</PRICE>
+        <SinglePcsAreaFT>140.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>12.95</SinglePcsAreaMtr>
+        <AREA>140.00</AREA>
+        <AREAMT>12.95</AREAMT>
+        <AREAFT>140.00</AREAFT>
+        <CBM>0.14</CBM>
+        <StyleNo>Indoor/Outdoor Sora</StyleNo>
+        <OrderId>1773</OrderId>
+        <CustomerOrderNo>P480</CustomerOrderNo>
+        <LocalOrder>L 1763</LocalOrder>
+        <ITEM_NAME>SUMAK</ITEM_NAME>
+        <DesignName>VCS-36280</DesignName>
+        <designId>3945</designId>
+        <SizeFT>10.00x14.00</SizeFT>
+        <SizeMtr>304x426</SizeMtr>
+        <ITEM_ID>14</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>797</Id>
+        <FINISHEDID>47637</FINISHEDID>
+        <RollNo>9</RollNo>
+        <Rollfrom>9</Rollfrom>
+        <RollTo>9</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1773</OrderId>
+        <RugId />
+        <DESIGN>BC92000</DESIGN>
+        <COLOR>CHARCOAL</COLOR>
+        <WIDTH>10.00</WIDTH>
+        <LENGTH>14.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>308</BaleLength>
+        <BaleWidth>21</BaleWidth>
+        <BaleHeight>21</BaleHeight>
+        <Quality>4/25</Quality>
+        <SinglePcsNetWt>27.50</SinglePcsNetWt>
+        <SinglePcsGrossWt>28.00</SinglePcsGrossWt>
+        <NetWeight>27.50</NetWeight>
+        <GrossWeight>28.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>378.00</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>279</CQSRNO>
+        <CDSRNO>3196</CDSRNO>
+        <CCSRNO>157</CCSRNO>
+        <PRICE>2.70</PRICE>
+        <SinglePcsAreaFT>140.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>12.95</SinglePcsAreaMtr>
+        <AREA>140.00</AREA>
+        <AREAMT>12.95</AREAMT>
+        <AREAFT>140.00</AREAFT>
+        <CBM>0.14</CBM>
+        <StyleNo>Indoor/Outdoor Sora</StyleNo>
+        <OrderId>1773</OrderId>
+        <CustomerOrderNo>P480</CustomerOrderNo>
+        <LocalOrder>L 1763</LocalOrder>
+        <ITEM_NAME>SUMAK</ITEM_NAME>
+        <DesignName>VCS-36280</DesignName>
+        <designId>3945</designId>
+        <SizeFT>10.00x14.00</SizeFT>
+        <SizeMtr>304x426</SizeMtr>
+        <ITEM_ID>14</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>798</Id>
+        <FINISHEDID>47637</FINISHEDID>
+        <RollNo>10</RollNo>
+        <Rollfrom>10</Rollfrom>
+        <RollTo>10</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1773</OrderId>
+        <RugId />
+        <DESIGN>BC92000</DESIGN>
+        <COLOR>CHARCOAL</COLOR>
+        <WIDTH>10.00</WIDTH>
+        <LENGTH>14.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>308</BaleLength>
+        <BaleWidth>21</BaleWidth>
+        <BaleHeight>21</BaleHeight>
+        <Quality>4/25</Quality>
+        <SinglePcsNetWt>27.50</SinglePcsNetWt>
+        <SinglePcsGrossWt>28.00</SinglePcsGrossWt>
+        <NetWeight>27.50</NetWeight>
+        <GrossWeight>28.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>378.00</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>279</CQSRNO>
+        <CDSRNO>3196</CDSRNO>
+        <CCSRNO>157</CCSRNO>
+        <PRICE>2.70</PRICE>
+        <SinglePcsAreaFT>140.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>12.95</SinglePcsAreaMtr>
+        <AREA>140.00</AREA>
+        <AREAMT>12.95</AREAMT>
+        <AREAFT>140.00</AREAFT>
+        <CBM>0.14</CBM>
+        <StyleNo>Indoor/Outdoor Sora</StyleNo>
+        <OrderId>1773</OrderId>
+        <CustomerOrderNo>P480</CustomerOrderNo>
+        <LocalOrder>L 1763</LocalOrder>
+        <ITEM_NAME>SUMAK</ITEM_NAME>
+        <DesignName>VCS-36280</DesignName>
+        <designId>3945</designId>
+        <SizeFT>10.00x14.00</SizeFT>
+        <SizeMtr>304x426</SizeMtr>
+        <ITEM_ID>14</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>799</Id>
+        <FINISHEDID>47636</FINISHEDID>
+        <RollNo>11</RollNo>
+        <Rollfrom>11</Rollfrom>
+        <RollTo>11</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1773</OrderId>
+        <RugId />
+        <DESIGN>BC92000</DESIGN>
+        <COLOR>CHARCOAL</COLOR>
+        <WIDTH>9.00</WIDTH>
+        <LENGTH>12.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>277</BaleLength>
+        <BaleWidth>19</BaleWidth>
+        <BaleHeight>19</BaleHeight>
+        <Quality>4/25</Quality>
+        <SinglePcsNetWt>22.50</SinglePcsNetWt>
+        <SinglePcsGrossWt>23.00</SinglePcsGrossWt>
+        <NetWeight>22.50</NetWeight>
+        <GrossWeight>23.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>291.60</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>279</CQSRNO>
+        <CDSRNO>3196</CDSRNO>
+        <CCSRNO>157</CCSRNO>
+        <PRICE>2.70</PRICE>
+        <SinglePcsAreaFT>108.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>10.00</SinglePcsAreaMtr>
+        <AREA>108.00</AREA>
+        <AREAMT>10.00</AREAMT>
+        <AREAFT>108.00</AREAFT>
+        <CBM>0.10</CBM>
+        <StyleNo>Indoor/Outdoor Sora</StyleNo>
+        <OrderId>1773</OrderId>
+        <CustomerOrderNo>P480</CustomerOrderNo>
+        <LocalOrder>L 1763</LocalOrder>
+        <ITEM_NAME>SUMAK</ITEM_NAME>
+        <DesignName>VCS-36280</DesignName>
+        <designId>3945</designId>
+        <SizeFT>9.00x12.00</SizeFT>
+        <SizeMtr>274x365</SizeMtr>
+        <ITEM_ID>14</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>800</Id>
+        <FINISHEDID>47636</FINISHEDID>
+        <RollNo>12</RollNo>
+        <Rollfrom>12</Rollfrom>
+        <RollTo>12</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1773</OrderId>
+        <RugId />
+        <DESIGN>BC92000</DESIGN>
+        <COLOR>CHARCOAL</COLOR>
+        <WIDTH>9.00</WIDTH>
+        <LENGTH>12.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>277</BaleLength>
+        <BaleWidth>19</BaleWidth>
+        <BaleHeight>19</BaleHeight>
+        <Quality>4/25</Quality>
+        <SinglePcsNetWt>22.50</SinglePcsNetWt>
+        <SinglePcsGrossWt>23.00</SinglePcsGrossWt>
+        <NetWeight>22.50</NetWeight>
+        <GrossWeight>23.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>291.60</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>279</CQSRNO>
+        <CDSRNO>3196</CDSRNO>
+        <CCSRNO>157</CCSRNO>
+        <PRICE>2.70</PRICE>
+        <SinglePcsAreaFT>108.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>10.00</SinglePcsAreaMtr>
+        <AREA>108.00</AREA>
+        <AREAMT>10.00</AREAMT>
+        <AREAFT>108.00</AREAFT>
+        <CBM>0.10</CBM>
+        <StyleNo>Indoor/Outdoor Sora</StyleNo>
+        <OrderId>1773</OrderId>
+        <CustomerOrderNo>P480</CustomerOrderNo>
+        <LocalOrder>L 1763</LocalOrder>
+        <ITEM_NAME>SUMAK</ITEM_NAME>
+        <DesignName>VCS-36280</DesignName>
+        <designId>3945</designId>
+        <SizeFT>9.00x12.00</SizeFT>
+        <SizeMtr>274x365</SizeMtr>
+        <ITEM_ID>14</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>801</Id>
+        <FINISHEDID>47636</FINISHEDID>
+        <RollNo>13</RollNo>
+        <Rollfrom>13</Rollfrom>
+        <RollTo>13</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1773</OrderId>
+        <RugId />
+        <DESIGN>BC92000</DESIGN>
+        <COLOR>CHARCOAL</COLOR>
+        <WIDTH>9.00</WIDTH>
+        <LENGTH>12.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>277</BaleLength>
+        <BaleWidth>19</BaleWidth>
+        <BaleHeight>19</BaleHeight>
+        <Quality>4/25</Quality>
+        <SinglePcsNetWt>22.50</SinglePcsNetWt>
+        <SinglePcsGrossWt>23.00</SinglePcsGrossWt>
+        <NetWeight>22.50</NetWeight>
+        <GrossWeight>23.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>291.60</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>279</CQSRNO>
+        <CDSRNO>3196</CDSRNO>
+        <CCSRNO>157</CCSRNO>
+        <PRICE>2.70</PRICE>
+        <SinglePcsAreaFT>108.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>10.00</SinglePcsAreaMtr>
+        <AREA>108.00</AREA>
+        <AREAMT>10.00</AREAMT>
+        <AREAFT>108.00</AREAFT>
+        <CBM>0.10</CBM>
+        <StyleNo>Indoor/Outdoor Sora</StyleNo>
+        <OrderId>1773</OrderId>
+        <CustomerOrderNo>P480</CustomerOrderNo>
+        <LocalOrder>L 1763</LocalOrder>
+        <ITEM_NAME>SUMAK</ITEM_NAME>
+        <DesignName>VCS-36280</DesignName>
+        <designId>3945</designId>
+        <SizeFT>9.00x12.00</SizeFT>
+        <SizeMtr>274x365</SizeMtr>
+        <ITEM_ID>14</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>802</Id>
+        <FINISHEDID>47636</FINISHEDID>
+        <RollNo>14</RollNo>
+        <Rollfrom>14</Rollfrom>
+        <RollTo>14</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1773</OrderId>
+        <RugId />
+        <DESIGN>BC92000</DESIGN>
+        <COLOR>CHARCOAL</COLOR>
+        <WIDTH>9.00</WIDTH>
+        <LENGTH>12.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>277</BaleLength>
+        <BaleWidth>19</BaleWidth>
+        <BaleHeight>19</BaleHeight>
+        <Quality>4/25</Quality>
+        <SinglePcsNetWt>22.50</SinglePcsNetWt>
+        <SinglePcsGrossWt>23.00</SinglePcsGrossWt>
+        <NetWeight>22.50</NetWeight>
+        <GrossWeight>23.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>291.60</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>279</CQSRNO>
+        <CDSRNO>3196</CDSRNO>
+        <CCSRNO>157</CCSRNO>
+        <PRICE>2.70</PRICE>
+        <SinglePcsAreaFT>108.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>10.00</SinglePcsAreaMtr>
+        <AREA>108.00</AREA>
+        <AREAMT>10.00</AREAMT>
+        <AREAFT>108.00</AREAFT>
+        <CBM>0.10</CBM>
+        <StyleNo>Indoor/Outdoor Sora</StyleNo>
+        <OrderId>1773</OrderId>
+        <CustomerOrderNo>P480</CustomerOrderNo>
+        <LocalOrder>L 1763</LocalOrder>
+        <ITEM_NAME>SUMAK</ITEM_NAME>
+        <DesignName>VCS-36280</DesignName>
+        <designId>3945</designId>
+        <SizeFT>9.00x12.00</SizeFT>
+        <SizeMtr>274x365</SizeMtr>
+        <ITEM_ID>14</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>803</Id>
+        <FINISHEDID>24759</FINISHEDID>
+        <RollNo>15</RollNo>
+        <Rollfrom>15</Rollfrom>
+        <RollTo>15</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1773</OrderId>
+        <RugId />
+        <DESIGN>BC92000</DESIGN>
+        <COLOR>CHARCOAL</COLOR>
+        <WIDTH>8.00</WIDTH>
+        <LENGTH>10.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>245</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>4/25</Quality>
+        <SinglePcsNetWt>18.00</SinglePcsNetWt>
+        <SinglePcsGrossWt>18.50</SinglePcsGrossWt>
+        <NetWeight>18.00</NetWeight>
+        <GrossWeight>18.50</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>216.00</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>279</CQSRNO>
+        <CDSRNO>3196</CDSRNO>
+        <CCSRNO>157</CCSRNO>
+        <PRICE>2.70</PRICE>
+        <SinglePcsAreaFT>80.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>7.39</SinglePcsAreaMtr>
+        <AREA>80.00</AREA>
+        <AREAMT>7.39</AREAMT>
+        <AREAFT>80.00</AREAFT>
+        <CBM>0.07</CBM>
+        <StyleNo>Indoor/Outdoor Sora</StyleNo>
+        <OrderId>1773</OrderId>
+        <CustomerOrderNo>P480</CustomerOrderNo>
+        <LocalOrder>L 1763</LocalOrder>
+        <ITEM_NAME>SUMAK</ITEM_NAME>
+        <DesignName>VCS-36280</DesignName>
+        <designId>3945</designId>
+        <SizeFT>8.00x10.00</SizeFT>
+        <SizeMtr>243x304</SizeMtr>
+        <ITEM_ID>14</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>804</Id>
+        <FINISHEDID>24759</FINISHEDID>
+        <RollNo>16</RollNo>
+        <Rollfrom>16</Rollfrom>
+        <RollTo>16</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1773</OrderId>
+        <RugId />
+        <DESIGN>BC92000</DESIGN>
+        <COLOR>CHARCOAL</COLOR>
+        <WIDTH>8.00</WIDTH>
+        <LENGTH>10.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>245</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>4/25</Quality>
+        <SinglePcsNetWt>18.00</SinglePcsNetWt>
+        <SinglePcsGrossWt>18.50</SinglePcsGrossWt>
+        <NetWeight>18.00</NetWeight>
+        <GrossWeight>18.50</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>216.00</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>279</CQSRNO>
+        <CDSRNO>3196</CDSRNO>
+        <CCSRNO>157</CCSRNO>
+        <PRICE>2.70</PRICE>
+        <SinglePcsAreaFT>80.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>7.39</SinglePcsAreaMtr>
+        <AREA>80.00</AREA>
+        <AREAMT>7.39</AREAMT>
+        <AREAFT>80.00</AREAFT>
+        <CBM>0.07</CBM>
+        <StyleNo>Indoor/Outdoor Sora</StyleNo>
+        <OrderId>1773</OrderId>
+        <CustomerOrderNo>P480</CustomerOrderNo>
+        <LocalOrder>L 1763</LocalOrder>
+        <ITEM_NAME>SUMAK</ITEM_NAME>
+        <DesignName>VCS-36280</DesignName>
+        <designId>3945</designId>
+        <SizeFT>8.00x10.00</SizeFT>
+        <SizeMtr>243x304</SizeMtr>
+        <ITEM_ID>14</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>805</Id>
+        <FINISHEDID>24759</FINISHEDID>
+        <RollNo>17</RollNo>
+        <Rollfrom>17</Rollfrom>
+        <RollTo>17</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1773</OrderId>
+        <RugId />
+        <DESIGN>BC92000</DESIGN>
+        <COLOR>CHARCOAL</COLOR>
+        <WIDTH>8.00</WIDTH>
+        <LENGTH>10.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>245</BaleLength>
+        <BaleWidth>17</BaleWidth>
+        <BaleHeight>17</BaleHeight>
+        <Quality>4/25</Quality>
+        <SinglePcsNetWt>18.00</SinglePcsNetWt>
+        <SinglePcsGrossWt>18.50</SinglePcsGrossWt>
+        <NetWeight>18.00</NetWeight>
+        <GrossWeight>18.50</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>216.00</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>279</CQSRNO>
+        <CDSRNO>3196</CDSRNO>
+        <CCSRNO>157</CCSRNO>
+        <PRICE>2.70</PRICE>
+        <SinglePcsAreaFT>80.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>7.39</SinglePcsAreaMtr>
+        <AREA>80.00</AREA>
+        <AREAMT>7.39</AREAMT>
+        <AREAFT>80.00</AREAFT>
+        <CBM>0.07</CBM>
+        <StyleNo>Indoor/Outdoor Sora</StyleNo>
+        <OrderId>1773</OrderId>
+        <CustomerOrderNo>P480</CustomerOrderNo>
+        <LocalOrder>L 1763</LocalOrder>
+        <ITEM_NAME>SUMAK</ITEM_NAME>
+        <DesignName>VCS-36280</DesignName>
+        <designId>3945</designId>
+        <SizeFT>8.00x10.00</SizeFT>
+        <SizeMtr>243x304</SizeMtr>
+        <ITEM_ID>14</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>806</Id>
+        <FINISHEDID>47635</FINISHEDID>
+        <RollNo>18</RollNo>
+        <Rollfrom>18</Rollfrom>
+        <RollTo>18</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1773</OrderId>
+        <RugId />
+        <DESIGN>BC92000</DESIGN>
+        <COLOR>CHARCOAL</COLOR>
+        <WIDTH>6.00</WIDTH>
+        <LENGTH>9.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>188</BaleLength>
+        <BaleWidth>16</BaleWidth>
+        <BaleHeight>16</BaleHeight>
+        <Quality>4/25</Quality>
+        <SinglePcsNetWt>12.00</SinglePcsNetWt>
+        <SinglePcsGrossWt>12.50</SinglePcsGrossWt>
+        <NetWeight>12.00</NetWeight>
+        <GrossWeight>12.50</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>145.80</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>279</CQSRNO>
+        <CDSRNO>3196</CDSRNO>
+        <CCSRNO>157</CCSRNO>
+        <PRICE>2.70</PRICE>
+        <SinglePcsAreaFT>54.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>4.99</SinglePcsAreaMtr>
+        <AREA>54.00</AREA>
+        <AREAMT>4.99</AREAMT>
+        <AREAFT>54.00</AREAFT>
+        <CBM>0.05</CBM>
+        <StyleNo>Indoor/Outdoor Sora</StyleNo>
+        <OrderId>1773</OrderId>
+        <CustomerOrderNo>P480</CustomerOrderNo>
+        <LocalOrder>L 1763</LocalOrder>
+        <ITEM_NAME>SUMAK</ITEM_NAME>
+        <DesignName>VCS-36280</DesignName>
+        <designId>3945</designId>
+        <SizeFT>6.00x9.00</SizeFT>
+        <SizeMtr>182x274</SizeMtr>
+        <ITEM_ID>14</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>807</Id>
+        <FINISHEDID>47638</FINISHEDID>
+        <RollNo>19</RollNo>
+        <Rollfrom>19</Rollfrom>
+        <RollTo>19</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1773</OrderId>
+        <RugId />
+        <DESIGN>BC92000</DESIGN>
+        <COLOR>CHARCOAL</COLOR>
+        <WIDTH>12.00</WIDTH>
+        <LENGTH>15.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>371</BaleLength>
+        <BaleWidth>23</BaleWidth>
+        <BaleHeight>23</BaleHeight>
+        <Quality>4/25</Quality>
+        <SinglePcsNetWt>36.10</SinglePcsNetWt>
+        <SinglePcsGrossWt>36.60</SinglePcsGrossWt>
+        <NetWeight>36.10</NetWeight>
+        <GrossWeight>36.60</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>486.00</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>279</CQSRNO>
+        <CDSRNO>3196</CDSRNO>
+        <CCSRNO>157</CCSRNO>
+        <PRICE>2.70</PRICE>
+        <SinglePcsAreaFT>180.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>16.68</SinglePcsAreaMtr>
+        <AREA>180.00</AREA>
+        <AREAMT>16.68</AREAMT>
+        <AREAFT>180.00</AREAFT>
+        <CBM>0.20</CBM>
+        <StyleNo>Indoor/Outdoor Sora</StyleNo>
+        <OrderId>1773</OrderId>
+        <CustomerOrderNo>P480</CustomerOrderNo>
+        <LocalOrder>L 1763</LocalOrder>
+        <ITEM_NAME>SUMAK</ITEM_NAME>
+        <DesignName>VCS-36280</DesignName>
+        <designId>3945</designId>
+        <SizeFT>12.00x15.00</SizeFT>
+        <SizeMtr>365x457</SizeMtr>
+        <ITEM_ID>14</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>808</Id>
+        <FINISHEDID>47630</FINISHEDID>
+        <RollNo>20</RollNo>
+        <Rollfrom>20</Rollfrom>
         <RollTo>20</RollTo>
         <RPcs>1</RPcs>
-        <TotalPcs>20</TotalPcs>
-        <TotalRoll>20</TotalRoll>
-        <OrderId>2094</OrderId>
-        <RugId>840309503457</RugId>
-        <DESIGN>LR82200</DESIGN>
-        <COLOR>MULTI</COLOR>
-        <WIDTH>7.09</WIDTH>
-        <LENGTH>9.09</LENGTH>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1773</OrderId>
+        <RugId />
+        <DESIGN>BC91999</DESIGN>
+        <COLOR>IVORY</COLOR>
+        <WIDTH>9.00</WIDTH>
+        <LENGTH>12.00</LENGTH>
         <PurchaseCode />
-        <BaleLength />
-        <BaleWidth />
-        <BaleHeight />
-        <Quality>ALL LOOP</Quality>
-        <SinglePcsNetWt>0.00</SinglePcsNetWt>
-        <SinglePcsGrossWt>0.00</SinglePcsGrossWt>
-        <NetWeight>0.00</NetWeight>
-        <GrossWeight>0.00</GrossWeight>
+        <BaleLength>371</BaleLength>
+        <BaleWidth>23</BaleWidth>
+        <BaleHeight>23</BaleHeight>
+        <Quality>4/25</Quality>
+        <SinglePcsNetWt>36.10</SinglePcsNetWt>
+        <SinglePcsGrossWt>36.60</SinglePcsGrossWt>
+        <NetWeight>36.10</NetWeight>
+        <GrossWeight>36.60</GrossWeight>
         <CALTYPEAMT>0</CALTYPEAMT>
-        <TotalAmount>1662.38</TotalAmount>
-        <PRICE>1.10</PRICE>
-        <SinglePcsAreaFT>75.56</SinglePcsAreaFT>
-        <SinglePcsAreaMtr>7.01</SinglePcsAreaMtr>
-        <AREA>1511.25</AREA>
-        <AREAMT>140.18</AREAMT>
-        <AREAFT>1511.25</AREAFT>
-        <CBM>0.00</CBM>
-        <StyleNo>T7999</StyleNo>
-        <OrderId>2094</OrderId>
-        <CustomerOrderNo>7068</CustomerOrderNo>
-        <LocalOrder>L 2082</LocalOrder>
-        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
-        <DesignName>VCT-34329</DesignName>
-        <designId>1002</designId>
-        <SizeFT>7.09x9.09</SizeFT>
-        <SizeMtr>236x297</SizeMtr>
-        <ITEM_ID>1</ITEM_ID>
+        <TotalAmount>291.60</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>279</CQSRNO>
+        <CDSRNO>3195</CDSRNO>
+        <CCSRNO>265</CCSRNO>
+        <PRICE>2.70</PRICE>
+        <SinglePcsAreaFT>108.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>10.00</SinglePcsAreaMtr>
+        <AREA>108.00</AREA>
+        <AREAMT>10.00</AREAMT>
+        <AREAFT>108.00</AREAFT>
+        <CBM>0.20</CBM>
+        <StyleNo>Indoor/Outdoor Sora</StyleNo>
+        <OrderId>1773</OrderId>
+        <CustomerOrderNo>P480</CustomerOrderNo>
+        <LocalOrder>L 1763</LocalOrder>
+        <ITEM_NAME>SUMAK</ITEM_NAME>
+        <DesignName>VCS-36281</DesignName>
+        <designId>3946</designId>
+        <SizeFT>9.00x12.00</SizeFT>
+        <SizeMtr>274x365</SizeMtr>
+        <ITEM_ID>14</ITEM_ID>
         <HSNCode />
         <DesignNameAToC> </DesignNameAToC>
         <SKUNO />
@@ -136,48 +1159,529 @@
         <Description />
       </RollItem>
       <RollItem>
-        <Id>1307</Id>
-        <FINISHEDID>7152</FINISHEDID>
+        <Id>809</Id>
+        <FINISHEDID>47631</FINISHEDID>
         <RollNo>21</RollNo>
         <Rollfrom>21</Rollfrom>
+        <RollTo>21</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1773</OrderId>
+        <RugId />
+        <DESIGN>BC91999</DESIGN>
+        <COLOR>IVORY</COLOR>
+        <WIDTH>10.00</WIDTH>
+        <LENGTH>14.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>308</BaleLength>
+        <BaleWidth>21</BaleWidth>
+        <BaleHeight>21</BaleHeight>
+        <Quality>4/25</Quality>
+        <SinglePcsNetWt>27.50</SinglePcsNetWt>
+        <SinglePcsGrossWt>28.00</SinglePcsGrossWt>
+        <NetWeight>27.50</NetWeight>
+        <GrossWeight>28.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>378.00</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>279</CQSRNO>
+        <CDSRNO>3195</CDSRNO>
+        <CCSRNO>265</CCSRNO>
+        <PRICE>2.70</PRICE>
+        <SinglePcsAreaFT>140.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>12.95</SinglePcsAreaMtr>
+        <AREA>140.00</AREA>
+        <AREAMT>12.95</AREAMT>
+        <AREAFT>140.00</AREAFT>
+        <CBM>0.14</CBM>
+        <StyleNo>Indoor/Outdoor Sora</StyleNo>
+        <OrderId>1773</OrderId>
+        <CustomerOrderNo>P480</CustomerOrderNo>
+        <LocalOrder>L 1763</LocalOrder>
+        <ITEM_NAME>SUMAK</ITEM_NAME>
+        <DesignName>VCS-36281</DesignName>
+        <designId>3946</designId>
+        <SizeFT>10.00x14.00</SizeFT>
+        <SizeMtr>304x426</SizeMtr>
+        <ITEM_ID>14</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>810</Id>
+        <FINISHEDID>47631</FINISHEDID>
+        <RollNo>22</RollNo>
+        <Rollfrom>22</Rollfrom>
+        <RollTo>22</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1773</OrderId>
+        <RugId />
+        <DESIGN>BC91999</DESIGN>
+        <COLOR>IVORY</COLOR>
+        <WIDTH>10.00</WIDTH>
+        <LENGTH>14.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>308</BaleLength>
+        <BaleWidth>21</BaleWidth>
+        <BaleHeight>21</BaleHeight>
+        <Quality>4/25</Quality>
+        <SinglePcsNetWt>27.50</SinglePcsNetWt>
+        <SinglePcsGrossWt>28.00</SinglePcsGrossWt>
+        <NetWeight>27.50</NetWeight>
+        <GrossWeight>28.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>378.00</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>279</CQSRNO>
+        <CDSRNO>3195</CDSRNO>
+        <CCSRNO>265</CCSRNO>
+        <PRICE>2.70</PRICE>
+        <SinglePcsAreaFT>140.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>12.95</SinglePcsAreaMtr>
+        <AREA>140.00</AREA>
+        <AREAMT>12.95</AREAMT>
+        <AREAFT>140.00</AREAFT>
+        <CBM>0.14</CBM>
+        <StyleNo>Indoor/Outdoor Sora</StyleNo>
+        <OrderId>1773</OrderId>
+        <CustomerOrderNo>P480</CustomerOrderNo>
+        <LocalOrder>L 1763</LocalOrder>
+        <ITEM_NAME>SUMAK</ITEM_NAME>
+        <DesignName>VCS-36281</DesignName>
+        <designId>3946</designId>
+        <SizeFT>10.00x14.00</SizeFT>
+        <SizeMtr>304x426</SizeMtr>
+        <ITEM_ID>14</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>811</Id>
+        <FINISHEDID>47177</FINISHEDID>
+        <RollNo>23</RollNo>
+        <Rollfrom>23</Rollfrom>
+        <RollTo>23</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1765</OrderId>
+        <RugId />
+        <DESIGN>BC91999</DESIGN>
+        <COLOR>IVORY</COLOR>
+        <WIDTH>12.00</WIDTH>
+        <LENGTH>18.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>367</BaleLength>
+        <BaleWidth>22</BaleWidth>
+        <BaleHeight>22</BaleHeight>
+        <Quality>4/25</Quality>
+        <SinglePcsNetWt>36.50</SinglePcsNetWt>
+        <SinglePcsGrossWt>37.00</SinglePcsGrossWt>
+        <NetWeight>36.50</NetWeight>
+        <GrossWeight>37.00</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>583.20</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>279</CQSRNO>
+        <CDSRNO>3195</CDSRNO>
+        <CCSRNO>265</CCSRNO>
+        <PRICE>2.70</PRICE>
+        <SinglePcsAreaFT>216.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>20.00</SinglePcsAreaMtr>
+        <AREA>216.00</AREA>
+        <AREAMT>20.00</AREAMT>
+        <AREAFT>216.00</AREAFT>
+        <CBM>0.18</CBM>
+        <StyleNo>Indoor/Outdoor Sora</StyleNo>
+        <OrderId>1765</OrderId>
+        <CustomerOrderNo>P955</CustomerOrderNo>
+        <LocalOrder>L 1755</LocalOrder>
+        <ITEM_NAME>SUMAK</ITEM_NAME>
+        <DesignName>VCS-36281</DesignName>
+        <designId>3946</designId>
+        <SizeFT>12.00x18.00</SizeFT>
+        <SizeMtr>365x548</SizeMtr>
+        <ITEM_ID>14</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>812</Id>
+        <FINISHEDID>48452</FINISHEDID>
+        <RollNo>24</RollNo>
+        <Rollfrom>24</Rollfrom>
+        <RollTo>24</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1787</OrderId>
+        <RugId />
+        <DESIGN>BC88624</DESIGN>
+        <COLOR>GREY</COLOR>
+        <WIDTH>8.00</WIDTH>
+        <LENGTH>10.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>252</BaleLength>
+        <BaleWidth>20</BaleWidth>
+        <BaleHeight>20</BaleHeight>
+        <Quality>CUT/LOOP PILE</Quality>
+        <SinglePcsNetWt>31.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>32.10</SinglePcsGrossWt>
+        <NetWeight>31.60</NetWeight>
+        <GrossWeight>32.10</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>228.00</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>27</CQSRNO>
+        <CDSRNO>5410</CDSRNO>
+        <CCSRNO>73</CCSRNO>
+        <PRICE>2.85</PRICE>
+        <SinglePcsAreaFT>80.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>7.39</SinglePcsAreaMtr>
+        <AREA>80.00</AREA>
+        <AREAMT>7.39</AREAMT>
+        <AREAFT>80.00</AREAFT>
+        <CBM>0.10</CBM>
+        <StyleNo>PERFORMANCE ESTRA RU</StyleNo>
+        <OrderId>1787</OrderId>
+        <CustomerOrderNo>P1020</CustomerOrderNo>
+        <LocalOrder>L 1777</LocalOrder>
+        <ITEM_NAME>HAND LOOM</ITEM_NAME>
+        <DesignName>VCH-33841</DesignName>
+        <designId>17078</designId>
+        <SizeFT>8.00x10.00</SizeFT>
+        <SizeMtr>243x304</SizeMtr>
+        <ITEM_ID>11</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>813</Id>
+        <FINISHEDID>48452</FINISHEDID>
+        <RollNo>25</RollNo>
+        <Rollfrom>25</Rollfrom>
+        <RollTo>25</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1787</OrderId>
+        <RugId />
+        <DESIGN>BC88624</DESIGN>
+        <COLOR>GREY</COLOR>
+        <WIDTH>8.00</WIDTH>
+        <LENGTH>10.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>252</BaleLength>
+        <BaleWidth>20</BaleWidth>
+        <BaleHeight>20</BaleHeight>
+        <Quality>CUT/LOOP PILE</Quality>
+        <SinglePcsNetWt>31.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>32.10</SinglePcsGrossWt>
+        <NetWeight>31.60</NetWeight>
+        <GrossWeight>32.10</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>228.00</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>27</CQSRNO>
+        <CDSRNO>5410</CDSRNO>
+        <CCSRNO>73</CCSRNO>
+        <PRICE>2.85</PRICE>
+        <SinglePcsAreaFT>80.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>7.39</SinglePcsAreaMtr>
+        <AREA>80.00</AREA>
+        <AREAMT>7.39</AREAMT>
+        <AREAFT>80.00</AREAFT>
+        <CBM>0.10</CBM>
+        <StyleNo>PERFORMANCE ESTRA RU</StyleNo>
+        <OrderId>1787</OrderId>
+        <CustomerOrderNo>P1020</CustomerOrderNo>
+        <LocalOrder>L 1777</LocalOrder>
+        <ITEM_NAME>HAND LOOM</ITEM_NAME>
+        <DesignName>VCH-33841</DesignName>
+        <designId>17078</designId>
+        <SizeFT>8.00x10.00</SizeFT>
+        <SizeMtr>243x304</SizeMtr>
+        <ITEM_ID>11</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>814</Id>
+        <FINISHEDID>48452</FINISHEDID>
+        <RollNo>26</RollNo>
+        <Rollfrom>26</Rollfrom>
+        <RollTo>26</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1787</OrderId>
+        <RugId />
+        <DESIGN>BC88624</DESIGN>
+        <COLOR>GREY</COLOR>
+        <WIDTH>8.00</WIDTH>
+        <LENGTH>10.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>252</BaleLength>
+        <BaleWidth>20</BaleWidth>
+        <BaleHeight>20</BaleHeight>
+        <Quality>CUT/LOOP PILE</Quality>
+        <SinglePcsNetWt>31.60</SinglePcsNetWt>
+        <SinglePcsGrossWt>32.10</SinglePcsGrossWt>
+        <NetWeight>31.60</NetWeight>
+        <GrossWeight>32.10</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>228.00</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>27</CQSRNO>
+        <CDSRNO>5410</CDSRNO>
+        <CCSRNO>73</CCSRNO>
+        <PRICE>2.85</PRICE>
+        <SinglePcsAreaFT>80.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>7.39</SinglePcsAreaMtr>
+        <AREA>80.00</AREA>
+        <AREAMT>7.39</AREAMT>
+        <AREAFT>80.00</AREAFT>
+        <CBM>0.10</CBM>
+        <StyleNo>PERFORMANCE ESTRA RU</StyleNo>
+        <OrderId>1787</OrderId>
+        <CustomerOrderNo>P1020</CustomerOrderNo>
+        <LocalOrder>L 1777</LocalOrder>
+        <ITEM_NAME>HAND LOOM</ITEM_NAME>
+        <DesignName>VCH-33841</DesignName>
+        <designId>17078</designId>
+        <SizeFT>8.00x10.00</SizeFT>
+        <SizeMtr>243x304</SizeMtr>
+        <ITEM_ID>11</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>815</Id>
+        <FINISHEDID>48451</FINISHEDID>
+        <RollNo>27</RollNo>
+        <Rollfrom>27</Rollfrom>
+        <RollTo>27</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1787</OrderId>
+        <RugId />
+        <DESIGN>BC88624</DESIGN>
+        <COLOR>GREY</COLOR>
+        <WIDTH>9.00</WIDTH>
+        <LENGTH>12.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>280</BaleLength>
+        <BaleWidth>22</BaleWidth>
+        <BaleHeight>22</BaleHeight>
+        <Quality>CUT/LOOP PILE</Quality>
+        <SinglePcsNetWt>42.40</SinglePcsNetWt>
+        <SinglePcsGrossWt>42.90</SinglePcsGrossWt>
+        <NetWeight>42.40</NetWeight>
+        <GrossWeight>42.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>307.80</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>27</CQSRNO>
+        <CDSRNO>5410</CDSRNO>
+        <CCSRNO>73</CCSRNO>
+        <PRICE>2.85</PRICE>
+        <SinglePcsAreaFT>108.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>10.00</SinglePcsAreaMtr>
+        <AREA>108.00</AREA>
+        <AREAMT>10.00</AREAMT>
+        <AREAFT>108.00</AREAFT>
+        <CBM>0.14</CBM>
+        <StyleNo>PERFORMANCE ESTRA RU</StyleNo>
+        <OrderId>1787</OrderId>
+        <CustomerOrderNo>P1020</CustomerOrderNo>
+        <LocalOrder>L 1777</LocalOrder>
+        <ITEM_NAME>HAND LOOM</ITEM_NAME>
+        <DesignName>VCH-33841</DesignName>
+        <designId>17078</designId>
+        <SizeFT>9.00x12.00</SizeFT>
+        <SizeMtr>274x365</SizeMtr>
+        <ITEM_ID>11</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>816</Id>
+        <FINISHEDID>48451</FINISHEDID>
+        <RollNo>28</RollNo>
+        <Rollfrom>28</Rollfrom>
+        <RollTo>28</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1787</OrderId>
+        <RugId />
+        <DESIGN>BC88624</DESIGN>
+        <COLOR>GREY</COLOR>
+        <WIDTH>9.00</WIDTH>
+        <LENGTH>12.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>280</BaleLength>
+        <BaleWidth>20</BaleWidth>
+        <BaleHeight>20</BaleHeight>
+        <Quality>CUT/LOOP PILE</Quality>
+        <SinglePcsNetWt>42.40</SinglePcsNetWt>
+        <SinglePcsGrossWt>42.90</SinglePcsGrossWt>
+        <NetWeight>42.40</NetWeight>
+        <GrossWeight>42.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>307.80</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>27</CQSRNO>
+        <CDSRNO>5410</CDSRNO>
+        <CCSRNO>73</CCSRNO>
+        <PRICE>2.85</PRICE>
+        <SinglePcsAreaFT>108.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>10.00</SinglePcsAreaMtr>
+        <AREA>108.00</AREA>
+        <AREAMT>10.00</AREAMT>
+        <AREAFT>108.00</AREAFT>
+        <CBM>0.11</CBM>
+        <StyleNo>PERFORMANCE ESTRA RU</StyleNo>
+        <OrderId>1787</OrderId>
+        <CustomerOrderNo>P1020</CustomerOrderNo>
+        <LocalOrder>L 1777</LocalOrder>
+        <ITEM_NAME>HAND LOOM</ITEM_NAME>
+        <DesignName>VCH-33841</DesignName>
+        <designId>17078</designId>
+        <SizeFT>9.00x12.00</SizeFT>
+        <SizeMtr>274x365</SizeMtr>
+        <ITEM_ID>11</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>817</Id>
+        <FINISHEDID>48451</FINISHEDID>
+        <RollNo>29</RollNo>
+        <Rollfrom>29</Rollfrom>
+        <RollTo>29</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1787</OrderId>
+        <RugId />
+        <DESIGN>BC88624</DESIGN>
+        <COLOR>GREY</COLOR>
+        <WIDTH>9.00</WIDTH>
+        <LENGTH>12.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>280</BaleLength>
+        <BaleWidth>20</BaleWidth>
+        <BaleHeight>20</BaleHeight>
+        <Quality>CUT/LOOP PILE</Quality>
+        <SinglePcsNetWt>42.40</SinglePcsNetWt>
+        <SinglePcsGrossWt>42.90</SinglePcsGrossWt>
+        <NetWeight>42.40</NetWeight>
+        <GrossWeight>42.90</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>307.80</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>27</CQSRNO>
+        <CDSRNO>5410</CDSRNO>
+        <CCSRNO>73</CCSRNO>
+        <PRICE>2.85</PRICE>
+        <SinglePcsAreaFT>108.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>10.00</SinglePcsAreaMtr>
+        <AREA>108.00</AREA>
+        <AREAMT>10.00</AREAMT>
+        <AREAFT>108.00</AREAFT>
+        <CBM>0.11</CBM>
+        <StyleNo>PERFORMANCE ESTRA RU</StyleNo>
+        <OrderId>1787</OrderId>
+        <CustomerOrderNo>P1020</CustomerOrderNo>
+        <LocalOrder>L 1777</LocalOrder>
+        <ITEM_NAME>HAND LOOM</ITEM_NAME>
+        <DesignName>VCH-33841</DesignName>
+        <designId>17078</designId>
+        <SizeFT>9.00x12.00</SizeFT>
+        <SizeMtr>274x365</SizeMtr>
+        <ITEM_ID>11</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>818</Id>
+        <FINISHEDID>48451</FINISHEDID>
+        <RollNo>30</RollNo>
+        <Rollfrom>30</Rollfrom>
         <RollTo>30</RollTo>
         <RPcs>1</RPcs>
-        <TotalPcs>10</TotalPcs>
-        <TotalRoll>10</TotalRoll>
-        <OrderId>2094</OrderId>
-        <RugId>840309503525</RugId>
-        <DESIGN>LR82202</DESIGN>
-        <COLOR>MULTI</COLOR>
-        <WIDTH>5.00</WIDTH>
-        <LENGTH>7.09</LENGTH>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1787</OrderId>
+        <RugId />
+        <DESIGN>BC88624</DESIGN>
+        <COLOR>GREY</COLOR>
+        <WIDTH>9.00</WIDTH>
+        <LENGTH>12.00</LENGTH>
         <PurchaseCode />
-        <BaleLength />
-        <BaleWidth />
-        <BaleHeight />
-        <Quality>ALL LOOP</Quality>
-        <SinglePcsNetWt>0.00</SinglePcsNetWt>
-        <SinglePcsGrossWt>0.00</SinglePcsGrossWt>
-        <NetWeight>0.00</NetWeight>
-        <GrossWeight>0.00</GrossWeight>
+        <BaleLength>280</BaleLength>
+        <BaleWidth>22</BaleWidth>
+        <BaleHeight>22</BaleHeight>
+        <Quality>CUT/LOOP PILE</Quality>
+        <SinglePcsNetWt>42.40</SinglePcsNetWt>
+        <SinglePcsGrossWt>42.90</SinglePcsGrossWt>
+        <NetWeight>42.40</NetWeight>
+        <GrossWeight>42.90</GrossWeight>
         <CALTYPEAMT>0</CALTYPEAMT>
-        <TotalAmount>426.25</TotalAmount>
-        <PRICE>1.10</PRICE>
-        <SinglePcsAreaFT>38.75</SinglePcsAreaFT>
-        <SinglePcsAreaMtr>3.59</SinglePcsAreaMtr>
-        <AREA>387.50</AREA>
-        <AREAMT>35.87</AREAMT>
-        <AREAFT>387.50</AREAFT>
-        <CBM>0.00</CBM>
-        <StyleNo>T5079</StyleNo>
-        <OrderId>2094</OrderId>
-        <CustomerOrderNo>7068</CustomerOrderNo>
-        <LocalOrder>L 2082</LocalOrder>
-        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
-        <DesignName>VCT-34330</DesignName>
-        <designId>1003</designId>
-        <SizeFT>5.00x7.09</SizeFT>
-        <SizeMtr>152x236</SizeMtr>
-        <ITEM_ID>1</ITEM_ID>
+        <TotalAmount>307.80</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>27</CQSRNO>
+        <CDSRNO>5410</CDSRNO>
+        <CCSRNO>73</CCSRNO>
+        <PRICE>2.85</PRICE>
+        <SinglePcsAreaFT>108.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>10.00</SinglePcsAreaMtr>
+        <AREA>108.00</AREA>
+        <AREAMT>10.00</AREAMT>
+        <AREAFT>108.00</AREAFT>
+        <CBM>0.14</CBM>
+        <StyleNo>PERFORMANCE ESTRA RU</StyleNo>
+        <OrderId>1787</OrderId>
+        <CustomerOrderNo>P1020</CustomerOrderNo>
+        <LocalOrder>L 1777</LocalOrder>
+        <ITEM_NAME>HAND LOOM</ITEM_NAME>
+        <DesignName>VCH-33841</DesignName>
+        <designId>17078</designId>
+        <SizeFT>9.00x12.00</SizeFT>
+        <SizeMtr>274x365</SizeMtr>
+        <ITEM_ID>11</ITEM_ID>
         <HSNCode />
         <DesignNameAToC> </DesignNameAToC>
         <SKUNO />
@@ -185,341 +1689,52 @@
         <Description />
       </RollItem>
       <RollItem>
-        <Id>1308</Id>
-        <FINISHEDID>7149</FINISHEDID>
+        <Id>819</Id>
+        <FINISHEDID>54637</FINISHEDID>
         <RollNo>31</RollNo>
         <Rollfrom>31</Rollfrom>
-        <RollTo>40</RollTo>
+        <RollTo>31</RollTo>
         <RPcs>1</RPcs>
-        <TotalPcs>10</TotalPcs>
-        <TotalRoll>10</TotalRoll>
-        <OrderId>2177</OrderId>
-        <RugId>840309503464</RugId>
-        <DESIGN>LR82200</DESIGN>
-        <COLOR>MULTI</COLOR>
-        <WIDTH>9.00</WIDTH>
-        <LENGTH>12.00</LENGTH>
-        <PurchaseCode />
-        <BaleLength />
-        <BaleWidth />
-        <BaleHeight />
-        <Quality>ALL LOOP</Quality>
-        <SinglePcsNetWt>0.00</SinglePcsNetWt>
-        <SinglePcsGrossWt>0.00</SinglePcsGrossWt>
-        <NetWeight>0.00</NetWeight>
-        <GrossWeight>0.00</GrossWeight>
-        <CALTYPEAMT>0</CALTYPEAMT>
-        <TotalAmount>1188.00</TotalAmount>
-        <PRICE>1.10</PRICE>
-        <SinglePcsAreaFT>108.00</SinglePcsAreaFT>
-        <SinglePcsAreaMtr>10.00</SinglePcsAreaMtr>
-        <AREA>1080.00</AREA>
-        <AREAMT>100.01</AREAMT>
-        <AREAFT>1080.00</AREAFT>
-        <CBM>0.00</CBM>
-        <StyleNo>T90CO</StyleNo>
-        <OrderId>2177</OrderId>
-        <CustomerOrderNo>7112</CustomerOrderNo>
-        <LocalOrder>L 2165</LocalOrder>
-        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
-        <DesignName>VCT-34329</DesignName>
-        <designId>1002</designId>
-        <SizeFT>9.00x12.00</SizeFT>
-        <SizeMtr>274x365</SizeMtr>
-        <ITEM_ID>1</ITEM_ID>
-        <HSNCode />
-        <DesignNameAToC> </DesignNameAToC>
-        <SKUNO />
-        <Composition />
-        <Description />
-      </RollItem>
-      <RollItem>
-        <Id>1309</Id>
-        <FINISHEDID>7153</FINISHEDID>
-        <RollNo>41</RollNo>
-        <Rollfrom>41</Rollfrom>
-        <RollTo>60</RollTo>
-        <RPcs>1</RPcs>
-        <TotalPcs>20</TotalPcs>
-        <TotalRoll>20</TotalRoll>
-        <OrderId>2177</OrderId>
-        <RugId>840309503440</RugId>
-        <DESIGN>LR82202</DESIGN>
-        <COLOR>MULTI</COLOR>
-        <WIDTH>7.09</WIDTH>
-        <LENGTH>9.09</LENGTH>
-        <PurchaseCode />
-        <BaleLength />
-        <BaleWidth />
-        <BaleHeight />
-        <Quality>ALL LOOP</Quality>
-        <SinglePcsNetWt>0.00</SinglePcsNetWt>
-        <SinglePcsGrossWt>0.00</SinglePcsGrossWt>
-        <NetWeight>0.00</NetWeight>
-        <GrossWeight>0.00</GrossWeight>
-        <CALTYPEAMT>0</CALTYPEAMT>
-        <TotalAmount>1662.38</TotalAmount>
-        <PRICE>1.10</PRICE>
-        <SinglePcsAreaFT>75.56</SinglePcsAreaFT>
-        <SinglePcsAreaMtr>7.01</SinglePcsAreaMtr>
-        <AREA>1511.25</AREA>
-        <AREAMT>140.18</AREAMT>
-        <AREAFT>1511.25</AREAFT>
-        <CBM>0.00</CBM>
-        <StyleNo>T5079</StyleNo>
-        <OrderId>2177</OrderId>
-        <CustomerOrderNo>7112</CustomerOrderNo>
-        <LocalOrder>L 2165</LocalOrder>
-        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
-        <DesignName>VCT-34330</DesignName>
-        <designId>1003</designId>
-        <SizeFT>7.09x9.09</SizeFT>
-        <SizeMtr>236x297</SizeMtr>
-        <ITEM_ID>1</ITEM_ID>
-        <HSNCode />
-        <DesignNameAToC> </DesignNameAToC>
-        <SKUNO />
-        <Composition />
-        <Description />
-      </RollItem>
-      <RollItem>
-        <Id>1310</Id>
-        <FINISHEDID>7152</FINISHEDID>
-        <RollNo>61</RollNo>
-        <Rollfrom>61</Rollfrom>
-        <RollTo>90</RollTo>
-        <RPcs>1</RPcs>
-        <TotalPcs>30</TotalPcs>
-        <TotalRoll>30</TotalRoll>
-        <OrderId>2177</OrderId>
-        <RugId>840309503525</RugId>
-        <DESIGN>LR82202</DESIGN>
-        <COLOR>MULTI</COLOR>
-        <WIDTH>5.00</WIDTH>
-        <LENGTH>7.09</LENGTH>
-        <PurchaseCode />
-        <BaleLength />
-        <BaleWidth />
-        <BaleHeight />
-        <Quality>ALL LOOP</Quality>
-        <SinglePcsNetWt>0.00</SinglePcsNetWt>
-        <SinglePcsGrossWt>0.00</SinglePcsGrossWt>
-        <NetWeight>0.00</NetWeight>
-        <GrossWeight>0.00</GrossWeight>
-        <CALTYPEAMT>0</CALTYPEAMT>
-        <TotalAmount>1278.75</TotalAmount>
-        <PRICE>1.10</PRICE>
-        <SinglePcsAreaFT>38.75</SinglePcsAreaFT>
-        <SinglePcsAreaMtr>3.59</SinglePcsAreaMtr>
-        <AREA>1162.50</AREA>
-        <AREAMT>107.62</AREAMT>
-        <AREAFT>1162.50</AREAFT>
-        <CBM>0.00</CBM>
-        <StyleNo>T5079</StyleNo>
-        <OrderId>2177</OrderId>
-        <CustomerOrderNo>7112</CustomerOrderNo>
-        <LocalOrder>L 2165</LocalOrder>
-        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
-        <DesignName>VCT-34330</DesignName>
-        <designId>1003</designId>
-        <SizeFT>5.00x7.09</SizeFT>
-        <SizeMtr>152x236</SizeMtr>
-        <ITEM_ID>1</ITEM_ID>
-        <HSNCode />
-        <DesignNameAToC> </DesignNameAToC>
-        <SKUNO />
-        <Composition />
-        <Description />
-      </RollItem>
-      <RollItem>
-        <Id>1311</Id>
-        <FINISHEDID>7151</FINISHEDID>
-        <RollNo>91</RollNo>
-        <Rollfrom>91</Rollfrom>
-        <RollTo>110</RollTo>
-        <RPcs>1</RPcs>
-        <TotalPcs>20</TotalPcs>
-        <TotalRoll>20</TotalRoll>
-        <OrderId>2177</OrderId>
-        <RugId>840309503532</RugId>
-        <DESIGN>LR82200</DESIGN>
-        <COLOR>MULTI</COLOR>
-        <WIDTH>5.00</WIDTH>
-        <LENGTH>7.09</LENGTH>
-        <PurchaseCode />
-        <BaleLength />
-        <BaleWidth />
-        <BaleHeight />
-        <Quality>ALL LOOP</Quality>
-        <SinglePcsNetWt>0.00</SinglePcsNetWt>
-        <SinglePcsGrossWt>0.00</SinglePcsGrossWt>
-        <NetWeight>0.00</NetWeight>
-        <GrossWeight>0.00</GrossWeight>
-        <CALTYPEAMT>0</CALTYPEAMT>
-        <TotalAmount>852.50</TotalAmount>
-        <PRICE>1.10</PRICE>
-        <SinglePcsAreaFT>38.75</SinglePcsAreaFT>
-        <SinglePcsAreaMtr>3.59</SinglePcsAreaMtr>
-        <AREA>775.00</AREA>
-        <AREAMT>71.74</AREAMT>
-        <AREAFT>775.00</AREAFT>
-        <CBM>0.00</CBM>
-        <StyleNo>T7999</StyleNo>
-        <OrderId>2177</OrderId>
-        <CustomerOrderNo>7112</CustomerOrderNo>
-        <LocalOrder>L 2165</LocalOrder>
-        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
-        <DesignName>VCT-34329</DesignName>
-        <designId>1002</designId>
-        <SizeFT>5.00x7.09</SizeFT>
-        <SizeMtr>152x236</SizeMtr>
-        <ITEM_ID>1</ITEM_ID>
-        <HSNCode />
-        <DesignNameAToC> </DesignNameAToC>
-        <SKUNO />
-        <Composition />
-        <Description />
-      </RollItem>
-      <RollItem>
-        <Id>1312</Id>
-        <FINISHEDID>7154</FINISHEDID>
-        <RollNo>111</RollNo>
-        <Rollfrom>111</Rollfrom>
-        <RollTo>125</RollTo>
-        <RPcs>1</RPcs>
-        <TotalPcs>15</TotalPcs>
-        <TotalRoll>15</TotalRoll>
-        <OrderId>2177</OrderId>
-        <RugId>840309503549</RugId>
-        <DESIGN>LR82202</DESIGN>
-        <COLOR>MULTI</COLOR>
-        <WIDTH>9.00</WIDTH>
-        <LENGTH>12.00</LENGTH>
-        <PurchaseCode />
-        <BaleLength />
-        <BaleWidth />
-        <BaleHeight />
-        <Quality>ALL LOOP</Quality>
-        <SinglePcsNetWt>0.00</SinglePcsNetWt>
-        <SinglePcsGrossWt>0.00</SinglePcsGrossWt>
-        <NetWeight>0.00</NetWeight>
-        <GrossWeight>0.00</GrossWeight>
-        <CALTYPEAMT>0</CALTYPEAMT>
-        <TotalAmount>1782.00</TotalAmount>
-        <PRICE>1.10</PRICE>
-        <SinglePcsAreaFT>108.00</SinglePcsAreaFT>
-        <SinglePcsAreaMtr>10.00</SinglePcsAreaMtr>
-        <AREA>1620.00</AREA>
-        <AREAMT>150.01</AREAMT>
-        <AREAFT>1620.00</AREAFT>
-        <CBM>0.00</CBM>
-        <StyleNo>T90CO</StyleNo>
-        <OrderId>2177</OrderId>
-        <CustomerOrderNo>7112</CustomerOrderNo>
-        <LocalOrder>L 2165</LocalOrder>
-        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
-        <DesignName>VCT-34330</DesignName>
-        <designId>1003</designId>
-        <SizeFT>9.00x12.00</SizeFT>
-        <SizeMtr>274x365</SizeMtr>
-        <ITEM_ID>1</ITEM_ID>
-        <HSNCode />
-        <DesignNameAToC> </DesignNameAToC>
-        <SKUNO />
-        <Composition />
-        <Description />
-      </RollItem>
-      <RollItem>
-        <Id>1313</Id>
-        <FINISHEDID>12389</FINISHEDID>
-        <RollNo>126</RollNo>
-        <Rollfrom>126</Rollfrom>
-        <RollTo>146</RollTo>
-        <RPcs>1</RPcs>
-        <TotalPcs>21</TotalPcs>
-        <TotalRoll>21</TotalRoll>
-        <OrderId>2264</OrderId>
-        <RugId>840309541350</RugId>
-        <DESIGN>LR82200</DESIGN>
-        <COLOR>MULTI</COLOR>
-        <WIDTH>2.06</WIDTH>
-        <LENGTH>8.00</LENGTH>
-        <PurchaseCode />
-        <BaleLength />
-        <BaleWidth />
-        <BaleHeight />
-        <Quality>ALL LOOP</Quality>
-        <SinglePcsNetWt>0.00</SinglePcsNetWt>
-        <SinglePcsGrossWt>0.00</SinglePcsGrossWt>
-        <NetWeight>0.00</NetWeight>
-        <GrossWeight>0.00</GrossWeight>
-        <CALTYPEAMT>0</CALTYPEAMT>
-        <TotalAmount>462.00</TotalAmount>
-        <PRICE>1.10</PRICE>
-        <SinglePcsAreaFT>20.00</SinglePcsAreaFT>
-        <SinglePcsAreaMtr>1.85</SinglePcsAreaMtr>
-        <AREA>420.00</AREA>
-        <AREAMT>38.78</AREAMT>
-        <AREAFT>420.00</AREAFT>
-        <CBM>0.00</CBM>
-        <StyleNo>T2680</StyleNo>
-        <OrderId>2264</OrderId>
-        <CustomerOrderNo>7180</CustomerOrderNo>
-        <LocalOrder>L 2252</LocalOrder>
-        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
-        <DesignName>VCT-34329</DesignName>
-        <designId>1002</designId>
-        <SizeFT>2.06x8.00</SizeFT>
-        <SizeMtr>76x243</SizeMtr>
-        <ITEM_ID>1</ITEM_ID>
-        <HSNCode />
-        <DesignNameAToC> </DesignNameAToC>
-        <Composition />
-        <Description />
-      </RollItem>
-      <RollItem>
-        <Id>1314</Id>
-        <FINISHEDID>60042</FINISHEDID>
-        <RollNo>147</RollNo>
-        <Rollfrom>147</Rollfrom>
-        <RollTo>148</RollTo>
-        <RPcs>1</RPcs>
-        <TotalPcs>2</TotalPcs>
-        <TotalRoll>2</TotalRoll>
-        <OrderId>2264</OrderId>
-        <RugId>840309541343</RugId>
-        <DESIGN>LR82200</DESIGN>
-        <COLOR>MULTI</COLOR>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1936</OrderId>
+        <RugId />
+        <DESIGN>BC90949</DESIGN>
+        <COLOR>NATURAL/NAVY</COLOR>
         <WIDTH>10.00</WIDTH>
         <LENGTH>14.00</LENGTH>
         <PurchaseCode />
-        <BaleLength />
-        <BaleWidth />
-        <BaleHeight />
-        <Quality>ALL LOOP</Quality>
-        <SinglePcsNetWt>0.00</SinglePcsNetWt>
-        <SinglePcsGrossWt>0.00</SinglePcsGrossWt>
-        <NetWeight>0.00</NetWeight>
-        <GrossWeight>0.00</GrossWeight>
+        <BaleLength>305</BaleLength>
+        <BaleWidth>24</BaleWidth>
+        <BaleHeight>24</BaleHeight>
+        <Quality>JUTE RUG</Quality>
+        <SinglePcsNetWt>44.20</SinglePcsNetWt>
+        <SinglePcsGrossWt>44.70</SinglePcsGrossWt>
+        <NetWeight>44.20</NetWeight>
+        <GrossWeight>44.70</GrossWeight>
         <CALTYPEAMT>0</CALTYPEAMT>
-        <TotalAmount>308.00</TotalAmount>
-        <PRICE>1.10</PRICE>
+        <TotalAmount>245.00</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>26</CQSRNO>
+        <CDSRNO>1953</CDSRNO>
+        <CCSRNO>696</CCSRNO>
+        <PRICE>1.75</PRICE>
         <SinglePcsAreaFT>140.00</SinglePcsAreaFT>
         <SinglePcsAreaMtr>12.95</SinglePcsAreaMtr>
-        <AREA>280.00</AREA>
-        <AREAMT>25.90</AREAMT>
-        <AREAFT>280.00</AREAFT>
-        <CBM>0.00</CBM>
-        <StyleNo>TA0E0</StyleNo>
-        <OrderId>2264</OrderId>
-        <CustomerOrderNo>7180</CustomerOrderNo>
-        <LocalOrder>L 2252</LocalOrder>
-        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
-        <DesignName>VCT-34329</DesignName>
-        <designId>1002</designId>
+        <AREA>140.00</AREA>
+        <AREAMT>12.95</AREAMT>
+        <AREAFT>140.00</AREAFT>
+        <CBM>0.18</CBM>
+        <StyleNo>BANNA RUG</StyleNo>
+        <OrderId>1936</OrderId>
+        <CustomerOrderNo>P1229</CustomerOrderNo>
+        <LocalOrder>L 1925</LocalOrder>
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+        <DesignName>VCDJ-29881</DesignName>
+        <designId>3600</designId>
         <SizeFT>10.00x14.00</SizeFT>
         <SizeMtr>304x426</SizeMtr>
-        <ITEM_ID>1</ITEM_ID>
+        <ITEM_ID>2</ITEM_ID>
         <HSNCode />
         <DesignNameAToC> </DesignNameAToC>
         <SKUNO />
@@ -527,97 +1742,52 @@
         <Description />
       </RollItem>
       <RollItem>
-        <Id>1315</Id>
-        <FINISHEDID>60044</FINISHEDID>
-        <RollNo>149</RollNo>
-        <Rollfrom>149</Rollfrom>
-        <RollTo>154</RollTo>
+        <Id>820</Id>
+        <FINISHEDID>54637</FINISHEDID>
+        <RollNo>32</RollNo>
+        <Rollfrom>32</Rollfrom>
+        <RollTo>32</RollTo>
         <RPcs>1</RPcs>
-        <TotalPcs>6</TotalPcs>
-        <TotalRoll>6</TotalRoll>
-        <OrderId>2264</OrderId>
-        <RugId>840309541381</RugId>
-        <DESIGN>LR82202</DESIGN>
-        <COLOR>MULTI</COLOR>
-        <WIDTH>2.06</WIDTH>
-        <LENGTH>8.00</LENGTH>
-        <PurchaseCode />
-        <BaleLength />
-        <BaleWidth />
-        <BaleHeight />
-        <Quality>ALL LOOP</Quality>
-        <SinglePcsNetWt>0.00</SinglePcsNetWt>
-        <SinglePcsGrossWt>0.00</SinglePcsGrossWt>
-        <NetWeight>0.00</NetWeight>
-        <GrossWeight>0.00</GrossWeight>
-        <CALTYPEAMT>0</CALTYPEAMT>
-        <TotalAmount>132.00</TotalAmount>
-        <PRICE>1.10</PRICE>
-        <SinglePcsAreaFT>20.00</SinglePcsAreaFT>
-        <SinglePcsAreaMtr>1.85</SinglePcsAreaMtr>
-        <AREA>120.00</AREA>
-        <AREAMT>11.08</AREAMT>
-        <AREAFT>120.00</AREAFT>
-        <CBM>0.00</CBM>
-        <StyleNo>T2680</StyleNo>
-        <OrderId>2264</OrderId>
-        <CustomerOrderNo>7180</CustomerOrderNo>
-        <LocalOrder>L 2252</LocalOrder>
-        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
-        <DesignName>VCT-34330</DesignName>
-        <designId>1003</designId>
-        <SizeFT>2.06x8.00</SizeFT>
-        <SizeMtr>76x243</SizeMtr>
-        <ITEM_ID>1</ITEM_ID>
-        <HSNCode />
-        <DesignNameAToC> </DesignNameAToC>
-        <SKUNO />
-        <Composition />
-        <Description />
-      </RollItem>
-      <RollItem>
-        <Id>1316</Id>
-        <FINISHEDID>60043</FINISHEDID>
-        <RollNo>155</RollNo>
-        <Rollfrom>155</Rollfrom>
-        <RollTo>156</RollTo>
-        <RPcs>1</RPcs>
-        <TotalPcs>2</TotalPcs>
-        <TotalRoll>2</TotalRoll>
-        <OrderId>2264</OrderId>
-        <RugId>840309541374</RugId>
-        <DESIGN>LR82202</DESIGN>
-        <COLOR>MULTI</COLOR>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1936</OrderId>
+        <RugId />
+        <DESIGN>BC90949</DESIGN>
+        <COLOR>NATURAL/NAVY</COLOR>
         <WIDTH>10.00</WIDTH>
         <LENGTH>14.00</LENGTH>
         <PurchaseCode />
-        <BaleLength />
-        <BaleWidth />
-        <BaleHeight />
-        <Quality>ALL LOOP</Quality>
-        <SinglePcsNetWt>0.00</SinglePcsNetWt>
-        <SinglePcsGrossWt>0.00</SinglePcsGrossWt>
-        <NetWeight>0.00</NetWeight>
-        <GrossWeight>0.00</GrossWeight>
+        <BaleLength>305</BaleLength>
+        <BaleWidth>24</BaleWidth>
+        <BaleHeight>24</BaleHeight>
+        <Quality>JUTE RUG</Quality>
+        <SinglePcsNetWt>44.20</SinglePcsNetWt>
+        <SinglePcsGrossWt>44.50</SinglePcsGrossWt>
+        <NetWeight>44.20</NetWeight>
+        <GrossWeight>44.50</GrossWeight>
         <CALTYPEAMT>0</CALTYPEAMT>
-        <TotalAmount>308.00</TotalAmount>
-        <PRICE>1.10</PRICE>
+        <TotalAmount>245.00</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>26</CQSRNO>
+        <CDSRNO>1953</CDSRNO>
+        <CCSRNO>696</CCSRNO>
+        <PRICE>1.75</PRICE>
         <SinglePcsAreaFT>140.00</SinglePcsAreaFT>
         <SinglePcsAreaMtr>12.95</SinglePcsAreaMtr>
-        <AREA>280.00</AREA>
-        <AREAMT>25.90</AREAMT>
-        <AREAFT>280.00</AREAFT>
-        <CBM>0.00</CBM>
-        <StyleNo>TAOE0</StyleNo>
-        <OrderId>2264</OrderId>
-        <CustomerOrderNo>7180</CustomerOrderNo>
-        <LocalOrder>L 2252</LocalOrder>
-        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
-        <DesignName>VCT-34330</DesignName>
-        <designId>1003</designId>
+        <AREA>140.00</AREA>
+        <AREAMT>12.95</AREAMT>
+        <AREAFT>140.00</AREAFT>
+        <CBM>0.18</CBM>
+        <StyleNo>BANNA RUG</StyleNo>
+        <OrderId>1936</OrderId>
+        <CustomerOrderNo>P1229</CustomerOrderNo>
+        <LocalOrder>L 1925</LocalOrder>
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+        <DesignName>VCDJ-29881</DesignName>
+        <designId>3600</designId>
         <SizeFT>10.00x14.00</SizeFT>
         <SizeMtr>304x426</SizeMtr>
-        <ITEM_ID>1</ITEM_ID>
+        <ITEM_ID>2</ITEM_ID>
         <HSNCode />
         <DesignNameAToC> </DesignNameAToC>
         <SKUNO />
@@ -625,48 +1795,158 @@
         <Description />
       </RollItem>
       <RollItem>
-        <Id>1317</Id>
-        <FINISHEDID>7149</FINISHEDID>
-        <RollNo>157</RollNo>
-        <Rollfrom>157</Rollfrom>
-        <RollTo>166</RollTo>
+        <Id>821</Id>
+        <FINISHEDID>54637</FINISHEDID>
+        <RollNo>33</RollNo>
+        <Rollfrom>33</Rollfrom>
+        <RollTo>33</RollTo>
         <RPcs>1</RPcs>
-        <TotalPcs>10</TotalPcs>
-        <TotalRoll>10</TotalRoll>
-        <OrderId>2337</OrderId>
-        <RugId>840309503464</RugId>
-        <DESIGN>LR82200</DESIGN>
-        <COLOR>MULTI</COLOR>
-        <WIDTH>9.00</WIDTH>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1936</OrderId>
+        <RugId />
+        <DESIGN>BC90949</DESIGN>
+        <COLOR>NATURAL/NAVY</COLOR>
+        <WIDTH>10.00</WIDTH>
+        <LENGTH>14.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>305</BaleLength>
+        <BaleWidth>24</BaleWidth>
+        <BaleHeight>24</BaleHeight>
+        <Quality>JUTE RUG</Quality>
+        <SinglePcsNetWt>44.20</SinglePcsNetWt>
+        <SinglePcsGrossWt>44.70</SinglePcsGrossWt>
+        <NetWeight>44.20</NetWeight>
+        <GrossWeight>44.70</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>245.00</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>26</CQSRNO>
+        <CDSRNO>1953</CDSRNO>
+        <CCSRNO>696</CCSRNO>
+        <PRICE>1.75</PRICE>
+        <SinglePcsAreaFT>140.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>12.95</SinglePcsAreaMtr>
+        <AREA>140.00</AREA>
+        <AREAMT>12.95</AREAMT>
+        <AREAFT>140.00</AREAFT>
+        <CBM>0.18</CBM>
+        <StyleNo>BANNA RUG</StyleNo>
+        <OrderId>1936</OrderId>
+        <CustomerOrderNo>P1229</CustomerOrderNo>
+        <LocalOrder>L 1925</LocalOrder>
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+        <DesignName>VCDJ-29881</DesignName>
+        <designId>3600</designId>
+        <SizeFT>10.00x14.00</SizeFT>
+        <SizeMtr>304x426</SizeMtr>
+        <ITEM_ID>2</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>822</Id>
+        <FINISHEDID>54637</FINISHEDID>
+        <RollNo>34</RollNo>
+        <Rollfrom>34</Rollfrom>
+        <RollTo>34</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1936</OrderId>
+        <RugId />
+        <DESIGN>BC90949</DESIGN>
+        <COLOR>NATURAL/NAVY</COLOR>
+        <WIDTH>10.00</WIDTH>
+        <LENGTH>14.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>305</BaleLength>
+        <BaleWidth>24</BaleWidth>
+        <BaleHeight>24</BaleHeight>
+        <Quality>JUTE RUG</Quality>
+        <SinglePcsNetWt>44.20</SinglePcsNetWt>
+        <SinglePcsGrossWt>44.70</SinglePcsGrossWt>
+        <NetWeight>44.20</NetWeight>
+        <GrossWeight>44.70</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>245.00</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>26</CQSRNO>
+        <CDSRNO>1953</CDSRNO>
+        <CCSRNO>696</CCSRNO>
+        <PRICE>1.75</PRICE>
+        <SinglePcsAreaFT>140.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>12.95</SinglePcsAreaMtr>
+        <AREA>140.00</AREA>
+        <AREAMT>12.95</AREAMT>
+        <AREAFT>140.00</AREAFT>
+        <CBM>0.18</CBM>
+        <StyleNo>BANNA RUG</StyleNo>
+        <OrderId>1936</OrderId>
+        <CustomerOrderNo>P1229</CustomerOrderNo>
+        <LocalOrder>L 1925</LocalOrder>
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+        <DesignName>VCDJ-29881</DesignName>
+        <designId>3600</designId>
+        <SizeFT>10.00x14.00</SizeFT>
+        <SizeMtr>304x426</SizeMtr>
+        <ITEM_ID>2</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>823</Id>
+        <FINISHEDID>56125</FINISHEDID>
+        <RollNo>35</RollNo>
+        <Rollfrom>35</Rollfrom>
+        <RollTo>35</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>2289</OrderId>
+        <RugId />
+        <DESIGN>CO11999</DESIGN>
+        <COLOR>JET BLACK</COLOR>
+        <WIDTH>12.00</WIDTH>
         <LENGTH>12.00</LENGTH>
         <PurchaseCode />
-        <BaleLength />
-        <BaleWidth />
-        <BaleHeight />
-        <Quality>ALL LOOP</Quality>
-        <SinglePcsNetWt>0.00</SinglePcsNetWt>
-        <SinglePcsGrossWt>0.00</SinglePcsGrossWt>
-        <NetWeight>0.00</NetWeight>
-        <GrossWeight>0.00</GrossWeight>
+        <BaleLength>365</BaleLength>
+        <BaleWidth>22</BaleWidth>
+        <BaleHeight>22</BaleHeight>
+        <Quality>POLYPROPYLENE</Quality>
+        <SinglePcsNetWt>40.20</SinglePcsNetWt>
+        <SinglePcsGrossWt>40.70</SinglePcsGrossWt>
+        <NetWeight>40.20</NetWeight>
+        <GrossWeight>40.70</GrossWeight>
         <CALTYPEAMT>0</CALTYPEAMT>
-        <TotalAmount>1188.00</TotalAmount>
-        <PRICE>1.10</PRICE>
-        <SinglePcsAreaFT>108.00</SinglePcsAreaFT>
-        <SinglePcsAreaMtr>10.00</SinglePcsAreaMtr>
-        <AREA>1080.00</AREA>
-        <AREAMT>100.01</AREAMT>
-        <AREAFT>1080.00</AREAFT>
-        <CBM>0.00</CBM>
-        <StyleNo>T90C0</StyleNo>
-        <OrderId>2337</OrderId>
-        <CustomerOrderNo>7200</CustomerOrderNo>
-        <LocalOrder>L 2325</LocalOrder>
-        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
-        <DesignName>VCT-34329</DesignName>
-        <designId>1002</designId>
-        <SizeFT>9.00x12.00</SizeFT>
-        <SizeMtr>274x365</SizeMtr>
-        <ITEM_ID>1</ITEM_ID>
+        <TotalAmount>457.92</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>65</CQSRNO>
+        <CDSRNO>6017</CDSRNO>
+        <CCSRNO>1523</CCSRNO>
+        <PRICE>3.18</PRICE>
+        <SinglePcsAreaFT>144.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>13.32</SinglePcsAreaMtr>
+        <AREA>144.00</AREA>
+        <AREAMT>13.32</AREAMT>
+        <AREAFT>144.00</AREAFT>
+        <CBM>0.18</CBM>
+        <StyleNo>ALTICO RUG</StyleNo>
+        <OrderId>2289</OrderId>
+        <CustomerOrderNo>P1643-Extra</CustomerOrderNo>
+        <LocalOrder>L 2277</LocalOrder>
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+        <DesignName>VCD-38738</DesignName>
+        <designId>18389</designId>
+        <SizeFT>12.00x12.00</SizeFT>
+        <SizeMtr>365x365</SizeMtr>
+        <ITEM_ID>2</ITEM_ID>
         <HSNCode />
         <DesignNameAToC> </DesignNameAToC>
         <SKUNO />
@@ -674,48 +1954,105 @@
         <Description />
       </RollItem>
       <RollItem>
-        <Id>1318</Id>
-        <FINISHEDID>7153</FINISHEDID>
-        <RollNo>167</RollNo>
-        <Rollfrom>167</Rollfrom>
-        <RollTo>176</RollTo>
+        <Id>824</Id>
+        <FINISHEDID>56125</FINISHEDID>
+        <RollNo>36</RollNo>
+        <Rollfrom>36</Rollfrom>
+        <RollTo>36</RollTo>
         <RPcs>1</RPcs>
-        <TotalPcs>10</TotalPcs>
-        <TotalRoll>10</TotalRoll>
-        <OrderId>2337</OrderId>
-        <RugId>840309503532</RugId>
-        <DESIGN>LR82202</DESIGN>
-        <COLOR>MULTI</COLOR>
-        <WIDTH>7.09</WIDTH>
-        <LENGTH>9.09</LENGTH>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>2289</OrderId>
+        <RugId />
+        <DESIGN>CO11999</DESIGN>
+        <COLOR>JET BLACK</COLOR>
+        <WIDTH>12.00</WIDTH>
+        <LENGTH>12.00</LENGTH>
+        <PurchaseCode />
+        <BaleLength>365</BaleLength>
+        <BaleWidth>22</BaleWidth>
+        <BaleHeight>22</BaleHeight>
+        <Quality>POLYPROPYLENE</Quality>
+        <SinglePcsNetWt>40.20</SinglePcsNetWt>
+        <SinglePcsGrossWt>40.70</SinglePcsGrossWt>
+        <NetWeight>40.20</NetWeight>
+        <GrossWeight>40.70</GrossWeight>
+        <CALTYPEAMT>0</CALTYPEAMT>
+        <TotalAmount>457.92</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>65</CQSRNO>
+        <CDSRNO>6017</CDSRNO>
+        <CCSRNO>1523</CCSRNO>
+        <PRICE>3.18</PRICE>
+        <SinglePcsAreaFT>144.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>13.32</SinglePcsAreaMtr>
+        <AREA>144.00</AREA>
+        <AREAMT>13.32</AREAMT>
+        <AREAFT>144.00</AREAFT>
+        <CBM>0.18</CBM>
+        <StyleNo>ALTICO RUG</StyleNo>
+        <OrderId>2289</OrderId>
+        <CustomerOrderNo>P1643-Extra</CustomerOrderNo>
+        <LocalOrder>L 2277</LocalOrder>
+        <ITEM_NAME>HAND WOVEN</ITEM_NAME>
+        <DesignName>VCD-38738</DesignName>
+        <designId>18389</designId>
+        <SizeFT>12.00x12.00</SizeFT>
+        <SizeMtr>365x365</SizeMtr>
+        <ITEM_ID>2</ITEM_ID>
+        <HSNCode />
+        <DesignNameAToC> </DesignNameAToC>
+        <SKUNO />
+        <Composition />
+        <Description />
+      </RollItem>
+      <RollItem>
+        <Id>1423</Id>
+        <FINISHEDID>37713</FINISHEDID>
+        <RollNo>37</RollNo>
+        <Rollfrom>37</Rollfrom>
+        <RollTo>37</RollTo>
+        <RPcs>1</RPcs>
+        <TotalPcs>1</TotalPcs>
+        <TotalRoll>1</TotalRoll>
+        <OrderId>1591</OrderId>
+        <RugId />
+        <DESIGN>BC86646</DESIGN>
+        <COLOR>SAND</COLOR>
+        <WIDTH>16.00</WIDTH>
+        <LENGTH>24.00</LENGTH>
         <PurchaseCode />
         <BaleLength />
         <BaleWidth />
         <BaleHeight />
-        <Quality>ALL LOOP</Quality>
+        <Quality>8/42 NEPALI</Quality>
         <SinglePcsNetWt>0.00</SinglePcsNetWt>
         <SinglePcsGrossWt>0.00</SinglePcsGrossWt>
         <NetWeight>0.00</NetWeight>
         <GrossWeight>0.00</GrossWeight>
         <CALTYPEAMT>0</CALTYPEAMT>
-        <TotalAmount>831.19</TotalAmount>
-        <PRICE>1.10</PRICE>
-        <SinglePcsAreaFT>75.56</SinglePcsAreaFT>
-        <SinglePcsAreaMtr>7.01</SinglePcsAreaMtr>
-        <AREA>755.63</AREA>
-        <AREAMT>70.09</AREAMT>
-        <AREAFT>755.63</AREAFT>
+        <TotalAmount>2112.00</TotalAmount>
+        <UCCNumber />
+        <CQSRNO>10</CQSRNO>
+        <CDSRNO>33</CDSRNO>
+        <CCSRNO>28</CCSRNO>
+        <PRICE>5.50</PRICE>
+        <SinglePcsAreaFT>384.00</SinglePcsAreaFT>
+        <SinglePcsAreaMtr>35.59</SinglePcsAreaMtr>
+        <AREA>384.00</AREA>
+        <AREAMT>35.59</AREAMT>
+        <AREAFT>384.00</AREAFT>
         <CBM>0.00</CBM>
-        <StyleNo>T7999</StyleNo>
-        <OrderId>2337</OrderId>
-        <CustomerOrderNo>7200</CustomerOrderNo>
-        <LocalOrder>L 2325</LocalOrder>
-        <ITEM_NAME>HAND TUFTED</ITEM_NAME>
-        <DesignName>VCT-34330</DesignName>
-        <designId>1003</designId>
-        <SizeFT>7.09x9.09</SizeFT>
-        <SizeMtr>236x297</SizeMtr>
-        <ITEM_ID>1</ITEM_ID>
+        <StyleNo />
+        <OrderId>1591</OrderId>
+        <CustomerOrderNo>P686</CustomerOrderNo>
+        <LocalOrder>L 1582</LocalOrder>
+        <ITEM_NAME>HAND KNOTTED</ITEM_NAME>
+        <DesignName>VCN-21466</DesignName>
+        <designId>204</designId>
+        <SizeFT>16.00x24.00</SizeFT>
+        <SizeMtr>487x731</SizeMtr>
+        <ITEM_ID>4</ITEM_ID>
         <HSNCode />
         <DesignNameAToC> </DesignNameAToC>
         <SKUNO />
@@ -724,10 +2061,12 @@
       </RollItem>
     </Rolls>
     <BuyerOrderNo>
-      <Buyer OrderNo="7068" PackingId="105" />
-      <Buyer OrderNo="7112" PackingId="105" />
-      <Buyer OrderNo="7180" PackingId="105" />
-      <Buyer OrderNo="7200" PackingId="105" />
+      <Buyer OrderNo="P1020" PackingId="81" />
+      <Buyer OrderNo="P1229" PackingId="81" />
+      <Buyer OrderNo="P1643-Extra" PackingId="81" />
+      <Buyer OrderNo="P480" PackingId="81" />
+      <Buyer OrderNo="P686" PackingId="81" />
+      <Buyer OrderNo="P955" PackingId="81" />
     </BuyerOrderNo>
   </InvoiceItem>
 </InvoiceList>

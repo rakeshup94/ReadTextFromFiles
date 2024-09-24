@@ -310,7 +310,7 @@
                   <td>
                     <p>
                       <strong>
-                        Area <br/>(Sq.Ft.)
+                        Area <br/>(Sq.Mt.)
                       </strong>
                     </p>
                   </td>
@@ -380,17 +380,20 @@
                           </td>
                           <td align="center" valign="middle" width="65">
                             <TotalPcs>
-                              <xsl:value-of select="TotalPcs" />
+                              <xsl:value-of  select='format-number(sum($vGroup/TotalPcs), "###.##")' />
                             </TotalPcs>
                           </td>
                           <td align="center" valign="middle" width="65">
                             <AREA>
-                              <xsl:value-of select="AREA" />
+                          
+                              <xsl:value-of  select='format-number(sum($vGroup/AREA), "###.##")' />
                             </AREA>
                           </td>
                           <td align="center" valign="middle" width="65">
                             <AREAMT>
-                              <xsl:value-of select="AREAMT" />
+                       
+
+                              <xsl:value-of  select='format-number(sum($vGroup/AREAMT), "###.##")' />
                             </AREAMT>
                           </td>
                           <td align="center" valign="middle" width="65">
