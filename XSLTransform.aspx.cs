@@ -93,7 +93,7 @@ namespace Testing
             string filePath = "~/App_Data/Invoice/" + ConfigurationManager.AppSettings["FileName"];
             //Getting file path
             string strXSLTFile = Server.MapPath(filePath);
-            string strXMLFile = Server.MapPath("InvoiceData.xml");
+            string strXMLFile = Server.MapPath(ConfigurationManager.AppSettings["xmlPath"]); 
 
             //Creating XSLCompiled object
             XslCompiledTransform objXSLTransform = new XslCompiledTransform();
