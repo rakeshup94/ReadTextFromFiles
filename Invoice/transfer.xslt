@@ -380,13 +380,26 @@
                                           <br />
                                           <xsl:value-of select="VehicalList/Vehical" />
                                         </td>
-                                        <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color:#444444;font-weight:600;padding:4px 8px;border-left:1px solid #e7e7e7;border-right:1px solid #e7e7e7">
-                                          <span style="font-size: 12px;font-weight: 500;color: #707070;">PickUp Date/Time</span>
+                                        <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color:#444444;font-weight:600;padding:4px 8px;border-left:1px solid #e7e7e7;">
+                                          <span style="font-size: 12px;font-weight: 500;color: #707070;">Service Date</span>
                                           <br />
                                           <xsl:value-of select="@Date" />
+                                        
+                                        </td>
+
+
+
+                                        
+
+                                        <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color:#444444;font-weight:600;padding:4px 8px;border-left:1px solid #e7e7e7;border-right:1px solid #e7e7e7">
+                                          <span style="font-size: 12px;font-weight: 500;color: #707070;">Pick-up time</span>
                                           <br />
+                                     
                                           <xsl:value-of select="@PickUpTime" />
                                         </td>
+
+
+
                                         <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color:#444444;font-weight:600;padding:4px 8px;border-right:1px solid #e7e7e7">
                                           <span style="font-size: 12px;font-weight: 500;color: #707070;">From</span>
                                           <br />
@@ -415,7 +428,7 @@
                                       <tr>
                                         <xsl:if test="PickUpPoint/@PickUpType ='IATA'">
 
-                                          <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color:#444444;font-weight:600;padding:4px 8px;border-left:1px solid #e7e7e7;border-right:1px solid #e7e7e7">
+                                          <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color:#444444;font-weight:600;padding:4px 8px;border-right:1px solid #e7e7e7">
                                             <span style="font-size: 12px;font-weight: 500;color: #707070;">Flight Name</span>
                                             <br />
                                             <xsl:value-of select="PickUpPoint/@Detail" />
@@ -443,7 +456,7 @@
                                           </td>
 
                                         </xsl:if>
-                                        <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color:#444444;font-weight:600;padding:4px 8px;border-right:1px solid #e7e7e7">
+                                        <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color:#444444;font-weight:600;padding:4px 8px;border-left:1px solid #e7e7e7">
                                           <span style="font-size: 12px;font-weight: 500;color: #707070;">Flight Time</span>
                                           <br />
                                           <xsl:value-of select="@FlightTime" />
