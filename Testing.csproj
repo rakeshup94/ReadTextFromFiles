@@ -73,6 +73,12 @@
     <Content Include="Invoice\CompanyC.xslt">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Invoice\transfer - Copy.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Invoice\transfer.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="WordDoc\BillofExchange.xslt" />
     <Content Include="WordDoc\CentralExciseDeclaration.xslt" />
     <Content Include="WordDoc\VGM-2.xslt">
