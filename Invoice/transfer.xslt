@@ -662,33 +662,7 @@
                         </table>
                       </td>
                     </tr>
-                    <tr>
-                      <td style="padding: 10px 10px;background-color: #fbfbfb;">
-                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                          <tr>
-                            <td colspan="3" align="center" style="font-family: Arial, Helvetica, sans-serif;font-size: 14px;color: #444444;font-weight: 600;border-bottom: 1px solid #e7e7e7;padding-bottom: 4px;">
-                              Supplier Information
-                            </td>
-                          </tr>
-                          <tr>
-                            <td width="45%" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color:#444444;font-weight:600;padding:4px 8px;">
-                              <span style="font-size: 12px;font-weight: 500;color: #707070;">Supplier Name </span><br />
-                              HolidayTaxis Group Limited
-                            </td>
-                            <td width="25%" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color:#444444;font-weight:600;padding:4px 8px;border-left:1px solid #e7e7e7;border-right:1px solid #e7e7e7">
-                              <span style="font-size: 12px;font-weight: 500;color: #707070;">Phone No.</span>
-                              <br />
-                              <a href="tel:+44-123-456-7890" style="color: #464646;text-decoration: none;">+44-123-456-7890</a>
-                            </td>
-                            <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color:#444444;font-weight:600;padding:4px 8px;">
-                              <span style="font-size: 12px;font-weight: 500;color: #707070;">Email ID</span>
-                              <br />
-                              <a href="mailto:help.supplier@xyz.com" style="color: #464646;text-decoration: none;">help.supplier@xyz.com</a>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
+                    
                     <tr>
                       <td>
                         <table width="100%" cellpadding="0" cellspacing="0" border="0">
